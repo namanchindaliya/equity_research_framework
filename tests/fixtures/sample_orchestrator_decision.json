@@ -1,0 +1,49 @@
+{
+  "id": "00000000-0000-0000-0008-000000000001",
+  "episode_id": "e0000000-0000-0000-0000-000000000001",
+  "ticker": "AAPL",
+  "version": 1,
+  "thesis": "Apple's services segment is structurally undervalued. A re-rating to 20x EV/EBITDA on a $112B services run-rate supports a $230 price target.",
+  "variant_view": "Bear case: services growth decelerates to 8% as App Store regulation intensifies and hardware saturation limits install-base expansion; PT $175 on 14x services multiple.",
+  "rating": "BUY",
+  "price_target": 230.0,
+  "price_target_bear": 175.0,
+  "price_target_bull": 270.0,
+  "currency": "USD",
+  "risks": [
+    {
+      "id": "00000000-0000-0000-0009-000000000001",
+      "description": "EU Digital Markets Act forces sideloading and App Store fee cuts, reducing services margin by 200-400bps.",
+      "category": "regulatory",
+      "severity": "HIGH",
+      "probability": 0.40,
+      "mitigants": ["Apple can partially offset via Apple One bundle pricing", "Non-App-Store services (Apple TV+, iCloud) not affected"]
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "00000000-0000-0000-000a-000000000001",
+      "description": "Financial analyst assumes 13% services CAGR; risk assessor flags regulatory drag implying 9-10% CAGR.",
+      "between": ["financial_analyst_v1", "risk_assessor_v1"],
+      "resolution": "Used 11% blended CAGR in base case; assigned 30% probability weight to bear scenario."
+    }
+  ],
+  "falsification_conditions": [
+    {
+      "id": "00000000-0000-0000-000b-000000000001",
+      "description": "Services revenue growth falls below 8% YoY for two consecutive quarters.",
+      "metric": "aapl_services_revenue_yoy_pct",
+      "threshold": 0.08,
+      "check_by": "2026-08-01"
+    }
+  ],
+  "monitoring_triggers": [],
+  "next_evidence_needed": [
+    "App Store developer survey on fee sensitivity post-DMA",
+    "Management commentary on Vision Pro attach rates in Q2 FY2026 call",
+    "Third-party data on iCloud paid subscriber growth"
+  ],
+  "confidence": 0.68,
+  "created_at": "2026-01-31T09:00:00",
+  "updated_at": "2026-01-31T09:00:00"
+}

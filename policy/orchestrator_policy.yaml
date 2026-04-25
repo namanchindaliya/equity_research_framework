@@ -1,0 +1,91 @@
+# orchestrator_policy.yaml
+# ========================
+# Governs how the Orchestrator synthesises, weights, and resolves conflicts
+# across agent inputs.  Every decision the orchestrator makes cites the rule
+# it applied from this file so the reasoning is auditable.
+#
+# Format: 2-level YAML (section + key: scalar).  No PyYAML required.
+
+version: 1.0
+
+# ---------------------------------------------------------------------------
+# evidence_weighting
+# Base weight assigned to each specialist agent's conclusions.
+# Must sum to ≤ 1.0.  Remainder represents orchestrator-added judgment.
+# When agents AGREE on a dimension, weight is boosted by agreement_boost.
+# ---------------------------------------------------------------------------
+evidence_weighting:
+  industry_v1: 0.45
+  strategy_v1: 0.55
+  agreement_boost: 0.15
+
+# ---------------------------------------------------------------------------
+# confidence_adjustments
+# Penalties applied before the orchestrator synthesises.
+# missing_required_penalty: applied when an agent required type is absent.
+# conflict_soft_penalty:    applied when agents produce soft (directional) conflicts.
+# conflict_hard_penalty:    applied when agents produce hard (contradictory) conflicts.
+# low_evidence_penalty:     applied when fewer than 2 evidence sources were consumed.
+# ---------------------------------------------------------------------------
+confidence_adjustments:
+  missing_required_penalty: 0.20
+  conflict_soft_penalty: 0.08
+  conflict_hard_penalty: 0.15
+  low_evidence_penalty: 0.12
+  disagreement_threshold: 0.30
+
+# ---------------------------------------------------------------------------
+# freshness_penalties
+# How much to subtract from confidence as evidence ages.
+# Keys: days_NNN = applied when evidence is NNN+ days old.
+# Applied once per agent run using the oldest evidence consumed.
+# ---------------------------------------------------------------------------
+freshness_penalties:
+  days_30: 0.00
+  days_90: 0.10
+  days_180: 0.20
+  days_365: 0.35
+  days_9999: 0.50
+
+# ---------------------------------------------------------------------------
+# conflict_resolution
+# Which agent's conclusion takes precedence when they disagree on a dimension.
+# Values: "industry_v1" | "strategy_v1" | "higher_confidence"
+# ---------------------------------------------------------------------------
+conflict_resolution:
+  regulatory_risk: industry_v1
+  competitive_intensity: industry_v1
+  market_structure: industry_v1
+  industry_cycle: industry_v1
+  moat_type: higher_confidence
+  management_priorities: strategy_v1
+  capital_allocation: strategy_v1
+  segment_growth: strategy_v1
+  credibility: strategy_v1
+  default: higher_confidence
+
+# ---------------------------------------------------------------------------
+# source_reliability_weights
+# Base reliability score by logical_type, used when computing weighted confidence.
+# These align with IngestedEvidence.reliability_score defaults in adapters.py.
+# ---------------------------------------------------------------------------
+source_reliability_weights:
+  filing: 1.00
+  earnings_transcript: 0.95
+  management_commentary: 0.90
+  investor_presentation_notes: 0.85
+  channel_check_note: 0.70
+  industry_note: 0.75
+  news_note: 0.60
+  default: 0.70
+
+# ---------------------------------------------------------------------------
+# synthesis_thresholds
+# Minimum confidence required for a finding to be promoted to the decision layer.
+# Below the threshold, findings are noted as unresolved.
+# ---------------------------------------------------------------------------
+synthesis_thresholds:
+  driver_min_confidence: 0.30
+  prediction_min_confidence: 0.35
+  falsification_min_confidence: 0.25
+  monitoring_trigger_min_confidence: 0.20

@@ -1,0 +1,274 @@
+{
+  "$defs": {
+    "ConflictItem": {
+      "description": "A conflict between two agents, assumptions, or evidence items.\n\n``between`` names the conflicting parties \u2014 e.g. [\"bull_case_agent\", \"risk_agent\"].\nThe orchestrator records the conflict even when it cannot resolve it, so\ndownstream reviewers see where disagreements exist.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "between": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2,
+          "title": "Between",
+          "type": "array"
+        },
+        "resolution": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Resolution"
+        }
+      },
+      "required": [
+        "description",
+        "between"
+      ],
+      "title": "ConflictItem",
+      "type": "object"
+    },
+    "FalsificationCondition": {
+      "description": "An explicit condition that, if observed, would invalidate the thesis.\n\nMaking falsification conditions explicit up-front forces the analyst to\npre-commit to what would change their mind, which makes postmortems honest.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "metric": {
+          "title": "Metric",
+          "type": "string"
+        },
+        "threshold": {
+          "title": "Threshold"
+        },
+        "check_by": {
+          "format": "date",
+          "title": "Check By",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "metric",
+        "threshold",
+        "check_by"
+      ],
+      "title": "FalsificationCondition",
+      "type": "object"
+    },
+    "Rating": {
+      "enum": [
+        "BUY",
+        "HOLD",
+        "SELL",
+        "NOT_RATED"
+      ],
+      "title": "Rating",
+      "type": "string"
+    },
+    "RiskItem": {
+      "description": "A discrete risk the orchestrator has identified.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "category": {
+          "title": "Category",
+          "type": "string"
+        },
+        "severity": {
+          "title": "Severity",
+          "type": "string"
+        },
+        "probability": {
+          "default": 0.3,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Probability",
+          "type": "number"
+        },
+        "mitigants": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Mitigants",
+          "type": "array"
+        }
+      },
+      "required": [
+        "description",
+        "category",
+        "severity"
+      ],
+      "title": "RiskItem",
+      "type": "object"
+    }
+  },
+  "description": "The synthesis output from the orchestrator agent.\n\nDesign rationale\n----------------\n- ``thesis`` is the affirmative case in 1-3 sentences.\n- ``variant_view`` is the most credible bear / alternative interpretation.\n  Forcing the orchestrator to articulate the variant view prevents\n  confirmation bias and is required before generating falsification conditions.\n- ``conflicts`` records where agents disagreed; the orchestrator must\n  acknowledge conflicts rather than silently averaging them away.\n- ``falsification_conditions`` are pre-committed trip-wires. If *any* fires,\n  the thesis must be reconsidered.\n- ``monitoring_triggers`` are UUIDs referencing MonitoringTrigger records\n  stored at the episode level.\n- ``next_evidence_needed`` is the prioritized list of information gaps.\n- ``price_target_bear`` and ``price_target_bull`` frame the scenario range.",
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "episode_id": {
+      "format": "uuid",
+      "title": "Episode Id",
+      "type": "string"
+    },
+    "ticker": {
+      "title": "Ticker",
+      "type": "string"
+    },
+    "version": {
+      "default": 1,
+      "title": "Version",
+      "type": "integer"
+    },
+    "thesis": {
+      "title": "Thesis",
+      "type": "string"
+    },
+    "variant_view": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Variant View"
+    },
+    "rating": {
+      "$ref": "#/$defs/Rating"
+    },
+    "price_target": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Price Target"
+    },
+    "price_target_bear": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Price Target Bear"
+    },
+    "price_target_bull": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Price Target Bull"
+    },
+    "currency": {
+      "default": "USD",
+      "title": "Currency",
+      "type": "string"
+    },
+    "risks": {
+      "items": {
+        "$ref": "#/$defs/RiskItem"
+      },
+      "title": "Risks",
+      "type": "array"
+    },
+    "conflicts": {
+      "items": {
+        "$ref": "#/$defs/ConflictItem"
+      },
+      "title": "Conflicts",
+      "type": "array"
+    },
+    "falsification_conditions": {
+      "items": {
+        "$ref": "#/$defs/FalsificationCondition"
+      },
+      "title": "Falsification Conditions",
+      "type": "array"
+    },
+    "monitoring_triggers": {
+      "items": {
+        "format": "uuid",
+        "type": "string"
+      },
+      "title": "Monitoring Triggers",
+      "type": "array"
+    },
+    "next_evidence_needed": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Next Evidence Needed",
+      "type": "array"
+    },
+    "confidence": {
+      "default": 0.7,
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "updated_at": {
+      "format": "date-time",
+      "title": "Updated At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "episode_id",
+    "ticker",
+    "thesis",
+    "rating"
+  ],
+  "title": "OrchestratorDecision",
+  "type": "object"
+}

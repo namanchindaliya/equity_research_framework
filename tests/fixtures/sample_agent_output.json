@@ -1,0 +1,20 @@
+{
+  "id": "00000000-0000-0000-0007-000000000001",
+  "agent_type": "THESIS_BUILDER",
+  "agent_id": "thesis_builder_v1",
+  "episode_id": "e0000000-0000-0000-0000-000000000001",
+  "ticker": "AAPL",
+  "version": 1,
+  "payload": {
+    "rating": "BUY",
+    "price_target": 230.0,
+    "key_drivers": ["services_monetisation", "install_base_growth", "margin_expansion"]
+  },
+  "memo_path": "AAPL/memos/thesis_builder_v1_20260131.md",
+  "confidence": 0.72,
+  "reasoning": "Services segment has structural tailwinds from install base compounding and ARPU expansion. Current market pricing implies <15x services EV/EBITDA vs. peers at 22x.",
+  "evidence_consumed": [],
+  "assumptions_produced": ["00000000-0000-0000-0005-000000000001"],
+  "predictions_produced": ["00000000-0000-0000-0006-000000000001"],
+  "created_at": "2026-01-31T08:00:00"
+}

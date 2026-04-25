@@ -1,0 +1,62 @@
+{
+  "description": "Immutable record of a single revision to an AssumptionRecord.\n\nNever deleted \u2014 the history list on AssumptionRecord is append-only.",
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "assumption_id": {
+      "format": "uuid",
+      "title": "Assumption Id",
+      "type": "string"
+    },
+    "version": {
+      "title": "Version",
+      "type": "integer"
+    },
+    "changed_by": {
+      "title": "Changed By",
+      "type": "string"
+    },
+    "changed_at": {
+      "format": "date-time",
+      "title": "Changed At",
+      "type": "string"
+    },
+    "previous_value": {
+      "title": "Previous Value"
+    },
+    "new_value": {
+      "title": "New Value"
+    },
+    "previous_confidence": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Previous Confidence",
+      "type": "number"
+    },
+    "new_confidence": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "New Confidence",
+      "type": "number"
+    },
+    "reason": {
+      "title": "Reason",
+      "type": "string"
+    }
+  },
+  "required": [
+    "assumption_id",
+    "version",
+    "changed_by",
+    "previous_value",
+    "new_value",
+    "previous_confidence",
+    "new_confidence",
+    "reason"
+  ],
+  "title": "AssumptionChange",
+  "type": "object"
+}

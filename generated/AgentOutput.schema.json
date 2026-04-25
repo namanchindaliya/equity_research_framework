@@ -1,0 +1,127 @@
+{
+  "$defs": {
+    "AgentType": {
+      "enum": [
+        "FINANCIAL_ANALYST",
+        "THESIS_BUILDER",
+        "RISK_ASSESSOR",
+        "MONITORING",
+        "ORCHESTRATOR",
+        "POSTMORTEM",
+        "GENERAL"
+      ],
+      "title": "AgentType",
+      "type": "string"
+    }
+  },
+  "description": "The structured output of a single agent run.\n\nAn agent can produce either a ``payload`` dict (structured output consumed\nprogrammatically) or a ``memo_path`` (path to a markdown memo for human\nreview) or both.  At least one must be present.\n\n``evidence_consumed`` and ``assumptions_produced`` / ``predictions_produced``\nallow the orchestrator to trace the provenance of every claim back to the\nagent that produced it.",
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "agent_type": {
+      "$ref": "#/$defs/AgentType"
+    },
+    "agent_id": {
+      "title": "Agent Id",
+      "type": "string"
+    },
+    "episode_id": {
+      "anyOf": [
+        {
+          "format": "uuid",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Episode Id"
+    },
+    "ticker": {
+      "title": "Ticker",
+      "type": "string"
+    },
+    "version": {
+      "default": 1,
+      "title": "Version",
+      "type": "integer"
+    },
+    "payload": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Payload"
+    },
+    "memo_path": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Memo Path"
+    },
+    "confidence": {
+      "default": 0.7,
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "reasoning": {
+      "title": "Reasoning",
+      "type": "string"
+    },
+    "evidence_consumed": {
+      "items": {
+        "format": "uuid",
+        "type": "string"
+      },
+      "title": "Evidence Consumed",
+      "type": "array"
+    },
+    "assumptions_produced": {
+      "items": {
+        "format": "uuid",
+        "type": "string"
+      },
+      "title": "Assumptions Produced",
+      "type": "array"
+    },
+    "predictions_produced": {
+      "items": {
+        "format": "uuid",
+        "type": "string"
+      },
+      "title": "Predictions Produced",
+      "type": "array"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "agent_type",
+    "agent_id",
+    "ticker",
+    "reasoning"
+  ],
+  "title": "AgentOutput",
+  "type": "object"
+}

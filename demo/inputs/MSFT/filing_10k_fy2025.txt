@@ -1,0 +1,72 @@
+---
+logical_type: filing
+title: Microsoft Corporation Annual Report on Form 10-K FY2025
+source_date: 2025-07-31
+source_name: Microsoft Corporation
+url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019
+reliability_score: 1.0
+---
+
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+
+FORM 10-K
+
+ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+
+For the fiscal year ended June 30, 2025
+CIK 0000789019
+
+Microsoft Corporation
+
+BUSINESS OVERVIEW
+
+Microsoft is a technology company whose mission is to empower every person and every organization on the planet to achieve more. Microsoft develops and supports software, services, devices, and solutions worldwide.
+
+SEGMENTS
+
+Productivity and Business Processes: Office 365, Microsoft 365, LinkedIn, and Dynamics. Revenue of $87.1 billion in FY2025, up 12% year over year.
+
+Intelligent Cloud: Azure, SQL Server, Windows Server, GitHub, and enterprise services. Revenue of $135.7 billion in FY2025, up 24% year over year. Azure cloud services grew 35% year over year.
+
+More Personal Computing: Windows OEM, devices, gaming (Xbox), and search. Revenue of $63.2 billion in FY2025, flat year over year.
+
+FINANCIAL HIGHLIGHTS
+
+Total revenue for fiscal year ended June 30, 2025 was $286.0 billion, an increase of 16% compared to $246.9 billion for fiscal year 2024.
+
+Operating income was $124.7 billion, up 19% year over year. Operating margin expanded to 43.6% from 42.6%.
+
+Net income was $97.5 billion, representing diluted earnings per share of $13.14, up 21% year over year.
+
+Capital expenditures were $55.7 billion in FY2025, up from $44.5 billion in FY2024, reflecting continued investment in datacenters for Azure capacity and AI infrastructure.
+
+ARTIFICIAL INTELLIGENCE AND AZURE
+
+Microsoft has made significant investments in artificial intelligence infrastructure. Azure AI services, including Azure OpenAI Service, saw customer count grow to over 65,000 organizations by the end of FY2025. GitHub Copilot had over 1.8 million paid subscribers as of June 2025.
+
+The Company believes AI represents a fundamental shift in software development, productivity tools, and enterprise workflows. Management expects AI-driven workloads to be a significant revenue contributor over the next three to five years.
+
+COMPETITION
+
+The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud capabilities, and AI integration.
+
+Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.
+
+RISK FACTORS
+
+Cybersecurity: Microsoft products and services are subject to cyberattacks. Material security incidents could harm the Company's reputation and financial results.
+
+Regulatory risk: The Company faces scrutiny from regulators globally, including the European Commission regarding cloud bundling practices and the United Kingdom's Competition and Markets Authority regarding AI market dynamics.
+
+AI regulatory risk: Emerging AI regulations in the European Union (EU AI Act), United States, and other jurisdictions may require changes to AI product development and deployment practices.
+
+Dependence on third-party AI models: The Company's AI services depend in part on large language models developed by third parties, including OpenAI. The cost and availability of these models may affect financial results.
+
+MANAGEMENT'S DISCUSSION AND ANALYSIS
+
+Fiscal 2025 was a year of accelerating cloud and AI adoption. Azure growth reaccelerated from 29% in FY2024 Q4 to 35% in FY2025 Q4. Management attributes this acceleration to AI-related workloads, including training runs, inference, and AI-augmented enterprise applications.
+
+The Company expects capital expenditure intensity to remain elevated through FY2026 and FY2027 as it builds out AI datacenter capacity globally. Management guided FY2026 capital expenditures of approximately $60-65 billion.
+
+Commercial remaining performance obligations grew to $315 billion, up 18% year over year, providing strong revenue visibility.

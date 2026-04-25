@@ -1,0 +1,123 @@
+{
+  "$defs": {
+    "TriggerAction": {
+      "enum": [
+        "ALERT",
+        "REVISE_ASSUMPTION",
+        "RERUN_THESIS",
+        "CLOSE_EPISODE"
+      ],
+      "title": "TriggerAction",
+      "type": "string"
+    },
+    "TriggerFrequency": {
+      "enum": [
+        "EVENT_DRIVEN",
+        "DAILY",
+        "WEEKLY",
+        "MONTHLY",
+        "QUARTERLY"
+      ],
+      "title": "TriggerFrequency",
+      "type": "string"
+    }
+  },
+  "description": "A standing watch condition that fires when a metric crosses a threshold.\n\n``operator`` and ``threshold`` together define the condition.  When it fires,\n``action`` tells the system what to do automatically (alert, revise an\nassumption, rerun the full thesis, or close the episode).",
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "episode_id": {
+      "format": "uuid",
+      "title": "Episode Id",
+      "type": "string"
+    },
+    "label": {
+      "title": "Label",
+      "type": "string"
+    },
+    "description": {
+      "title": "Description",
+      "type": "string"
+    },
+    "metric": {
+      "title": "Metric",
+      "type": "string"
+    },
+    "operator": {
+      "title": "Operator",
+      "type": "string"
+    },
+    "threshold": {
+      "title": "Threshold"
+    },
+    "frequency": {
+      "$ref": "#/$defs/TriggerFrequency",
+      "default": "EVENT_DRIVEN"
+    },
+    "action": {
+      "$ref": "#/$defs/TriggerAction",
+      "default": "ALERT"
+    },
+    "action_note": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Action Note"
+    },
+    "active": {
+      "default": true,
+      "title": "Active",
+      "type": "boolean"
+    },
+    "last_checked_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Last Checked At"
+    },
+    "triggered_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Triggered At"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "episode_id",
+    "label",
+    "description",
+    "metric",
+    "operator",
+    "threshold"
+  ],
+  "title": "MonitoringTrigger",
+  "type": "object"
+}

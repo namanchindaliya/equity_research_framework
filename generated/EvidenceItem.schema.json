@@ -1,0 +1,166 @@
+{
+  "$defs": {
+    "EvidenceDirection": {
+      "enum": [
+        "SUPPORTING",
+        "CONTRADICTING",
+        "NEUTRAL"
+      ],
+      "title": "EvidenceDirection",
+      "type": "string"
+    },
+    "EvidenceType": {
+      "enum": [
+        "FACT",
+        "INFERENCE",
+        "DATA_POINT",
+        "ANECDOTE"
+      ],
+      "title": "EvidenceType",
+      "type": "string"
+    },
+    "SourceMetadata": {
+      "description": "Provenance record for any piece of information entering the system.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "source_type": {
+          "$ref": "#/$defs/SourceType"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "reference": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reference"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published At"
+        },
+        "accessed_at": {
+          "format": "date-time",
+          "title": "Accessed At",
+          "type": "string"
+        },
+        "reliability_score": {
+          "default": 0.8,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Reliability Score",
+          "type": "number"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "source_type",
+        "name"
+      ],
+      "title": "SourceMetadata",
+      "type": "object"
+    },
+    "SourceType": {
+      "enum": [
+        "FILING",
+        "EARNINGS_CALL",
+        "PRESS_RELEASE",
+        "NEWS_ARTICLE",
+        "RESEARCH_REPORT",
+        "CHANNEL_CHECK",
+        "EXPERT_CALL",
+        "PROPRIETARY",
+        "MARKET_DATA",
+        "OTHER"
+      ],
+      "title": "SourceType",
+      "type": "string"
+    }
+  },
+  "description": "A discrete piece of evidence that supports or contradicts a thesis element.\n\nKeeping evidence separate from the claim it supports lets the orchestrator\nreason about evidence quality independently of how it was used.",
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "evidence_type": {
+      "$ref": "#/$defs/EvidenceType"
+    },
+    "direction": {
+      "$ref": "#/$defs/EvidenceDirection"
+    },
+    "content": {
+      "title": "Content",
+      "type": "string"
+    },
+    "source": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/SourceMetadata"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "confidence": {
+      "default": 0.8,
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "tags": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Tags",
+      "type": "array"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "evidence_type",
+    "direction",
+    "content"
+  ],
+  "title": "EvidenceItem",
+  "type": "object"
+}

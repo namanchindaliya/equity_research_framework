@@ -1,0 +1,148 @@
+{
+  "$defs": {
+    "AssumptionError": {
+      "description": "Records which assumption was wrong and by how much.",
+      "properties": {
+        "assumption_id": {
+          "format": "uuid",
+          "title": "Assumption Id",
+          "type": "string"
+        },
+        "key": {
+          "title": "Key",
+          "type": "string"
+        },
+        "assumed_value": {
+          "title": "Assumed Value"
+        },
+        "actual_value": {
+          "title": "Actual Value"
+        },
+        "error_magnitude": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Error Magnitude"
+        },
+        "explanation": {
+          "title": "Explanation",
+          "type": "string"
+        }
+      },
+      "required": [
+        "assumption_id",
+        "key",
+        "assumed_value",
+        "actual_value",
+        "explanation"
+      ],
+      "title": "AssumptionError",
+      "type": "object"
+    },
+    "PostmortemVerdict": {
+      "enum": [
+        "THESIS_CORRECT",
+        "THESIS_INCORRECT",
+        "PARTIALLY_CORRECT",
+        "INCONCLUSIVE"
+      ],
+      "title": "PostmortemVerdict",
+      "type": "string"
+    }
+  },
+  "description": "A structured retrospective written after a ThesisEpisode is closed.\n\nDesign rationale\n----------------\n- ``prediction_accuracy`` is the fraction of resolved predictions that came\n  out CORRECT.  Only non-EXPIRED / non-WITHDRAWN predictions count.\n- ``assumption_errors`` are explicit call-outs of which assumptions were wrong;\n  this is harder than tracking predictions because assumptions rarely have\n  a single observable outcome, so the analyst must make a judgment call.\n- The four list fields (what_went_right, what_went_wrong, lessons_learned,\n  process_improvements) are kept separate so they can be aggregated across\n  many postmortems for recurring-pattern analysis.\n- ``version`` allows for a revised postmortem if new information surfaces.",
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "episode_id": {
+      "format": "uuid",
+      "title": "Episode Id",
+      "type": "string"
+    },
+    "ticker": {
+      "title": "Ticker",
+      "type": "string"
+    },
+    "verdict": {
+      "$ref": "#/$defs/PostmortemVerdict"
+    },
+    "prediction_accuracy": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Prediction Accuracy",
+      "type": "number"
+    },
+    "what_went_right": {
+      "items": {
+        "type": "string"
+      },
+      "title": "What Went Right",
+      "type": "array"
+    },
+    "what_went_wrong": {
+      "items": {
+        "type": "string"
+      },
+      "title": "What Went Wrong",
+      "type": "array"
+    },
+    "lessons_learned": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Lessons Learned",
+      "type": "array"
+    },
+    "assumption_errors": {
+      "items": {
+        "$ref": "#/$defs/AssumptionError"
+      },
+      "title": "Assumption Errors",
+      "type": "array"
+    },
+    "process_improvements": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Process Improvements",
+      "type": "array"
+    },
+    "authored_by": {
+      "title": "Authored By",
+      "type": "string"
+    },
+    "version": {
+      "default": 1,
+      "title": "Version",
+      "type": "integer"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "updated_at": {
+      "format": "date-time",
+      "title": "Updated At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "episode_id",
+    "ticker",
+    "verdict",
+    "prediction_accuracy",
+    "authored_by"
+  ],
+  "title": "Postmortem",
+  "type": "object"
+}

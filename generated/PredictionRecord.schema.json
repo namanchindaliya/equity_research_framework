@@ -1,0 +1,284 @@
+{
+  "$defs": {
+    "ComparisonOperator": {
+      "enum": [
+        ">",
+        ">=",
+        "<",
+        "<=",
+        "==",
+        "in_range",
+        "changes"
+      ],
+      "title": "ComparisonOperator",
+      "type": "string"
+    },
+    "ResolutionRecord": {
+      "description": "The factual outcome that closes a PredictionRecord.\n\nKept as a separate sub-object so it can be attached without mutating\nthe original prediction fields, and so it carries its own provenance.\n\n``error_magnitude`` is signed: positive = overestimate, negative = underestimate.\nFor non-numeric predictions set it to None.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "prediction_id": {
+          "format": "uuid",
+          "title": "Prediction Id",
+          "type": "string"
+        },
+        "resolved_at": {
+          "format": "date-time",
+          "title": "Resolved At",
+          "type": "string"
+        },
+        "resolved_by": {
+          "title": "Resolved By",
+          "type": "string"
+        },
+        "resolved_status": {
+          "$ref": "#/$defs/ResolutionStatus"
+        },
+        "actual_outcome": {
+          "title": "Actual Outcome"
+        },
+        "error_magnitude": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Error Magnitude"
+        },
+        "notes": {
+          "title": "Notes",
+          "type": "string"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SourceMetadata"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "prediction_id",
+        "resolved_by",
+        "resolved_status",
+        "actual_outcome",
+        "notes"
+      ],
+      "title": "ResolutionRecord",
+      "type": "object"
+    },
+    "ResolutionStatus": {
+      "enum": [
+        "CORRECT",
+        "INCORRECT",
+        "PARTIALLY_CORRECT",
+        "INCONCLUSIVE",
+        "EXPIRED",
+        "WITHDRAWN"
+      ],
+      "title": "ResolutionStatus",
+      "type": "string"
+    },
+    "SourceMetadata": {
+      "description": "Provenance record for any piece of information entering the system.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "source_type": {
+          "$ref": "#/$defs/SourceType"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "reference": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reference"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published At"
+        },
+        "accessed_at": {
+          "format": "date-time",
+          "title": "Accessed At",
+          "type": "string"
+        },
+        "reliability_score": {
+          "default": 0.8,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Reliability Score",
+          "type": "number"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "source_type",
+        "name"
+      ],
+      "title": "SourceMetadata",
+      "type": "object"
+    },
+    "SourceType": {
+      "enum": [
+        "FILING",
+        "EARNINGS_CALL",
+        "PRESS_RELEASE",
+        "NEWS_ARTICLE",
+        "RESEARCH_REPORT",
+        "CHANNEL_CHECK",
+        "EXPERT_CALL",
+        "PROPRIETARY",
+        "MARKET_DATA",
+        "OTHER"
+      ],
+      "title": "SourceType",
+      "type": "string"
+    }
+  },
+  "description": "An explicit, falsifiable forecast attached to a thesis episode.\n\nDesign rationale\n----------------\n- ``metric`` is the machine-readable name of what will be measured\n  (e.g. \"aapl_services_revenue_usd_b_fy26\").\n- ``threshold`` is the specific value the metric will be compared against.\n- ``operator`` defines the comparison (>, >=, ==, in_range, etc.).\n- ``probability`` is the analyst's assessed probability of hitting the\n  threshold \u2014 distinct from ``confidence``, which measures how certain\n  the analyst is in their probability estimate itself.\n- ``resolution_rule`` is a plain-language description of exactly how the\n  outcome will be determined (prevents disputes at resolution time).\n- ``due_date`` is the hard deadline: if unresolved by then it is EXPIRED.\n- ``supporting_assumptions`` links back to the AssumptionRecord IDs this\n  prediction depends on, so assumption revisions can flag affected predictions.",
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "description": {
+      "title": "Description",
+      "type": "string"
+    },
+    "metric": {
+      "title": "Metric",
+      "type": "string"
+    },
+    "threshold": {
+      "title": "Threshold"
+    },
+    "unit": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Unit"
+    },
+    "operator": {
+      "$ref": "#/$defs/ComparisonOperator",
+      "default": ">="
+    },
+    "horizon": {
+      "title": "Horizon",
+      "type": "string"
+    },
+    "due_date": {
+      "format": "date",
+      "title": "Due Date",
+      "type": "string"
+    },
+    "probability": {
+      "default": 0.6,
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Probability",
+      "type": "number"
+    },
+    "confidence": {
+      "default": 0.7,
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "resolution_rule": {
+      "title": "Resolution Rule",
+      "type": "string"
+    },
+    "resolution": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ResolutionRecord"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "supporting_assumptions": {
+      "items": {
+        "format": "uuid",
+        "type": "string"
+      },
+      "title": "Supporting Assumptions",
+      "type": "array"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "updated_at": {
+      "format": "date-time",
+      "title": "Updated At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "description",
+    "metric",
+    "threshold",
+    "horizon",
+    "due_date",
+    "resolution_rule"
+  ],
+  "title": "PredictionRecord",
+  "type": "object"
+}

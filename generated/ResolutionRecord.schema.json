@@ -1,0 +1,168 @@
+{
+  "$defs": {
+    "ResolutionStatus": {
+      "enum": [
+        "CORRECT",
+        "INCORRECT",
+        "PARTIALLY_CORRECT",
+        "INCONCLUSIVE",
+        "EXPIRED",
+        "WITHDRAWN"
+      ],
+      "title": "ResolutionStatus",
+      "type": "string"
+    },
+    "SourceMetadata": {
+      "description": "Provenance record for any piece of information entering the system.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "source_type": {
+          "$ref": "#/$defs/SourceType"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "reference": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reference"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published At"
+        },
+        "accessed_at": {
+          "format": "date-time",
+          "title": "Accessed At",
+          "type": "string"
+        },
+        "reliability_score": {
+          "default": 0.8,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Reliability Score",
+          "type": "number"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "source_type",
+        "name"
+      ],
+      "title": "SourceMetadata",
+      "type": "object"
+    },
+    "SourceType": {
+      "enum": [
+        "FILING",
+        "EARNINGS_CALL",
+        "PRESS_RELEASE",
+        "NEWS_ARTICLE",
+        "RESEARCH_REPORT",
+        "CHANNEL_CHECK",
+        "EXPERT_CALL",
+        "PROPRIETARY",
+        "MARKET_DATA",
+        "OTHER"
+      ],
+      "title": "SourceType",
+      "type": "string"
+    }
+  },
+  "description": "The factual outcome that closes a PredictionRecord.\n\nKept as a separate sub-object so it can be attached without mutating\nthe original prediction fields, and so it carries its own provenance.\n\n``error_magnitude`` is signed: positive = overestimate, negative = underestimate.\nFor non-numeric predictions set it to None.",
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "prediction_id": {
+      "format": "uuid",
+      "title": "Prediction Id",
+      "type": "string"
+    },
+    "resolved_at": {
+      "format": "date-time",
+      "title": "Resolved At",
+      "type": "string"
+    },
+    "resolved_by": {
+      "title": "Resolved By",
+      "type": "string"
+    },
+    "resolved_status": {
+      "$ref": "#/$defs/ResolutionStatus"
+    },
+    "actual_outcome": {
+      "title": "Actual Outcome"
+    },
+    "error_magnitude": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Error Magnitude"
+    },
+    "notes": {
+      "title": "Notes",
+      "type": "string"
+    },
+    "source": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/SourceMetadata"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  "required": [
+    "prediction_id",
+    "resolved_by",
+    "resolved_status",
+    "actual_outcome",
+    "notes"
+  ],
+  "title": "ResolutionRecord",
+  "type": "object"
+}

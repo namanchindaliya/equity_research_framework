@@ -1,0 +1,17 @@
+---
+logical_type: channel_check_note
+title: Azure Partner Channel Check Q1 FY2026
+source_date: 2025-10-20
+source_name: Primary Research Channel Network
+reliability_score: 0.75
+geography: North America and Europe
+---
+contact_type,geography,product,observation,sentiment,data_point,unit
+reseller,North America,Azure AI,Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services,positive,+40,% YoY deal count
+VAR,Europe,Azure,Enterprise migrations from on-premises accelerating; hybrid cloud seeing renewed interest post-regulatory clarity,positive,+22,% YoY pipeline
+distributor,North America,Microsoft 365 Copilot,Copilot attach rates on E5 renewals running at 35%; customers cautious on broader rollout until ROI is clearer,mixed,35,% attach rate on E5
+reseller,Asia Pacific,Azure,APAC growth strong led by Japan and Australia; India datacenter investment driving local demand,positive,+45,% YoY deal count
+OEM,North America,Windows Server,Windows Server 2025 refresh cycle beginning; channel partners expect 18-month upcycle,positive,+15,% YoY units
+VAR,Europe,Azure AI,EU AI Act compliance concerns creating demand for Microsoft compliance tooling on Azure,positive,+28,% YoY pipeline
+distributor,North America,GitHub Copilot,Developer adoption of Copilot strong in enterprises; churn rate low at approximately 3%,positive,3,% monthly churn
+reseller,North America,Dynamics 365,Dynamics 365 + Copilot deals accelerating; displacing Salesforce in mid-market,positive,+18,% YoY deal count

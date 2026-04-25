@@ -1,0 +1,55 @@
+---
+logical_type: industry_note
+title: Cloud Infrastructure and AI: Market Structure Analysis 2025
+source_date: 2025-09-15
+source_name: Equity Research Industry Analysis
+reliability_score: 0.80
+---
+
+CLOUD INFRASTRUCTURE MARKET STRUCTURE
+
+The cloud infrastructure market (IaaS + PaaS) has consolidated into an oligopoly dominated by three hyperscalers: AWS, Microsoft Azure, and Google Cloud Platform. Combined, these three platforms represented approximately 67% of global cloud infrastructure spending in 2025, up from 61% in 2023.
+
+Market share estimates for Q2 CY2025:
+- Amazon Web Services: 31%
+- Microsoft Azure: 24%
+- Google Cloud Platform: 12%
+- Other (including Oracle, Alibaba, IBM): 33%
+
+Azure has been the fastest-growing of the three hyperscalers by percentage in recent quarters, gaining approximately 2-3 percentage points of market share annually since 2022.
+
+COMPETITIVE DYNAMICS
+
+Entry barriers in cloud infrastructure are extremely high. The capital requirements for building competitive hyperscale infrastructure are measured in the tens of billions of dollars annually. AWS, Azure, and GCP each spend $40-65 billion annually on capital expenditures.
+
+Network effects are strong: as more enterprise software integrates with a cloud platform, switching costs increase. Azure benefits from deep integration with the Microsoft enterprise software stack (Office 365, Teams, Dynamics), creating a natural land-and-expand dynamic.
+
+AI has introduced new competitive intensity. The AI inference market is emerging rapidly, with specialized chips (GPUs, TPUs, custom ASICs) creating supply chain bottlenecks. Microsoft, through its OpenAI partnership, has a differentiated AI model access advantage.
+
+INDUSTRY CYCLE ASSESSMENT
+
+Cloud infrastructure is in a growth phase, with enterprise digital transformation and AI adoption providing two concurrent secular tailwinds. IDC forecasts global cloud spending to grow at a 17% CAGR from 2024 to 2029.
+
+AI-driven demand is creating a new investment supercycle in datacenter infrastructure. The AI training and inference capacity buildout is expected to drive cloud capex elevated for at least 3-4 years.
+
+KEY INDUSTRY KPIs
+
+- Azure revenue growth (YoY %): most closely watched metric for MSFT
+- AI revenue run rate: emerging metric, tracking AI-specific workload monetization
+- Commercial remaining performance obligations (cRPO): forward revenue visibility
+- Capital expenditures: investment intensity indicator
+- Gross margin by segment: tracks the mix shift from lower-margin IaaS to higher-margin SaaS
+
+REGULATORY ENVIRONMENT
+
+The European Commission opened a formal investigation into Microsoft's bundling of Teams with Office 365 (later addressed through product changes). The EU AI Act imposes new obligations on providers of high-risk AI systems, which will affect Azure OpenAI Service and other AI offerings.
+
+The UK Competition and Markets Authority (CMA) is reviewing the AI foundation model market, including Microsoft's partnership with OpenAI. Initial findings suggest concentration risk exists in the AI model supply chain.
+
+RISKS
+
+Supply chain risk: GPU availability constraints (NVIDIA H100, H200, Blackwell chips) can limit datacenter capacity expansion, creating a ceiling on growth in the near term.
+
+Commoditization risk: As AI model capabilities converge across providers, differentiation may shift to price, leading to margin pressure on AI inference workloads.
+
+Capital allocation risk: Elevated capex spending ($60B+/year) requires sustained revenue growth to justify returns. If AI adoption rates disappoint, return on invested capital could be challenged.

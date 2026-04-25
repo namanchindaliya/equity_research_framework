@@ -1,0 +1,349 @@
+{
+  "$defs": {
+    "AssumptionChange": {
+      "description": "Immutable record of a single revision to an AssumptionRecord.\n\nNever deleted \u2014 the history list on AssumptionRecord is append-only.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "assumption_id": {
+          "format": "uuid",
+          "title": "Assumption Id",
+          "type": "string"
+        },
+        "version": {
+          "title": "Version",
+          "type": "integer"
+        },
+        "changed_by": {
+          "title": "Changed By",
+          "type": "string"
+        },
+        "changed_at": {
+          "format": "date-time",
+          "title": "Changed At",
+          "type": "string"
+        },
+        "previous_value": {
+          "title": "Previous Value"
+        },
+        "new_value": {
+          "title": "New Value"
+        },
+        "previous_confidence": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Previous Confidence",
+          "type": "number"
+        },
+        "new_confidence": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "New Confidence",
+          "type": "number"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "assumption_id",
+        "version",
+        "changed_by",
+        "previous_value",
+        "new_value",
+        "previous_confidence",
+        "new_confidence",
+        "reason"
+      ],
+      "title": "AssumptionChange",
+      "type": "object"
+    },
+    "AssumptionStatus": {
+      "enum": [
+        "ACTIVE",
+        "REVISED",
+        "RETIRED"
+      ],
+      "title": "AssumptionStatus",
+      "type": "string"
+    },
+    "EvidenceDirection": {
+      "enum": [
+        "SUPPORTING",
+        "CONTRADICTING",
+        "NEUTRAL"
+      ],
+      "title": "EvidenceDirection",
+      "type": "string"
+    },
+    "EvidenceItem": {
+      "description": "A discrete piece of evidence that supports or contradicts a thesis element.\n\nKeeping evidence separate from the claim it supports lets the orchestrator\nreason about evidence quality independently of how it was used.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "evidence_type": {
+          "$ref": "#/$defs/EvidenceType"
+        },
+        "direction": {
+          "$ref": "#/$defs/EvidenceDirection"
+        },
+        "content": {
+          "title": "Content",
+          "type": "string"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SourceMetadata"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "confidence": {
+          "default": 0.8,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Tags",
+          "type": "array"
+        },
+        "created_at": {
+          "format": "date-time",
+          "title": "Created At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "evidence_type",
+        "direction",
+        "content"
+      ],
+      "title": "EvidenceItem",
+      "type": "object"
+    },
+    "EvidenceType": {
+      "enum": [
+        "FACT",
+        "INFERENCE",
+        "DATA_POINT",
+        "ANECDOTE"
+      ],
+      "title": "EvidenceType",
+      "type": "string"
+    },
+    "MaterialityLevel": {
+      "enum": [
+        "CRITICAL",
+        "HIGH",
+        "MEDIUM",
+        "LOW"
+      ],
+      "title": "MaterialityLevel",
+      "type": "string"
+    },
+    "SourceMetadata": {
+      "description": "Provenance record for any piece of information entering the system.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "source_type": {
+          "$ref": "#/$defs/SourceType"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "reference": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reference"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published At"
+        },
+        "accessed_at": {
+          "format": "date-time",
+          "title": "Accessed At",
+          "type": "string"
+        },
+        "reliability_score": {
+          "default": 0.8,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Reliability Score",
+          "type": "number"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "source_type",
+        "name"
+      ],
+      "title": "SourceMetadata",
+      "type": "object"
+    },
+    "SourceType": {
+      "enum": [
+        "FILING",
+        "EARNINGS_CALL",
+        "PRESS_RELEASE",
+        "NEWS_ARTICLE",
+        "RESEARCH_REPORT",
+        "CHANNEL_CHECK",
+        "EXPERT_CALL",
+        "PROPRIETARY",
+        "MARKET_DATA",
+        "OTHER"
+      ],
+      "title": "SourceType",
+      "type": "string"
+    }
+  },
+  "description": "A first-class assumption with owner, confidence, materiality, and full history.\n\nDesign rationale\n----------------\n- ``key`` is a machine-readable slug (e.g. \"services_rev_cagr_3yr\").\n- ``label`` is the human-readable display name.\n- ``version`` starts at 1 and increments with every revision.\n- ``dependencies`` lists other AssumptionRecord IDs whose values this\n  assumption is derived from or sensitive to.  The orchestrator uses this\n  graph to propagate confidence changes.\n- ``materiality`` indicates thesis sensitivity: CRITICAL means a meaningful\n  miss on this assumption invalidates the thesis outright.\n- ``history`` is append-only; the current value is always the top-level field.",
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "key": {
+      "title": "Key",
+      "type": "string"
+    },
+    "label": {
+      "title": "Label",
+      "type": "string"
+    },
+    "value": {
+      "title": "Value"
+    },
+    "unit": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Unit"
+    },
+    "owner_agent": {
+      "title": "Owner Agent",
+      "type": "string"
+    },
+    "rationale": {
+      "title": "Rationale",
+      "type": "string"
+    },
+    "confidence": {
+      "default": 0.7,
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "materiality": {
+      "$ref": "#/$defs/MaterialityLevel",
+      "default": "MEDIUM"
+    },
+    "dependencies": {
+      "items": {
+        "format": "uuid",
+        "type": "string"
+      },
+      "title": "Dependencies",
+      "type": "array"
+    },
+    "supporting_evidence": {
+      "items": {
+        "$ref": "#/$defs/EvidenceItem"
+      },
+      "title": "Supporting Evidence",
+      "type": "array"
+    },
+    "status": {
+      "$ref": "#/$defs/AssumptionStatus",
+      "default": "ACTIVE"
+    },
+    "version": {
+      "default": 1,
+      "title": "Version",
+      "type": "integer"
+    },
+    "history": {
+      "items": {
+        "$ref": "#/$defs/AssumptionChange"
+      },
+      "title": "History",
+      "type": "array"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "updated_at": {
+      "format": "date-time",
+      "title": "Updated At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "key",
+    "label",
+    "value",
+    "owner_agent",
+    "rationale"
+  ],
+  "title": "AssumptionRecord",
+  "type": "object"
+}

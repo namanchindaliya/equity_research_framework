@@ -1,0 +1,19 @@
+{
+  "id": "a1b2c3d4-0000-0000-0000-000000000001",
+  "ticker": "AAPL",
+  "name": "Apple Inc.",
+  "sector": "Technology",
+  "industry": "Consumer Electronics",
+  "exchange": "NASDAQ",
+  "country": "US",
+  "description": "Designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide.",
+  "current_rating": "BUY",
+  "current_price_target": 230.0,
+  "currency": "USD",
+  "episodes": [],
+  "monitoring_triggers": [],
+  "tags": ["mag7", "consumer-tech", "services-growth"],
+  "version": 1,
+  "created_at": "2026-01-15T09:00:00",
+  "updated_at": "2026-01-15T09:00:00"
+}

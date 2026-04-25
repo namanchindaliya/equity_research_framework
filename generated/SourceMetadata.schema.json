@@ -1,0 +1,90 @@
+{
+  "$defs": {
+    "SourceType": {
+      "enum": [
+        "FILING",
+        "EARNINGS_CALL",
+        "PRESS_RELEASE",
+        "NEWS_ARTICLE",
+        "RESEARCH_REPORT",
+        "CHANNEL_CHECK",
+        "EXPERT_CALL",
+        "PROPRIETARY",
+        "MARKET_DATA",
+        "OTHER"
+      ],
+      "title": "SourceType",
+      "type": "string"
+    }
+  },
+  "description": "Provenance record for any piece of information entering the system.",
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "source_type": {
+      "$ref": "#/$defs/SourceType"
+    },
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "reference": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Reference"
+    },
+    "published_at": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Published At"
+    },
+    "accessed_at": {
+      "format": "date-time",
+      "title": "Accessed At",
+      "type": "string"
+    },
+    "reliability_score": {
+      "default": 0.8,
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Reliability Score",
+      "type": "number"
+    },
+    "notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "source_type",
+    "name"
+  ],
+  "title": "SourceMetadata",
+  "type": "object"
+}

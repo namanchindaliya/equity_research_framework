@@ -1,0 +1,1218 @@
+{
+  "$defs": {
+    "AssumptionChange": {
+      "description": "Immutable record of a single revision to an AssumptionRecord.\n\nNever deleted \u2014 the history list on AssumptionRecord is append-only.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "assumption_id": {
+          "format": "uuid",
+          "title": "Assumption Id",
+          "type": "string"
+        },
+        "version": {
+          "title": "Version",
+          "type": "integer"
+        },
+        "changed_by": {
+          "title": "Changed By",
+          "type": "string"
+        },
+        "changed_at": {
+          "format": "date-time",
+          "title": "Changed At",
+          "type": "string"
+        },
+        "previous_value": {
+          "title": "Previous Value"
+        },
+        "new_value": {
+          "title": "New Value"
+        },
+        "previous_confidence": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Previous Confidence",
+          "type": "number"
+        },
+        "new_confidence": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "New Confidence",
+          "type": "number"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "assumption_id",
+        "version",
+        "changed_by",
+        "previous_value",
+        "new_value",
+        "previous_confidence",
+        "new_confidence",
+        "reason"
+      ],
+      "title": "AssumptionChange",
+      "type": "object"
+    },
+    "AssumptionRecord": {
+      "description": "A first-class assumption with owner, confidence, materiality, and full history.\n\nDesign rationale\n----------------\n- ``key`` is a machine-readable slug (e.g. \"services_rev_cagr_3yr\").\n- ``label`` is the human-readable display name.\n- ``version`` starts at 1 and increments with every revision.\n- ``dependencies`` lists other AssumptionRecord IDs whose values this\n  assumption is derived from or sensitive to.  The orchestrator uses this\n  graph to propagate confidence changes.\n- ``materiality`` indicates thesis sensitivity: CRITICAL means a meaningful\n  miss on this assumption invalidates the thesis outright.\n- ``history`` is append-only; the current value is always the top-level field.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "key": {
+          "title": "Key",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "value": {
+          "title": "Value"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit"
+        },
+        "owner_agent": {
+          "title": "Owner Agent",
+          "type": "string"
+        },
+        "rationale": {
+          "title": "Rationale",
+          "type": "string"
+        },
+        "confidence": {
+          "default": 0.7,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "materiality": {
+          "$ref": "#/$defs/MaterialityLevel",
+          "default": "MEDIUM"
+        },
+        "dependencies": {
+          "items": {
+            "format": "uuid",
+            "type": "string"
+          },
+          "title": "Dependencies",
+          "type": "array"
+        },
+        "supporting_evidence": {
+          "items": {
+            "$ref": "#/$defs/EvidenceItem"
+          },
+          "title": "Supporting Evidence",
+          "type": "array"
+        },
+        "status": {
+          "$ref": "#/$defs/AssumptionStatus",
+          "default": "ACTIVE"
+        },
+        "version": {
+          "default": 1,
+          "title": "Version",
+          "type": "integer"
+        },
+        "history": {
+          "items": {
+            "$ref": "#/$defs/AssumptionChange"
+          },
+          "title": "History",
+          "type": "array"
+        },
+        "created_at": {
+          "format": "date-time",
+          "title": "Created At",
+          "type": "string"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "key",
+        "label",
+        "value",
+        "owner_agent",
+        "rationale"
+      ],
+      "title": "AssumptionRecord",
+      "type": "object"
+    },
+    "AssumptionStatus": {
+      "enum": [
+        "ACTIVE",
+        "REVISED",
+        "RETIRED"
+      ],
+      "title": "AssumptionStatus",
+      "type": "string"
+    },
+    "ComparisonOperator": {
+      "enum": [
+        ">",
+        ">=",
+        "<",
+        "<=",
+        "==",
+        "in_range",
+        "changes"
+      ],
+      "title": "ComparisonOperator",
+      "type": "string"
+    },
+    "ConflictItem": {
+      "description": "A conflict between two agents, assumptions, or evidence items.\n\n``between`` names the conflicting parties \u2014 e.g. [\"bull_case_agent\", \"risk_agent\"].\nThe orchestrator records the conflict even when it cannot resolve it, so\ndownstream reviewers see where disagreements exist.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "between": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2,
+          "title": "Between",
+          "type": "array"
+        },
+        "resolution": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Resolution"
+        }
+      },
+      "required": [
+        "description",
+        "between"
+      ],
+      "title": "ConflictItem",
+      "type": "object"
+    },
+    "DecisionRecord": {
+      "description": "A concrete analytical or investment decision made during this episode.\n\nDecision types include RATING_INITIATION, RATING_CHANGE, PT_CHANGE,\nASSUMPTION_REVISION, EPISODE_CLOSE, etc.  Keeping decisions explicit\nmeans the postmortem can evaluate whether the process was sound\nindependent of whether the outcome was correct.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "decision_type": {
+          "title": "Decision Type",
+          "type": "string"
+        },
+        "content": {
+          "title": "Content",
+          "type": "string"
+        },
+        "rationale": {
+          "title": "Rationale",
+          "type": "string"
+        },
+        "made_by": {
+          "title": "Made By",
+          "type": "string"
+        },
+        "made_at": {
+          "format": "date-time",
+          "title": "Made At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "decision_type",
+        "content",
+        "rationale",
+        "made_by"
+      ],
+      "title": "DecisionRecord",
+      "type": "object"
+    },
+    "EpisodeStatus": {
+      "enum": [
+        "OPEN",
+        "CLOSED"
+      ],
+      "title": "EpisodeStatus",
+      "type": "string"
+    },
+    "EvidenceDirection": {
+      "enum": [
+        "SUPPORTING",
+        "CONTRADICTING",
+        "NEUTRAL"
+      ],
+      "title": "EvidenceDirection",
+      "type": "string"
+    },
+    "EvidenceItem": {
+      "description": "A discrete piece of evidence that supports or contradicts a thesis element.\n\nKeeping evidence separate from the claim it supports lets the orchestrator\nreason about evidence quality independently of how it was used.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "evidence_type": {
+          "$ref": "#/$defs/EvidenceType"
+        },
+        "direction": {
+          "$ref": "#/$defs/EvidenceDirection"
+        },
+        "content": {
+          "title": "Content",
+          "type": "string"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SourceMetadata"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "confidence": {
+          "default": 0.8,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Tags",
+          "type": "array"
+        },
+        "created_at": {
+          "format": "date-time",
+          "title": "Created At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "evidence_type",
+        "direction",
+        "content"
+      ],
+      "title": "EvidenceItem",
+      "type": "object"
+    },
+    "EvidenceType": {
+      "enum": [
+        "FACT",
+        "INFERENCE",
+        "DATA_POINT",
+        "ANECDOTE"
+      ],
+      "title": "EvidenceType",
+      "type": "string"
+    },
+    "FalsificationCondition": {
+      "description": "An explicit condition that, if observed, would invalidate the thesis.\n\nMaking falsification conditions explicit up-front forces the analyst to\npre-commit to what would change their mind, which makes postmortems honest.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "metric": {
+          "title": "Metric",
+          "type": "string"
+        },
+        "threshold": {
+          "title": "Threshold"
+        },
+        "check_by": {
+          "format": "date",
+          "title": "Check By",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "metric",
+        "threshold",
+        "check_by"
+      ],
+      "title": "FalsificationCondition",
+      "type": "object"
+    },
+    "InferenceRecord": {
+      "description": "An interpretation drawn from one or more observations.\n\n``based_on`` lists ObservationRecord IDs.  Requiring this link enforces\nthat every inference is grounded \u2014 not derived from thin air.\n``confidence`` reflects how strongly the evidence supports the inference.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "content": {
+          "title": "Content",
+          "type": "string"
+        },
+        "based_on": {
+          "items": {
+            "format": "uuid",
+            "type": "string"
+          },
+          "title": "Based On",
+          "type": "array"
+        },
+        "confidence": {
+          "default": 0.7,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "created_at": {
+          "format": "date-time",
+          "title": "Created At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "content"
+      ],
+      "title": "InferenceRecord",
+      "type": "object"
+    },
+    "MaterialityLevel": {
+      "enum": [
+        "CRITICAL",
+        "HIGH",
+        "MEDIUM",
+        "LOW"
+      ],
+      "title": "MaterialityLevel",
+      "type": "string"
+    },
+    "MonitoringTrigger": {
+      "description": "A standing watch condition that fires when a metric crosses a threshold.\n\n``operator`` and ``threshold`` together define the condition.  When it fires,\n``action`` tells the system what to do automatically (alert, revise an\nassumption, rerun the full thesis, or close the episode).",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "episode_id": {
+          "format": "uuid",
+          "title": "Episode Id",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "metric": {
+          "title": "Metric",
+          "type": "string"
+        },
+        "operator": {
+          "title": "Operator",
+          "type": "string"
+        },
+        "threshold": {
+          "title": "Threshold"
+        },
+        "frequency": {
+          "$ref": "#/$defs/TriggerFrequency",
+          "default": "EVENT_DRIVEN"
+        },
+        "action": {
+          "$ref": "#/$defs/TriggerAction",
+          "default": "ALERT"
+        },
+        "action_note": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Action Note"
+        },
+        "active": {
+          "default": true,
+          "title": "Active",
+          "type": "boolean"
+        },
+        "last_checked_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Last Checked At"
+        },
+        "triggered_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Triggered At"
+        },
+        "created_at": {
+          "format": "date-time",
+          "title": "Created At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "episode_id",
+        "label",
+        "description",
+        "metric",
+        "operator",
+        "threshold"
+      ],
+      "title": "MonitoringTrigger",
+      "type": "object"
+    },
+    "ObservationRecord": {
+      "description": "A raw factual observation entering the episode \u2014 not yet interpreted.\n\nObservations are the unprocessed inputs: data points, quotes, filings,\nchannel-check findings.  They carry a source reference and are kept\nseparate from inferences so the provenance chain stays clean.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "content": {
+          "title": "Content",
+          "type": "string"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SourceMetadata"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Tags",
+          "type": "array"
+        },
+        "recorded_at": {
+          "format": "date-time",
+          "title": "Recorded At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "content"
+      ],
+      "title": "ObservationRecord",
+      "type": "object"
+    },
+    "OrchestratorDecision": {
+      "description": "The synthesis output from the orchestrator agent.\n\nDesign rationale\n----------------\n- ``thesis`` is the affirmative case in 1-3 sentences.\n- ``variant_view`` is the most credible bear / alternative interpretation.\n  Forcing the orchestrator to articulate the variant view prevents\n  confirmation bias and is required before generating falsification conditions.\n- ``conflicts`` records where agents disagreed; the orchestrator must\n  acknowledge conflicts rather than silently averaging them away.\n- ``falsification_conditions`` are pre-committed trip-wires. If *any* fires,\n  the thesis must be reconsidered.\n- ``monitoring_triggers`` are UUIDs referencing MonitoringTrigger records\n  stored at the episode level.\n- ``next_evidence_needed`` is the prioritized list of information gaps.\n- ``price_target_bear`` and ``price_target_bull`` frame the scenario range.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "episode_id": {
+          "format": "uuid",
+          "title": "Episode Id",
+          "type": "string"
+        },
+        "ticker": {
+          "title": "Ticker",
+          "type": "string"
+        },
+        "version": {
+          "default": 1,
+          "title": "Version",
+          "type": "integer"
+        },
+        "thesis": {
+          "title": "Thesis",
+          "type": "string"
+        },
+        "variant_view": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Variant View"
+        },
+        "rating": {
+          "$ref": "#/$defs/Rating"
+        },
+        "price_target": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Price Target"
+        },
+        "price_target_bear": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Price Target Bear"
+        },
+        "price_target_bull": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Price Target Bull"
+        },
+        "currency": {
+          "default": "USD",
+          "title": "Currency",
+          "type": "string"
+        },
+        "risks": {
+          "items": {
+            "$ref": "#/$defs/RiskItem"
+          },
+          "title": "Risks",
+          "type": "array"
+        },
+        "conflicts": {
+          "items": {
+            "$ref": "#/$defs/ConflictItem"
+          },
+          "title": "Conflicts",
+          "type": "array"
+        },
+        "falsification_conditions": {
+          "items": {
+            "$ref": "#/$defs/FalsificationCondition"
+          },
+          "title": "Falsification Conditions",
+          "type": "array"
+        },
+        "monitoring_triggers": {
+          "items": {
+            "format": "uuid",
+            "type": "string"
+          },
+          "title": "Monitoring Triggers",
+          "type": "array"
+        },
+        "next_evidence_needed": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Next Evidence Needed",
+          "type": "array"
+        },
+        "confidence": {
+          "default": 0.7,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "created_at": {
+          "format": "date-time",
+          "title": "Created At",
+          "type": "string"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "episode_id",
+        "ticker",
+        "thesis",
+        "rating"
+      ],
+      "title": "OrchestratorDecision",
+      "type": "object"
+    },
+    "PredictionRecord": {
+      "description": "An explicit, falsifiable forecast attached to a thesis episode.\n\nDesign rationale\n----------------\n- ``metric`` is the machine-readable name of what will be measured\n  (e.g. \"aapl_services_revenue_usd_b_fy26\").\n- ``threshold`` is the specific value the metric will be compared against.\n- ``operator`` defines the comparison (>, >=, ==, in_range, etc.).\n- ``probability`` is the analyst's assessed probability of hitting the\n  threshold \u2014 distinct from ``confidence``, which measures how certain\n  the analyst is in their probability estimate itself.\n- ``resolution_rule`` is a plain-language description of exactly how the\n  outcome will be determined (prevents disputes at resolution time).\n- ``due_date`` is the hard deadline: if unresolved by then it is EXPIRED.\n- ``supporting_assumptions`` links back to the AssumptionRecord IDs this\n  prediction depends on, so assumption revisions can flag affected predictions.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "metric": {
+          "title": "Metric",
+          "type": "string"
+        },
+        "threshold": {
+          "title": "Threshold"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit"
+        },
+        "operator": {
+          "$ref": "#/$defs/ComparisonOperator",
+          "default": ">="
+        },
+        "horizon": {
+          "title": "Horizon",
+          "type": "string"
+        },
+        "due_date": {
+          "format": "date",
+          "title": "Due Date",
+          "type": "string"
+        },
+        "probability": {
+          "default": 0.6,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Probability",
+          "type": "number"
+        },
+        "confidence": {
+          "default": 0.7,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "resolution_rule": {
+          "title": "Resolution Rule",
+          "type": "string"
+        },
+        "resolution": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResolutionRecord"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "supporting_assumptions": {
+          "items": {
+            "format": "uuid",
+            "type": "string"
+          },
+          "title": "Supporting Assumptions",
+          "type": "array"
+        },
+        "created_at": {
+          "format": "date-time",
+          "title": "Created At",
+          "type": "string"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "metric",
+        "threshold",
+        "horizon",
+        "due_date",
+        "resolution_rule"
+      ],
+      "title": "PredictionRecord",
+      "type": "object"
+    },
+    "Rating": {
+      "enum": [
+        "BUY",
+        "HOLD",
+        "SELL",
+        "NOT_RATED"
+      ],
+      "title": "Rating",
+      "type": "string"
+    },
+    "ResolutionRecord": {
+      "description": "The factual outcome that closes a PredictionRecord.\n\nKept as a separate sub-object so it can be attached without mutating\nthe original prediction fields, and so it carries its own provenance.\n\n``error_magnitude`` is signed: positive = overestimate, negative = underestimate.\nFor non-numeric predictions set it to None.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "prediction_id": {
+          "format": "uuid",
+          "title": "Prediction Id",
+          "type": "string"
+        },
+        "resolved_at": {
+          "format": "date-time",
+          "title": "Resolved At",
+          "type": "string"
+        },
+        "resolved_by": {
+          "title": "Resolved By",
+          "type": "string"
+        },
+        "resolved_status": {
+          "$ref": "#/$defs/ResolutionStatus"
+        },
+        "actual_outcome": {
+          "title": "Actual Outcome"
+        },
+        "error_magnitude": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Error Magnitude"
+        },
+        "notes": {
+          "title": "Notes",
+          "type": "string"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SourceMetadata"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "prediction_id",
+        "resolved_by",
+        "resolved_status",
+        "actual_outcome",
+        "notes"
+      ],
+      "title": "ResolutionRecord",
+      "type": "object"
+    },
+    "ResolutionStatus": {
+      "enum": [
+        "CORRECT",
+        "INCORRECT",
+        "PARTIALLY_CORRECT",
+        "INCONCLUSIVE",
+        "EXPIRED",
+        "WITHDRAWN"
+      ],
+      "title": "ResolutionStatus",
+      "type": "string"
+    },
+    "RiskItem": {
+      "description": "A discrete risk the orchestrator has identified.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "category": {
+          "title": "Category",
+          "type": "string"
+        },
+        "severity": {
+          "title": "Severity",
+          "type": "string"
+        },
+        "probability": {
+          "default": 0.3,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Probability",
+          "type": "number"
+        },
+        "mitigants": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Mitigants",
+          "type": "array"
+        }
+      },
+      "required": [
+        "description",
+        "category",
+        "severity"
+      ],
+      "title": "RiskItem",
+      "type": "object"
+    },
+    "SourceMetadata": {
+      "description": "Provenance record for any piece of information entering the system.",
+      "properties": {
+        "id": {
+          "format": "uuid",
+          "title": "Id",
+          "type": "string"
+        },
+        "source_type": {
+          "$ref": "#/$defs/SourceType"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "reference": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reference"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published At"
+        },
+        "accessed_at": {
+          "format": "date-time",
+          "title": "Accessed At",
+          "type": "string"
+        },
+        "reliability_score": {
+          "default": 0.8,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Reliability Score",
+          "type": "number"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "source_type",
+        "name"
+      ],
+      "title": "SourceMetadata",
+      "type": "object"
+    },
+    "SourceType": {
+      "enum": [
+        "FILING",
+        "EARNINGS_CALL",
+        "PRESS_RELEASE",
+        "NEWS_ARTICLE",
+        "RESEARCH_REPORT",
+        "CHANNEL_CHECK",
+        "EXPERT_CALL",
+        "PROPRIETARY",
+        "MARKET_DATA",
+        "OTHER"
+      ],
+      "title": "SourceType",
+      "type": "string"
+    },
+    "TriggerAction": {
+      "enum": [
+        "ALERT",
+        "REVISE_ASSUMPTION",
+        "RERUN_THESIS",
+        "CLOSE_EPISODE"
+      ],
+      "title": "TriggerAction",
+      "type": "string"
+    },
+    "TriggerFrequency": {
+      "enum": [
+        "EVENT_DRIVEN",
+        "DAILY",
+        "WEEKLY",
+        "MONTHLY",
+        "QUARTERLY"
+      ],
+      "title": "TriggerFrequency",
+      "type": "string"
+    }
+  },
+  "description": "One full thesis cycle for a company.\n\nThe three-layer structure (observations \u2192 inferences \u2192 decisions) mirrors\nhow good analysts actually work: consume raw data, draw conclusions,\nthen act.  Keeping the layers separate makes the reasoning chain\nauditable and reproducible.\n\nRelationship to v0 Episode\n--------------------------\nThesisEpisode is the richer v1 model.  The v0 Episode (legacy.py) is\nstill used by the v0 CLI and store.  They coexist; migration between\nthem is out of scope for v0.",
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "ticker": {
+      "title": "Ticker",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "version": {
+      "default": 1,
+      "title": "Version",
+      "type": "integer"
+    },
+    "thesis_statement": {
+      "title": "Thesis Statement",
+      "type": "string"
+    },
+    "rating": {
+      "$ref": "#/$defs/Rating"
+    },
+    "price_target": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Price Target"
+    },
+    "currency": {
+      "default": "USD",
+      "title": "Currency",
+      "type": "string"
+    },
+    "status": {
+      "$ref": "#/$defs/EpisodeStatus",
+      "default": "OPEN"
+    },
+    "observations": {
+      "items": {
+        "$ref": "#/$defs/ObservationRecord"
+      },
+      "title": "Observations",
+      "type": "array"
+    },
+    "inferences": {
+      "items": {
+        "$ref": "#/$defs/InferenceRecord"
+      },
+      "title": "Inferences",
+      "type": "array"
+    },
+    "decisions": {
+      "items": {
+        "$ref": "#/$defs/DecisionRecord"
+      },
+      "title": "Decisions",
+      "type": "array"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/EvidenceItem"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "assumptions": {
+      "items": {
+        "$ref": "#/$defs/AssumptionRecord"
+      },
+      "title": "Assumptions",
+      "type": "array"
+    },
+    "predictions": {
+      "items": {
+        "$ref": "#/$defs/PredictionRecord"
+      },
+      "title": "Predictions",
+      "type": "array"
+    },
+    "monitoring_triggers": {
+      "items": {
+        "$ref": "#/$defs/MonitoringTrigger"
+      },
+      "title": "Monitoring Triggers",
+      "type": "array"
+    },
+    "orchestrator_decision": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/OrchestratorDecision"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "updated_at": {
+      "format": "date-time",
+      "title": "Updated At",
+      "type": "string"
+    },
+    "closed_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Closed At"
+    },
+    "close_note": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Close Note"
+    }
+  },
+  "required": [
+    "ticker",
+    "title",
+    "thesis_statement",
+    "rating"
+  ],
+  "title": "ThesisEpisode",
+  "type": "object"
+}

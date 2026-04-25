@@ -1,0 +1,16 @@
+---
+logical_type: channel_check_note
+title: Asia Channel Check Q1 FY2026 — iPhone Sell-Through
+source_date: 2026-01-25
+source_name: Primary Research Network
+reliability_score: 0.72
+geography: Asia
+---
+contact_type,geography,product,observation,sentiment,data_point,unit
+reseller,China,iPhone 17 Pro,Stock levels tight through January; reorder cycle accelerating,positive,+18,% YoY units sold
+reseller,Japan,iPhone 17,Strong holiday demand; inventory normalising in late January,positive,+8,% YoY units sold
+distributor,India,iPhone 17,Record sell-through; waiting lists 3-4 weeks at premium retail,very_positive,+28,% YoY units sold
+distributor,Korea,iPhone 17 Pro Max,Premium mix higher than expected; trade-in activity strong,positive,+12,% YoY revenue
+reseller,Taiwan,iPhone 16 (prior gen),Price cuts on prior gen driving secondary market volume,neutral,-5,% YoY units sold
+OEM,China,AirPods,AirPods 4 inventory normal; no supply constraints,neutral,+2,% YoY units sold
+retailer,India,Apple Watch,Watch Ultra seeing strong enterprise adoption from IT sector,positive,+35,% YoY units sold

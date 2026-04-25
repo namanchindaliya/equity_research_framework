@@ -1,0 +1,94 @@
+{
+  "id": "e0000000-0000-0000-0000-000000000001",
+  "ticker": "AAPL",
+  "title": "FY2026 Services Flywheel Initiation",
+  "version": 1,
+  "thesis_statement": "Apple's services segment is entering a durable high-margin growth phase driven by install-base monetisation, which the market is systematically undervaluing. A 20x services EV/EBITDA would yield a $230 PT.",
+  "rating": "BUY",
+  "price_target": 230.0,
+  "currency": "USD",
+  "status": "OPEN",
+  "observations": [
+    {
+      "id": "00000000-0000-0000-0001-000000000001",
+      "content": "Apple services revenue grew 14% YoY in Q1 FY2026 to $26.3B, beating consensus of $25.9B.",
+      "source": {
+        "id": "00000000-0000-0000-0002-000000000001",
+        "source_type": "EARNINGS_CALL",
+        "name": "Apple Q1 FY2026 Earnings Call",
+        "reference": "https://investor.apple.com/earnings/q1-2026",
+        "published_at": "2026-01-30",
+        "accessed_at": "2026-01-30T20:00:00",
+        "reliability_score": 1.0,
+        "notes": null
+      },
+      "tags": ["services", "revenue", "q1-fy26"],
+      "recorded_at": "2026-01-30T21:00:00"
+    }
+  ],
+  "inferences": [
+    {
+      "id": "00000000-0000-0000-0003-000000000001",
+      "content": "Services growth acceleration from 12% to 14% YoY suggests the install-base monetisation flywheel is strengthening, not plateauing.",
+      "based_on": ["00000000-0000-0000-0001-000000000001"],
+      "confidence": 0.75,
+      "created_at": "2026-01-30T21:30:00"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "00000000-0000-0000-0004-000000000001",
+      "decision_type": "RATING_INITIATION",
+      "content": "Initiate with BUY, $230 price target.",
+      "rationale": "Services segment undervalued at current blended multiple. 12-month PT assumes services re-rates to 20x EV/EBITDA.",
+      "made_by": "thesis_builder_v1",
+      "made_at": "2026-01-31T08:00:00"
+    }
+  ],
+  "evidence": [],
+  "assumptions": [
+    {
+      "id": "00000000-0000-0000-0005-000000000001",
+      "key": "services_rev_cagr_3yr",
+      "label": "Services Revenue 3-Year CAGR",
+      "value": 0.13,
+      "unit": "%",
+      "owner_agent": "financial_analyst_v1",
+      "rationale": "Extrapolating recent acceleration; install base growing 8% pa and ARPU expanding 5% pa implying ~13% blended growth.",
+      "confidence": 0.72,
+      "materiality": "CRITICAL",
+      "dependencies": [],
+      "supporting_evidence": [],
+      "status": "ACTIVE",
+      "version": 1,
+      "history": [],
+      "created_at": "2026-01-31T08:00:00",
+      "updated_at": "2026-01-31T08:00:00"
+    }
+  ],
+  "predictions": [
+    {
+      "id": "00000000-0000-0000-0006-000000000001",
+      "description": "Apple services revenue exceeds $110B in FY2026",
+      "metric": "aapl_services_revenue_usd_b_fy26",
+      "threshold": 110.0,
+      "unit": "USD B",
+      "operator": ">=",
+      "horizon": "FY2026 full-year",
+      "due_date": "2026-11-01",
+      "probability": 0.65,
+      "confidence": 0.70,
+      "resolution_rule": "Resolved using Apple FY2026 annual report; metric = total Services segment revenue as reported.",
+      "resolution": null,
+      "supporting_assumptions": ["00000000-0000-0000-0005-000000000001"],
+      "created_at": "2026-01-31T08:00:00",
+      "updated_at": "2026-01-31T08:00:00"
+    }
+  ],
+  "monitoring_triggers": [],
+  "orchestrator_decision": null,
+  "created_at": "2026-01-31T08:00:00",
+  "updated_at": "2026-01-31T08:00:00",
+  "closed_at": null,
+  "close_note": null
+}
