@@ -1,0 +1,112 @@
+{
+  "id": "80a4fc8a-6fe0-4660-98ea-9ebb0ccfdd13",
+  "ticker": "MSFT",
+  "title": "FY2026 Azure AI — Q2 Follow-Up",
+  "version": 2,
+  "thesis_statement": "Q2 FY2026 results validated the Azure AI thesis. Azure grew 35% — above our 32% threshold. AI run rate tracking toward $20B. Raising our Azure growth assumption to 38% and maintaining a constructive stance with tighter falsification conditions.",
+  "rating": "BUY",
+  "price_target": null,
+  "currency": "USD",
+  "status": "OPEN",
+  "observations": [],
+  "inferences": [],
+  "decisions": [],
+  "evidence": [],
+  "assumptions": [
+    {
+      "id": "810b80be-128b-4ef8-acaa-7808b14fe148",
+      "key": "azure_revenue_growth",
+      "label": "Azure Revenue Growth (YoY %)",
+      "value": 0.38,
+      "unit": "%",
+      "owner_agent": "industry_v1",
+      "rationale": "Q2 FY2026 came in at 35%, above the 32% threshold. Q1 was 38%. Raising assumption to 38% to reflect sustained AI-driven reacceleration.",
+      "confidence": 0.82,
+      "materiality": "CRITICAL",
+      "dependencies": [],
+      "supporting_evidence": [],
+      "status": "ACTIVE",
+      "version": 2,
+      "history": [
+        {
+          "id": "54c8f52a-6711-4eb3-a8d7-876b0f8e08fc",
+          "assumption_id": "0fd885d7-cbe4-4cfe-8806-a3bc19eb42ac",
+          "version": 2,
+          "changed_by": "analyst",
+          "changed_at": "2026-04-25T16:38:21.222477",
+          "previous_value": 0.35,
+          "new_value": 0.38,
+          "previous_confidence": 0.8,
+          "new_confidence": 0.82,
+          "reason": "Q2 FY2026 print at 35% confirmed upward trend. Raising to 38%."
+        }
+      ],
+      "created_at": "2026-04-25T16:38:21.222488",
+      "updated_at": "2026-04-25T16:38:21.222488"
+    },
+    {
+      "id": "5d4cd0ef-0f7d-417f-9eda-ea08188e0305",
+      "key": "ai_run_rate_usd_b",
+      "label": "AI Revenue Annualized Run Rate (USD B)",
+      "value": 20.0,
+      "unit": "USD B",
+      "owner_agent": "strategy_v1",
+      "rationale": "Updated to $20B based on Q2 FY2026 call commentary.",
+      "confidence": 0.8,
+      "materiality": "HIGH",
+      "dependencies": [],
+      "supporting_evidence": [],
+      "status": "ACTIVE",
+      "version": 1,
+      "history": [],
+      "created_at": "2026-04-25T16:38:21.222497",
+      "updated_at": "2026-04-25T16:38:21.222498"
+    }
+  ],
+  "predictions": [
+    {
+      "id": "fe873298-7b76-4959-accc-82bedd4dad6a",
+      "description": "Azure revenue grows at ≥35% YoY in Q3 FY2026 (Apr 2026 reporting)",
+      "metric": "msft_azure_q3_fy2026_yoy",
+      "threshold": 0.35,
+      "unit": "%",
+      "operator": ">=",
+      "horizon": "Q3 FY2026 earnings (Apr 2026)",
+      "due_date": "2026-05-15",
+      "probability": 0.65,
+      "confidence": 0.72,
+      "resolution_rule": "Azure revenue growth as reported in Q3 FY2026 earnings.",
+      "resolution": null,
+      "supporting_assumptions": [
+        "810b80be-128b-4ef8-acaa-7808b14fe148"
+      ],
+      "created_at": "2026-04-25T16:38:21.224097",
+      "updated_at": "2026-04-25T16:38:21.224098"
+    },
+    {
+      "id": "00c92454-3b69-4959-99a5-2a24a452347a",
+      "description": "AI run rate exceeds $22B by Q4 FY2026",
+      "metric": "msft_ai_run_rate_q4_fy2026",
+      "threshold": 22.0,
+      "unit": "USD B",
+      "operator": ">=",
+      "horizon": "Q4 FY2026 (Jun 2026)",
+      "due_date": "2026-08-15",
+      "probability": 0.55,
+      "confidence": 0.65,
+      "resolution_rule": "AI run rate as disclosed in Q4 FY2026 results.",
+      "resolution": null,
+      "supporting_assumptions": [
+        "5d4cd0ef-0f7d-417f-9eda-ea08188e0305"
+      ],
+      "created_at": "2026-04-25T16:38:21.224106",
+      "updated_at": "2026-04-25T16:38:21.224106"
+    }
+  ],
+  "monitoring_triggers": [],
+  "orchestrator_decision": null,
+  "created_at": "2026-04-25T16:38:21.224124",
+  "updated_at": "2026-04-25T16:38:21.224125",
+  "closed_at": null,
+  "close_note": null
+}

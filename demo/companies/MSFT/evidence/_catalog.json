@@ -1,0 +1,50 @@
+[
+  {
+    "evidence_id": "90862803-b571-4331-a2fa-18f1d0816cb7",
+    "ticker": "MSFT",
+    "logical_type": "channel_check_note",
+    "title": "Azure Partner Channel Check Q1 FY2026",
+    "source_date": "2025-10-20",
+    "source_name": "Primary Research Channel Network",
+    "content_hash": "3a9c2b9ba32e4f090502af6579036ce7a3ca04b9dcdf4f7a380ab8a618e5be3c",
+    "chunk_count": 2,
+    "ingested_at": "2026-04-25T16:38:20.913194",
+    "file_path": "/Users/namanchindaliya/claude/equity_reserach_framework/demo/inputs/MSFT/channel_check_azure_partners.csv"
+  },
+  {
+    "evidence_id": "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+    "ticker": "MSFT",
+    "logical_type": "earnings_transcript",
+    "title": "Microsoft Q1 FY2026 Earnings Conference Call",
+    "source_date": "2025-10-29",
+    "source_name": "Microsoft Corporation",
+    "content_hash": "9ec44fd391bba19766f1a5eb957a19fb41051676f6d8e8acce98c300d550934c",
+    "chunk_count": 13,
+    "ingested_at": "2026-04-25T16:38:20.927997",
+    "file_path": "/Users/namanchindaliya/claude/equity_reserach_framework/demo/inputs/MSFT/earnings_transcript_q1_fy2026.md"
+  },
+  {
+    "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+    "ticker": "MSFT",
+    "logical_type": "filing",
+    "title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
+    "source_date": "2025-07-31",
+    "source_name": "Microsoft Corporation",
+    "content_hash": "ed7e889f8e63952630842295d8ad76d41afef155a773b977105e8564f1927170",
+    "chunk_count": 22,
+    "ingested_at": "2026-04-25T16:38:20.950057",
+    "file_path": "/Users/namanchindaliya/claude/equity_reserach_framework/demo/inputs/MSFT/filing_10k_fy2025.txt"
+  },
+  {
+    "evidence_id": "6c93f128-57dc-4e95-96f3-bdb5103fd565",
+    "ticker": "MSFT",
+    "logical_type": "industry_note",
+    "title": "Cloud Infrastructure and AI: Market Structure Analysis 2025",
+    "source_date": "2025-09-15",
+    "source_name": "Equity Research Industry Analysis",
+    "content_hash": "4a91ad9ba091a0c4d5d8e78ecfca51b043995dfe2ce691d469e39e774c4efa70",
+    "chunk_count": 14,
+    "ingested_at": "2026-04-25T16:38:20.973246",
+    "file_path": "/Users/namanchindaliya/claude/equity_reserach_framework/demo/inputs/MSFT/industry_note_cloud_ai_2025.txt"
+  }
+]

@@ -1,0 +1,2158 @@
+{
+  "change_log_id": "33244926-d31d-4aa6-84d8-46c3fc76d35b",
+  "ticker": "MSFT",
+  "agent_id": "industry_v1",
+  "diffs": [
+    {
+      "diff_id": "e38b3ff4-aeec-4feb-96c6-b94cc27d0536",
+      "ticker": "MSFT",
+      "agent_id": "industry_v1",
+      "episode_id": "2026-02-01_fy2026-azure-ai-q2-follow-up",
+      "prior_run_id": "292e888a-3227-4d7f-8253-40fdbab5e40d",
+      "current_run_id": "292e888a-3227-4d7f-8253-40fdbab5e40d",
+      "prior_generated_at": "2026-04-25T16:38:21.086331",
+      "current_generated_at": "2026-04-25T16:38:21.086331",
+      "prior_evidence_ids": [
+        "90862803-b571-4331-a2fa-18f1d0816cb7",
+        "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+        "4964e36b-2054-450e-aa88-18812c2fa7dc",
+        "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+      ],
+      "current_evidence_ids": [
+        "90862803-b571-4331-a2fa-18f1d0816cb7",
+        "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+        "4964e36b-2054-450e-aa88-18812c2fa7dc",
+        "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+      ],
+      "field_changes": [
+        {
+          "change_id": "ae1b9d1b-c2f4-4dab-a587-25264cdb38b6",
+          "field_path": "competitive_dynamics.basis_of_competition[distribution]",
+          "change_type": "UNCHANGED",
+          "prior_value": "distribution",
+          "current_value": "distribution",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.248930"
+        },
+        {
+          "change_id": "74f5ad34-a883-4ad6-87d1-2fb07a73f5a1",
+          "field_path": "competitive_dynamics.basis_of_competition[ecosystem]",
+          "change_type": "UNCHANGED",
+          "prior_value": "ecosystem",
+          "current_value": "ecosystem",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.248942"
+        },
+        {
+          "change_id": "39979619-e576-49c7-a76c-6befa857bf08",
+          "field_path": "competitive_dynamics.basis_of_competition[price]",
+          "change_type": "UNCHANGED",
+          "prior_value": "price",
+          "current_value": "price",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.248949"
+        },
+        {
+          "change_id": "d1c7a98c-c89a-4b58-9679-19ddec4f965b",
+          "field_path": "competitive_dynamics.concentration_finding.confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.243,
+          "current_value": 0.243,
+          "change_magnitude": 0.0,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.248967"
+        },
+        {
+          "change_id": "0cd87d65-0bf5-4003-b854-c447c565aec8",
+          "field_path": "competitive_dynamics.concentration_finding.evidence_refs[{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249000"
+        },
+        {
+          "change_id": "a79cea2a-c854-4f8c-893e-5fd35ebfeed4",
+          "field_path": "competitive_dynamics.concentration_finding.evidence_refs[{'chunk_id': 'MSFT-4964e36b-0014', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0014', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.'}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0014', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249007"
+        },
+        {
+          "change_id": "11a471ac-7287-4b45-8efc-7a24ae466055",
+          "field_path": "competitive_dynamics.concentration_finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0002', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'Azure has been the fastest-growing of the three hyperscalers by percentage in recent quarters, gaining approximately 2-3 percentage points of market share annually since 2022.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0002', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'Azure has been the fastest-growing of the three hyperscalers by percentage in recent quarters, gaining approximately 2-3 percentage points of market share annually since 2022.'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0002', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'Azure has been the fastest-growing of the three hyperscalers by percentage in recent quarters, gaining approximately 2-3 percentage points of market share annually since 2022.'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249016"
+        },
+        {
+          "change_id": "36c6390a-ee0b-4f01-b6ba-a35ba9f20e1f",
+          "field_path": "competitive_dynamics.concentration_finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0003', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'COMPETITIVE DYNAMICS Entry barriers in cloud infrastructure are extremely high. The capital requirements for building competitive hyperscale infrastructure are measured in the tens of billions of dollars annually. AWS, Azure, and GCP each spend $40-6'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0003', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'COMPETITIVE DYNAMICS Entry barriers in cloud infrastructure are extremely high. The capital requirements for building competitive hyperscale infrastructure are measured in the tens of billions of dollars annually. AWS, Azure, and GCP each spend $40-6'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0003', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'COMPETITIVE DYNAMICS Entry barriers in cloud infrastructure are extremely high. The capital requirements for building competitive hyperscale infrastructure are measured in the tens of billions of dollars annually. AWS, Azure, and GCP each spend $40-6'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249028"
+        },
+        {
+          "change_id": "7b991071-eb52-4369-9033-dbdde88456d4",
+          "field_path": "competitive_dynamics.concentration_finding.text",
+          "change_type": "UNCHANGED",
+          "prior_value": "CLOUD INFRASTRUCTURE MARKET STRUCTURE The cloud infrastructure market (IaaS + PaaS) has consolidated into an oligopoly dominated by three hyperscalers: AWS, Microsoft Azure, and Google Cloud Platform.",
+          "current_value": "CLOUD INFRASTRUCTURE MARKET STRUCTURE The cloud infrastructure market (IaaS + PaaS) has consolidated into an oligopoly dominated by three hyperscalers: AWS, Microsoft Azure, and Google Cloud Platform.",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249037"
+        },
+        {
+          "change_id": "5b88bfe2-b837-4e64-b685-befe7f74bbbe",
+          "field_path": "competitive_dynamics.moat_type[network_effects]",
+          "change_type": "UNCHANGED",
+          "prior_value": "network_effects",
+          "current_value": "network_effects",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249049"
+        },
+        {
+          "change_id": "f179ad7c-ee2e-4447-b428-e29a2a1564fa",
+          "field_path": "competitive_dynamics.moat_type[switching_costs]",
+          "change_type": "UNCHANGED",
+          "prior_value": "switching_costs",
+          "current_value": "switching_costs",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249055"
+        },
+        {
+          "change_id": "35b44178-ebc4-4983-992a-1a0eefadb68f",
+          "field_path": "competitive_dynamics.overall_confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.551,
+          "current_value": 0.551,
+          "change_magnitude": 0.0,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249063"
+        },
+        {
+          "change_id": "154a0f2d-3111-4951-9e18-413fe47c3b80",
+          "field_path": "cycle_stage",
+          "change_type": "UNCHANGED",
+          "prior_value": "GROWTH",
+          "current_value": "GROWTH",
+          "change_magnitude": null,
+          "materiality": "HIGH",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249070"
+        },
+        {
+          "change_id": "96e1a17d-b2a3-4943-b3df-446950d12807",
+          "field_path": "cycle_stage_finding.confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.825,
+          "current_value": 0.825,
+          "change_magnitude": 0.0,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249079"
+        },
+        {
+          "change_id": "1eae41ca-349d-475d-a7ac-8f0f2a505ec5",
+          "field_path": "cycle_stage_finding.evidence_refs[{'chunk_id': 'MSFT-4964e36b-0019', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': \"MANAGEMENT'S DISCUSSION AND ANALYSIS Fiscal 2025 was a year of accelerating cloud and AI adoption. Azure growth reaccelerated from 29% in FY2024 Q4 to 35% in FY2025 Q4. Management attributes this acceleration to AI-related workloads, including traini\"}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0019', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': \"MANAGEMENT'S DISCUSSION AND ANALYSIS Fiscal 2025 was a year of accelerating cloud and AI adoption. Azure growth reaccelerated from 29% in FY2024 Q4 to 35% in FY2025 Q4. Management attributes this acceleration to AI-related workloads, including traini\"}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0019', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': \"MANAGEMENT'S DISCUSSION AND ANALYSIS Fiscal 2025 was a year of accelerating cloud and AI adoption. Azure growth reaccelerated from 29% in FY2024 Q4 to 35% in FY2025 Q4. Management attributes this acceleration to AI-related workloads, including traini\"}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249106"
+        },
+        {
+          "change_id": "06c6bde7-7f9f-423f-b6cd-8f236e936759",
+          "field_path": "cycle_stage_finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0011', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'RISKS Supply chain risk: GPU availability constraints (NVIDIA H100, H200, Blackwell chips) can limit datacenter capacity expansion, creating a ceiling on growth in the near term.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0011', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'RISKS Supply chain risk: GPU availability constraints (NVIDIA H100, H200, Blackwell chips) can limit datacenter capacity expansion, creating a ceiling on growth in the near term.'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0011', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'RISKS Supply chain risk: GPU availability constraints (NVIDIA H100, H200, Blackwell chips) can limit datacenter capacity expansion, creating a ceiling on growth in the near term.'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249113"
+        },
+        {
+          "change_id": "5455cd89-71fb-4d97-ae40-001534d5e05b",
+          "field_path": "cycle_stage_finding.evidence_refs[{'chunk_id': 'MSFT-7d985eea-0002', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': 'Azure growth reaccelerated to 38% this quarter, up from 35% last quarter, driven by AI workloads. Our AI business is on a $16 billion annualized revenue run rate, up from $14 billion last quarter. The structural shift toward AI-augmented enterprise s'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-7d985eea-0002', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': 'Azure growth reaccelerated to 38% this quarter, up from 35% last quarter, driven by AI workloads. Our AI business is on a $16 billion annualized revenue run rate, up from $14 billion last quarter. The structural shift toward AI-augmented enterprise s'}",
+          "current_value": "{'chunk_id': 'MSFT-7d985eea-0002', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': 'Azure growth reaccelerated to 38% this quarter, up from 35% last quarter, driven by AI workloads. Our AI business is on a $16 billion annualized revenue run rate, up from $14 billion last quarter. The structural shift toward AI-augmented enterprise s'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249119"
+        },
+        {
+          "change_id": "d68f5c06-ac26-4196-ad5c-49c58e4274e2",
+          "field_path": "cycle_stage_finding.evidence_refs[{'chunk_id': 'MSFT-7d985eea-0008', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': 'Q&A Session Analyst: Satya, the Azure growth reacceleration to 38% is impressive. How much of that is AI-related versus traditional workloads?'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-7d985eea-0008', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': 'Q&A Session Analyst: Satya, the Azure growth reacceleration to 38% is impressive. How much of that is AI-related versus traditional workloads?'}",
+          "current_value": "{'chunk_id': 'MSFT-7d985eea-0008', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': 'Q&A Session Analyst: Satya, the Azure growth reacceleration to 38% is impressive. How much of that is AI-related versus traditional workloads?'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249125"
+        },
+        {
+          "change_id": "68da1e7d-577e-449d-aa85-9134a3fbf07d",
+          "field_path": "cycle_stage_finding.text",
+          "change_type": "UNCHANGED",
+          "prior_value": "Industry is in a growth phase. contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\ncontact_type: VAR geography: Europe product: Azure observation: Enterprise migrations from on-premises accelerating; hybrid cloud seeing renewed interest post-regulatory clarity sentiment: positive data_point: +22 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: Microsoft 365 Copilot observation: Copilot attach rates on E5 renewals running at 35%; customers cautious on broader rollout until ROI is clearer sentiment: mixed data_point: 35 unit: % attach rate on E5\ncontact_type: reseller geography: Asia Pacific product: Azure observation: APAC growth strong led by Japan and Australia; India datacenter investment driving local demand sentiment: positive data_point: +45 unit: % YoY deal count\ncontact_type: OEM geography: North America product: Windows Server observation: Windows Server 2025 refresh cycle beginning; channel partners expect 18-month upcycle sentiment: positive data_point: +15 unit: % YoY units\ncontact_type: VAR geography: Europe product: Azure AI observation: EU AI Act compliance concerns creating demand for Microsoft compliance tooling on Azure sentiment: positive data_point: +28 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: GitHub Copilot observation: Developer adoption of Copilot strong in enterprises; churn rate low at approximately 3% sentiment: positive data_point: 3 unit",
+          "current_value": "Industry is in a growth phase. contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\ncontact_type: VAR geography: Europe product: Azure observation: Enterprise migrations from on-premises accelerating; hybrid cloud seeing renewed interest post-regulatory clarity sentiment: positive data_point: +22 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: Microsoft 365 Copilot observation: Copilot attach rates on E5 renewals running at 35%; customers cautious on broader rollout until ROI is clearer sentiment: mixed data_point: 35 unit: % attach rate on E5\ncontact_type: reseller geography: Asia Pacific product: Azure observation: APAC growth strong led by Japan and Australia; India datacenter investment driving local demand sentiment: positive data_point: +45 unit: % YoY deal count\ncontact_type: OEM geography: North America product: Windows Server observation: Windows Server 2025 refresh cycle beginning; channel partners expect 18-month upcycle sentiment: positive data_point: +15 unit: % YoY units\ncontact_type: VAR geography: Europe product: Azure AI observation: EU AI Act compliance concerns creating demand for Microsoft compliance tooling on Azure sentiment: positive data_point: +28 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: GitHub Copilot observation: Developer adoption of Copilot strong in enterprises; churn rate low at approximately 3% sentiment: positive data_point: 3 unit",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249132"
+        },
+        {
+          "change_id": "3b839c53-ff03-4670-8677-6a30b569fb9e",
+          "field_path": "industry_label",
+          "change_type": "UNCHANGED",
+          "prior_value": "Semiconductors",
+          "current_value": "Semiconductors",
+          "change_magnitude": null,
+          "materiality": "HIGH",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249138"
+        },
+        {
+          "change_id": "18946614-9a1f-4e11-bc05-652e59905eff",
+          "field_path": "key_kpis[Gross Margin].definition",
+          "change_type": "UNCHANGED",
+          "prior_value": "Measure of gross margin for the industry.",
+          "current_value": "Measure of gross margin for the industry.",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249154"
+        },
+        {
+          "change_id": "ca3b4b1b-2634-4014-aea5-2de4c0a036d6",
+          "field_path": "key_kpis[Gross Margin].finding.confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.446,
+          "current_value": 0.446,
+          "change_magnitude": 0.0,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249163"
+        },
+        {
+          "change_id": "0a0e5d17-df70-4d9d-9886-208ca40c4281",
+          "field_path": "key_kpis[Gross Margin].finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0008', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'KEY INDUSTRY KPIs - Azure revenue growth (YoY %): most closely watched metric for MSFT\\n- AI revenue run rate: emerging metric, tracking AI-specific workload monetization\\n- Commercial remaining performance obligations (cRPO): forward revenue visibilit'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0008', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'KEY INDUSTRY KPIs - Azure revenue growth (YoY %): most closely watched metric for MSFT\\n- AI revenue run rate: emerging metric, tracking AI-specific workload monetization\\n- Commercial remaining performance obligations (cRPO): forward revenue visibilit'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0008', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'KEY INDUSTRY KPIs - Azure revenue growth (YoY %): most closely watched metric for MSFT\\n- AI revenue run rate: emerging metric, tracking AI-specific workload monetization\\n- Commercial remaining performance obligations (cRPO): forward revenue visibilit'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249188"
+        },
+        {
+          "change_id": "01eb7a9b-2d46-4555-a68a-6e9d5999dbc1",
+          "field_path": "key_kpis[Gross Margin].finding.evidence_refs[{'chunk_id': 'MSFT-7d985eea-0006', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': 'CFO Remarks AMY HOOD: Thank you, Satya. Q1 gross margin was 70.4%, up 50 basis points year over year. Intelligent Cloud gross margin was 72.8%. Commercial bookings grew 18%.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-7d985eea-0006', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': 'CFO Remarks AMY HOOD: Thank you, Satya. Q1 gross margin was 70.4%, up 50 basis points year over year. Intelligent Cloud gross margin was 72.8%. Commercial bookings grew 18%.'}",
+          "current_value": "{'chunk_id': 'MSFT-7d985eea-0006', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': 'CFO Remarks AMY HOOD: Thank you, Satya. Q1 gross margin was 70.4%, up 50 basis points year over year. Intelligent Cloud gross margin was 72.8%. Commercial bookings grew 18%.'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249198"
+        },
+        {
+          "change_id": "0d72537c-0dc6-4719-b310-992c0a0f4cd9",
+          "field_path": "key_kpis[Gross Margin].finding.text",
+          "change_type": "UNCHANGED",
+          "prior_value": "Q1 gross margin was 70.4%, up 50 basis points year over year.",
+          "current_value": "Q1 gross margin was 70.4%, up 50 basis points year over year.",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249205"
+        },
+        {
+          "change_id": "f19fedfa-ed54-4d26-8fa7-2f653e56ab5a",
+          "field_path": "key_kpis[Gross Margin].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "Gross Margin",
+          "current_value": "Gross Margin",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249211"
+        },
+        {
+          "change_id": "41d3a921-8a64-4b6d-9960-8bb4618505b9",
+          "field_path": "key_kpis[Gross Margin].trend_direction",
+          "change_type": "UNCHANGED",
+          "prior_value": "increasing",
+          "current_value": "increasing",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249218"
+        },
+        {
+          "change_id": "55ffb904-4e07-42e5-bb37-e696beec381f",
+          "field_path": "key_kpis[Market Share].definition",
+          "change_type": "UNCHANGED",
+          "prior_value": "Measure of market share for the industry.",
+          "current_value": "Measure of market share for the industry.",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249229"
+        },
+        {
+          "change_id": "b934dfb7-6078-46e5-bfd9-fc8e490b1965",
+          "field_path": "key_kpis[Market Share].finding.confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.459,
+          "current_value": 0.459,
+          "change_magnitude": 0.0,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249236"
+        },
+        {
+          "change_id": "1fc1da5e-6cac-4b54-bd2d-9d73081b972f",
+          "field_path": "key_kpis[Market Share].finding.evidence_refs[{'chunk_id': 'MSFT-4964e36b-0009', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Net income was $97.5 billion, representing diluted earnings per share of $13.14, up 21% year over year.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0009', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Net income was $97.5 billion, representing diluted earnings per share of $13.14, up 21% year over year.'}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0009', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Net income was $97.5 billion, representing diluted earnings per share of $13.14, up 21% year over year.'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249251"
+        },
+        {
+          "change_id": "f51207e5-2522-4bb5-b524-875b8b717763",
+          "field_path": "key_kpis[Market Share].finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0002', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'Azure has been the fastest-growing of the three hyperscalers by percentage in recent quarters, gaining approximately 2-3 percentage points of market share annually since 2022.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0002', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'Azure has been the fastest-growing of the three hyperscalers by percentage in recent quarters, gaining approximately 2-3 percentage points of market share annually since 2022.'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0002', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'Azure has been the fastest-growing of the three hyperscalers by percentage in recent quarters, gaining approximately 2-3 percentage points of market share annually since 2022.'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249258"
+        },
+        {
+          "change_id": "6f7d15ed-5430-43eb-a33a-7bf4dc73bc9a",
+          "field_path": "key_kpis[Market Share].finding.text",
+          "change_type": "UNCHANGED",
+          "prior_value": "Net income was $97.5 billion, representing diluted earnings per share of $13.14, up 21% year over year.",
+          "current_value": "Net income was $97.5 billion, representing diluted earnings per share of $13.14, up 21% year over year.",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249265"
+        },
+        {
+          "change_id": "b2026a36-b59c-45c7-b0ac-3d09f45aa3ff",
+          "field_path": "key_kpis[Market Share].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "Market Share",
+          "current_value": "Market Share",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249271"
+        },
+        {
+          "change_id": "e7856a79-962f-485a-bdf9-cf0f52713f50",
+          "field_path": "key_kpis[Market Share].trend_direction",
+          "change_type": "UNCHANGED",
+          "prior_value": "increasing",
+          "current_value": "increasing",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249277"
+        },
+        {
+          "change_id": "54303326-557e-4f37-a746-43824acd5034",
+          "field_path": "key_kpis[Revenue Growth].definition",
+          "change_type": "UNCHANGED",
+          "prior_value": "Measure of revenue growth for the industry.",
+          "current_value": "Measure of revenue growth for the industry.",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249285"
+        },
+        {
+          "change_id": "4860bfb0-b411-46f8-9d64-a52d8cdb6e96",
+          "field_path": "key_kpis[Revenue Growth].finding.confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.192,
+          "current_value": 0.192,
+          "change_magnitude": 0.0,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249293"
+        },
+        {
+          "change_id": "43fe7855-b0f5-4323-88cc-bf869ef06f89",
+          "field_path": "key_kpis[Revenue Growth].finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0008', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'KEY INDUSTRY KPIs - Azure revenue growth (YoY %): most closely watched metric for MSFT\\n- AI revenue run rate: emerging metric, tracking AI-specific workload monetization\\n- Commercial remaining performance obligations (cRPO): forward revenue visibilit'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0008', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'KEY INDUSTRY KPIs - Azure revenue growth (YoY %): most closely watched metric for MSFT\\n- AI revenue run rate: emerging metric, tracking AI-specific workload monetization\\n- Commercial remaining performance obligations (cRPO): forward revenue visibilit'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0008', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'KEY INDUSTRY KPIs - Azure revenue growth (YoY %): most closely watched metric for MSFT\\n- AI revenue run rate: emerging metric, tracking AI-specific workload monetization\\n- Commercial remaining performance obligations (cRPO): forward revenue visibilit'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249310"
+        },
+        {
+          "change_id": "8d155b87-f67f-464a-aaed-888372ddafae",
+          "field_path": "key_kpis[Revenue Growth].finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0013', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'Capital allocation risk: Elevated capex spending ($60B+/year) requires sustained revenue growth to justify returns. If AI adoption rates disappoint, return on invested capital could be challenged.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0013', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'Capital allocation risk: Elevated capex spending ($60B+/year) requires sustained revenue growth to justify returns. If AI adoption rates disappoint, return on invested capital could be challenged.'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0013', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'Capital allocation risk: Elevated capex spending ($60B+/year) requires sustained revenue growth to justify returns. If AI adoption rates disappoint, return on invested capital could be challenged.'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249316"
+        },
+        {
+          "change_id": "deec8bd1-9f0e-48d5-aa24-fa7c3d21e38b",
+          "field_path": "key_kpis[Revenue Growth].finding.text",
+          "change_type": "UNCHANGED",
+          "prior_value": "KEY INDUSTRY KPIs - Azure revenue growth (YoY %): most closely watched metric for MSFT\n- AI revenue run rate: emerging metric, tracking AI-specific workload monetization\n- Commercial remaining performance obligations (cRPO): forward revenue visibility\n- Capital expenditures: investment intensity indicator\n- Gross margin by segment: tracks the mix shift from lower-margin IaaS to higher-margin SaaS",
+          "current_value": "KEY INDUSTRY KPIs - Azure revenue growth (YoY %): most closely watched metric for MSFT\n- AI revenue run rate: emerging metric, tracking AI-specific workload monetization\n- Commercial remaining performance obligations (cRPO): forward revenue visibility\n- Capital expenditures: investment intensity indicator\n- Gross margin by segment: tracks the mix shift from lower-margin IaaS to higher-margin SaaS",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249322"
+        },
+        {
+          "change_id": "cd00a408-68fb-4d28-a720-35c91b82b522",
+          "field_path": "key_kpis[Revenue Growth].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "Revenue Growth",
+          "current_value": "Revenue Growth",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249328"
+        },
+        {
+          "change_id": "605ccd32-09a8-4b90-bb9a-227386122c08",
+          "field_path": "key_kpis[Revenue Growth].trend_direction",
+          "change_type": "UNCHANGED",
+          "prior_value": "increasing",
+          "current_value": "increasing",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249334"
+        },
+        {
+          "change_id": "49da7a53-1a8a-4758-a44b-967aa9796047",
+          "field_path": "market_structure",
+          "change_type": "UNCHANGED",
+          "prior_value": "OLIGOPOLY",
+          "current_value": "OLIGOPOLY",
+          "change_magnitude": null,
+          "materiality": "HIGH",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249340"
+        },
+        {
+          "change_id": "fc5b8a97-c9d7-4a78-a67b-dd0c1b861ba2",
+          "field_path": "market_structure_finding.confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.243,
+          "current_value": 0.243,
+          "change_magnitude": 0.0,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249350"
+        },
+        {
+          "change_id": "fe9d6be3-5860-4476-aaa9-1edd305f4697",
+          "field_path": "market_structure_finding.evidence_refs[{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249382"
+        },
+        {
+          "change_id": "d2551c71-4b22-404f-8d2b-a1fca91bac8a",
+          "field_path": "market_structure_finding.evidence_refs[{'chunk_id': 'MSFT-4964e36b-0014', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0014', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.'}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0014', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249388"
+        },
+        {
+          "change_id": "092826b5-741a-4c32-9fce-e0478f4765d7",
+          "field_path": "market_structure_finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0002', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'Azure has been the fastest-growing of the three hyperscalers by percentage in recent quarters, gaining approximately 2-3 percentage points of market share annually since 2022.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0002', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'Azure has been the fastest-growing of the three hyperscalers by percentage in recent quarters, gaining approximately 2-3 percentage points of market share annually since 2022.'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0002', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'Azure has been the fastest-growing of the three hyperscalers by percentage in recent quarters, gaining approximately 2-3 percentage points of market share annually since 2022.'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249394"
+        },
+        {
+          "change_id": "b733f1d6-05b4-4bf9-b836-3350edd48668",
+          "field_path": "market_structure_finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0003', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'COMPETITIVE DYNAMICS Entry barriers in cloud infrastructure are extremely high. The capital requirements for building competitive hyperscale infrastructure are measured in the tens of billions of dollars annually. AWS, Azure, and GCP each spend $40-6'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0003', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'COMPETITIVE DYNAMICS Entry barriers in cloud infrastructure are extremely high. The capital requirements for building competitive hyperscale infrastructure are measured in the tens of billions of dollars annually. AWS, Azure, and GCP each spend $40-6'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0003', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'COMPETITIVE DYNAMICS Entry barriers in cloud infrastructure are extremely high. The capital requirements for building competitive hyperscale infrastructure are measured in the tens of billions of dollars annually. AWS, Azure, and GCP each spend $40-6'}",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249400"
+        },
+        {
+          "change_id": "b784c8c3-9664-456d-9cd7-2c2e49209d93",
+          "field_path": "market_structure_finding.text",
+          "change_type": "UNCHANGED",
+          "prior_value": "Evidence suggests oligopolistic market structure. COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud.",
+          "current_value": "Evidence suggests oligopolistic market structure. COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud.",
+          "change_magnitude": null,
+          "materiality": "LOW",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249406"
+        },
+        {
+          "change_id": "6aa497ef-7ebd-4595-a649-12fe9fe84c7b",
+          "field_path": "overall_confidence",
+          "change_type": "MODIFIED",
+          "prior_value": 0.397,
+          "current_value": 0.447,
+          "change_magnitude": 0.1259445843828715,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249415"
+        },
+        {
+          "change_id": "599b2c38-b761-4234-8b57-601071d45c60",
+          "field_path": "porter_forces[Buyer Power].confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.551,
+          "current_value": 0.551,
+          "change_magnitude": 0.0,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249435"
+        },
+        {
+          "change_id": "2a342c47-20ac-49e1-9db2-0d766df8ea8d",
+          "field_path": "porter_forces[Buyer Power].evidence_refs[{'chunk_id': 'MSFT-4964e36b-0011', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'ARTIFICIAL INTELLIGENCE AND AZURE Microsoft has made significant investments in artificial intelligence infrastructure. Azure AI services, including Azure OpenAI Service, saw customer count grow to over 65,000 organizations by the end of FY2025. GitH'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0011', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'ARTIFICIAL INTELLIGENCE AND AZURE Microsoft has made significant investments in artificial intelligence infrastructure. Azure AI services, including Azure OpenAI Service, saw customer count grow to over 65,000 organizations by the end of FY2025. GitH'}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0011', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'ARTIFICIAL INTELLIGENCE AND AZURE Microsoft has made significant investments in artificial intelligence infrastructure. Azure AI services, including Azure OpenAI Service, saw customer count grow to over 65,000 organizations by the end of FY2025. GitH'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249458"
+        },
+        {
+          "change_id": "c40e0e3e-db5c-40fa-be65-195c6c348c95",
+          "field_path": "porter_forces[Buyer Power].evidence_refs[{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249464"
+        },
+        {
+          "change_id": "f964bcb8-c594-425f-bd9c-1e5eb2b1bcf1",
+          "field_path": "porter_forces[Buyer Power].evidence_refs[{'chunk_id': 'MSFT-90862803-0001', 'evidence_id': '90862803-b571-4331-a2fa-18f1d0816cb7', 'source_title': 'Azure Partner Channel Check Q1 FY2026', 'quote': ': % monthly churn\\ncontact_type: reseller geography: North America product: Dynamics 365 observation: Dynamics 365 + Copilot deals accelerating; displacing Salesforce in mid-market sentiment: positive data_point: +18 unit: % YoY deal count'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-90862803-0001', 'evidence_id': '90862803-b571-4331-a2fa-18f1d0816cb7', 'source_title': 'Azure Partner Channel Check Q1 FY2026', 'quote': ': % monthly churn\\ncontact_type: reseller geography: North America product: Dynamics 365 observation: Dynamics 365 + Copilot deals accelerating; displacing Salesforce in mid-market sentiment: positive data_point: +18 unit: % YoY deal count'}",
+          "current_value": "{'chunk_id': 'MSFT-90862803-0001', 'evidence_id': '90862803-b571-4331-a2fa-18f1d0816cb7', 'source_title': 'Azure Partner Channel Check Q1 FY2026', 'quote': ': % monthly churn\\ncontact_type: reseller geography: North America product: Dynamics 365 observation: Dynamics 365 + Copilot deals accelerating; displacing Salesforce in mid-market sentiment: positive data_point: +18 unit: % YoY deal count'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249470"
+        },
+        {
+          "change_id": "f3ef7d98-f83a-4b40-bc6e-81c696f73b7c",
+          "field_path": "porter_forces[Buyer Power].level",
+          "change_type": "UNCHANGED",
+          "prior_value": "MEDIUM",
+          "current_value": "MEDIUM",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249483"
+        },
+        {
+          "change_id": "d3bff55f-d629-45a4-a6aa-0be98709ea18",
+          "field_path": "porter_forces[Buyer Power].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "Buyer Power",
+          "current_value": "Buyer Power",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249489"
+        },
+        {
+          "change_id": "e9c63100-1a52-495d-a79a-8dea82af0053",
+          "field_path": "porter_forces[Buyer Power].summary",
+          "change_type": "UNCHANGED",
+          "prior_value": "Buyer bargaining power is MEDIUM. contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\ncontact_type: VAR geography: Europe product: Azure observation: Enterprise migrations from on-premises accelerating; hybrid cloud seeing renewed interest post-regulatory clarity sentiment: positive data_point: +22 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: Microsoft 365 Copilot observation: Copilot attach rates on E5 renewals running at 35%; customers cautious on broader rollout until ROI is clearer sentiment: mixed data_point: 35 unit: % attach rate on E5\ncontact_type: reseller geography: Asia Pacific product: Azure observation: APAC growth strong led by Japan and Australia; India datacenter investment driving local demand sentiment: positive data_point: +45 unit: % YoY deal count\ncontact_type: OEM geography: North America product: Windows Server observation: Windows Server 2025 refresh cycle beginning; channel partners expect 18-month upcycle sentiment: positive data_point: +15 unit: % YoY units\ncontact_type: VAR geography: Europe product: Azure AI observation: EU AI Act compliance concerns creating demand for Microsoft compliance tooling on Azure sentiment: positive data_point: +28 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: GitHub Copilot observation: Developer adoption of Copilot strong in enterprises; churn rate low at approximately 3% sentiment: positive data_point: 3 unit",
+          "current_value": "Buyer bargaining power is MEDIUM. contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\ncontact_type: VAR geography: Europe product: Azure observation: Enterprise migrations from on-premises accelerating; hybrid cloud seeing renewed interest post-regulatory clarity sentiment: positive data_point: +22 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: Microsoft 365 Copilot observation: Copilot attach rates on E5 renewals running at 35%; customers cautious on broader rollout until ROI is clearer sentiment: mixed data_point: 35 unit: % attach rate on E5\ncontact_type: reseller geography: Asia Pacific product: Azure observation: APAC growth strong led by Japan and Australia; India datacenter investment driving local demand sentiment: positive data_point: +45 unit: % YoY deal count\ncontact_type: OEM geography: North America product: Windows Server observation: Windows Server 2025 refresh cycle beginning; channel partners expect 18-month upcycle sentiment: positive data_point: +15 unit: % YoY units\ncontact_type: VAR geography: Europe product: Azure AI observation: EU AI Act compliance concerns creating demand for Microsoft compliance tooling on Azure sentiment: positive data_point: +28 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: GitHub Copilot observation: Developer adoption of Copilot strong in enterprises; churn rate low at approximately 3% sentiment: positive data_point: 3 unit",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249495"
+        },
+        {
+          "change_id": "065f085b-de6e-4205-bcbb-b99acfdbf171",
+          "field_path": "porter_forces[Competitive Rivalry].confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.81,
+          "current_value": 0.81,
+          "change_magnitude": 0.0,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249504"
+        },
+        {
+          "change_id": "38b1cb5b-4b12-4b04-ba9b-00c52fc99635",
+          "field_path": "porter_forces[Competitive Rivalry].evidence_refs[{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249523"
+        },
+        {
+          "change_id": "0a411d1e-edae-463f-8ef0-982e189564f1",
+          "field_path": "porter_forces[Competitive Rivalry].evidence_refs[{'chunk_id': 'MSFT-4964e36b-0014', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0014', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.'}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0014', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249530"
+        },
+        {
+          "change_id": "ed42db1c-0ddf-489d-9639-754bc5066850",
+          "field_path": "porter_forces[Competitive Rivalry].evidence_refs[{'chunk_id': 'MSFT-6c93f128-0003', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'COMPETITIVE DYNAMICS Entry barriers in cloud infrastructure are extremely high. The capital requirements for building competitive hyperscale infrastructure are measured in the tens of billions of dollars annually. AWS, Azure, and GCP each spend $40-6'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0003', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'COMPETITIVE DYNAMICS Entry barriers in cloud infrastructure are extremely high. The capital requirements for building competitive hyperscale infrastructure are measured in the tens of billions of dollars annually. AWS, Azure, and GCP each spend $40-6'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0003', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'COMPETITIVE DYNAMICS Entry barriers in cloud infrastructure are extremely high. The capital requirements for building competitive hyperscale infrastructure are measured in the tens of billions of dollars annually. AWS, Azure, and GCP each spend $40-6'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249536"
+        },
+        {
+          "change_id": "0e68780f-9432-4c0b-ba50-ad978fe3c7e1",
+          "field_path": "porter_forces[Competitive Rivalry].level",
+          "change_type": "UNCHANGED",
+          "prior_value": "HIGH",
+          "current_value": "HIGH",
+          "change_magnitude": null,
+          "materiality": "HIGH",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249543"
+        },
+        {
+          "change_id": "a36e29cd-7f8d-4474-87d0-0dcc6e6f72aa",
+          "field_path": "porter_forces[Competitive Rivalry].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "Competitive Rivalry",
+          "current_value": "Competitive Rivalry",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249549"
+        },
+        {
+          "change_id": "31ef341f-aa4d-48e1-a0c6-c1003b80a91b",
+          "field_path": "porter_forces[Competitive Rivalry].summary",
+          "change_type": "UNCHANGED",
+          "prior_value": "Competitive rivalry is HIGH. COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud.",
+          "current_value": "Competitive rivalry is HIGH. COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud.",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249554"
+        },
+        {
+          "change_id": "50900828-0f35-41ac-b3fd-5daf8e774b32",
+          "field_path": "porter_forces[Supplier Power].confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.288,
+          "current_value": 0.288,
+          "change_magnitude": 0.0,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249562"
+        },
+        {
+          "change_id": "ecf6b6f2-b29a-48a6-9755-4f52aa635fd1",
+          "field_path": "porter_forces[Supplier Power].evidence_refs[{'chunk_id': 'MSFT-6c93f128-0005', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'AI has introduced new competitive intensity. The AI inference market is emerging rapidly, with specialized chips (GPUs, TPUs, custom ASICs) creating supply chain bottlenecks. Microsoft, through its OpenAI partnership, has a differentiated AI model ac'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0005', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'AI has introduced new competitive intensity. The AI inference market is emerging rapidly, with specialized chips (GPUs, TPUs, custom ASICs) creating supply chain bottlenecks. Microsoft, through its OpenAI partnership, has a differentiated AI model ac'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0005', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'AI has introduced new competitive intensity. The AI inference market is emerging rapidly, with specialized chips (GPUs, TPUs, custom ASICs) creating supply chain bottlenecks. Microsoft, through its OpenAI partnership, has a differentiated AI model ac'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249583"
+        },
+        {
+          "change_id": "94d2a51b-8ecc-497d-8f86-7d744f1618e8",
+          "field_path": "porter_forces[Supplier Power].evidence_refs[{'chunk_id': 'MSFT-6c93f128-0010', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': \"The UK Competition and Markets Authority (CMA) is reviewing the AI foundation model market, including Microsoft's partnership with OpenAI. Initial findings suggest concentration risk exists in the AI model supply chain.\"}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0010', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': \"The UK Competition and Markets Authority (CMA) is reviewing the AI foundation model market, including Microsoft's partnership with OpenAI. Initial findings suggest concentration risk exists in the AI model supply chain.\"}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0010', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': \"The UK Competition and Markets Authority (CMA) is reviewing the AI foundation model market, including Microsoft's partnership with OpenAI. Initial findings suggest concentration risk exists in the AI model supply chain.\"}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249590"
+        },
+        {
+          "change_id": "6a0edc57-89b7-4d41-ae1d-a3b74075f65c",
+          "field_path": "porter_forces[Supplier Power].evidence_refs[{'chunk_id': 'MSFT-6c93f128-0011', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'RISKS Supply chain risk: GPU availability constraints (NVIDIA H100, H200, Blackwell chips) can limit datacenter capacity expansion, creating a ceiling on growth in the near term.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0011', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'RISKS Supply chain risk: GPU availability constraints (NVIDIA H100, H200, Blackwell chips) can limit datacenter capacity expansion, creating a ceiling on growth in the near term.'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0011', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'RISKS Supply chain risk: GPU availability constraints (NVIDIA H100, H200, Blackwell chips) can limit datacenter capacity expansion, creating a ceiling on growth in the near term.'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249596"
+        },
+        {
+          "change_id": "e9d1e130-d755-4871-9c31-42119e159fdf",
+          "field_path": "porter_forces[Supplier Power].level",
+          "change_type": "UNCHANGED",
+          "prior_value": "MEDIUM",
+          "current_value": "MEDIUM",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249603"
+        },
+        {
+          "change_id": "1336bcbe-4b1f-4d38-aea8-bc18a2479a3d",
+          "field_path": "porter_forces[Supplier Power].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "Supplier Power",
+          "current_value": "Supplier Power",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249609"
+        },
+        {
+          "change_id": "fc1ddbbf-d2b1-4c69-b3c5-e30d8a3eb957",
+          "field_path": "porter_forces[Supplier Power].summary",
+          "change_type": "UNCHANGED",
+          "prior_value": "Supplier bargaining power is MEDIUM. The AI inference market is emerging rapidly, with specialized chips (GPUs, TPUs, custom ASICs) creating supply chain bottlenecks.",
+          "current_value": "Supplier bargaining power is MEDIUM. The AI inference market is emerging rapidly, with specialized chips (GPUs, TPUs, custom ASICs) creating supply chain bottlenecks.",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249614"
+        },
+        {
+          "change_id": "604413fc-26c9-4383-8dae-929877557a22",
+          "field_path": "porter_forces[Threat of New Entry].confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.0,
+          "current_value": 0.0,
+          "change_magnitude": 0.0,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249622"
+        },
+        {
+          "change_id": "dfdcc9a8-b850-4376-8c2c-9dc42af781b7",
+          "field_path": "porter_forces[Threat of New Entry].level",
+          "change_type": "UNCHANGED",
+          "prior_value": "UNKNOWN",
+          "current_value": "UNKNOWN",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249634"
+        },
+        {
+          "change_id": "2b596c45-3a2e-4594-807c-60f8a5ad2d1a",
+          "field_path": "porter_forces[Threat of New Entry].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "Threat of New Entry",
+          "current_value": "Threat of New Entry",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249658"
+        },
+        {
+          "change_id": "c713ac25-399e-4ccc-93b0-5049b0ecaf8f",
+          "field_path": "porter_forces[Threat of New Entry].summary",
+          "change_type": "UNCHANGED",
+          "prior_value": "Barriers to entry are UNKNOWN.",
+          "current_value": "Barriers to entry are UNKNOWN.",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249664"
+        },
+        {
+          "change_id": "35e752f4-236b-41fd-9d56-71f70d6aedb0",
+          "field_path": "porter_forces[Threat of Substitutes].confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.0,
+          "current_value": 0.0,
+          "change_magnitude": 0.0,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249672"
+        },
+        {
+          "change_id": "89d6156e-e93c-46e3-a538-a38e3ee5dfad",
+          "field_path": "porter_forces[Threat of Substitutes].level",
+          "change_type": "UNCHANGED",
+          "prior_value": "UNKNOWN",
+          "current_value": "UNKNOWN",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249680"
+        },
+        {
+          "change_id": "00bdb9bb-d4ef-4df1-b655-9c509fc0b594",
+          "field_path": "porter_forces[Threat of Substitutes].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "Threat of Substitutes",
+          "current_value": "Threat of Substitutes",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249686"
+        },
+        {
+          "change_id": "8f75cee1-1736-468f-b1b8-8b1810d86901",
+          "field_path": "porter_forces[Threat of Substitutes].summary",
+          "change_type": "UNCHANGED",
+          "prior_value": "Threat of substitutes is UNKNOWN.",
+          "current_value": "Threat of substitutes is UNKNOWN.",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249692"
+        },
+        {
+          "change_id": "ac0c08e5-4d7d-405f-babd-033427735458",
+          "field_path": "regulatory_factors[SEC / EDGAR Reporting].finding.confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.24,
+          "current_value": 0.24,
+          "change_magnitude": 0.0,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249705"
+        },
+        {
+          "change_id": "d50483db-1a5b-4f3a-9e28-730676256388",
+          "field_path": "regulatory_factors[SEC / EDGAR Reporting].finding.evidence_refs[{'chunk_id': 'MSFT-4964e36b-0000', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'UNITED STATES SECURITIES AND EXCHANGE COMMISSION\\nWashington, D.C. 20549 FORM 10-K'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0000', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'UNITED STATES SECURITIES AND EXCHANGE COMMISSION\\nWashington, D.C. 20549 FORM 10-K'}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0000', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'UNITED STATES SECURITIES AND EXCHANGE COMMISSION\\nWashington, D.C. 20549 FORM 10-K'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249720"
+        },
+        {
+          "change_id": "f98f4f53-0ea8-437c-81ae-e22497fea54c",
+          "field_path": "regulatory_factors[SEC / EDGAR Reporting].finding.text",
+          "change_type": "UNCHANGED",
+          "prior_value": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549 FORM 10-K",
+          "current_value": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549 FORM 10-K",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249727"
+        },
+        {
+          "change_id": "617cab97-9933-40ee-b59f-39407c599da4",
+          "field_path": "regulatory_factors[SEC / EDGAR Reporting].impact_summary",
+          "change_type": "UNCHANGED",
+          "prior_value": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549 FORM 10-K",
+          "current_value": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549 FORM 10-K",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249733"
+        },
+        {
+          "change_id": "fb16a762-5c85-4b3e-ae50-dc903a7e9cfb",
+          "field_path": "regulatory_factors[SEC / EDGAR Reporting].jurisdiction",
+          "change_type": "UNCHANGED",
+          "prior_value": "United States",
+          "current_value": "United States",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249739"
+        },
+        {
+          "change_id": "590add98-8829-4a95-8d88-41f2a1232ca5",
+          "field_path": "regulatory_factors[SEC / EDGAR Reporting].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "SEC / EDGAR Reporting",
+          "current_value": "SEC / EDGAR Reporting",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249746"
+        },
+        {
+          "change_id": "9bb2f87a-d656-4afa-913a-1803cdb55d9c",
+          "field_path": "regulatory_factors[SEC / EDGAR Reporting].severity",
+          "change_type": "UNCHANGED",
+          "prior_value": "MEDIUM",
+          "current_value": "MEDIUM",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249754"
+        },
+        {
+          "change_id": "5fdbea3e-3b49-4925-bfa5-55935f3d26ca",
+          "field_path": "top_risks[Consumer Demand Cyclicality].category",
+          "change_type": "UNCHANGED",
+          "prior_value": "demand",
+          "current_value": "demand",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249770"
+        },
+        {
+          "change_id": "b98e85c4-5c0d-4401-830d-d2b78af9e2b6",
+          "field_path": "top_risks[Consumer Demand Cyclicality].finding.confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.787,
+          "current_value": 0.787,
+          "change_magnitude": 0.0,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249778"
+        },
+        {
+          "change_id": "e41da01c-452d-4351-a611-e0c2668fa29c",
+          "field_path": "top_risks[Consumer Demand Cyclicality].finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0007', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'AI-driven demand is creating a new investment supercycle in datacenter infrastructure. The AI training and inference capacity buildout is expected to drive cloud capex elevated for at least 3-4 years.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0007', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'AI-driven demand is creating a new investment supercycle in datacenter infrastructure. The AI training and inference capacity buildout is expected to drive cloud capex elevated for at least 3-4 years.'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0007', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'AI-driven demand is creating a new investment supercycle in datacenter infrastructure. The AI training and inference capacity buildout is expected to drive cloud capex elevated for at least 3-4 years.'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249806"
+        },
+        {
+          "change_id": "bf157c07-29f8-48c1-81e5-76191696516a",
+          "field_path": "top_risks[Consumer Demand Cyclicality].finding.evidence_refs[{'chunk_id': 'MSFT-7d985eea-0009', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': \"SATYA NADELLA: We estimate AI-driven workloads now represent approximately 12% of Azure revenue, up from about 8% a year ago. The underlying cloud migration demand is also healthy. We're seeing these two tailwinds compound.\"}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-7d985eea-0009', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': \"SATYA NADELLA: We estimate AI-driven workloads now represent approximately 12% of Azure revenue, up from about 8% a year ago. The underlying cloud migration demand is also healthy. We're seeing these two tailwinds compound.\"}",
+          "current_value": "{'chunk_id': 'MSFT-7d985eea-0009', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': \"SATYA NADELLA: We estimate AI-driven workloads now represent approximately 12% of Azure revenue, up from about 8% a year ago. The underlying cloud migration demand is also healthy. We're seeing these two tailwinds compound.\"}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249812"
+        },
+        {
+          "change_id": "a2ae2b87-a119-4f98-8969-a8b4c28aaa8f",
+          "field_path": "top_risks[Consumer Demand Cyclicality].finding.evidence_refs[{'chunk_id': 'MSFT-7d985eea-0011', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': \"AMY HOOD: We build capacity 18-24 months ahead of expected demand given datacenter construction lead times. We expect AI infrastructure investments made in FY2025 and FY2026 to begin generating strong returns in FY2027 and beyond. We're confident in \"}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-7d985eea-0011', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': \"AMY HOOD: We build capacity 18-24 months ahead of expected demand given datacenter construction lead times. We expect AI infrastructure investments made in FY2025 and FY2026 to begin generating strong returns in FY2027 and beyond. We're confident in \"}",
+          "current_value": "{'chunk_id': 'MSFT-7d985eea-0011', 'evidence_id': '7d985eea-aeaa-4ee5-b1f8-9ad8add17072', 'source_title': 'Microsoft Q1 FY2026 Earnings Conference Call', 'quote': \"AMY HOOD: We build capacity 18-24 months ahead of expected demand given datacenter construction lead times. We expect AI infrastructure investments made in FY2025 and FY2026 to begin generating strong returns in FY2027 and beyond. We're confident in \"}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249817"
+        },
+        {
+          "change_id": "8c4011b5-8c43-4633-ab4c-23de69ee8fa9",
+          "field_path": "top_risks[Consumer Demand Cyclicality].finding.text",
+          "change_type": "UNCHANGED",
+          "prior_value": "AMY HOOD: We build capacity 18-24 months ahead of expected demand given datacenter construction lead times.",
+          "current_value": "AMY HOOD: We build capacity 18-24 months ahead of expected demand given datacenter construction lead times.",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249824"
+        },
+        {
+          "change_id": "23e5ce43-ca08-4288-adcc-18e07cc10b9c",
+          "field_path": "top_risks[Consumer Demand Cyclicality].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "Consumer Demand Cyclicality",
+          "current_value": "Consumer Demand Cyclicality",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249830"
+        },
+        {
+          "change_id": "0295449b-dad0-4458-beaa-dc233a0793eb",
+          "field_path": "top_risks[Developer / Ecosystem Dependency].category",
+          "change_type": "UNCHANGED",
+          "prior_value": "competitive",
+          "current_value": "competitive",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249841"
+        },
+        {
+          "change_id": "9ce9497d-c268-473d-bf4a-abb01841c382",
+          "field_path": "top_risks[Developer / Ecosystem Dependency].finding.confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.09,
+          "current_value": 0.09,
+          "change_magnitude": 0.0,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249849"
+        },
+        {
+          "change_id": "2690649e-54c1-4b11-9411-d0a9059d4edd",
+          "field_path": "top_risks[Developer / Ecosystem Dependency].finding.evidence_refs[{'chunk_id': 'MSFT-90862803-0000', 'evidence_id': '90862803-b571-4331-a2fa-18f1d0816cb7', 'source_title': 'Azure Partner Channel Check Q1 FY2026', 'quote': 'contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\\ncontact_type: VAR geograp'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-90862803-0000', 'evidence_id': '90862803-b571-4331-a2fa-18f1d0816cb7', 'source_title': 'Azure Partner Channel Check Q1 FY2026', 'quote': 'contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\\ncontact_type: VAR geograp'}",
+          "current_value": "{'chunk_id': 'MSFT-90862803-0000', 'evidence_id': '90862803-b571-4331-a2fa-18f1d0816cb7', 'source_title': 'Azure Partner Channel Check Q1 FY2026', 'quote': 'contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\\ncontact_type: VAR geograp'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249863"
+        },
+        {
+          "change_id": "1164b3fc-931d-46fb-b5d7-1055796d5927",
+          "field_path": "top_risks[Developer / Ecosystem Dependency].finding.text",
+          "change_type": "UNCHANGED",
+          "prior_value": "contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\ncontact_type: VAR geography: Europe product: Azure observation: Enterprise migrations from on-premises accelerating; hybrid cloud seeing renewed interest post-regulatory clarity sentiment: positive data_point: +22 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: Microsoft 365 Copilot observation: Copilot attach rates on E5 renewals running at 35%; customers cautious on broader rollout until ROI is clearer sentiment: mixed data_point: 35 unit: % attach rate on E5\ncontact_type: reseller geography: Asia Pacific product: Azure observation: APAC growth strong led by Japan and Australia; India datacenter investment driving local demand sentiment: positive data_point: +45 unit: % YoY deal count\ncontact_type: OEM geography: North America product: Windows Server observation: Windows Server 2025 refresh cycle beginning; channel partners expect 18-month upcycle sentiment: positive data_point: +15 unit: % YoY units\ncontact_type: VAR geography: Europe product: Azure AI observation: EU AI Act compliance concerns creating demand for Microsoft compliance tooling on Azure sentiment: positive data_point: +28 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: GitHub Copilot observation: Developer adoption of Copilot strong in enterprises; churn rate low at approximately 3% sentiment: positive data_point: 3 unit",
+          "current_value": "contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\ncontact_type: VAR geography: Europe product: Azure observation: Enterprise migrations from on-premises accelerating; hybrid cloud seeing renewed interest post-regulatory clarity sentiment: positive data_point: +22 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: Microsoft 365 Copilot observation: Copilot attach rates on E5 renewals running at 35%; customers cautious on broader rollout until ROI is clearer sentiment: mixed data_point: 35 unit: % attach rate on E5\ncontact_type: reseller geography: Asia Pacific product: Azure observation: APAC growth strong led by Japan and Australia; India datacenter investment driving local demand sentiment: positive data_point: +45 unit: % YoY deal count\ncontact_type: OEM geography: North America product: Windows Server observation: Windows Server 2025 refresh cycle beginning; channel partners expect 18-month upcycle sentiment: positive data_point: +15 unit: % YoY units\ncontact_type: VAR geography: Europe product: Azure AI observation: EU AI Act compliance concerns creating demand for Microsoft compliance tooling on Azure sentiment: positive data_point: +28 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: GitHub Copilot observation: Developer adoption of Copilot strong in enterprises; churn rate low at approximately 3% sentiment: positive data_point: 3 unit",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249870"
+        },
+        {
+          "change_id": "e4cbc718-0af9-4f33-985f-bafad42a4c8a",
+          "field_path": "top_risks[Developer / Ecosystem Dependency].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "Developer / Ecosystem Dependency",
+          "current_value": "Developer / Ecosystem Dependency",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249876"
+        },
+        {
+          "change_id": "eb2f9a4e-d0c4-46bb-b460-e94f045721e1",
+          "field_path": "top_risks[Intense Competitive Rivalry].category",
+          "change_type": "UNCHANGED",
+          "prior_value": "competitive",
+          "current_value": "competitive",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249883"
+        },
+        {
+          "change_id": "9c321834-0633-4074-adba-f9e74055aaa7",
+          "field_path": "top_risks[Intense Competitive Rivalry].finding.confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.81,
+          "current_value": 0.81,
+          "change_magnitude": 0.0,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249891"
+        },
+        {
+          "change_id": "df6da3e0-50b9-4df1-ab2a-a010555aa8b6",
+          "field_path": "top_risks[Intense Competitive Rivalry].finding.evidence_refs[{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0013', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249910"
+        },
+        {
+          "change_id": "e6834f52-2bcf-4850-8b78-547265c96649",
+          "field_path": "top_risks[Intense Competitive Rivalry].finding.evidence_refs[{'chunk_id': 'MSFT-4964e36b-0014', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0014', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.'}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0014', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249916"
+        },
+        {
+          "change_id": "ed0df59d-51f4-4524-ab41-8e3c68b2657b",
+          "field_path": "top_risks[Intense Competitive Rivalry].finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0003', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'COMPETITIVE DYNAMICS Entry barriers in cloud infrastructure are extremely high. The capital requirements for building competitive hyperscale infrastructure are measured in the tens of billions of dollars annually. AWS, Azure, and GCP each spend $40-6'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0003', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'COMPETITIVE DYNAMICS Entry barriers in cloud infrastructure are extremely high. The capital requirements for building competitive hyperscale infrastructure are measured in the tens of billions of dollars annually. AWS, Azure, and GCP each spend $40-6'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0003', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'COMPETITIVE DYNAMICS Entry barriers in cloud infrastructure are extremely high. The capital requirements for building competitive hyperscale infrastructure are measured in the tens of billions of dollars annually. AWS, Azure, and GCP each spend $40-6'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249922"
+        },
+        {
+          "change_id": "fd9cd32b-66e7-40e5-8504-d024e3824d06",
+          "field_path": "top_risks[Intense Competitive Rivalry].finding.text",
+          "change_type": "UNCHANGED",
+          "prior_value": "COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud.",
+          "current_value": "COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud.",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249928"
+        },
+        {
+          "change_id": "e6125712-0566-4a45-9056-90334b79fed0",
+          "field_path": "top_risks[Intense Competitive Rivalry].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "Intense Competitive Rivalry",
+          "current_value": "Intense Competitive Rivalry",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249934"
+        },
+        {
+          "change_id": "26947427-612d-4044-af6a-4b6abb12a5d0",
+          "field_path": "top_risks[Regulatory Headwinds].category",
+          "change_type": "UNCHANGED",
+          "prior_value": "regulatory",
+          "current_value": "regulatory",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249941"
+        },
+        {
+          "change_id": "a09cfb69-d048-4369-ab05-6a9c643e1d29",
+          "field_path": "top_risks[Regulatory Headwinds].finding.confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.783,
+          "current_value": 0.783,
+          "change_magnitude": 0.0,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249948"
+        },
+        {
+          "change_id": "83ca4705-edec-4c17-9892-f42eadc3dd18",
+          "field_path": "top_risks[Regulatory Headwinds].finding.evidence_refs[{'chunk_id': 'MSFT-4964e36b-0016', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': \"Regulatory risk: The Company faces scrutiny from regulators globally, including the European Commission regarding cloud bundling practices and the United Kingdom's Competition and Markets Authority regarding AI market dynamics.\"}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0016', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': \"Regulatory risk: The Company faces scrutiny from regulators globally, including the European Commission regarding cloud bundling practices and the United Kingdom's Competition and Markets Authority regarding AI market dynamics.\"}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0016', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': \"Regulatory risk: The Company faces scrutiny from regulators globally, including the European Commission regarding cloud bundling practices and the United Kingdom's Competition and Markets Authority regarding AI market dynamics.\"}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249971"
+        },
+        {
+          "change_id": "25f7b322-b63c-4e86-8121-a8628c665d2f",
+          "field_path": "top_risks[Regulatory Headwinds].finding.evidence_refs[{'chunk_id': 'MSFT-4964e36b-0017', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'AI regulatory risk: Emerging AI regulations in the European Union (EU AI Act), United States, and other jurisdictions may require changes to AI product development and deployment practices.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0017', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'AI regulatory risk: Emerging AI regulations in the European Union (EU AI Act), United States, and other jurisdictions may require changes to AI product development and deployment practices.'}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0017', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'AI regulatory risk: Emerging AI regulations in the European Union (EU AI Act), United States, and other jurisdictions may require changes to AI product development and deployment practices.'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249979"
+        },
+        {
+          "change_id": "a0333c99-468d-480f-9203-87dbedc86368",
+          "field_path": "top_risks[Regulatory Headwinds].finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0009', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': \"REGULATORY ENVIRONMENT The European Commission opened a formal investigation into Microsoft's bundling of Teams with Office 365 (later addressed through product changes). The EU AI Act imposes new obligations on providers of high-risk AI systems, whi\"}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0009', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': \"REGULATORY ENVIRONMENT The European Commission opened a formal investigation into Microsoft's bundling of Teams with Office 365 (later addressed through product changes). The EU AI Act imposes new obligations on providers of high-risk AI systems, whi\"}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0009', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': \"REGULATORY ENVIRONMENT The European Commission opened a formal investigation into Microsoft's bundling of Teams with Office 365 (later addressed through product changes). The EU AI Act imposes new obligations on providers of high-risk AI systems, whi\"}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249986"
+        },
+        {
+          "change_id": "5ba593eb-8203-4a59-b432-c4d39588491b",
+          "field_path": "top_risks[Regulatory Headwinds].finding.text",
+          "change_type": "UNCHANGED",
+          "prior_value": "AI regulatory risk: Emerging AI regulations in the European Union (EU AI Act), United States, and other jurisdictions may require changes to AI product development and deployment practices.",
+          "current_value": "AI regulatory risk: Emerging AI regulations in the European Union (EU AI Act), United States, and other jurisdictions may require changes to AI product development and deployment practices.",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249992"
+        },
+        {
+          "change_id": "630dcca2-ce2b-4a55-b658-37c65f286756",
+          "field_path": "top_risks[Regulatory Headwinds].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "Regulatory Headwinds",
+          "current_value": "Regulatory Headwinds",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.249998"
+        },
+        {
+          "change_id": "4d815ce9-6ec4-4bf2-a6e6-4c738e470688",
+          "field_path": "top_risks[Supply Chain Concentration].category",
+          "change_type": "UNCHANGED",
+          "prior_value": "operational",
+          "current_value": "operational",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.250006"
+        },
+        {
+          "change_id": "628e22dc-c0df-4643-82b6-ccec2aa83957",
+          "field_path": "top_risks[Supply Chain Concentration].finding.confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.288,
+          "current_value": 0.288,
+          "change_magnitude": 0.0,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.250014"
+        },
+        {
+          "change_id": "3c4244e8-876f-44c6-89a5-46e13eb4838d",
+          "field_path": "top_risks[Supply Chain Concentration].finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0005', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'AI has introduced new competitive intensity. The AI inference market is emerging rapidly, with specialized chips (GPUs, TPUs, custom ASICs) creating supply chain bottlenecks. Microsoft, through its OpenAI partnership, has a differentiated AI model ac'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0005', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'AI has introduced new competitive intensity. The AI inference market is emerging rapidly, with specialized chips (GPUs, TPUs, custom ASICs) creating supply chain bottlenecks. Microsoft, through its OpenAI partnership, has a differentiated AI model ac'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0005', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'AI has introduced new competitive intensity. The AI inference market is emerging rapidly, with specialized chips (GPUs, TPUs, custom ASICs) creating supply chain bottlenecks. Microsoft, through its OpenAI partnership, has a differentiated AI model ac'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.250039"
+        },
+        {
+          "change_id": "2512e24d-0679-4f0c-bb6c-ee497deec34c",
+          "field_path": "top_risks[Supply Chain Concentration].finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0010', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': \"The UK Competition and Markets Authority (CMA) is reviewing the AI foundation model market, including Microsoft's partnership with OpenAI. Initial findings suggest concentration risk exists in the AI model supply chain.\"}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0010', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': \"The UK Competition and Markets Authority (CMA) is reviewing the AI foundation model market, including Microsoft's partnership with OpenAI. Initial findings suggest concentration risk exists in the AI model supply chain.\"}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0010', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': \"The UK Competition and Markets Authority (CMA) is reviewing the AI foundation model market, including Microsoft's partnership with OpenAI. Initial findings suggest concentration risk exists in the AI model supply chain.\"}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.250045"
+        },
+        {
+          "change_id": "29ca9f81-46fb-4643-831b-6fe15b7adaef",
+          "field_path": "top_risks[Supply Chain Concentration].finding.evidence_refs[{'chunk_id': 'MSFT-6c93f128-0011', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'RISKS Supply chain risk: GPU availability constraints (NVIDIA H100, H200, Blackwell chips) can limit datacenter capacity expansion, creating a ceiling on growth in the near term.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-6c93f128-0011', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'RISKS Supply chain risk: GPU availability constraints (NVIDIA H100, H200, Blackwell chips) can limit datacenter capacity expansion, creating a ceiling on growth in the near term.'}",
+          "current_value": "{'chunk_id': 'MSFT-6c93f128-0011', 'evidence_id': '6c93f128-57dc-4e95-96f3-bdb5103fd565', 'source_title': 'Cloud Infrastructure and AI: Market Structure Analysis 2025', 'quote': 'RISKS Supply chain risk: GPU availability constraints (NVIDIA H100, H200, Blackwell chips) can limit datacenter capacity expansion, creating a ceiling on growth in the near term.'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.250051"
+        },
+        {
+          "change_id": "c6278be5-06a2-47b6-a94c-b9697317c817",
+          "field_path": "top_risks[Supply Chain Concentration].finding.text",
+          "change_type": "UNCHANGED",
+          "prior_value": "RISKS Supply chain risk: GPU availability constraints (NVIDIA H100, H200, Blackwell chips) can limit datacenter capacity expansion, creating a ceiling on growth in the near term.",
+          "current_value": "RISKS Supply chain risk: GPU availability constraints (NVIDIA H100, H200, Blackwell chips) can limit datacenter capacity expansion, creating a ceiling on growth in the near term.",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.250058"
+        },
+        {
+          "change_id": "bd49f9b6-bd52-4403-a74a-731019dde5d9",
+          "field_path": "top_risks[Supply Chain Concentration].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "Supply Chain Concentration",
+          "current_value": "Supply Chain Concentration",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.250064"
+        },
+        {
+          "change_id": "97c78add-c4cc-43b8-8fc5-67302910c0e5",
+          "field_path": "top_risks[Technology Disruption].category",
+          "change_type": "UNCHANGED",
+          "prior_value": "technology",
+          "current_value": "technology",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.250071"
+        },
+        {
+          "change_id": "7d17a6ec-59b8-439c-bbf8-2daf41aea0aa",
+          "field_path": "top_risks[Technology Disruption].finding.confidence",
+          "change_type": "UNCHANGED",
+          "prior_value": 0.12,
+          "current_value": 0.12,
+          "change_magnitude": 0.0,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.250079"
+        },
+        {
+          "change_id": "58e67b19-5fb0-45c2-af32-c0bc13bb6502",
+          "field_path": "top_risks[Technology Disruption].finding.evidence_refs[{'chunk_id': 'MSFT-4964e36b-0003', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Microsoft is a technology company whose mission is to empower every person and every organization on the planet to achieve more. Microsoft develops and supports software, services, devices, and solutions worldwide.'}]",
+          "change_type": "UNCHANGED",
+          "prior_value": "{'chunk_id': 'MSFT-4964e36b-0003', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Microsoft is a technology company whose mission is to empower every person and every organization on the planet to achieve more. Microsoft develops and supports software, services, devices, and solutions worldwide.'}",
+          "current_value": "{'chunk_id': 'MSFT-4964e36b-0003', 'evidence_id': '4964e36b-2054-450e-aa88-18812c2fa7dc', 'source_title': 'Microsoft Corporation Annual Report on Form 10-K FY2025', 'quote': 'Microsoft is a technology company whose mission is to empower every person and every organization on the planet to achieve more. Microsoft develops and supports software, services, devices, and solutions worldwide.'}",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.250091"
+        },
+        {
+          "change_id": "0ce125aa-3762-48d2-9631-cbf16fb1308b",
+          "field_path": "top_risks[Technology Disruption].finding.text",
+          "change_type": "UNCHANGED",
+          "prior_value": "Microsoft is a technology company whose mission is to empower every person and every organization on the planet to achieve more.",
+          "current_value": "Microsoft is a technology company whose mission is to empower every person and every organization on the planet to achieve more.",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.250098"
+        },
+        {
+          "change_id": "fb41d953-71fc-41e6-924f-2875e3d46ab5",
+          "field_path": "top_risks[Technology Disruption].name",
+          "change_type": "UNCHANGED",
+          "prior_value": "Technology Disruption",
+          "current_value": "Technology Disruption",
+          "change_magnitude": null,
+          "materiality": "MEDIUM",
+          "owner_agent": "industry_v1",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "timestamp": "2026-04-25T16:38:21.250104"
+        }
+      ],
+      "assumption_proposals": [
+        {
+          "proposal_id": "a8050eab-d078-423c-a705-2714600567de",
+          "assumption_key": "analytical_confidence",
+          "assumption_label": "Overall Analytical Confidence",
+          "prior_value": 0.397,
+          "proposed_value": 0.447,
+          "change_type": "MODIFIED",
+          "rationale": "Field 'overall_confidence' modified (magnitude: 12.6%): '0.397' \u2192 '0.447'. Current run processed 4 evidence source(s). Review the evidence to confirm the direction of change.",
+          "evidence_ids": [
+            "90862803-b571-4331-a2fa-18f1d0816cb7",
+            "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+          ],
+          "owner_agent": "industry_v1",
+          "confidence": 0.5,
+          "materiality": "MEDIUM",
+          "impacted_model_fields": [
+            "conclusion_weight",
+            "conviction_level"
+          ],
+          "implication_for_thesis": "Confidence increased from 40% to 45% \u2014 evidence base strengthening.",
+          "implication_for_valuation": "Tighter confidence interval on key assumptions is justified.",
+          "triggered_by_field_paths": [
+            "overall_confidence"
+          ],
+          "timestamp": "2026-04-25T16:38:21.250154"
+        }
+      ],
+      "conflict_flags": [],
+      "computed_at": "2026-04-25T16:38:21.250416",
+      "has_material_changes": false,
+      "change_summary": "1 field(s) changed. 1 MEDIUM-materiality. 1 assumption update(s) proposed."
+    }
+  ],
+  "created_at": "2026-04-25T16:38:21.250424",
+  "updated_at": "2026-04-25T16:38:21.250427"
+}

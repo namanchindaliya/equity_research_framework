@@ -1,0 +1,19 @@
+{
+  "id": "7b673ad1-caec-475c-b7f8-bd8887ef24e7",
+  "description": "AI annualized revenue run rate exceeds $20B by end of FY2026",
+  "metric": "msft_ai_revenue_run_rate_usd_b",
+  "threshold": 20.0,
+  "unit": "USD B",
+  "operator": ">=",
+  "horizon": "FY2026 year-end (June 2026)",
+  "due_date": "2026-08-01",
+  "probability": 0.6,
+  "confidence": 0.65,
+  "resolution_rule": "AI run rate as disclosed in Q4 FY2026 earnings or press release.",
+  "resolution": null,
+  "supporting_assumptions": [
+    "6d239840-e485-4f06-8208-33dde1d69051"
+  ],
+  "created_at": "2026-04-25T16:38:21.177781",
+  "updated_at": "2026-04-25T16:38:21.177781"
+}

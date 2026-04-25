@@ -1,0 +1,11 @@
+{
+  "id": "4d4bc192-adba-4440-aea1-8c70b9035bee",
+  "prediction_id": "d50d87fd-94f8-42cd-84f7-9ab739ee4275",
+  "resolved_at": "2026-04-25T16:38:21.195494",
+  "resolved_by": "analyst",
+  "resolved_status": "CORRECT",
+  "actual_outcome": 0.35,
+  "error_magnitude": 0.0937499999999999,
+  "notes": "Azure reported 35% YoY growth in Q2 FY2026, above the 32% threshold. AI workloads drove reacceleration. Source: Microsoft Q2 FY2026 earnings release.",
+  "source": null
+}

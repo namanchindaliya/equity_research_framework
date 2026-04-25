@@ -1,0 +1,126 @@
+{
+  "report_id": "34fb39b4-8cf8-4bb4-b59e-c9144d3bf38d",
+  "ticker": "MSFT",
+  "episode_slug": "2025-11-01_fy2026-azure-ai-initiation",
+  "generated_at": "2026-04-25T16:38:21.276946",
+  "episode_score": {
+    "score_id": "3b5061b5-06e9-491c-933e-fd6bf920eaa7",
+    "ticker": "MSFT",
+    "episode_slug": "2025-11-01_fy2026-azure-ai-initiation",
+    "scored_at": "2026-04-25T16:38:21.276892",
+    "total_predictions": 3,
+    "resolved_count": 1,
+    "excluded_count": 2,
+    "scored_count": 1,
+    "brier_score": 0.0625,
+    "brier_vs_baseline": -0.1875,
+    "hit_rate": 1.0,
+    "calibration_bins": [
+      {
+        "label": "0.6\u20130.8",
+        "low": 0.6,
+        "high": 0.8,
+        "count": 1,
+        "predicted_avg": 0.75,
+        "actual_freq": 1.0,
+        "calibration_error": 0.25
+      }
+    ],
+    "mean_calibration_error": 0.25,
+    "error_attribution": {
+      "macro": 0,
+      "industry": 0,
+      "strategy": 0,
+      "valuation": 0,
+      "timing": 0,
+      "data_quality": 0,
+      "total_failed": 0
+    },
+    "scored_predictions": [
+      {
+        "prediction_id": "d50d87fd-94f8-42cd-84f7-9ab739ee4275",
+        "metric": "msft_azure_revenue_yoy_pct",
+        "description": "Azure revenue grows at \u226532% YoY in Q2 FY2026 (Jan 2026 reporting)",
+        "horizon": "Q2 FY2026 earnings (Jan 2026)",
+        "due_date": "2026-02-15",
+        "probability": 0.75,
+        "threshold": 0.32,
+        "operator": ">=",
+        "linked_assumption_keys": [
+          "170cc684-f784-4daa-b8d9-c3bd48ab084e"
+        ],
+        "resolved_status": "CORRECT",
+        "actual_outcome": 0.35,
+        "error_magnitude": 0.0937499999999999,
+        "resolution_notes": "Azure reported 35% YoY growth in Q2 FY2026, above the 32% threshold. AI workloads drove reacceleration. Source: Microsoft Q2 FY2026 earnings release.",
+        "source_of_truth": null,
+        "outcome_score": 1.0,
+        "brier_contribution": 0.0625,
+        "error_bucket": null,
+        "is_excluded": false,
+        "exclusion_reason": ""
+      },
+      {
+        "prediction_id": "7b673ad1-caec-475c-b7f8-bd8887ef24e7",
+        "metric": "msft_ai_revenue_run_rate_usd_b",
+        "description": "AI annualized revenue run rate exceeds $20B by end of FY2026",
+        "horizon": "FY2026 year-end (June 2026)",
+        "due_date": "2026-08-01",
+        "probability": 0.6,
+        "threshold": 20.0,
+        "operator": ">=",
+        "linked_assumption_keys": [
+          "6d239840-e485-4f06-8208-33dde1d69051"
+        ],
+        "resolved_status": null,
+        "actual_outcome": null,
+        "error_magnitude": null,
+        "resolution_notes": "",
+        "source_of_truth": null,
+        "outcome_score": null,
+        "brier_contribution": null,
+        "error_bucket": null,
+        "is_excluded": true,
+        "exclusion_reason": "unresolved"
+      },
+      {
+        "prediction_id": "63bb0672-594c-4280-af34-f3d614cb12af",
+        "metric": "msft_operating_margin_fy2026",
+        "description": "FY2026 full-year operating margin \u226543%",
+        "horizon": "FY2026 full-year",
+        "due_date": "2026-08-15",
+        "probability": 0.7,
+        "threshold": 0.43,
+        "operator": ">=",
+        "linked_assumption_keys": [],
+        "resolved_status": null,
+        "actual_outcome": null,
+        "error_magnitude": null,
+        "resolution_notes": "",
+        "source_of_truth": null,
+        "outcome_score": null,
+        "brier_contribution": null,
+        "error_bucket": null,
+        "is_excluded": true,
+        "exclusion_reason": "unresolved"
+      }
+    ]
+  },
+  "thesis_at_time": "Microsoft is at the epicentre of the enterprise AI adoption cycle. Azure's reaccelerating growth (35\u219238% YoY) driven by AI workloads, combined with a $16B AI run rate growing rapidly, positions MSFT as the primary beneficiary of enterprise AI spend. The services moat (Microsoft 365 + Azure + GitHub Copilot) creates a land-and-expand flywheel that is structurally underappreciated.",
+  "belief_rationale": [
+    "Assumption 'Azure Revenue Growth (YoY %)' (key: `azure_revenue_growth`) = 0.35 with 80% confidence (CRITICAL materiality).",
+    "Assumption 'AI Revenue Annualized Run Rate (USD B)' (key: `ai_run_rate_usd_b`) = 16.0 with 85% confidence (HIGH materiality)."
+  ],
+  "actual_outcomes": [
+    "`msft_azure_revenue_yoy_pct`: **CORRECT** \u2014 actual = 0.35 (error: +9.4%). Azure reported 35% YoY growth in Q2 FY2026, above the 32% threshold. AI workloads drove reaccelerati",
+    "`msft_ai_revenue_run_rate_usd_b`: UNRESOLVED \u2014 AI annualized revenue run rate exceeds $20B by end of FY2026",
+    "`msft_operating_margin_fy2026`: UNRESOLVED \u2014 FY2026 full-year operating margin \u226543%"
+  ],
+  "what_broke": [],
+  "failed_assumptions": [],
+  "orchestrator_recommendations": [
+    "Calibration error is 25% \u2014 probability assignments are systematically off. Consider recalibrating by reviewing historical accuracy by probability bucket.",
+    "Log predictions with lower probabilities (0.4\u20130.6) to build a calibration history."
+  ],
+  "verdict": "THESIS_CORRECT"
+}

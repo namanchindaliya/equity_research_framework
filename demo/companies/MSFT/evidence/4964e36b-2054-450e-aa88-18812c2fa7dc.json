@@ -1,0 +1,227 @@
+{
+  "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+  "ticker": "MSFT",
+  "logical_type": "filing",
+  "source_type": "FILING",
+  "title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
+  "source_date": "2025-07-31",
+  "source_name": "Microsoft Corporation",
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019",
+  "reliability_score": 1.0,
+  "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\n\nFORM 10-K\n\nANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\n\nFor the fiscal year ended June 30, 2025\nCIK 0000789019\n\nMicrosoft Corporation\n\nBUSINESS OVERVIEW\n\nMicrosoft is a technology company whose mission is to empower every person and every organization on the planet to achieve more. Microsoft develops and supports software, services, devices, and solutions worldwide.\n\nSEGMENTS\n\nProductivity and Business Processes: Office 365, Microsoft 365, LinkedIn, and Dynamics. Revenue of $87.1 billion in FY2025, up 12% year over year.\n\nIntelligent Cloud: Azure, SQL Server, Windows Server, GitHub, and enterprise services. Revenue of $135.7 billion in FY2025, up 24% year over year. Azure cloud services grew 35% year over year.\n\nMore Personal Computing: Windows OEM, devices, gaming (Xbox), and search. Revenue of $63.2 billion in FY2025, flat year over year.\n\nFINANCIAL HIGHLIGHTS\n\nTotal revenue for fiscal year ended June 30, 2025 was $286.0 billion, an increase of 16% compared to $246.9 billion for fiscal year 2024.\n\nOperating income was $124.7 billion, up 19% year over year. Operating margin expanded to 43.6% from 42.6%.\n\nNet income was $97.5 billion, representing diluted earnings per share of $13.14, up 21% year over year.\n\nCapital expenditures were $55.7 billion in FY2025, up from $44.5 billion in FY2024, reflecting continued investment in datacenters for Azure capacity and AI infrastructure.\n\nARTIFICIAL INTELLIGENCE AND AZURE\n\nMicrosoft has made significant investments in artificial intelligence infrastructure. Azure AI services, including Azure OpenAI Service, saw customer count grow to over 65,000 organizations by the end of FY2025. GitHub Copilot had over 1.8 million paid subscribers as of June 2025.\n\nThe Company believes AI represents a fundamental shift in software development, productivity tools, and enterprise workflows. Management expects AI-driven workloads to be a significant revenue contributor over the next three to five years.\n\nCOMPETITION\n\nThe cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud capabilities, and AI integration.\n\nCompetition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.\n\nRISK FACTORS\n\nCybersecurity: Microsoft products and services are subject to cyberattacks. Material security incidents could harm the Company's reputation and financial results.\n\nRegulatory risk: The Company faces scrutiny from regulators globally, including the European Commission regarding cloud bundling practices and the United Kingdom's Competition and Markets Authority regarding AI market dynamics.\n\nAI regulatory risk: Emerging AI regulations in the European Union (EU AI Act), United States, and other jurisdictions may require changes to AI product development and deployment practices.\n\nDependence on third-party AI models: The Company's AI services depend in part on large language models developed by third parties, including OpenAI. The cost and availability of these models may affect financial results.\n\nMANAGEMENT'S DISCUSSION AND ANALYSIS\n\nFiscal 2025 was a year of accelerating cloud and AI adoption. Azure growth reaccelerated from 29% in FY2024 Q4 to 35% in FY2025 Q4. Management attributes this acceleration to AI-related workloads, including training runs, inference, and AI-augmented enterprise applications.\n\nThe Company expects capital expenditure intensity to remain elevated through FY2026 and FY2027 as it builds out AI datacenter capacity globally. Management guided FY2026 capital expenditures of approximately $60-65 billion.\n\nCommercial remaining performance obligations grew to $315 billion, up 18% year over year, providing strong revenue visibility.",
+  "extracted_metadata": {
+    "word_count": 572,
+    "char_count": 4074,
+    "line_count": 63,
+    "detected_filing_types": [
+      "10-K"
+    ],
+    "cik": "0000789019",
+    "periods_mentioned": [
+      "fiscal year 2024"
+    ]
+  },
+  "chunks": [
+    {
+      "chunk_id": "MSFT-4964e36b-0000",
+      "index": 0,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549 FORM 10-K",
+      "char_start": 0,
+      "char_end": 81,
+      "word_count": 11,
+      "content_hash": "2d166515aebc60dada3f33849d5828251406ebdc37484f2dc07e35d3fbd9957f"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0001",
+      "index": 1,
+      "text": "ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934",
+      "char_start": 84,
+      "char_end": 168,
+      "word_count": 15,
+      "content_hash": "58688c449885cb8ab7ccd2f3c4a39273c0068c45c8e448e36059730206f3d1a1"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0002",
+      "index": 2,
+      "text": "For the fiscal year ended June 30, 2025\nCIK 0000789019 Microsoft Corporation BUSINESS OVERVIEW",
+      "char_start": 168,
+      "char_end": 262,
+      "word_count": 14,
+      "content_hash": "7655168f05533e55ac361791d7557dec8f94418f8a98a8635822d604bae8fd58"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0003",
+      "index": 3,
+      "text": "Microsoft is a technology company whose mission is to empower every person and every organization on the planet to achieve more. Microsoft develops and supports software, services, devices, and solutions worldwide.",
+      "char_start": 268,
+      "char_end": 482,
+      "word_count": 31,
+      "content_hash": "21b00b8a6670dbdf6fb2eb1ebeda3b10c78166f9abd2af1c0625efde16d94134"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0004",
+      "index": 4,
+      "text": "SEGMENTS Productivity and Business Processes: Office 365, Microsoft 365, LinkedIn, and Dynamics. Revenue of $87.1 billion in FY2025, up 12% year over year.",
+      "char_start": 482,
+      "char_end": 637,
+      "word_count": 23,
+      "content_hash": "42aeab83aab1a3da9b688f87483345717e82ef8b884a311aa72125d3325092d8"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0005",
+      "index": 5,
+      "text": "Intelligent Cloud: Azure, SQL Server, Windows Server, GitHub, and enterprise services. Revenue of $135.7 billion in FY2025, up 24% year over year. Azure cloud services grew 35% year over year.",
+      "char_start": 642,
+      "char_end": 834,
+      "word_count": 30,
+      "content_hash": "696ce03bb2d69dbfce8a8e1672756584524b71618c1f3e8dd0bab4f2e20e7409"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0006",
+      "index": 6,
+      "text": "More Personal Computing: Windows OEM, devices, gaming (Xbox), and search. Revenue of $63.2 billion in FY2025, flat year over year.",
+      "char_start": 836,
+      "char_end": 966,
+      "word_count": 20,
+      "content_hash": "4c883dd0b4e88b767e103d53093d09fe6232052488ac0a7aa0f33b24ee0d7cca"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0007",
+      "index": 7,
+      "text": "FINANCIAL HIGHLIGHTS Total revenue for fiscal year ended June 30, 2025 was $286.0 billion, an increase of 16% compared to $246.9 billion for fiscal year 2024.",
+      "char_start": 966,
+      "char_end": 1124,
+      "word_count": 26,
+      "content_hash": "e86b95e24aec0f00cb2da5ea3400963437e18b0d8313d865859b699f14e22201"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0008",
+      "index": 8,
+      "text": "Operating income was $124.7 billion, up 19% year over year. Operating margin expanded to 43.6% from 42.6%.",
+      "char_start": 1129,
+      "char_end": 1235,
+      "word_count": 17,
+      "content_hash": "ae2b4ed7d613c59e4ca46ec4faf66f6c25854e26c3bbabeee0db8983ac9c6a25"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0009",
+      "index": 9,
+      "text": "Net income was $97.5 billion, representing diluted earnings per share of $13.14, up 21% year over year.",
+      "char_start": 1237,
+      "char_end": 1340,
+      "word_count": 17,
+      "content_hash": "3253d179aa3010e47bfd2805eb2c4216520fac41727c5087fc81a3125f0abd8b"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0010",
+      "index": 10,
+      "text": "Capital expenditures were $55.7 billion in FY2025, up from $44.5 billion in FY2024, reflecting continued investment in datacenters for Azure capacity and AI infrastructure.",
+      "char_start": 1342,
+      "char_end": 1514,
+      "word_count": 24,
+      "content_hash": "dd8b83e6d2fe3d22a171840596512466b7e48a06585583b02db7b10e242da912"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0011",
+      "index": 11,
+      "text": "ARTIFICIAL INTELLIGENCE AND AZURE Microsoft has made significant investments in artificial intelligence infrastructure. Azure AI services, including Azure OpenAI Service, saw customer count grow to over 65,000 organizations by the end of FY2025. GitHub Copilot had over 1.8 million paid subscribers as of June 2025.",
+      "char_start": 1514,
+      "char_end": 1829,
+      "word_count": 45,
+      "content_hash": "aa392a37e6681d77451e50654265e185090099211c2d2301720180b1b597070f"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0012",
+      "index": 12,
+      "text": "The Company believes AI represents a fundamental shift in software development, productivity tools, and enterprise workflows. Management expects AI-driven workloads to be a significant revenue contributor over the next three to five years.",
+      "char_start": 1834,
+      "char_end": 2073,
+      "word_count": 33,
+      "content_hash": "ed9f74f89fdf0a6c094648c18bd00e9869a6445a155085d7855bc53cc6093096"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0013",
+      "index": 13,
+      "text": "COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud capabilities, and AI integration.",
+      "char_start": 2073,
+      "char_end": 2355,
+      "word_count": 35,
+      "content_hash": "a8d86fbe9135d262206fa6f27e51ac778eed4b4d5ff0f87bbf738c30336b157a"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0014",
+      "index": 14,
+      "text": "Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms.",
+      "char_start": 2360,
+      "char_end": 2587,
+      "word_count": 29,
+      "content_hash": "2438139bacdeb986381b9d223f4c6603942c24d52357f3f31e7c7727c4ad157b"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0015",
+      "index": 15,
+      "text": "RISK FACTORS Cybersecurity: Microsoft products and services are subject to cyberattacks. Material security incidents could harm the Company's reputation and financial results.",
+      "char_start": 2587,
+      "char_end": 2762,
+      "word_count": 22,
+      "content_hash": "7ad2af1ace60e46906ceb569cd323b15771b094f81efc3d6c36a26ae8b884ea4"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0016",
+      "index": 16,
+      "text": "Regulatory risk: The Company faces scrutiny from regulators globally, including the European Commission regarding cloud bundling practices and the United Kingdom's Competition and Markets Authority regarding AI market dynamics.",
+      "char_start": 2767,
+      "char_end": 2994,
+      "word_count": 29,
+      "content_hash": "591a7f5d6e885da752d06b739b499e97f9a9adab4a55e8035e79a1d8ea99f38c"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0017",
+      "index": 17,
+      "text": "AI regulatory risk: Emerging AI regulations in the European Union (EU AI Act), United States, and other jurisdictions may require changes to AI product development and deployment practices.",
+      "char_start": 2996,
+      "char_end": 3185,
+      "word_count": 28,
+      "content_hash": "cdb666fa977fdd2c07d7cb18031e8091e60ff8af0ac7dbd97d012a9dfced8fb9"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0018",
+      "index": 18,
+      "text": "Dependence on third-party AI models: The Company's AI services depend in part on large language models developed by third parties, including OpenAI. The cost and availability of these models may affect financial results.",
+      "char_start": 3187,
+      "char_end": 3407,
+      "word_count": 33,
+      "content_hash": "1f33e1d4769d53024894f579d763f99724417a2d91a2a816105aca1e6cf7f2a6"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0019",
+      "index": 19,
+      "text": "MANAGEMENT'S DISCUSSION AND ANALYSIS Fiscal 2025 was a year of accelerating cloud and AI adoption. Azure growth reaccelerated from 29% in FY2024 Q4 to 35% in FY2025 Q4. Management attributes this acceleration to AI-related workloads, including training runs, inference, and AI-augmented enterprise applications.",
+      "char_start": 3407,
+      "char_end": 3718,
+      "word_count": 43,
+      "content_hash": "d445432fe620ef3d85457c39a76d73ec65e06d4401468482b9c65533879b4d5b"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0020",
+      "index": 20,
+      "text": "The Company expects capital expenditure intensity to remain elevated through FY2026 and FY2027 as it builds out AI datacenter capacity globally. Management guided FY2026 capital expenditures of approximately $60-65 billion.",
+      "char_start": 3723,
+      "char_end": 3946,
+      "word_count": 30,
+      "content_hash": "d3b218ff7c9a7ec24ce5d35c9d2e6e31d6f0e3352b6fe661eee947441c98e335"
+    },
+    {
+      "chunk_id": "MSFT-4964e36b-0021",
+      "index": 21,
+      "text": "Commercial remaining performance obligations grew to $315 billion, up 18% year over year, providing strong revenue visibility.",
+      "char_start": 3948,
+      "char_end": 4074,
+      "word_count": 17,
+      "content_hash": "bdd47ca5b90e76a99f99e7eaa787066488e0265fb216ffb082051aca0c3a466c"
+    }
+  ],
+  "content_hash": "ed7e889f8e63952630842295d8ad76d41afef155a773b977105e8564f1927170",
+  "file_path": "/Users/namanchindaliya/claude/equity_reserach_framework/demo/inputs/MSFT/filing_10k_fy2025.txt",
+  "ingested_at": "2026-04-25T16:38:20.950057"
+}

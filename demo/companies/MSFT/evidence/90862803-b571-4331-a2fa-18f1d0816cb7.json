@@ -1,0 +1,54 @@
+{
+  "evidence_id": "90862803-b571-4331-a2fa-18f1d0816cb7",
+  "ticker": "MSFT",
+  "logical_type": "channel_check_note",
+  "source_type": "CHANNEL_CHECK",
+  "title": "Azure Partner Channel Check Q1 FY2026",
+  "source_date": "2025-10-20",
+  "source_name": "Primary Research Channel Network",
+  "url": null,
+  "reliability_score": 0.75,
+  "text": "contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\ncontact_type: VAR geography: Europe product: Azure observation: Enterprise migrations from on-premises accelerating; hybrid cloud seeing renewed interest post-regulatory clarity sentiment: positive data_point: +22 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: Microsoft 365 Copilot observation: Copilot attach rates on E5 renewals running at 35%; customers cautious on broader rollout until ROI is clearer sentiment: mixed data_point: 35 unit: % attach rate on E5\ncontact_type: reseller geography: Asia Pacific product: Azure observation: APAC growth strong led by Japan and Australia; India datacenter investment driving local demand sentiment: positive data_point: +45 unit: % YoY deal count\ncontact_type: OEM geography: North America product: Windows Server observation: Windows Server 2025 refresh cycle beginning; channel partners expect 18-month upcycle sentiment: positive data_point: +15 unit: % YoY units\ncontact_type: VAR geography: Europe product: Azure AI observation: EU AI Act compliance concerns creating demand for Microsoft compliance tooling on Azure sentiment: positive data_point: +28 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: GitHub Copilot observation: Developer adoption of Copilot strong in enterprises; churn rate low at approximately 3% sentiment: positive data_point: 3 unit: % monthly churn\ncontact_type: reseller geography: North America product: Dynamics 365 observation: Dynamics 365 + Copilot deals accelerating; displacing Salesforce in mid-market sentiment: positive data_point: +18 unit: % YoY deal count",
+  "extracted_metadata": {
+    "word_count": 241,
+    "char_count": 1838,
+    "line_count": 8,
+    "geographies": [
+      "EUROPE",
+      "ASIA",
+      "APAC",
+      "JAPAN",
+      "INDIA"
+    ],
+    "contact_types": [
+      "reseller",
+      "var",
+      "distributor",
+      "oem"
+    ],
+    "frontmatter_geography": "North America and Europe"
+  },
+  "chunks": [
+    {
+      "chunk_id": "MSFT-90862803-0000",
+      "index": 0,
+      "text": "contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\ncontact_type: VAR geography: Europe product: Azure observation: Enterprise migrations from on-premises accelerating; hybrid cloud seeing renewed interest post-regulatory clarity sentiment: positive data_point: +22 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: Microsoft 365 Copilot observation: Copilot attach rates on E5 renewals running at 35%; customers cautious on broader rollout until ROI is clearer sentiment: mixed data_point: 35 unit: % attach rate on E5\ncontact_type: reseller geography: Asia Pacific product: Azure observation: APAC growth strong led by Japan and Australia; India datacenter investment driving local demand sentiment: positive data_point: +45 unit: % YoY deal count\ncontact_type: OEM geography: North America product: Windows Server observation: Windows Server 2025 refresh cycle beginning; channel partners expect 18-month upcycle sentiment: positive data_point: +15 unit: % YoY units\ncontact_type: VAR geography: Europe product: Azure AI observation: EU AI Act compliance concerns creating demand for Microsoft compliance tooling on Azure sentiment: positive data_point: +28 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: GitHub Copilot observation: Developer adoption of Copilot strong in enterprises; churn rate low at approximately 3% sentiment: positive data_point: 3 unit",
+      "char_start": 0,
+      "char_end": 1600,
+      "word_count": 210,
+      "content_hash": "0eee9766615c1ea1aaf83b4348e33d171dcab8c52918faf23d5b457a8c13cbc0"
+    },
+    {
+      "chunk_id": "MSFT-90862803-0001",
+      "index": 1,
+      "text": ": % monthly churn\ncontact_type: reseller geography: North America product: Dynamics 365 observation: Dynamics 365 + Copilot deals accelerating; displacing Salesforce in mid-market sentiment: positive data_point: +18 unit: % YoY deal count",
+      "char_start": 1600,
+      "char_end": 1838,
+      "word_count": 32,
+      "content_hash": "21ff1284cec26645cda684cf155f5f32c41096d516310f4fc86a611d4b9de0ff"
+    }
+  ],
+  "content_hash": "3a9c2b9ba32e4f090502af6579036ce7a3ca04b9dcdf4f7a380ab8a618e5be3c",
+  "file_path": "/Users/namanchindaliya/claude/equity_reserach_framework/demo/inputs/MSFT/channel_check_azure_partners.csv",
+  "ingested_at": "2026-04-25T16:38:20.913194"
+}

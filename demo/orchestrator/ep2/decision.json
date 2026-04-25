@@ -1,0 +1,324 @@
+{
+  "decision_id": "fd494300-fe7b-402f-9a4c-56399e836f95",
+  "ticker": "MSFT",
+  "generated_at": "2026-04-25T16:38:21.243175",
+  "policy_version": "1.0",
+  "observations": {
+    "industry_observation": {
+      "agent_id": "industry_v1",
+      "generated_at": "2026-04-25T16:38:21.086331",
+      "overall_confidence": 0.397,
+      "freshness_penalty_applied": 0.0,
+      "evidence_id_count": 4,
+      "key_findings": [
+        "Competitive Rivalry",
+        "Supplier Power",
+        "Buyer Power"
+      ]
+    },
+    "strategy_observation": {
+      "agent_id": "strategy_v1",
+      "generated_at": "2026-04-25T16:38:21.144983",
+      "overall_confidence": 0.717,
+      "freshness_penalty_applied": 0.0,
+      "evidence_id_count": 4,
+      "key_findings": [
+        "For Q2 FY2026, we expect total revenue of $72.0 to $73.5 billion.",
+        "We expect operating margins to remain around 44% for the full year.",
+        "We expect AI infrastructure investments made in FY2025 and FY2026 to begin gener"
+      ]
+    },
+    "market_structure": "OLIGOPOLY",
+    "cycle_stage": "GROWTH",
+    "industry_label": "Semiconductors",
+    "porter_forces_summary": {
+      "Competitive Rivalry": "HIGH",
+      "Supplier Power": "MEDIUM",
+      "Buyer Power": "MEDIUM",
+      "Threat of New Entry": "UNKNOWN",
+      "Threat of Substitutes": "UNKNOWN"
+    },
+    "regulatory_factors": [
+      "SEC / EDGAR Reporting"
+    ],
+    "industry_risks": [
+      "Intense Competitive Rivalry",
+      "Regulatory Headwinds",
+      "Supply Chain Concentration",
+      "Technology Disruption",
+      "Consumer Demand Cyclicality",
+      "Developer / Ecosystem Dependency"
+    ],
+    "management_priorities_raw": [
+      "For Q2 FY2026, we expect total revenue of $72.0 to $73.5 billion.",
+      "We expect operating margins to remain around 44% for the full year.",
+      "We expect AI infrastructure investments made in FY2025 and FY2026 to begin generating strong returns in FY2027 and beyon",
+      "We're confident in the ROI given the demand signals we're seeing from Azure AI customers.",
+      "SATYA NADELLA: We're confident in double-digit Azure growth for the foreseeable future.",
+      "We expect capital expenditure intensity to remain elevated as we build out AI inference capacity."
+    ],
+    "segment_priority_order": [
+      "Services"
+    ],
+    "strategic_target_market": "enterprise",
+    "strategic_moat": [
+      "switching_costs",
+      "network_effects"
+    ],
+    "disclosed_risk_categories": [
+      "regulatory",
+      "operational",
+      "technology",
+      "competitive"
+    ],
+    "narrative_shifts": [
+      "Services Growth: emphasis_decrease",
+      "India Expansion: emphasis_increase",
+      "Regulatory Risk: emphasis_decrease",
+      "Margin Expansion: emphasis_increase",
+      "AI Revenue Acceleration: emphasis_increase"
+    ],
+    "active_assumption_count": 2,
+    "revised_assumption_count": 0,
+    "critical_assumptions": [
+      "azure_revenue_growth"
+    ],
+    "recent_material_changes": [],
+    "recent_conflicts_flagged": [],
+    "has_prior_thesis": true,
+    "prior_thesis_statement": null
+  },
+  "inferences": {
+    "thesis_statement": "MSFT operates in a oligopoly Semiconductors market at the growth stage of the industry cycle. The company is positioned as a enterprise player with switching_costs, network_effects as the primary competitive advantage, and the Services segment leading revenue mix. Management's stated focus centres on: For Q2 FY2026, we expect total revenue of $72.0 to $73.5 billion..",
+    "variant_view": "Bear case: regulatory headwinds from SEC / EDGAR Reporting could constrain addressable market and compress fee economics. Intensifying competitive rivalry may erode pricing power faster than the base case assumes.",
+    "key_assumptions": [
+      {
+        "key": "azure_revenue_growth",
+        "label": "Azure Revenue Growth (YoY %)",
+        "value": 0.38,
+        "base_confidence": 0.82,
+        "adjusted_confidence": 0.895,
+        "adjustment_reasons": [
+          "corroborated by both specialist agents"
+        ],
+        "materiality": "CRITICAL",
+        "owner_agent": "industry_v1",
+        "source": "ledger"
+      },
+      {
+        "key": "ai_run_rate_usd_b",
+        "label": "AI Revenue Annualized Run Rate (USD B)",
+        "value": 20.0,
+        "base_confidence": 0.8,
+        "adjusted_confidence": 0.875,
+        "adjustment_reasons": [
+          "corroborated by both specialist agents"
+        ],
+        "materiality": "HIGH",
+        "owner_agent": "strategy_v1",
+        "source": "ledger"
+      },
+      {
+        "key": "industry_cycle_stage",
+        "label": "Industry Cycle Stage",
+        "value": "GROWTH",
+        "base_confidence": 0.397,
+        "adjusted_confidence": 0.397,
+        "adjustment_reasons": [
+          "synthesized from IndustryAgent"
+        ],
+        "materiality": "HIGH",
+        "owner_agent": "industry_v1",
+        "source": "industry"
+      },
+      {
+        "key": "market_structure",
+        "label": "Market Structure",
+        "value": "OLIGOPOLY",
+        "base_confidence": 0.397,
+        "adjusted_confidence": 0.397,
+        "adjustment_reasons": [
+          "synthesized from IndustryAgent"
+        ],
+        "materiality": "HIGH",
+        "owner_agent": "industry_v1",
+        "source": "industry"
+      },
+      {
+        "key": "top_segment_priority",
+        "label": "Top Segment: Services",
+        "value": "growth",
+        "base_confidence": 0.717,
+        "adjusted_confidence": 0.717,
+        "adjustment_reasons": [
+          "synthesized from CompanyStrategyAgent"
+        ],
+        "materiality": "MEDIUM",
+        "owner_agent": "strategy_v1",
+        "source": "strategy"
+      }
+    ],
+    "top_drivers": [
+      {
+        "text": "Market structure (OLIGOPOLY) and growth cycle stage, combined with high competitive rivalry, define the industry backdrop for this thesis.",
+        "confidence": 0.397,
+        "based_on": [
+          "market_structure",
+          "cycle_stage",
+          "porter_forces_summary"
+        ],
+        "dissenting_source": null,
+        "dissent_description": null
+      },
+      {
+        "text": "Services is the highest-priority segment with growth growth framing. contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure Open",
+        "confidence": 0.717,
+        "based_on": [
+          "segment_priority_order",
+          "segment_growth_framing"
+        ],
+        "dissenting_source": null,
+        "dissent_description": null
+      },
+      {
+        "text": "Management stated priority: For Q2 FY2026, we expect total revenue of $72.0 to $73.5 billion.",
+        "confidence": 0.712,
+        "based_on": [
+          "management_priorities_raw"
+        ],
+        "dissenting_source": null,
+        "dissent_description": null
+      },
+      {
+        "text": "Active regulatory factors (SEC / EDGAR Reporting) represent a structural constraint on the thesis.",
+        "confidence": 0.337,
+        "based_on": [
+          "regulatory_factors"
+        ],
+        "dissenting_source": null,
+        "dissent_description": null
+      }
+    ],
+    "agent_conflicts": [
+      {
+        "conflict_id": "7b40b787-4683-43ed-9f0f-cfdaa785a7e7",
+        "dimension": "industry_cycle",
+        "industry_view": "Industry cycle stage = GROWTH",
+        "strategy_view": "Narrative shift detects declining emphasis on growth topics",
+        "conflict_severity": "soft",
+        "resolution": "Trusting industry_v1: cycle stage is macro observation; narrative shift may be localized",
+        "resolution_basis": "policy: conflict_resolution.industry_cycle = industry_v1",
+        "trusted_agent": "industry_v1",
+        "confidence_after": 0.317
+      },
+      {
+        "conflict_id": "7dd7e8dc-5a60-45c8-8670-1c816b735e96",
+        "dimension": "overall_confidence_divergence",
+        "industry_view": "Overall confidence = 40%",
+        "strategy_view": "Overall confidence = 72%",
+        "conflict_severity": "soft",
+        "resolution": "Using lower confidence as base; trusting strategy_v1 where determinable",
+        "resolution_basis": "policy: conflict_resolution.default = higher_confidence \u2192 strategy_v1 (higher confidence)",
+        "trusted_agent": "strategy_v1",
+        "confidence_after": 0.317
+      }
+    ],
+    "cross_validated": [
+      "Both agents identify regulatory risk as a material consideration.",
+      "Both agents flag competitive intensity as a relevant risk dimension.",
+      "Both agents identify network_effects, switching_costs as structural moat elements."
+    ],
+    "unresolved_conflicts": [
+      "[Strategy] No standalone management commentary available; strategic framing relies on structured disclosures."
+    ]
+  },
+  "decisions": {
+    "current_thesis": "MSFT operates in a oligopoly Semiconductors market at the growth stage of the industry cycle. The company is positioned as a enterprise player with switching_costs, network_effects as the primary competitive advantage, and the Services segment leading revenue mix. Management's stated focus centres on: For Q2 FY2026, we expect total revenue of $72.0 to $73.5 billion..",
+    "rating_stance": "neutral",
+    "predictions": [
+      {
+        "description": "Services segment sustains growth trajectory over the next 12 months",
+        "metric": "services_revenue_growth_yoy",
+        "direction": ">",
+        "horizon": "12 months",
+        "probability": 0.645,
+        "confidence": 0.717,
+        "based_on_assumption_keys": [
+          "top_segment_priority"
+        ]
+      },
+      {
+        "description": "Management's stated priorities remain consistent through next earnings cycle",
+        "metric": "management_priority_consistency",
+        "direction": "holds",
+        "horizon": "next quarter",
+        "probability": 0.605,
+        "confidence": 0.712,
+        "based_on_assumption_keys": [
+          "management_priorities"
+        ]
+      }
+    ],
+    "falsification_conditions": [
+      {
+        "condition": "Assumption 'Azure Revenue Growth (YoY %)' moves more than 20% from current value of 0.38",
+        "metric": "azure_revenue_growth",
+        "threshold": "\u00b120%",
+        "check_by": "within 2 quarters",
+        "assumption_key": "azure_revenue_growth"
+      },
+      {
+        "condition": "Industry cycle deteriorates from GROWTH to MATURE or DECLINE within two consecutive quarters",
+        "metric": "industry_cycle_stage",
+        "threshold": "MATURE",
+        "check_by": "within 2 quarters",
+        "assumption_key": "industry_cycle_stage"
+      },
+      {
+        "condition": "Market structure fragments (from OLIGOPOLY) with entry of 2+ well-capitalised new competitors",
+        "metric": "market_structure",
+        "threshold": "FRAGMENTED",
+        "check_by": "within 12 months",
+        "assumption_key": "market_structure"
+      }
+    ],
+    "monitoring_triggers": [
+      {
+        "metric": "regulatory_status_sec_/_edgar_reportin",
+        "condition": "New ruling or enforcement action related to SEC / EDGAR Reporting",
+        "action": "rerun_thesis",
+        "frequency": "event-driven",
+        "rationale": "SEC / EDGAR Reporting is an active regulatory factor; developments can materially alter the thesis."
+      },
+      {
+        "metric": "services_revenue_yoy",
+        "condition": "Services YoY revenue growth falls below 5% or accelerates above 20%",
+        "action": "revise_assumption",
+        "frequency": "quarterly",
+        "rationale": "Services is a priority segment; sustained deceleration or re-acceleration updates the thesis."
+      }
+    ],
+    "next_evidence_needed": [
+      "No standalone management commentary available; strategic framing relies on structured disclosures."
+    ],
+    "unresolved_conflicts": [
+      "[Strategy] No standalone management commentary available; strategic framing relies on structured disclosures."
+    ]
+  },
+  "confidence_summary": {
+    "overall": 0.413,
+    "industry_confidence": 0.397,
+    "strategy_confidence": 0.717,
+    "freshness_penalty": 0.0,
+    "conflict_penalty": 0.16,
+    "basis": "Industry agent at 40% (after 0% freshness penalty). Strategy agent at 72% (after 0% freshness penalty). 2 conflict(s) applied 16% total penalty."
+  },
+  "industry_run_id": "292e888a-3227-4d7f-8253-40fdbab5e40d",
+  "strategy_run_id": "8a3d3418-4408-4179-8cc4-fa082ea50914",
+  "evidence_ids": [
+    "90862803-b571-4331-a2fa-18f1d0816cb7",
+    "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+    "4964e36b-2054-450e-aa88-18812c2fa7dc",
+    "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+  ]
+}

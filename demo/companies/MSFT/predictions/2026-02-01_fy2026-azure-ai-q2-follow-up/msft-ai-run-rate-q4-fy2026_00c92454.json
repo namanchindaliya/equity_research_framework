@@ -1,0 +1,19 @@
+{
+  "id": "00c92454-3b69-4959-99a5-2a24a452347a",
+  "description": "AI run rate exceeds $22B by Q4 FY2026",
+  "metric": "msft_ai_run_rate_q4_fy2026",
+  "threshold": 22.0,
+  "unit": "USD B",
+  "operator": ">=",
+  "horizon": "Q4 FY2026 (Jun 2026)",
+  "due_date": "2026-08-15",
+  "probability": 0.55,
+  "confidence": 0.65,
+  "resolution_rule": "AI run rate as disclosed in Q4 FY2026 results.",
+  "resolution": null,
+  "supporting_assumptions": [
+    "5d4cd0ef-0f7d-417f-9eda-ea08188e0305"
+  ],
+  "created_at": "2026-04-25T16:38:21.224106",
+  "updated_at": "2026-04-25T16:38:21.224106"
+}
