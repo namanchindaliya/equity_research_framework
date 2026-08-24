@@ -18,6 +18,12 @@ Operating rules for all future Claude Code sessions in this repo.
 
 7. **Avoid external APIs in v0.** No HTTP calls, no market data feeds, no LLM calls. All data is user-supplied.
 
+8. **Do not force conclusions from weak evidence.** Preserve `AnalysisStatus`, claim-level citation checks, cross-source requirements for high confidence, and the orchestrator synthesis gate.
+
+9. **Do not issue small-sample thesis verdicts.** Preserve the minimum scoreable coverage/sample gates and distinguish `PENDING` from `INSUFFICIENT_EVIDENCE`.
+
+10. **Use `eqos` for new development.** The `equity-os` command and monolithic store are legacy compatibility surfaces.
+
 ## Layout
 
 ```

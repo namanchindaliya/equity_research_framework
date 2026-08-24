@@ -1,16 +1,47 @@
 {
   "agent_id": "strategy_v1",
-  "run_id": "8a3d3418-4408-4179-8cc4-fa082ea50914",
+  "run_id": "aab22aa1-7447-47fa-96d8-279b3ce26685",
   "ticker": "MSFT",
-  "generated_at": "2026-04-25T16:38:21.144983",
+  "generated_at": "2026-08-24T13:44:14.647770",
+  "analysis_status": "LIMITED",
+  "evidence_quality": {
+    "status": "LIMITED",
+    "document_count": 4,
+    "required_types": [
+      "filing",
+      "earnings_transcript"
+    ],
+    "present_types": [
+      "channel_check_note",
+      "earnings_transcript",
+      "filing",
+      "industry_note"
+    ],
+    "missing_required_types": [],
+    "required_type_coverage": 1.0,
+    "freshness_status": "STALE",
+    "newest_source_date": "2025-10-29",
+    "stale_document_count": 4,
+    "undated_document_count": 0,
+    "material_claim_count": 14,
+    "cited_material_claim_count": 14,
+    "citation_coverage": 1.0,
+    "high_confidence_claim_count": 2,
+    "cross_source_high_confidence_claim_count": 2,
+    "quality_flags": [
+      "All dated evidence is older than 180 days."
+    ],
+    "abstention_reasons": []
+  },
+  "abstention_reasons": [],
   "management_priorities": [
     {
       "text": "For Q2 FY2026, we expect total revenue of $72.0 to $73.5 billion.",
       "confidence": 0.712,
       "evidence_refs": [
         {
-          "chunk_id": "MSFT-7d985eea-0007",
-          "evidence_id": "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+          "chunk_id": "MSFT-7149ffe5-0007",
+          "evidence_id": "7149ffe5-ac20-489d-82fb-5f7219549f0a",
           "source_title": "Microsoft Q1 FY2026 Earnings Conference Call",
           "quote": "For Q2 FY2026, we expect total revenue of $72.0 to $73.5 billion. Intelligent Cloud revenue is expected in the range of $35.0 to $35.5 billion, implying Azure growth of 34 to 35%. We expect operating margins to remain around 44% for the full year."
         }
@@ -21,8 +52,8 @@
       "confidence": 0.712,
       "evidence_refs": [
         {
-          "chunk_id": "MSFT-7d985eea-0007",
-          "evidence_id": "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+          "chunk_id": "MSFT-7149ffe5-0007",
+          "evidence_id": "7149ffe5-ac20-489d-82fb-5f7219549f0a",
           "source_title": "Microsoft Q1 FY2026 Earnings Conference Call",
           "quote": "For Q2 FY2026, we expect total revenue of $72.0 to $73.5 billion. Intelligent Cloud revenue is expected in the range of $35.0 to $35.5 billion, implying Azure growth of 34 to 35%. We expect operating margins to remain around 44% for the full year."
         }
@@ -33,8 +64,8 @@
       "confidence": 0.712,
       "evidence_refs": [
         {
-          "chunk_id": "MSFT-7d985eea-0011",
-          "evidence_id": "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+          "chunk_id": "MSFT-7149ffe5-0011",
+          "evidence_id": "7149ffe5-ac20-489d-82fb-5f7219549f0a",
           "source_title": "Microsoft Q1 FY2026 Earnings Conference Call",
           "quote": "AMY HOOD: We build capacity 18-24 months ahead of expected demand given datacenter construction lead times. We expect AI infrastructure investments made in FY2025 and FY2026 to begin generating strong returns in FY2027 and beyond. We're confident in "
         }
@@ -45,8 +76,8 @@
       "confidence": 0.712,
       "evidence_refs": [
         {
-          "chunk_id": "MSFT-7d985eea-0011",
-          "evidence_id": "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+          "chunk_id": "MSFT-7149ffe5-0011",
+          "evidence_id": "7149ffe5-ac20-489d-82fb-5f7219549f0a",
           "source_title": "Microsoft Q1 FY2026 Earnings Conference Call",
           "quote": "AMY HOOD: We build capacity 18-24 months ahead of expected demand given datacenter construction lead times. We expect AI infrastructure investments made in FY2025 and FY2026 to begin generating strong returns in FY2027 and beyond. We're confident in "
         }
@@ -57,8 +88,8 @@
       "confidence": 0.712,
       "evidence_refs": [
         {
-          "chunk_id": "MSFT-7d985eea-0012",
-          "evidence_id": "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+          "chunk_id": "MSFT-7149ffe5-0012",
+          "evidence_id": "7149ffe5-ac20-489d-82fb-5f7219549f0a",
           "source_title": "Microsoft Q1 FY2026 Earnings Conference Call",
           "quote": "Analyst: What is your confidence in sustaining 35%+ Azure growth? SATYA NADELLA: We're confident in double-digit Azure growth for the foreseeable future. The AI wave is still in early innings. We see significant opportunity as enterprises move from e"
         }
@@ -69,8 +100,8 @@
       "confidence": 0.712,
       "evidence_refs": [
         {
-          "chunk_id": "MSFT-7d985eea-0005",
-          "evidence_id": "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+          "chunk_id": "MSFT-7149ffe5-0005",
+          "evidence_id": "7149ffe5-ac20-489d-82fb-5f7219549f0a",
           "source_title": "Microsoft Q1 FY2026 Earnings Conference Call",
           "quote": "Capital expenditures were $19.4 billion in Q1, on track with our full-year guidance of $60-65 billion. We expect capital expenditure intensity to remain elevated as we build out AI inference capacity. We are confident these investments will generate "
         }
@@ -85,20 +116,20 @@
         "confidence": 0.688,
         "evidence_refs": [
           {
-            "chunk_id": "MSFT-7d985eea-0010",
-            "evidence_id": "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "chunk_id": "MSFT-7149ffe5-0010",
+            "evidence_id": "7149ffe5-ac20-489d-82fb-5f7219549f0a",
             "source_title": "Microsoft Q1 FY2026 Earnings Conference Call",
             "quote": "Analyst: Amy, capex intensity at $19 billion per quarter is elevated. When do you expect returns to materialize?"
           },
           {
-            "chunk_id": "MSFT-6c93f128-0013",
-            "evidence_id": "6c93f128-57dc-4e95-96f3-bdb5103fd565",
+            "chunk_id": "MSFT-27f6e531-0013",
+            "evidence_id": "27f6e531-ea0e-494a-86ba-ed128ded3d5a",
             "source_title": "Cloud Infrastructure and AI: Market Structure Analysis 2025",
             "quote": "Capital allocation risk: Elevated capex spending ($60B+/year) requires sustained revenue growth to justify returns. If AI adoption rates disappoint, return on invested capital could be challenged."
           },
           {
-            "chunk_id": "MSFT-4964e36b-0020",
-            "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "chunk_id": "MSFT-7d580c2f-0020",
+            "evidence_id": "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
             "source_title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
             "quote": "The Company expects capital expenditure intensity to remain elevated through FY2026 and FY2027 as it builds out AI datacenter capacity globally. Management guided FY2026 capital expenditures of approximately $60-65 billion."
           }
@@ -116,22 +147,22 @@
       "confidence": 0.626,
       "old_evidence_refs": [
         {
-          "chunk_id": "MSFT-4964e36b-0005",
-          "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+          "chunk_id": "MSFT-7d580c2f-0005",
+          "evidence_id": "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
           "source_title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
           "quote": "Intelligent Cloud: Azure, SQL Server, Windows Server, GitHub, and enterprise services. Revenue of $135.7 billion in FY2025, up 24% year over year. Azure cloud services grew 35% year over year."
         },
         {
-          "chunk_id": "MSFT-4964e36b-0015",
-          "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+          "chunk_id": "MSFT-7d580c2f-0015",
+          "evidence_id": "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
           "source_title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
           "quote": "RISK FACTORS Cybersecurity: Microsoft products and services are subject to cyberattacks. Material security incidents could harm the Company's reputation and financial results."
         }
       ],
       "new_evidence_refs": [
         {
-          "chunk_id": "MSFT-90862803-0000",
-          "evidence_id": "90862803-b571-4331-a2fa-18f1d0816cb7",
+          "chunk_id": "MSFT-b770f398-0000",
+          "evidence_id": "b770f398-dce0-44cf-ab90-13e9c48dadef",
           "source_title": "Azure Partner Channel Check Q1 FY2026",
           "quote": "contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\ncontact_type: VAR geograp"
         }
@@ -146,8 +177,8 @@
       "old_evidence_refs": [],
       "new_evidence_refs": [
         {
-          "chunk_id": "MSFT-90862803-0000",
-          "evidence_id": "90862803-b571-4331-a2fa-18f1d0816cb7",
+          "chunk_id": "MSFT-b770f398-0000",
+          "evidence_id": "b770f398-dce0-44cf-ab90-13e9c48dadef",
           "source_title": "Azure Partner Channel Check Q1 FY2026",
           "quote": "contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\ncontact_type: VAR geograp"
         }
@@ -161,22 +192,22 @@
       "confidence": 0.502,
       "old_evidence_refs": [
         {
-          "chunk_id": "MSFT-4964e36b-0017",
-          "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+          "chunk_id": "MSFT-7d580c2f-0017",
+          "evidence_id": "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
           "source_title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
           "quote": "AI regulatory risk: Emerging AI regulations in the European Union (EU AI Act), United States, and other jurisdictions may require changes to AI product development and deployment practices."
         },
         {
-          "chunk_id": "MSFT-4964e36b-0016",
-          "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+          "chunk_id": "MSFT-7d580c2f-0016",
+          "evidence_id": "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
           "source_title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
           "quote": "Regulatory risk: The Company faces scrutiny from regulators globally, including the European Commission regarding cloud bundling practices and the United Kingdom's Competition and Markets Authority regarding AI market dynamics."
         }
       ],
       "new_evidence_refs": [
         {
-          "chunk_id": "MSFT-90862803-0000",
-          "evidence_id": "90862803-b571-4331-a2fa-18f1d0816cb7",
+          "chunk_id": "MSFT-b770f398-0000",
+          "evidence_id": "b770f398-dce0-44cf-ab90-13e9c48dadef",
           "source_title": "Azure Partner Channel Check Q1 FY2026",
           "quote": "contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\ncontact_type: VAR geograp"
         }
@@ -190,16 +221,16 @@
       "confidence": 0.85,
       "old_evidence_refs": [
         {
-          "chunk_id": "MSFT-6c93f128-0008",
-          "evidence_id": "6c93f128-57dc-4e95-96f3-bdb5103fd565",
+          "chunk_id": "MSFT-27f6e531-0008",
+          "evidence_id": "27f6e531-ea0e-494a-86ba-ed128ded3d5a",
           "source_title": "Cloud Infrastructure and AI: Market Structure Analysis 2025",
           "quote": "KEY INDUSTRY KPIs - Azure revenue growth (YoY %): most closely watched metric for MSFT\n- AI revenue run rate: emerging metric, tracking AI-specific workload monetization\n- Commercial remaining performance obligations (cRPO): forward revenue visibilit"
         }
       ],
       "new_evidence_refs": [
         {
-          "chunk_id": "MSFT-7d985eea-0006",
-          "evidence_id": "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+          "chunk_id": "MSFT-7149ffe5-0006",
+          "evidence_id": "7149ffe5-ac20-489d-82fb-5f7219549f0a",
           "source_title": "Microsoft Q1 FY2026 Earnings Conference Call",
           "quote": "CFO Remarks AMY HOOD: Thank you, Satya. Q1 gross margin was 70.4%, up 50 basis points year over year. Intelligent Cloud gross margin was 72.8%. Commercial bookings grew 18%."
         }
@@ -216,20 +247,20 @@
         "confidence": 0.783,
         "evidence_refs": [
           {
-            "chunk_id": "MSFT-4964e36b-0017",
-            "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "chunk_id": "MSFT-7d580c2f-0017",
+            "evidence_id": "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
             "source_title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
             "quote": "AI regulatory risk: Emerging AI regulations in the European Union (EU AI Act), United States, and other jurisdictions may require changes to AI product development and deployment practices."
           },
           {
-            "chunk_id": "MSFT-4964e36b-0016",
-            "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "chunk_id": "MSFT-7d580c2f-0016",
+            "evidence_id": "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
             "source_title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
             "quote": "Regulatory risk: The Company faces scrutiny from regulators globally, including the European Commission regarding cloud bundling practices and the United Kingdom's Competition and Markets Authority regarding AI market dynamics."
           },
           {
-            "chunk_id": "MSFT-6c93f128-0009",
-            "evidence_id": "6c93f128-57dc-4e95-96f3-bdb5103fd565",
+            "chunk_id": "MSFT-27f6e531-0009",
+            "evidence_id": "27f6e531-ea0e-494a-86ba-ed128ded3d5a",
             "source_title": "Cloud Infrastructure and AI: Market Structure Analysis 2025",
             "quote": "REGULATORY ENVIRONMENT The European Commission opened a formal investigation into Microsoft's bundling of Teams with Office 365 (later addressed through product changes). The EU AI Act imposes new obligations on providers of high-risk AI systems, whi"
           }
@@ -245,20 +276,20 @@
         "confidence": 0.81,
         "evidence_refs": [
           {
-            "chunk_id": "MSFT-4964e36b-0013",
-            "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "chunk_id": "MSFT-7d580c2f-0013",
+            "evidence_id": "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
             "source_title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
             "quote": "COMPETITION The cloud infrastructure market is characterized by intense competition among Microsoft Azure, Amazon Web Services, and Google Cloud. Microsoft believes Azure has competitive advantages in enterprise customer relationships, hybrid cloud c"
           },
           {
-            "chunk_id": "MSFT-4964e36b-0014",
-            "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "chunk_id": "MSFT-7d580c2f-0014",
+            "evidence_id": "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
             "source_title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
             "quote": "Competition in productivity software includes Google Workspace and emerging AI-native productivity tools. The Company faces significant competitive pressure in the gaming market from Sony PlayStation and other gaming platforms."
           },
           {
-            "chunk_id": "MSFT-6c93f128-0003",
-            "evidence_id": "6c93f128-57dc-4e95-96f3-bdb5103fd565",
+            "chunk_id": "MSFT-27f6e531-0003",
+            "evidence_id": "27f6e531-ea0e-494a-86ba-ed128ded3d5a",
             "source_title": "Cloud Infrastructure and AI: Market Structure Analysis 2025",
             "quote": "COMPETITIVE DYNAMICS Entry barriers in cloud infrastructure are extremely high. The capital requirements for building competitive hyperscale infrastructure are measured in the tens of billions of dollars annually. AWS, Azure, and GCP each spend $40-6"
           }
@@ -274,20 +305,20 @@
         "confidence": 0.567,
         "evidence_refs": [
           {
-            "chunk_id": "MSFT-6c93f128-0011",
-            "evidence_id": "6c93f128-57dc-4e95-96f3-bdb5103fd565",
+            "chunk_id": "MSFT-27f6e531-0011",
+            "evidence_id": "27f6e531-ea0e-494a-86ba-ed128ded3d5a",
             "source_title": "Cloud Infrastructure and AI: Market Structure Analysis 2025",
             "quote": "RISKS Supply chain risk: GPU availability constraints (NVIDIA H100, H200, Blackwell chips) can limit datacenter capacity expansion, creating a ceiling on growth in the near term."
           },
           {
-            "chunk_id": "MSFT-6c93f128-0010",
-            "evidence_id": "6c93f128-57dc-4e95-96f3-bdb5103fd565",
+            "chunk_id": "MSFT-27f6e531-0010",
+            "evidence_id": "27f6e531-ea0e-494a-86ba-ed128ded3d5a",
             "source_title": "Cloud Infrastructure and AI: Market Structure Analysis 2025",
             "quote": "The UK Competition and Markets Authority (CMA) is reviewing the AI foundation model market, including Microsoft's partnership with OpenAI. Initial findings suggest concentration risk exists in the AI model supply chain."
           },
           {
-            "chunk_id": "MSFT-4964e36b-0018",
-            "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "chunk_id": "MSFT-7d580c2f-0018",
+            "evidence_id": "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
             "source_title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
             "quote": "Dependence on third-party AI models: The Company's AI services depend in part on large language models developed by third parties, including OpenAI. The cost and availability of these models may affect financial results."
           }
@@ -303,8 +334,8 @@
         "confidence": 0.12,
         "evidence_refs": [
           {
-            "chunk_id": "MSFT-4964e36b-0003",
-            "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "chunk_id": "MSFT-7d580c2f-0003",
+            "evidence_id": "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
             "source_title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
             "quote": "Microsoft is a technology company whose mission is to empower every person and every organization on the planet to achieve more. Microsoft develops and supports software, services, devices, and solutions worldwide."
           }
@@ -319,17 +350,17 @@
       "growth_framing": "growth",
       "finding": {
         "text": "contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\ncontact_type: VAR geography: Europe product: Azure observation: Enterprise migrations from on-premises accelerating; hybrid cloud seeing renewed interest post-regulatory clarity sentiment: positive data_point: +22 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: Microsoft 365 Copilot observation: Copilot attach rates on E5 renewals running at 35%; customers cautious on broader rollout until ROI is clearer sentiment: mixed data_point: 35 unit: % attach rate on E5\ncontact_type: reseller geography: Asia Pacific product: Azure observation: APAC growth strong led by Japan and Australia; India datacenter investment driving local demand sentiment: positive data_point: +45 unit: % YoY deal count\ncontact_type: OEM geography: North America product: Windows Server observation: Windows Server 2025 refresh cycle beginning; channel partners expect 18-month upcycle sentiment: positive data_point: +15 unit: % YoY units\ncontact_type: VAR geography: Europe product: Azure AI observation: EU AI Act compliance concerns creating demand for Microsoft compliance tooling on Azure sentiment: positive data_point: +28 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: GitHub Copilot observation: Developer adoption of Copilot strong in enterprises; churn rate low at approximately 3% sentiment: positive data_point: 3 unit",
-        "confidence": 0.75,
+        "confidence": 0.74,
         "evidence_refs": [
           {
-            "chunk_id": "MSFT-4964e36b-0005",
-            "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "chunk_id": "MSFT-7d580c2f-0005",
+            "evidence_id": "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
             "source_title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
             "quote": "Intelligent Cloud: Azure, SQL Server, Windows Server, GitHub, and enterprise services. Revenue of $135.7 billion in FY2025, up 24% year over year. Azure cloud services grew 35% year over year."
           },
           {
-            "chunk_id": "MSFT-4964e36b-0015",
-            "evidence_id": "4964e36b-2054-450e-aa88-18812c2fa7dc",
+            "chunk_id": "MSFT-7d580c2f-0015",
+            "evidence_id": "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
             "source_title": "Microsoft Corporation Annual Report on Form 10-K FY2025",
             "quote": "RISK FACTORS Cybersecurity: Microsoft products and services are subject to cyberattacks. Material security incidents could harm the Company's reputation and financial results."
           }
@@ -351,20 +382,20 @@
       "confidence": 0.288,
       "evidence_refs": [
         {
-          "chunk_id": "MSFT-6c93f128-0001",
-          "evidence_id": "6c93f128-57dc-4e95-96f3-bdb5103fd565",
+          "chunk_id": "MSFT-27f6e531-0001",
+          "evidence_id": "27f6e531-ea0e-494a-86ba-ed128ded3d5a",
           "source_title": "Cloud Infrastructure and AI: Market Structure Analysis 2025",
           "quote": "Market share estimates for Q2 CY2025:\n- Amazon Web Services: 31%\n- Microsoft Azure: 24%\n- Google Cloud Platform: 12%\n- Other (including Oracle, Alibaba, IBM): 33%"
         },
         {
-          "chunk_id": "MSFT-6c93f128-0004",
-          "evidence_id": "6c93f128-57dc-4e95-96f3-bdb5103fd565",
+          "chunk_id": "MSFT-27f6e531-0004",
+          "evidence_id": "27f6e531-ea0e-494a-86ba-ed128ded3d5a",
           "source_title": "Cloud Infrastructure and AI: Market Structure Analysis 2025",
           "quote": "Network effects are strong: as more enterprise software integrates with a cloud platform, switching costs increase. Azure benefits from deep integration with the Microsoft enterprise software stack (Office 365, Teams, Dynamics), creating a natural la"
         },
         {
-          "chunk_id": "MSFT-6c93f128-0000",
-          "evidence_id": "6c93f128-57dc-4e95-96f3-bdb5103fd565",
+          "chunk_id": "MSFT-27f6e531-0000",
+          "evidence_id": "27f6e531-ea0e-494a-86ba-ed128ded3d5a",
           "source_title": "Cloud Infrastructure and AI: Market Structure Analysis 2025",
           "quote": "CLOUD INFRASTRUCTURE MARKET STRUCTURE The cloud infrastructure market (IaaS + PaaS) has consolidated into an oligopoly dominated by three hyperscalers: AWS, Microsoft Azure, and Google Cloud Platform. Combined, these three platforms represented appro"
         }
@@ -380,8 +411,8 @@
         "confidence": 0.228,
         "evidence_refs": [
           {
-            "chunk_id": "MSFT-7d985eea-0005",
-            "evidence_id": "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+            "chunk_id": "MSFT-7149ffe5-0005",
+            "evidence_id": "7149ffe5-ac20-489d-82fb-5f7219549f0a",
             "source_title": "Microsoft Q1 FY2026 Earnings Conference Call",
             "quote": "Capital expenditures were $19.4 billion in Q1, on track with our full-year guidance of $60-65 billion. We expect capital expenditure intensity to remain elevated as we build out AI inference capacity. We are confident these investments will generate "
           }
@@ -392,11 +423,11 @@
   "unresolved_questions": [
     "No standalone management commentary available; strategic framing relies on structured disclosures."
   ],
-  "overall_confidence": 0.637,
+  "overall_confidence": 0.636,
   "evidence_ids": [
-    "90862803-b571-4331-a2fa-18f1d0816cb7",
-    "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
-    "4964e36b-2054-450e-aa88-18812c2fa7dc",
-    "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+    "b770f398-dce0-44cf-ab90-13e9c48dadef",
+    "7149ffe5-ac20-489d-82fb-5f7219549f0a",
+    "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
+    "27f6e531-ea0e-494a-86ba-ed128ded3d5a"
   ]
 }

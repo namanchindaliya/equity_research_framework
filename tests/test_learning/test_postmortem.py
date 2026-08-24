@@ -32,7 +32,13 @@ class TestPostmortemStructure:
 
     def test_verdict_in_known_values(self, scenario_b):
         report = _make_report(scenario_b)
-        assert report.verdict in {"THESIS_CORRECT", "THESIS_INCORRECT", "PARTIALLY_CORRECT", "INCONCLUSIVE"}
+        assert report.verdict in {
+            "THESIS_CORRECT",
+            "THESIS_INCORRECT",
+            "PARTIALLY_CORRECT",
+            "PENDING",
+            "INSUFFICIENT_EVIDENCE",
+        }
 
     def test_episode_score_embedded(self, scenario_b):
         report = _make_report(scenario_b)
@@ -55,12 +61,18 @@ class TestVerdict:
         from tests.test_learning.conftest import _pred
         preds = [_pred("m", 0.8, "EXPIRED")]
         report = _make_report(preds)
-        assert report.verdict == "INCONCLUSIVE"
+        assert report.verdict == "INSUFFICIENT_EVIDENCE"
 
     def test_partial_results_partially_correct(self, scenario_d):
         report = _make_report(scenario_d)
-        # hit_rate = 0.75 → should be THESIS_CORRECT or PARTIALLY_CORRECT
-        assert report.verdict in {"THESIS_CORRECT", "PARTIALLY_CORRECT"}
+        assert report.verdict == "INSUFFICIENT_EVIDENCE"
+
+    def test_unresolved_predictions_keep_verdict_pending(self, scenario_a):
+        from tests.test_learning.conftest import _pred
+
+        predictions = [*scenario_a[:2], _pred("pending", 0.6)]
+        report = _make_report(predictions)
+        assert report.verdict == "PENDING"
 
 
 class TestNarrativeSections:

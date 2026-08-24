@@ -777,6 +777,10 @@
           "title": "Confidence",
           "type": "number"
         },
+        "materiality": {
+          "$ref": "#/$defs/MaterialityLevel",
+          "default": "MEDIUM"
+        },
         "resolution_rule": {
           "title": "Resolution Rule",
           "type": "string"

@@ -1,5 +1,5 @@
 {
-  "id": "d50d87fd-94f8-42cd-84f7-9ab739ee4275",
+  "id": "c9c2a8bf-72b6-47cb-ae8f-cdf0ff843e7e",
   "description": "Azure revenue grows at ≥32% YoY in Q2 FY2026 (Jan 2026 reporting)",
   "metric": "msft_azure_revenue_yoy_pct",
   "threshold": 0.32,
@@ -9,11 +9,12 @@
   "due_date": "2026-02-15",
   "probability": 0.75,
   "confidence": 0.8,
+  "materiality": "MEDIUM",
   "resolution_rule": "Azure revenue growth as reported in Q2 FY2026 earnings release.",
   "resolution": null,
   "supporting_assumptions": [
-    "170cc684-f784-4daa-b8d9-c3bd48ab084e"
+    "c583e0c5-7540-4b65-826c-4437b68f4553"
   ],
-  "created_at": "2026-04-25T16:38:21.177774",
-  "updated_at": "2026-04-25T16:38:21.177774"
+  "created_at": "2026-08-24T13:44:14.711874",
+  "updated_at": "2026-08-24T13:44:14.711874"
 }

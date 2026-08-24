@@ -1,7 +1,7 @@
 {
-  "id": "4d4bc192-adba-4440-aea1-8c70b9035bee",
-  "prediction_id": "d50d87fd-94f8-42cd-84f7-9ab739ee4275",
-  "resolved_at": "2026-04-25T16:38:21.195494",
+  "id": "8a822db8-b244-4b0d-a8b8-f733468b7a64",
+  "prediction_id": "c9c2a8bf-72b6-47cb-ae8f-cdf0ff843e7e",
+  "resolved_at": "2026-08-24T13:44:14.732025",
   "resolved_by": "analyst",
   "resolved_status": "CORRECT",
   "actual_outcome": 0.35,

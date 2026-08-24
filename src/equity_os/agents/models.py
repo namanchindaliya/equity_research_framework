@@ -11,7 +11,7 @@ Design principles
 
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import date, datetime
 from enum import Enum
 from typing import Any
 from uuid import UUID, uuid4
@@ -22,6 +22,45 @@ from pydantic import BaseModel, Field
 # ---------------------------------------------------------------------------
 # Shared primitives
 # ---------------------------------------------------------------------------
+
+
+class AnalysisStatus(str, Enum):
+    """Whether an agent had enough evidence to support analytical conclusions."""
+
+    COMPLETE = "COMPLETE"
+    LIMITED = "LIMITED"
+    ABSTAINED = "ABSTAINED"
+
+
+class EvidenceFreshness(str, Enum):
+    """Age state of the documents consumed by an agent."""
+
+    FRESH = "FRESH"
+    STALE = "STALE"
+    MIXED = "MIXED"
+    UNDATED = "UNDATED"
+
+
+class EvidenceQuality(BaseModel):
+    """Machine-readable evidence gate applied before an agent result is consumed."""
+
+    status: AnalysisStatus
+    document_count: int = 0
+    required_types: list[str] = Field(default_factory=list)
+    present_types: list[str] = Field(default_factory=list)
+    missing_required_types: list[str] = Field(default_factory=list)
+    required_type_coverage: float = Field(default=0.0, ge=0.0, le=1.0)
+    freshness_status: EvidenceFreshness = EvidenceFreshness.UNDATED
+    newest_source_date: date | None = None
+    stale_document_count: int = 0
+    undated_document_count: int = 0
+    material_claim_count: int = 0
+    cited_material_claim_count: int = 0
+    citation_coverage: float = Field(default=1.0, ge=0.0, le=1.0)
+    high_confidence_claim_count: int = 0
+    cross_source_high_confidence_claim_count: int = 0
+    quality_flags: list[str] = Field(default_factory=list)
+    abstention_reasons: list[str] = Field(default_factory=list)
 
 
 class EvidenceRef(BaseModel):
@@ -115,7 +154,12 @@ class IndustryAnalysis(BaseModel):
     ticker: str
     generated_at: datetime = Field(default_factory=datetime.utcnow)
 
+    analysis_status: AnalysisStatus = AnalysisStatus.COMPLETE
+    evidence_quality: EvidenceQuality | None = None
+    abstention_reasons: list[str] = Field(default_factory=list)
+
     industry_label: str                 # e.g. "Consumer Electronics / Smartphone"
+    industry_label_finding: Finding | None = None
     market_structure: MarketStructure
     market_structure_finding: Finding
     cycle_stage: CycleStage
@@ -188,6 +232,10 @@ class CompanyStrategyAnalysis(BaseModel):
     ticker: str
     generated_at: datetime = Field(default_factory=datetime.utcnow)
 
+    analysis_status: AnalysisStatus = AnalysisStatus.COMPLETE
+    evidence_quality: EvidenceQuality | None = None
+    abstention_reasons: list[str] = Field(default_factory=list)
+
     management_priorities: list[Finding]
     capital_allocation: list[CapitalAllocationItem]
     narrative_shifts: list[NarrativeShift]
@@ -222,3 +270,8 @@ class AgentRunResult(BaseModel):
     memo: str                           # rendered markdown
     validation_errors: list[str] = Field(default_factory=list)
     evidence_ids_consumed: list[str] = Field(default_factory=list)
+
+    @property
+    def analysis_status(self) -> AnalysisStatus:
+        """Expose the payload status without duplicating persisted state."""
+        return AnalysisStatus(self.payload.get("analysis_status", AnalysisStatus.COMPLETE.value))

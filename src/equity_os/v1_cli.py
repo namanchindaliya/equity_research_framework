@@ -383,6 +383,7 @@ def log_prediction(
     resolution_rule: Annotated[str, typer.Option("--resolution-rule")] = "To be determined at resolution time.",
     unit: Annotated[str | None, typer.Option("--unit")] = None,
     probability: Annotated[float, typer.Option("--probability", min=0.0, max=1.0)] = 0.6,
+    materiality: Annotated[MaterialityLevel, typer.Option("--materiality")] = MaterialityLevel.MEDIUM,
     companies_dir: _CompaniesDir = _DEFAULT_COMPANIES,
 ) -> None:
     """Add an explicit, falsifiable prediction to an episode."""
@@ -416,6 +417,7 @@ def log_prediction(
         horizon=horizon,
         due_date=parsed_due_date,
         probability=probability,
+        materiality=materiality,
         resolution_rule=resolution_rule,
     )
     ep.predictions.append(prediction)

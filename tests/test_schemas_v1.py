@@ -222,6 +222,7 @@ class TestPredictionRecord:
     def test_defaults(self):
         p = self._make()
         assert p.resolution is None
+        assert p.materiality == MaterialityLevel.MEDIUM
         assert not p.is_resolved
 
     def test_resolve_correct(self):

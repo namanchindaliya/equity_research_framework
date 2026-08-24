@@ -1,15 +1,28 @@
 {
-  "score_id": "3b5061b5-06e9-491c-933e-fd6bf920eaa7",
+  "score_id": "9e3fc752-a9de-4635-80e2-d9fd4d860b3c",
   "ticker": "MSFT",
   "episode_slug": "2025-11-01_fy2026-azure-ai-initiation",
-  "scored_at": "2026-04-25T16:38:21.276892",
+  "scored_at": "2026-08-24T13:44:14.832393",
   "total_predictions": 3,
   "resolved_count": 1,
   "excluded_count": 2,
   "scored_count": 1,
+  "unresolved_count": 2,
+  "resolution_coverage": 0.3333,
+  "scoreable_coverage": 0.3333,
+  "minimum_verdict_coverage": 0.6666666666666666,
+  "minimum_verdict_sample": 3,
+  "verdict_eligible": false,
+  "verdict_ineligibility_reasons": [
+    "Only 1 scoreable prediction(s); at least 3 are required.",
+    "Scoreable coverage is 33%; at least 67% is required."
+  ],
   "brier_score": 0.0625,
   "brier_vs_baseline": -0.1875,
   "hit_rate": 1.0,
+  "directional_accuracy": 1.0,
+  "mean_absolute_magnitude_error": 0.09375,
+  "timing_error_count": 0,
   "calibration_bins": [
     {
       "label": "0.6–0.8",
@@ -22,6 +35,8 @@
     }
   ],
   "mean_calibration_error": 0.25,
+  "minimum_calibration_sample": 5,
+  "calibration_is_reliable": false,
   "error_attribution": {
     "macro": 0,
     "industry": 0,
@@ -33,7 +48,7 @@
   },
   "scored_predictions": [
     {
-      "prediction_id": "d50d87fd-94f8-42cd-84f7-9ab739ee4275",
+      "prediction_id": "c9c2a8bf-72b6-47cb-ae8f-cdf0ff843e7e",
       "metric": "msft_azure_revenue_yoy_pct",
       "description": "Azure revenue grows at ≥32% YoY in Q2 FY2026 (Jan 2026 reporting)",
       "horizon": "Q2 FY2026 earnings (Jan 2026)",
@@ -42,8 +57,10 @@
       "threshold": 0.32,
       "operator": ">=",
       "linked_assumption_keys": [
-        "170cc684-f784-4daa-b8d9-c3bd48ab084e"
+        "c583e0c5-7540-4b65-826c-4437b68f4553"
       ],
+      "materiality": "MEDIUM",
+      "score_weight": 1.0,
       "resolved_status": "CORRECT",
       "actual_outcome": 0.35,
       "error_magnitude": 0.0937499999999999,
@@ -53,10 +70,11 @@
       "brier_contribution": 0.0625,
       "error_bucket": null,
       "is_excluded": false,
-      "exclusion_reason": ""
+      "exclusion_reason": "",
+      "direction_correct": true
     },
     {
-      "prediction_id": "7b673ad1-caec-475c-b7f8-bd8887ef24e7",
+      "prediction_id": "0f3e3cb3-7d19-4c9b-968c-aedb94299c66",
       "metric": "msft_ai_revenue_run_rate_usd_b",
       "description": "AI annualized revenue run rate exceeds $20B by end of FY2026",
       "horizon": "FY2026 year-end (June 2026)",
@@ -65,8 +83,10 @@
       "threshold": 20.0,
       "operator": ">=",
       "linked_assumption_keys": [
-        "6d239840-e485-4f06-8208-33dde1d69051"
+        "9b6a219f-56cf-42c5-a0e5-dd7d82dbda4a"
       ],
+      "materiality": "MEDIUM",
+      "score_weight": 1.0,
       "resolved_status": null,
       "actual_outcome": null,
       "error_magnitude": null,
@@ -76,10 +96,11 @@
       "brier_contribution": null,
       "error_bucket": null,
       "is_excluded": true,
-      "exclusion_reason": "unresolved"
+      "exclusion_reason": "unresolved",
+      "direction_correct": null
     },
     {
-      "prediction_id": "63bb0672-594c-4280-af34-f3d614cb12af",
+      "prediction_id": "b99f0d44-3040-4154-b7d7-7498b682ea53",
       "metric": "msft_operating_margin_fy2026",
       "description": "FY2026 full-year operating margin ≥43%",
       "horizon": "FY2026 full-year",
@@ -88,6 +109,8 @@
       "threshold": 0.43,
       "operator": ">=",
       "linked_assumption_keys": [],
+      "materiality": "MEDIUM",
+      "score_weight": 1.0,
       "resolved_status": null,
       "actual_outcome": null,
       "error_magnitude": null,
@@ -97,7 +120,8 @@
       "brier_contribution": null,
       "error_bucket": null,
       "is_excluded": true,
-      "exclusion_reason": "unresolved"
+      "exclusion_reason": "unresolved",
+      "direction_correct": null
     }
   ]
 }

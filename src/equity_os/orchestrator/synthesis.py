@@ -45,6 +45,7 @@ def build_observation_layer(
         freshness_penalty_applied=ind_freshness_penalty,
         evidence_id_count=len(industry.get("evidence_ids", [])),
         key_findings=[f.get("name", "") for f in industry.get("porter_forces", [])[:3]],
+        analysis_status=str(industry.get("analysis_status", "COMPLETE")),
     )
 
     # StrategyAgent observation
@@ -55,6 +56,7 @@ def build_observation_layer(
         freshness_penalty_applied=str_freshness_penalty,
         evidence_id_count=len(strategy.get("evidence_ids", [])),
         key_findings=[p.get("text", "")[:80] for p in strategy.get("management_priorities", [])[:3]],
+        analysis_status=str(strategy.get("analysis_status", "COMPLETE")),
     )
 
     # Porter forces summary
@@ -152,17 +154,23 @@ def _synthesize_thesis(
 ) -> str:
     cycle = obs.cycle_stage.replace("_", " ").lower()
     mkt = obs.market_structure.lower()
+    article = "an" if mkt[:1] in "aeiou" else "a"
     label = obs.industry_label or "technology"
     target = obs.strategic_target_market or "premium"
+    target_article = "an" if target[:1].lower() in "aeiou" else "a"
     moat = ", ".join(obs.strategic_moat[:2]) if obs.strategic_moat and obs.strategic_moat[0] != "unknown" else "proprietary ecosystem"
     top_seg = obs.segment_priority_order[0] if obs.segment_priority_order else "core segment"
-    top_priority = (obs.management_priorities_raw[0][:100] if obs.management_priorities_raw else f"growing the {top_seg} business")
+    top_priority = (
+        obs.management_priorities_raw[0][:100].rstrip(".")
+        if obs.management_priorities_raw
+        else f"growing the {top_seg} business"
+    )
 
     return (
-        f"{strategy.get('ticker', industry.get('ticker', '?'))} operates in a "
-        f"{mkt} {label} market at the {cycle} stage of the industry cycle. "
-        f"The company is positioned as a {target} player with {moat} as the primary "
-        f"competitive advantage, and the {top_seg} segment leading revenue mix. "
+        f"{strategy.get('ticker', industry.get('ticker', '?'))} operates in "
+        f"{article} {mkt} {label} market at the {cycle} stage of the industry cycle. "
+        f"The company is positioned as {target_article} {target} player with {moat} as the primary "
+        f"competitive advantage, and the {top_seg} segment receiving the most management emphasis. "
         f"Management's stated focus centres on: {top_priority}."
     )
 

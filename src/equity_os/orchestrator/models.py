@@ -13,6 +13,7 @@ DecisionLayer    — what to do next. Predictions, falsification conditions,
 from __future__ import annotations
 
 from datetime import datetime
+from enum import Enum
 from typing import Any
 from uuid import UUID, uuid4
 
@@ -24,6 +25,14 @@ from pydantic import BaseModel, Field
 # ---------------------------------------------------------------------------
 
 
+class SynthesisStatus(str, Enum):
+    """Whether the orchestrator may publish a synthesized thesis."""
+
+    COMPLETE = "COMPLETE"
+    LIMITED = "LIMITED"
+    ABSTAINED = "ABSTAINED"
+
+
 class AgentObservation(BaseModel):
     """One agent's raw output, summarised for the orchestrator."""
     agent_id: str
@@ -32,6 +41,7 @@ class AgentObservation(BaseModel):
     freshness_penalty_applied: float = Field(ge=0.0, le=1.0, default=0.0)
     evidence_id_count: int = 0
     key_findings: list[str] = Field(default_factory=list)   # top findings verbatim
+    analysis_status: str = "COMPLETE"
 
 
 class ObservationLayer(BaseModel):
@@ -206,6 +216,8 @@ class OrchestratorDecision(BaseModel):
     ticker: str
     generated_at: datetime = Field(default_factory=datetime.utcnow)
     policy_version: str = "1.0"
+    synthesis_status: SynthesisStatus = SynthesisStatus.COMPLETE
+    abstention_reasons: list[str] = Field(default_factory=list)
 
     observations: ObservationLayer
     inferences: InferenceLayer

@@ -9,7 +9,7 @@ from uuid import UUID, uuid4
 from pydantic import BaseModel, Field, model_validator
 
 from .common import Confidence, SourceMetadata
-from .enums import ComparisonOperator, ResolutionStatus
+from .enums import ComparisonOperator, MaterialityLevel, ResolutionStatus
 
 
 class ResolutionRecord(BaseModel):
@@ -62,6 +62,7 @@ class PredictionRecord(BaseModel):
     due_date: date                             # hard resolution deadline
     probability: Confidence = 0.6              # analyst-assigned probability 0-1
     confidence: Confidence = 0.7              # confidence in the probability estimate
+    materiality: MaterialityLevel = MaterialityLevel.MEDIUM
     resolution_rule: str                       # unambiguous rule for resolving
     resolution: ResolutionRecord | None = None
     supporting_assumptions: list[UUID] = Field(default_factory=list)

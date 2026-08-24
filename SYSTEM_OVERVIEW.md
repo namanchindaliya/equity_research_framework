@@ -79,6 +79,24 @@ models.py      →  all output Pydantic models (IndustryAnalysis, CompanyStrateg
 
 The confidence formula lives in `extraction.py:compute_confidence()`. Every finding traces back to a `TextChunk` via `EvidenceRef`.
 
+#### Evidence quality and abstention
+
+Each specialist output includes an `analysis_status` and `evidence_quality` record:
+
+- `COMPLETE` — required source coverage and claim-level citation checks pass.
+- `LIMITED` — conclusions are usable with explicit source-coverage limitations.
+- `ABSTAINED` — the agent returns structurally valid `UNKNOWN` fields and no unsupported conclusions.
+
+Industry analysis requires at least two distinct required source categories.
+Strategy analysis requires at least one filing or earnings transcript. Every
+positive-confidence material claim must have a citation, and confidence of 75%
+or higher requires citations from at least two distinct documents. The
+evidence-quality record separately marks sources `FRESH`, `STALE`, `MIXED`, or
+`UNDATED` using a 180-day threshold, so rerunning an agent does not reset source
+freshness. The
+orchestrator also abstains when a specialist abstains, a core analytical field
+is unresolved, or overall synthesis confidence is below 25%.
+
 #### IndustryAgent scope
 
 - Market structure (MONOPOLY / OLIGOPOLY / COMPETITIVE / FRAGMENTED)
@@ -242,13 +260,27 @@ renderer.py   →  render_episode_score(), render_postmortem()
 
 #### Scoring formulas
 
-**Brier score:** `B = (1/N) Σ(pᵢ − oᵢ)²`
+**Materiality-weighted Brier score:** `B = Σwᵢ(pᵢ − oᵢ)² / Σwᵢ`
 - `oᵢ = 1.0` for CORRECT, `0.5` for PARTIALLY_CORRECT, `0.0` for INCORRECT
+- Weights are CRITICAL `4.0`, HIGH `2.0`, MEDIUM `1.0`, LOW `0.5`.
 - EXPIRED / WITHDRAWN / INCONCLUSIVE are excluded from Brier
 - EXPIRED with correct direction → classified as TIMING (counted in error attribution)
 - Lower = better; **0.25 = uninformative baseline** (always predict 50%)
 
-**Hit rate:** `(Σ oᵢ) / N_scored`
+**Weighted hit rate:** `Σwᵢoᵢ / Σwᵢ`
+
+The score also reports directional accuracy, mean absolute magnitude error,
+timing-error count, resolution coverage, and scoreable coverage.
+
+#### Verdict and calibration gates
+
+- A definitive thesis verdict requires at least 3 scoreable predictions.
+- Scoreable predictions must represent at least two-thirds of all predictions.
+- An incomplete episode returns `PENDING`; a completed but inadequate sample
+  returns `INSUFFICIENT_EVIDENCE`.
+- Calibration statistics remain visible for small samples, but are not labeled
+  reliable and do not drive systematic calibration recommendations until at
+  least 5 predictions are scoreable.
 
 **Calibration bins:** 5 probability buckets (0–0.2, 0.2–0.4, …, 0.8–1.0). Each reports `predicted_avg`, `actual_freq`, `calibration_error = |predicted_avg − actual_freq|`.
 
@@ -292,7 +324,7 @@ Every command follows the same pattern:
 | `add-assumption TICKER EPISODE` | Appends `AssumptionRecord` to episode | `assumptions/{slug}/{key}_v001.json` |
 | `update-assumption TICKER EPISODE KEY` | Calls `AssumptionRecord.revise()` | `{key}_v002.json` + `_changes.jsonl` |
 | `list-assumptions TICKER EPISODE` | Reads episode, renders rich table | terminal only |
-| `log-prediction TICKER EPISODE` | Appends `PredictionRecord` | `predictions/{slug}/{metric}_{id}.json` |
+| `log-prediction TICKER EPISODE` | Appends materiality-weighted `PredictionRecord` | `predictions/{slug}/{metric}_{id}.json` |
 | `resolve-prediction TICKER EPISODE METRIC` | Calls `PredictionRecord.resolve()` | `resolutions/{slug}/…_resolution.json` |
 | `render-company-summary TICKER` | Rebuilds `dossier.md` from all episodes | `core/dossier.md` |
 | `ingest TICKER [--file FILE]` | Calls `ingest_file()` or `ingest_dir()` | `evidence/{uuid}.json` |

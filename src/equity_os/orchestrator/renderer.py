@@ -40,6 +40,7 @@ def render_decision(decision: OrchestratorDecision) -> str:
         f"",
         f"**Decision ID:** `{decision.decision_id}`  "
         f"**Policy:** v{decision.policy_version}  "
+        f"**Status:** `{decision.synthesis_status.value}`  "
         f"**Generated:** {_now()}",
         f"",
         f"**Overall Confidence:** {_pct(decision.confidence_summary.overall)} "
@@ -50,6 +51,12 @@ def render_decision(decision: OrchestratorDecision) -> str:
         f"",
     ]
 
+    if decision.abstention_reasons:
+        lines += [
+            "> **Synthesis gate:** " + " ".join(decision.abstention_reasons),
+            "",
+        ]
+
     # ==================================================================
     # Section 1: Observations
     # ==================================================================
@@ -58,18 +65,18 @@ def render_decision(decision: OrchestratorDecision) -> str:
 
     # Agent summaries table
     lines += [
-        "| Agent | Confidence | Freshness Penalty | Evidence Sources |",
-        "| --- | --- | --- | --- |",
+        "| Agent | Status | Confidence | Freshness Penalty | Evidence Sources |",
+        "| --- | --- | --- | --- | --- |",
     ]
     if obs.industry_observation:
         o = obs.industry_observation
         lines.append(
-            f"| `{o.agent_id}` | {_pct(o.overall_confidence)} | -{_pct(o.freshness_penalty_applied)} | {o.evidence_id_count} |"
+            f"| `{o.agent_id}` | {o.analysis_status} | {_pct(o.overall_confidence)} | -{_pct(o.freshness_penalty_applied)} | {o.evidence_id_count} |"
         )
     if obs.strategy_observation:
         o = obs.strategy_observation
         lines.append(
-            f"| `{o.agent_id}` | {_pct(o.overall_confidence)} | -{_pct(o.freshness_penalty_applied)} | {o.evidence_id_count} |"
+            f"| `{o.agent_id}` | {o.analysis_status} | {_pct(o.overall_confidence)} | -{_pct(o.freshness_penalty_applied)} | {o.evidence_id_count} |"
         )
     lines.append("")
 

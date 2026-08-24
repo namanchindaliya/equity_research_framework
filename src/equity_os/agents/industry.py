@@ -35,6 +35,7 @@ from .extraction import (
     score_chunks,
 )
 from .models import (
+    AnalysisStatus,
     AgentRunResult,
     CompetitiveDynamics,
     CycleStage,
@@ -216,12 +217,31 @@ class IndustryAgent(BaseAgent):
     def required_inputs(self) -> list[str]:
         return ["filing", "earnings_transcript", "industry_note"]
 
+    def minimum_required_input_count(self) -> int:
+        # Industry structure should not be inferred from one company-controlled
+        # source type. Require two distinct relevant source categories.
+        return 2
+
     # ------------------------------------------------------------------
     # run()
     # ------------------------------------------------------------------
 
     def run(self, ticker: str, evidence: list[IngestedEvidence]) -> AgentRunResult:
         analysis = self._analyse(ticker, evidence)
+        quality = self.assess_evidence_quality(
+            evidence,
+            analysis.model_dump(mode="json"),
+        )
+        if quality.status == AnalysisStatus.ABSTAINED:
+            analysis = self._abstain(ticker, evidence, quality.abstention_reasons)
+        else:
+            analysis = analysis.model_copy(
+                update={
+                    "analysis_status": quality.status,
+                    "evidence_quality": quality,
+                    "abstention_reasons": [],
+                }
+            )
         memo = self.render_markdown(
             AgentRunResult(
                 agent_id=self.agent_id,
@@ -240,11 +260,65 @@ class IndustryAgent(BaseAgent):
         result.validation_errors = self.validate_output(result)
         return result
 
+    def _abstain(
+        self,
+        ticker: str,
+        evidence: list[IngestedEvidence],
+        reasons: list[str],
+    ) -> IndustryAnalysis:
+        """Return a structurally valid result without unsupported conclusions."""
+        text = "Agent abstained: " + " ".join(reasons)
+        unknown_finding = Finding(text=text, confidence=0.0, evidence_refs=[])
+        forces = [
+            PorterForce(
+                name=name,
+                level=ForceLevel.UNKNOWN,
+                summary=text,
+                confidence=0.0,
+                evidence_refs=[],
+            )
+            for name in (
+                "Competitive Rivalry",
+                "Supplier Power",
+                "Buyer Power",
+                "Threat of New Entry",
+                "Threat of Substitutes",
+            )
+        ]
+        quality = self.assess_evidence_quality(evidence, {})
+        return IndustryAnalysis(
+            ticker=ticker,
+            analysis_status=AnalysisStatus.ABSTAINED,
+            evidence_quality=quality,
+            abstention_reasons=reasons,
+            industry_label="Unknown",
+            industry_label_finding=unknown_finding,
+            market_structure=MarketStructure.UNKNOWN,
+            market_structure_finding=unknown_finding,
+            cycle_stage=CycleStage.UNKNOWN,
+            cycle_stage_finding=unknown_finding,
+            porter_forces=forces,
+            key_kpis=[],
+            regulatory_factors=[],
+            competitive_dynamics=CompetitiveDynamics(
+                concentration_finding=unknown_finding,
+                moat_type=["unknown"],
+                basis_of_competition=["unknown"],
+                overall_confidence=0.0,
+            ),
+            top_risks=[],
+            unresolved_questions=reasons,
+            overall_confidence=0.0,
+            evidence_ids=[str(ev.evidence_id) for ev in evidence],
+        )
+
     # ------------------------------------------------------------------
     # Analysis logic
     # ------------------------------------------------------------------
 
     def _analyse(self, ticker: str, evidence: list[IngestedEvidence]) -> IndustryAnalysis:
+        industry_label, industry_label_finding = self._infer_industry_label(evidence)
+
         # --- Market structure ---
         ms, ms_finding = self._market_structure(evidence)
 
@@ -279,7 +353,8 @@ class IndustryAgent(BaseAgent):
 
         return IndustryAnalysis(
             ticker=ticker,
-            industry_label=self._infer_industry_label(evidence),
+            industry_label=industry_label,
+            industry_label_finding=industry_label_finding,
             market_structure=ms,
             market_structure_finding=ms_finding,
             cycle_stage=cs,
@@ -294,7 +369,10 @@ class IndustryAgent(BaseAgent):
             evidence_ids=[str(ev.evidence_id) for ev in evidence],
         )
 
-    def _infer_industry_label(self, evidence: list[IngestedEvidence]) -> str:
+    def _infer_industry_label(
+        self,
+        evidence: list[IngestedEvidence],
+    ) -> tuple[str, Finding]:
         LABELS = [
             (["smartphone", "iphone", "handset"], "Consumer Electronics / Smartphone"),
             (["semiconductor", "chip", "processor"], "Semiconductors"),
@@ -304,13 +382,36 @@ class IndustryAgent(BaseAgent):
             (["retail", "store", "e-commerce"], "Retail"),
             (["oil", "gas", "energy", "barrel"], "Energy"),
         ]
-        all_text = " ".join(
-            chunk.text for ev in evidence for chunk in ev.chunks[:10]
-        ).lower()
-        for kws, label in LABELS:
-            if any(kw in all_text for kw in kws):
-                return label
-        return "Technology / Diversified"
+        scores = [
+            (
+                sum(count_keyword_hits(evidence, [keyword])[0] for keyword in keywords),
+                label,
+                keywords,
+            )
+            for keywords, label in LABELS
+        ]
+        ranked = sorted(scores, reverse=True)
+        top_score, top_label, top_keywords = ranked[0]
+        second_score = ranked[1][0]
+        # Avoid a label based on an incidental word or an ambiguous tie.
+        if top_score < 3 or (second_score > 0 and top_score < second_score * 1.25):
+            return "Unknown", Finding(
+                text="Industry label is ambiguous or insufficiently supported.",
+                confidence=0.0,
+                evidence_refs=[],
+            )
+        scored = score_chunks(evidence, top_keywords, top_k=4)
+        confidence, refs = build_finding_from_scored(
+            "",
+            scored,
+            evidence,
+            top_keywords,
+        )
+        return top_label, Finding(
+            text=f"Industry label supported by repeated {top_label} terminology.",
+            confidence=confidence,
+            evidence_refs=refs,
+        )
 
     def _market_structure(
         self, evidence: list[IngestedEvidence]
@@ -347,6 +448,12 @@ class IndustryAgent(BaseAgent):
         decline_hits, _ = count_keyword_hits(evidence, _DECLINE_KW)
 
         scored = score_chunks(evidence, _GROWTH_KW + _DECLINE_KW, top_k=4)
+        if not scored or growth_hits + decline_hits < 2:
+            return CycleStage.UNKNOWN, Finding(
+                text="Insufficient evidence to determine industry cycle stage.",
+                confidence=0.0,
+                evidence_refs=[],
+            )
         conf, refs = build_finding_from_scored("", scored, evidence, _GROWTH_KW)
 
         sent = first_match(evidence, _GROWTH_KW) or ""
@@ -535,6 +642,8 @@ class IndustryAgent(BaseAgent):
             errors.append("unresolved_questions field missing.")
         if not p.get("industry_label"):
             errors.append("industry_label is empty.")
+        if p.get("analysis_status") == AnalysisStatus.ABSTAINED.value and p.get("overall_confidence") != 0.0:
+            errors.append("Abstained analysis must have zero overall confidence.")
         return errors
 
     # ------------------------------------------------------------------
@@ -550,6 +659,7 @@ class IndustryAgent(BaseAgent):
             f"# Industry Analysis — {p.get('ticker', result.ticker)}",
             f"",
             f"**Agent:** `{self.agent_id}` v{self.agent_version}  "
+            f"**Status:** `{p.get('analysis_status', AnalysisStatus.COMPLETE.value)}`  "
             f"**Confidence:** {self._pct(p.get('overall_confidence', 0))} ({conf_label})  "
             f"**Generated:** {self._now()}",
             f"",
@@ -557,6 +667,14 @@ class IndustryAgent(BaseAgent):
             f"No valuation. No operating forecast.",
             f"",
         ]
+
+        quality = p.get("evidence_quality") or {}
+        if p.get("analysis_status") != AnalysisStatus.COMPLETE.value:
+            reasons = p.get("abstention_reasons") or quality.get("quality_flags", [])
+            lines += [
+                "> **Evidence gate:** " + (" ".join(reasons) if reasons else "Analysis is evidence-limited."),
+                "",
+            ]
 
         # Industry label + structure + cycle
         lines += [

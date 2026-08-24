@@ -53,6 +53,8 @@ class ScoredPrediction(BaseModel):
     threshold: Any
     operator: str
     linked_assumption_keys: list[str] = Field(default_factory=list)
+    materiality: str = "MEDIUM"
+    score_weight: float = Field(default=1.0, gt=0.0)
 
     # Resolution fields (None = unresolved)
     resolved_status: str | None = None  # ResolutionStatus value
@@ -67,6 +69,7 @@ class ScoredPrediction(BaseModel):
     error_bucket: ErrorBucket | None = None
     is_excluded: bool = False             # True if EXPIRED/WITHDRAWN/INCONCLUSIVE
     exclusion_reason: str = ""
+    direction_correct: bool | None = None
 
 
 # ---------------------------------------------------------------------------
@@ -135,6 +138,15 @@ class EpisodeScore(BaseModel):
     resolved_count: int
     excluded_count: int    # EXPIRED / WITHDRAWN / INCONCLUSIVE
     scored_count: int      # predictions included in Brier/hit-rate
+    unresolved_count: int = 0
+    resolution_coverage: float = Field(default=0.0, ge=0.0, le=1.0)
+    scoreable_coverage: float = Field(default=0.0, ge=0.0, le=1.0)
+
+    # A thesis verdict requires enough resolved, scoreable evidence.
+    minimum_verdict_coverage: float = Field(default=2 / 3, ge=0.0, le=1.0)
+    minimum_verdict_sample: int = Field(default=3, ge=1)
+    verdict_eligible: bool = False
+    verdict_ineligibility_reasons: list[str] = Field(default_factory=list)
 
     # Brier score (lower = better; 0.25 = uninformative baseline)
     brier_score: float | None = None    # None if no scored predictions
@@ -142,10 +154,15 @@ class EpisodeScore(BaseModel):
 
     # Hit rate (fraction correct + 0.5 * partial)
     hit_rate: float | None = None
+    directional_accuracy: float | None = None
+    mean_absolute_magnitude_error: float | None = None
+    timing_error_count: int = 0
 
     # Calibration
     calibration_bins: list[CalibrationBin] = Field(default_factory=list)
     mean_calibration_error: float | None = None
+    minimum_calibration_sample: int = Field(default=5, ge=1)
+    calibration_is_reliable: bool = False
 
     # Error attribution
     error_attribution: ErrorAttributionSummary = Field(
@@ -157,7 +174,7 @@ class EpisodeScore(BaseModel):
 
     @property
     def is_well_calibrated(self) -> bool:
-        return (self.mean_calibration_error or 1.0) < 0.10
+        return self.calibration_is_reliable and (self.mean_calibration_error or 1.0) < 0.10
 
     @property
     def beat_baseline(self) -> bool:
@@ -208,4 +225,4 @@ class PostmortemReport(BaseModel):
     orchestrator_recommendations: list[str] = Field(default_factory=list)
 
     # Overall verdict (derived from score)
-    verdict: str = ""      # "THESIS_CORRECT" | "THESIS_INCORRECT" | "PARTIALLY_CORRECT" | "INCONCLUSIVE"
+    verdict: str = ""      # includes PENDING / INSUFFICIENT_EVIDENCE when coverage is inadequate

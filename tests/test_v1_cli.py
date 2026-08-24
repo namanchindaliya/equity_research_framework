@@ -15,6 +15,7 @@ from equity_os.schemas import (
     AssumptionChange,
     AssumptionRecord,
     CompanyDossier,
+    MaterialityLevel,
     PredictionRecord,
     ResolutionRecord,
     ThesisEpisode,
@@ -90,6 +91,7 @@ def _log_prediction(companies_dir: Path, ticker: str, slug: str) -> None:
             "--resolution-rule", "Apple FY2026 annual report total Services revenue.",
             "--unit", "USD B",
             "--probability", "0.65",
+            "--materiality", "HIGH",
             *_args(companies_dir),
         ],
     )
@@ -427,6 +429,7 @@ class TestLogPrediction:
         p = ep.predictions[0]
         assert p.metric == "aapl_services_revenue"
         assert p.threshold == 110
+        assert p.materiality == MaterialityLevel.HIGH
         assert not p.is_resolved
 
     def test_writes_prediction_artifact(self, tmp_path: Path):

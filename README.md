@@ -1,16 +1,20 @@
-# equity_os — Public-Equity Company Coverage System
+# eqos — Public-Equity Company Coverage System
 
 A structured, filesystem-backed system for tracking equity research: thesis episodes, assumptions, and predictions — with full version history.
 
 ## Design Principles
 
 1. **Source of truth is structured state, not prose.** Everything lives in versioned JSON.
-2. **Every company has its own folder.** `~/.equity_os/data/<TICKER>/`
-3. **Every update preserves the previous state.** A snapshot is taken before every write.
+2. **Every company has its own normalized folder tree.** `companies/<TICKER>/`
+3. **Analytical history is append-only.** Episodes, assumption versions, predictions, and resolutions are stored separately.
 4. **Each coverage cycle is a thesis episode.** Open → Close, with full audit trail.
 5. **Assumptions are first-class objects with version history.** Revising an assumption retires the old one and creates a new one linked by `revised_from`.
 6. **Predictions must be explicit and later resolvable.** Every prediction has an outcome status that can be resolved with an actual value.
 7. **JSON first, markdown second.** Raw state is always JSON; reports are generated markdown.
+8. **Weak evidence produces abstention, not forced conclusions.** Agent and orchestrator status is explicit.
+9. **Verdicts require adequate coverage.** A thesis verdict needs at least three scoreable predictions and two-thirds scoreable coverage.
+
+`eqos` is the canonical CLI and storage model. The older `equity-os` command remains available only for legacy compatibility.
 
 ## Quickstart
 
@@ -19,50 +23,48 @@ A structured, filesystem-backed system for tracking equity research: thesis epis
 uv sync
 
 # Init coverage
-uv run equity-os init AAPL --name "Apple Inc." --sector Technology --industry "Consumer Electronics"
+uv run eqos init-company AAPL --name "Apple Inc." --sector Technology --industry "Consumer Electronics"
 
 # Open a thesis episode
-uv run equity-os episode new AAPL \
+uv run eqos new-episode AAPL \
   --title "FY2026 Initiation" \
   --thesis "Services flywheel drives durable margin expansion." \
   --rating BUY --pt 230.0
 
 # Add assumptions
-uv run equity-os assumption add AAPL <episode-id> \
-  --key services_rev_growth --value 0.18 --unit "%" \
+uv run eqos add-assumption AAPL <episode-slug> \
+  --key services_rev_growth --label "Services revenue growth" \
+  --value 0.18 --unit "%" --materiality CRITICAL \
   --rationale "Management guide + recent quarter trend"
 
 # Add predictions
-uv run equity-os prediction add AAPL <episode-id> \
+uv run eqos log-prediction AAPL <episode-slug> \
   --description "Services revenue exceeds $120B in FY2026" \
-  --metric services_revenue --target 120 --horizon FY2026 --unit "B USD"
-
-# View coverage
-uv run equity-os show AAPL
-
-# Generate report
-uv run equity-os report AAPL --output AAPL_coverage.md
+  --metric services_revenue --threshold 120 --horizon FY2026 \
+  --due-date 2026-11-01 --unit "B USD" --materiality CRITICAL
 
 # Resolve a prediction
-uv run equity-os prediction resolve AAPL <episode-id> <prediction-id> \
-  --outcome CORRECT --actual 124.3 --note "Beat guide by 4B"
+uv run eqos resolve-prediction AAPL <episode-slug> services_revenue \
+  --status CORRECT --actual 124.3 --notes "Beat guide by 4B"
 
-# Close episode
-uv run equity-os episode close AAPL <episode-id> --note "Thesis fully played out."
+# Score and generate a postmortem
+uv run eqos score-company AAPL --episode <episode-slug>
+uv run eqos postmortem-episode AAPL <episode-slug>
 ```
 
 ## Data Layout
 
 ```
-~/.equity_os/data/
+companies/
   AAPL/
-    company.json            ← current state (never read-only)
-    snapshots/
-      20260101T120000Z.json ← immutable point-in-time snapshots
-      20260424T090000Z.json
-  MSFT/
-    company.json
-    snapshots/
+    core/dossier.json
+    episodes/{date}_{slug}/episode.json
+    assumptions/{date}_{slug}/{key}_v001.json
+    predictions/{date}_{slug}/{metric}_{id8}.json
+    resolutions/{date}_{slug}/{metric}_{id8}_resolution.json
+    evidence/{uuid}.json
+    scores/{date}_{slug}.json
+    postmortems/{date}_{slug}.json
 ```
 
 ## Tech Stack
@@ -104,9 +106,9 @@ The demo runs 10 sequential steps and writes all artifacts to `demo/`:
 
 ### What it proves
 
-**Prior state is preserved.** Episode 1 JSON is never overwritten by Episode 2.
-Each episode lives in its own `episodes/{slug}/` directory.  Snapshots are not
-needed at the episode level because episodes are immutable once created.
+**Prior cycles are preserved.** Episode 2 never overwrites Episode 1. Each
+coverage cycle has its own `episodes/{slug}/` directory, while assumption
+versions and resolution records preserve changes within a cycle.
 
 **Updates create auditable diffs.** `demo/diff/industry_diff_ep1_ep2.md`
 shows every field that changed between Episode 1 and Episode 2 industry runs,
@@ -114,8 +116,14 @@ with materiality labels and assumption-update proposals.
 
 **The orchestrator can be judged later.** `demo/orchestrator/ep1/decision.json`
 records the exact thesis, assumptions, falsification conditions, and monitoring
-triggers at Episode 1 time.  When the postmortem runs, the verdict (THESIS_CORRECT /
-INCORRECT / PARTIAL) is computed against those predictions.
+triggers at Episode 1 time. A definitive postmortem verdict requires at least
+three scoreable predictions and scoreable coverage of at least two-thirds.
+Otherwise the result is `PENDING` or `INSUFFICIENT_EVIDENCE`.
+
+**Weak evidence is explicit.** Specialist outputs are marked `COMPLETE`,
+`LIMITED`, or `ABSTAINED`. Industry analysis requires at least two relevant
+source categories, and the orchestrator will not synthesize a thesis when a
+specialist abstains, core fields are unresolved, or confidence is below 25%.
 
 **No external APIs.** All four input documents are in `demo/inputs/MSFT/`.
 Ingestion, chunking, agent analysis, orchestration, diff, scoring, and postmortem
@@ -137,18 +145,20 @@ uv run pytest -v
 ## CLI Reference
 
 ```
-equity-os --help
+eqos --help
 
 Commands:
-  init             Initialize coverage for a new company
-  show             Show company overview and episodes
-  list-companies   List all covered companies
-  report           Generate a markdown report
-  episode new      Open a new thesis episode
-  episode close    Close a thesis episode
-  episode show     Show episode detail
-  assumption add   Add an assumption to an episode
-  assumption revise  Revise an assumption (preserves history)
-  prediction add   Add a prediction to an episode
-  prediction resolve  Record the actual outcome of a prediction
+  init-company           Initialize coverage for a company
+  new-episode            Open a thesis episode
+  add-assumption         Add a versioned assumption
+  update-assumption      Revise an assumption and append its change log
+  list-assumptions       Show an episode's assumptions
+  log-prediction         Add a materiality-weighted prediction
+  resolve-prediction     Record an individual outcome
+  resolve-episode        Resolve predictions individually or from JSON
+  ingest                 Ingest local evidence files
+  list-evidence          Show the evidence catalog
+  render-company-summary Rebuild the dossier markdown
+  score-company          Score prediction outcomes
+  postmortem-episode     Generate a coverage-gated postmortem
 ```

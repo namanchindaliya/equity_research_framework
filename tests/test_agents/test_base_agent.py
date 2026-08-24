@@ -5,6 +5,7 @@ from __future__ import annotations
 import pytest
 
 from equity_os.agents.industry import IndustryAgent
+from equity_os.agents.models import AnalysisStatus
 from equity_os.agents.strategy import CompanyStrategyAgent
 from equity_os.ingest.models import IngestedEvidence
 
@@ -61,6 +62,10 @@ class TestBaseAgentContract:
         result = IndustryAgent().run("AAPL", [])
         assert result is not None
         assert isinstance(result.payload, dict)
+        assert result.analysis_status == AnalysisStatus.ABSTAINED
+        assert result.payload["market_structure"] == "UNKNOWN"
+        assert result.payload["cycle_stage"] == "UNKNOWN"
+        assert result.payload["overall_confidence"] == 0.0
 
     def test_determinism(self, aapl_evidence):
         """Same evidence → same payload structure and key values."""

@@ -47,6 +47,8 @@
     },
     "PostmortemVerdict": {
       "enum": [
+        "PENDING",
+        "INSUFFICIENT_EVIDENCE",
         "THESIS_CORRECT",
         "THESIS_INCORRECT",
         "PARTIALLY_CORRECT",

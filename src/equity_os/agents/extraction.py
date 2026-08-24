@@ -102,7 +102,10 @@ def compute_confidence(
     base = min(hits * hit_weight, 0.75)
     breadth = breadth_bonus if source_count > 1 else 0.0
     raw = (base + breadth) * avg_reliability
-    return round(min(raw, max_conf), 3)
+    # A single document can support a useful finding, but cannot justify a
+    # HIGH-confidence label. Cross-source confirmation is required at >= 0.75.
+    effective_max = min(max_conf, 0.74) if source_count < 2 else max_conf
+    return round(min(raw, effective_max), 3)
 
 
 def avg_reliability(evidence_list: list[IngestedEvidence]) -> float:

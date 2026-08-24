@@ -62,8 +62,10 @@ _GENERAL_RECOMMENDATIONS = [
 
 
 def _verdict_from_score(score: EpisodeScore) -> str:
-    if score.scored_count == 0:
-        return "INCONCLUSIVE"
+    if not score.verdict_eligible:
+        if score.unresolved_count > 0:
+            return "PENDING"
+        return "INSUFFICIENT_EVIDENCE"
     hr = score.hit_rate or 0.0
     if hr >= 0.75:
         return "THESIS_CORRECT"
@@ -187,19 +189,24 @@ def _build_recommendations(score: EpisodeScore) -> list[str]:
 
     # Calibration recommendation
     mce = score.mean_calibration_error
-    if mce is not None and mce > 0.15:
+    if score.calibration_is_reliable and mce is not None and mce > 0.15:
         recs.append(
             f"Calibration error is {mce:.0%} — probability assignments are systematically off. "
             "Consider recalibrating by reviewing historical accuracy by probability bucket."
         )
 
     # Brier vs baseline
-    if score.brier_vs_baseline is not None and score.brier_vs_baseline > 0:
+    if score.verdict_eligible and score.brier_vs_baseline is not None and score.brier_vs_baseline > 0:
         recs.append(
             f"Brier score ({score.brier_score:.3f}) is worse than the uninformative baseline (0.250). "
             "Consider reducing probability conviction until calibration improves."
         )
 
+    if not score.verdict_eligible:
+        recs.append(
+            "Do not issue a thesis verdict yet: "
+            + " ".join(score.verdict_ineligibility_reasons)
+        )
     recs.extend(_GENERAL_RECOMMENDATIONS[:1])
     return recs[:5]
 

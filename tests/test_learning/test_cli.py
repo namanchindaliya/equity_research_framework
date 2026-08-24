@@ -261,7 +261,7 @@ class TestPostmortemEpisode:
         from equity_os.learning.models import PostmortemReport
         layout = CompanyLayout(tmp_path, "AAPL")
         report = PostmortemReport.model_validate_json(layout.postmortem_json(slug).read_text())
-        assert report.verdict in {"THESIS_CORRECT", "THESIS_INCORRECT", "PARTIALLY_CORRECT", "INCONCLUSIVE"}
+        assert report.verdict == "INSUFFICIENT_EVIDENCE"
         assert report.thesis_at_time
 
     def test_postmortem_custom_thesis(self, tmp_path: Path):

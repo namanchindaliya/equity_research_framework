@@ -2,12 +2,12 @@
 
 | Field | Value |
 | --- | --- |
-| ID | `7e048d66-86f4-4546-9bba-b95096fd8668` |
+| ID | `08e12ce0-556c-4349-8df1-4a5b3d5afb49` |
 | Status | **OPEN** |
 | Rating | **BUY** |
 | Price Target | N/A |
 | Version | v1 |
-| Created | 2026-04-25 |
+| Created | 2026-08-24 |
 
 ## Thesis
 
@@ -28,4 +28,4 @@ Microsoft is at the epicentre of the enterprise AI adoption cycle. Azure's reacc
 | `msft_ai_revenue_run_rate_usd_b` | AI annualized revenue run rate exceeds $20B by end of FY2026… | 20.0 USD B | >= | FY2026 year-end (June 2026) | 2026-08-01 | 60% | ⏳ PENDING |
 | `msft_operating_margin_fy2026` | FY2026 full-year operating margin ≥43%… | 0.43 % | >= | FY2026 full-year | 2026-08-15 | 70% | ⏳ PENDING |
 
-_Generated 2026-04-25 16:38 UTC_
+_Generated 2026-08-24 13:44 UTC_

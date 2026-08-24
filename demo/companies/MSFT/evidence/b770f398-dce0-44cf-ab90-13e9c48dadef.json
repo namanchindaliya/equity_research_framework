@@ -1,5 +1,5 @@
 {
-  "evidence_id": "90862803-b571-4331-a2fa-18f1d0816cb7",
+  "evidence_id": "b770f398-dce0-44cf-ab90-13e9c48dadef",
   "ticker": "MSFT",
   "logical_type": "channel_check_note",
   "source_type": "CHANNEL_CHECK",
@@ -30,7 +30,7 @@
   },
   "chunks": [
     {
-      "chunk_id": "MSFT-90862803-0000",
+      "chunk_id": "MSFT-b770f398-0000",
       "index": 0,
       "text": "contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure OpenAI Service strong; deal cycles accelerating in financial services sentiment: positive data_point: +40 unit: % YoY deal count\ncontact_type: VAR geography: Europe product: Azure observation: Enterprise migrations from on-premises accelerating; hybrid cloud seeing renewed interest post-regulatory clarity sentiment: positive data_point: +22 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: Microsoft 365 Copilot observation: Copilot attach rates on E5 renewals running at 35%; customers cautious on broader rollout until ROI is clearer sentiment: mixed data_point: 35 unit: % attach rate on E5\ncontact_type: reseller geography: Asia Pacific product: Azure observation: APAC growth strong led by Japan and Australia; India datacenter investment driving local demand sentiment: positive data_point: +45 unit: % YoY deal count\ncontact_type: OEM geography: North America product: Windows Server observation: Windows Server 2025 refresh cycle beginning; channel partners expect 18-month upcycle sentiment: positive data_point: +15 unit: % YoY units\ncontact_type: VAR geography: Europe product: Azure AI observation: EU AI Act compliance concerns creating demand for Microsoft compliance tooling on Azure sentiment: positive data_point: +28 unit: % YoY pipeline\ncontact_type: distributor geography: North America product: GitHub Copilot observation: Developer adoption of Copilot strong in enterprises; churn rate low at approximately 3% sentiment: positive data_point: 3 unit",
       "char_start": 0,
@@ -39,7 +39,7 @@
       "content_hash": "0eee9766615c1ea1aaf83b4348e33d171dcab8c52918faf23d5b457a8c13cbc0"
     },
     {
-      "chunk_id": "MSFT-90862803-0001",
+      "chunk_id": "MSFT-b770f398-0001",
       "index": 1,
       "text": ": % monthly churn\ncontact_type: reseller geography: North America product: Dynamics 365 observation: Dynamics 365 + Copilot deals accelerating; displacing Salesforce in mid-market sentiment: positive data_point: +18 unit: % YoY deal count",
       "char_start": 1600,
@@ -49,6 +49,6 @@
     }
   ],
   "content_hash": "3a9c2b9ba32e4f090502af6579036ce7a3ca04b9dcdf4f7a380ab8a618e5be3c",
-  "file_path": "/Users/namanchindaliya/claude/equity_reserach_framework/demo/inputs/MSFT/channel_check_azure_partners.csv",
-  "ingested_at": "2026-04-25T16:38:20.913194"
+  "file_path": "/Users/namanchindaliya/Documents/ChatGPT/equity_research_framework/equity_research_framework/demo/inputs/MSFT/channel_check_azure_partners.csv",
+  "ingested_at": "2026-08-24T13:44:14.411450"
 }

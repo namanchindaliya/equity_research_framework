@@ -13,6 +13,16 @@
       "title": "ComparisonOperator",
       "type": "string"
     },
+    "MaterialityLevel": {
+      "enum": [
+        "CRITICAL",
+        "HIGH",
+        "MEDIUM",
+        "LOW"
+      ],
+      "title": "MaterialityLevel",
+      "type": "string"
+    },
     "ResolutionRecord": {
       "description": "The factual outcome that closes a PredictionRecord.\n\nKept as a separate sub-object so it can be attached without mutating\nthe original prediction fields, and so it carries its own provenance.\n\n``error_magnitude`` is signed: positive = overestimate, negative = underestimate.\nFor non-numeric predictions set it to None.",
       "properties": {
@@ -236,6 +246,10 @@
       "minimum": 0.0,
       "title": "Confidence",
       "type": "number"
+    },
+    "materiality": {
+      "$ref": "#/$defs/MaterialityLevel",
+      "default": "MEDIUM"
     },
     "resolution_rule": {
       "title": "Resolution Rule",

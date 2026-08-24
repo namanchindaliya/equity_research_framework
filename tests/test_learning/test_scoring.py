@@ -122,6 +122,57 @@ class TestCounts:
         assert score.scored_count == 0
         assert score.excluded_count == 1
 
+    def test_verdict_requires_minimum_sample(self):
+        from tests.test_learning.conftest import _pred
+
+        preds = [_pred("m1", 0.7, "CORRECT", 105.0)]
+        score = score_episode("AAPL", "test-ep", preds, {})
+        assert not score.verdict_eligible
+        assert score.scoreable_coverage == 1.0
+        assert any("at least 3" in reason for reason in score.verdict_ineligibility_reasons)
+
+    def test_verdict_requires_minimum_coverage(self):
+        from tests.test_learning.conftest import _pred
+
+        preds = [
+            _pred("m1", 0.7, "CORRECT", 105.0),
+            _pred("m2", 0.7, "CORRECT", 105.0),
+            _pred("m3", 0.7, "CORRECT", 105.0),
+            _pred("m4", 0.6),
+            _pred("m5", 0.6),
+        ]
+        score = score_episode("AAPL", "test-ep", preds, {})
+        assert not score.verdict_eligible
+        assert score.scoreable_coverage == 0.6
+
+    def test_full_sample_is_verdict_eligible(self, scenario_a):
+        score = score_episode("AAPL", "test-ep", scenario_a, {})
+        assert score.verdict_eligible
+        assert score.scoreable_coverage == 1.0
+
+    def test_materiality_weights_brier_and_hit_rate(self):
+        from tests.test_learning.conftest import _pred
+
+        critical = _pred("critical", 0.9, "INCORRECT", 80.0)
+        critical["materiality"] = "CRITICAL"
+        low = _pred("low", 0.9, "CORRECT", 105.0)
+        low["materiality"] = "LOW"
+        score = score_episode("AAPL", "test-ep", [critical, low], {})
+        assert score.brier_score > 0.7
+        assert score.hit_rate < 0.2
+
+    def test_direction_and_magnitude_metrics(self, scenario_b):
+        score = score_episode("AAPL", "test-ep", scenario_b, {})
+        assert score.directional_accuracy is not None
+        assert score.mean_absolute_magnitude_error is not None
+
+    def test_calibration_reliability_requires_five_samples(self):
+        from tests.test_learning.conftest import _pred
+
+        small = [_pred(f"m{i}", 0.7, "CORRECT", 105.0) for i in range(4)]
+        assert not score_episode("AAPL", "test-ep", small, {}).calibration_is_reliable
+        assert score_episode("AAPL", "test-ep", [*small, _pred("m5", 0.7, "CORRECT", 105.0)], {}).calibration_is_reliable
+
 
 class TestErrorAttribution:
     def test_industry_bucket_detected(self, scenario_e_attribution):

@@ -2,15 +2,19 @@
 
 from __future__ import annotations
 
+from datetime import date, timedelta
+
 import pytest
 
 from equity_os.agents.industry import IndustryAgent
 from equity_os.agents.models import (
+    AnalysisStatus,
     CycleStage,
     Finding,
     ForceLevel,
     IndustryAnalysis,
     MarketStructure,
+    EvidenceFreshness,
     PorterForce,
 )
 
@@ -101,6 +105,44 @@ class TestIndustryAnalysisStructure:
     def test_no_validation_errors(self, result):
         assert result.validation_errors == []
 
+    def test_evidence_quality_is_explicit(self, analysis):
+        assert analysis.analysis_status == AnalysisStatus.LIMITED
+        assert analysis.evidence_quality is not None
+        assert "industry_note" in analysis.evidence_quality.missing_required_types
+
+    def test_material_claims_are_cited(self, analysis):
+        quality = analysis.evidence_quality
+        assert quality is not None
+        assert quality.citation_coverage == 1.0
+
+    def test_high_confidence_claims_are_cross_sourced(self, analysis):
+        quality = analysis.evidence_quality
+        assert quality is not None
+        assert (
+            quality.cross_source_high_confidence_claim_count
+            == quality.high_confidence_claim_count
+        )
+
+    def test_document_freshness_is_explicit(self, aapl_evidence):
+        fresh = [
+            ev.model_copy(update={"source_date": date.today()})
+            for ev in aapl_evidence
+        ]
+        stale = [
+            ev.model_copy(update={"source_date": date.today() - timedelta(days=365)})
+            for ev in aapl_evidence
+        ]
+        fresh_quality = IndustryAnalysis.model_validate(
+            IndustryAgent().run("AAPL", fresh).payload
+        ).evidence_quality
+        stale_quality = IndustryAnalysis.model_validate(
+            IndustryAgent().run("AAPL", stale).payload
+        ).evidence_quality
+        assert fresh_quality is not None
+        assert stale_quality is not None
+        assert fresh_quality.freshness_status == EvidenceFreshness.FRESH
+        assert stale_quality.freshness_status == EvidenceFreshness.STALE
+
 
 class TestIndustryEvidenceRefs:
     def test_porter_rivalry_has_refs(self, analysis):
@@ -157,12 +199,14 @@ class TestIndustrySingleSource:
     def test_filing_only_still_produces_output(self, filing_only):
         result = IndustryAgent().run("AAPL", filing_only)
         analysis = IndustryAnalysis.model_validate(result.payload)
-        assert analysis.market_structure in MarketStructure
+        assert analysis.analysis_status == AnalysisStatus.ABSTAINED
+        assert analysis.market_structure == MarketStructure.UNKNOWN
         assert len(analysis.porter_forces) == 5
 
     def test_transcript_only_still_produces_output(self, transcript_only):
         result = IndustryAgent().run("AAPL", transcript_only)
         analysis = IndustryAnalysis.model_validate(result.payload)
+        assert analysis.analysis_status == AnalysisStatus.ABSTAINED
         assert len(analysis.porter_forces) == 5
 
 

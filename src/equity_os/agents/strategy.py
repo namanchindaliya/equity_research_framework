@@ -37,6 +37,7 @@ from .extraction import (
     score_chunks,
 )
 from .models import (
+    AnalysisStatus,
     AgentRunResult,
     CapitalAllocationItem,
     CredibilitySignal,
@@ -307,7 +308,11 @@ def _extract_strategic_positioning(
     for market, kws in _STRATEGIC_MARKET.items():
         h, _ = count_keyword_hits(evidence, kws)
         market_scores[market] = h
-    target = max(market_scores, key=lambda k: market_scores[k]) if market_scores else "unknown"
+    target = (
+        max(market_scores, key=lambda k: market_scores[k])
+        if market_scores and max(market_scores.values()) > 0
+        else "unknown"
+    )
 
     # Differentiation
     diff_axes: list[str] = []
@@ -391,6 +396,20 @@ class CompanyStrategyAgent(BaseAgent):
 
     def run(self, ticker: str, evidence: list[IngestedEvidence]) -> AgentRunResult:
         analysis = self._analyse(ticker, evidence)
+        quality = self.assess_evidence_quality(
+            evidence,
+            analysis.model_dump(mode="json"),
+        )
+        if quality.status == AnalysisStatus.ABSTAINED:
+            analysis = self._abstain(ticker, evidence, quality.abstention_reasons)
+        else:
+            analysis = analysis.model_copy(
+                update={
+                    "analysis_status": quality.status,
+                    "evidence_quality": quality,
+                    "abstention_reasons": [],
+                }
+            )
         memo = self.render_markdown(
             AgentRunResult(
                 agent_id=self.agent_id,
@@ -408,6 +427,38 @@ class CompanyStrategyAgent(BaseAgent):
         )
         result.validation_errors = self.validate_output(result)
         return result
+
+    def _abstain(
+        self,
+        ticker: str,
+        evidence: list[IngestedEvidence],
+        reasons: list[str],
+    ) -> CompanyStrategyAnalysis:
+        """Return a structurally valid result without unsupported conclusions."""
+        text = "Agent abstained: " + " ".join(reasons)
+        unknown_finding = Finding(text=text, confidence=0.0, evidence_refs=[])
+        quality = self.assess_evidence_quality(evidence, {})
+        return CompanyStrategyAnalysis(
+            ticker=ticker,
+            analysis_status=AnalysisStatus.ABSTAINED,
+            evidence_quality=quality,
+            abstention_reasons=reasons,
+            management_priorities=[],
+            capital_allocation=[],
+            narrative_shifts=[],
+            risk_disclosures=[],
+            segment_priorities=[],
+            strategic_positioning=StrategicPositioning(
+                target_market="unknown",
+                differentiation_axes=["unknown"],
+                moat_assessment=["unknown"],
+                finding=unknown_finding,
+            ),
+            mgmt_credibility_signals=[],
+            unresolved_questions=reasons,
+            overall_confidence=0.0,
+            evidence_ids=[str(ev.evidence_id) for ev in evidence],
+        )
 
     def _analyse(self, ticker: str, evidence: list[IngestedEvidence]) -> CompanyStrategyAnalysis:
         priorities = _extract_mgmt_priorities(evidence)
@@ -477,6 +528,10 @@ class CompanyStrategyAgent(BaseAgent):
     def validate_output(self, result: AgentRunResult) -> list[str]:
         errors: list[str] = []
         p = result.payload
+        if p.get("analysis_status") == AnalysisStatus.ABSTAINED.value:
+            if p.get("overall_confidence") != 0.0:
+                errors.append("Abstained analysis must have zero overall confidence.")
+            return errors
         # management_priorities may be empty for sparse evidence — that's OK if noted
         if not p.get("management_priorities") and not p.get("unresolved_questions"):
             errors.append("management_priorities is empty and no unresolved_questions noted.")
@@ -502,6 +557,7 @@ class CompanyStrategyAgent(BaseAgent):
             f"# Company Strategy Analysis — {p.get('ticker', result.ticker)}",
             f"",
             f"**Agent:** `{self.agent_id}` v{self.agent_version}  "
+            f"**Status:** `{p.get('analysis_status', AnalysisStatus.COMPLETE.value)}`  "
             f"**Confidence:** {self._pct(p.get('overall_confidence', 0))} ({conf_label})  "
             f"**Generated:** {self._now()}",
             f"",
@@ -510,6 +566,14 @@ class CompanyStrategyAgent(BaseAgent):
             f"No operating forecast. No valuation.",
             f"",
         ]
+
+        quality = p.get("evidence_quality") or {}
+        if p.get("analysis_status") != AnalysisStatus.COMPLETE.value:
+            reasons = p.get("abstention_reasons") or quality.get("quality_flags", [])
+            lines += [
+                "> **Evidence gate:** " + (" ".join(reasons) if reasons else "Analysis is evidence-limited."),
+                "",
+            ]
 
         # Management priorities
         prios = p.get("management_priorities", [])

@@ -23,7 +23,7 @@ from pathlib import Path
 from typing import Any
 
 from .conflict import detect_conflicts
-from .models import OrchestratorDecision
+from .models import OrchestratorDecision, SynthesisStatus
 from .policy import OrchestratorPolicy
 from .synthesis import (
     build_confidence_summary,
@@ -40,6 +40,8 @@ class Orchestrator:
     The orchestrator does NOT call agents directly — it consumes their already-run
     payload dicts.  This keeps it testable without running the full agent stack.
     """
+
+    MIN_SYNTHESIS_CONFIDENCE = 0.25
 
     def __init__(self, policy: OrchestratorPolicy | None = None) -> None:
         self.policy = policy or OrchestratorPolicy.load()
@@ -124,6 +126,42 @@ class Orchestrator:
             overall_conf=conf_summary.overall,
         )
 
+        synthesis_status, abstention_reasons = self._synthesis_gate(
+            industry=industry,
+            strategy=strategy,
+            overall_confidence=conf_summary.overall,
+            freshness_penalty=conf_summary.freshness_penalty,
+            has_conflicts=bool(conflicts),
+        )
+        if synthesis_status == SynthesisStatus.ABSTAINED:
+            message = "Insufficient evidence to synthesize an investment thesis."
+            inf = inf.model_copy(
+                update={
+                    "thesis_statement": message,
+                    "variant_view": "Not assessed because the evidence gate did not pass.",
+                    "top_drivers": [],
+                    "cross_validated": [],
+                    "unresolved_conflicts": list(
+                        dict.fromkeys([*abstention_reasons, *inf.unresolved_conflicts])
+                    ),
+                }
+            )
+            dec = dec.model_copy(
+                update={
+                    "current_thesis": message,
+                    "rating_stance": "not_rated",
+                    "predictions": [],
+                    "falsification_conditions": [],
+                    "monitoring_triggers": [],
+                    "next_evidence_needed": list(
+                        dict.fromkeys([*abstention_reasons, *dec.next_evidence_needed])
+                    ),
+                    "unresolved_conflicts": list(
+                        dict.fromkeys([*abstention_reasons, *dec.unresolved_conflicts])
+                    ),
+                }
+            )
+
         all_evidence_ids = list(
             dict.fromkeys(
                 industry.get("evidence_ids", []) + strategy.get("evidence_ids", [])
@@ -133,6 +171,8 @@ class Orchestrator:
         return OrchestratorDecision(
             ticker=ticker,
             policy_version=self.policy.version,
+            synthesis_status=synthesis_status,
+            abstention_reasons=abstention_reasons,
             observations=obs,
             inferences=inf,
             decisions=dec,
@@ -141,3 +181,58 @@ class Orchestrator:
             strategy_run_id=str(strategy.get("run_id", "")),
             evidence_ids=all_evidence_ids,
         )
+
+    def _synthesis_gate(
+        self,
+        industry: dict[str, Any],
+        strategy: dict[str, Any],
+        overall_confidence: float,
+        freshness_penalty: float,
+        has_conflicts: bool,
+    ) -> tuple[SynthesisStatus, list[str]]:
+        """Prevent thesis synthesis when a specialist or confidence gate fails."""
+        reasons: list[str] = []
+        statuses = {
+            "industry": str(industry.get("analysis_status", "COMPLETE")),
+            "strategy": str(strategy.get("analysis_status", "COMPLETE")),
+        }
+
+        for name, payload in (("industry", industry), ("strategy", strategy)):
+            inferred_abstention = (
+                not payload.get("evidence_ids")
+                and float(payload.get("overall_confidence", 0.0)) <= 0.05
+            )
+            if statuses[name] == "ABSTAINED" or inferred_abstention:
+                reasons.append(f"The {name} analysis abstained due to insufficient evidence.")
+                reasons.extend(str(reason) for reason in payload.get("abstention_reasons", []))
+
+        if str(industry.get("industry_label", "")).lower() in {"", "unknown"}:
+            reasons.append("The industry label is unresolved.")
+        if str(industry.get("market_structure", "UNKNOWN")) == "UNKNOWN":
+            reasons.append("Market structure is unresolved.")
+        if str(industry.get("cycle_stage", "UNKNOWN")) == "UNKNOWN":
+            reasons.append("Industry cycle stage is unresolved.")
+
+        positioning = strategy.get("strategic_positioning", {})
+        if (
+            not strategy.get("management_priorities")
+            and str(positioning.get("target_market", "unknown")).lower() in {"", "unknown"}
+        ):
+            reasons.append("Company strategy and positioning are unresolved.")
+
+        if overall_confidence < self.MIN_SYNTHESIS_CONFIDENCE:
+            reasons.append(
+                f"Overall confidence {overall_confidence:.0%} is below the "
+                f"{self.MIN_SYNTHESIS_CONFIDENCE:.0%} synthesis threshold."
+            )
+
+        if reasons:
+            return SynthesisStatus.ABSTAINED, list(dict.fromkeys(reasons))
+
+        if (
+            "LIMITED" in statuses.values()
+            or freshness_penalty >= 0.10
+            or has_conflicts
+        ):
+            return SynthesisStatus.LIMITED, []
+        return SynthesisStatus.COMPLETE, []

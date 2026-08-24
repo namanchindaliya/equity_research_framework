@@ -1,5 +1,5 @@
 {
-  "id": "63bb0672-594c-4280-af34-f3d614cb12af",
+  "id": "b99f0d44-3040-4154-b7d7-7498b682ea53",
   "description": "FY2026 full-year operating margin ≥43%",
   "metric": "msft_operating_margin_fy2026",
   "threshold": 0.43,
@@ -9,9 +9,10 @@
   "due_date": "2026-08-15",
   "probability": 0.7,
   "confidence": 0.75,
+  "materiality": "MEDIUM",
   "resolution_rule": "Operating margin as reported in FY2026 annual results.",
   "resolution": null,
   "supporting_assumptions": [],
-  "created_at": "2026-04-25T16:38:21.177787",
-  "updated_at": "2026-04-25T16:38:21.177787"
+  "created_at": "2026-08-24T13:44:14.711889",
+  "updated_at": "2026-08-24T13:44:14.711889"
 }

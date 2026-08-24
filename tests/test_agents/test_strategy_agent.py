@@ -5,7 +5,7 @@ from __future__ import annotations
 import pytest
 
 from equity_os.agents.strategy import CompanyStrategyAgent
-from equity_os.agents.models import CompanyStrategyAnalysis
+from equity_os.agents.models import AnalysisStatus, CompanyStrategyAnalysis
 
 
 @pytest.fixture(scope="module")
@@ -89,6 +89,11 @@ class TestStrategyStructure:
 
     def test_no_validation_errors(self, result):
         assert result.validation_errors == []
+
+    def test_evidence_quality_is_explicit(self, analysis):
+        assert analysis.analysis_status in {AnalysisStatus.COMPLETE, AnalysisStatus.LIMITED}
+        assert analysis.evidence_quality is not None
+        assert analysis.evidence_quality.citation_coverage == 1.0
 
 
 class TestStrategyEvidenceRefs:
@@ -196,3 +201,15 @@ class TestStrategySingleSource:
         # Structural validity — may have 0 priorities from transcript alone
         assert isinstance(analysis.management_priorities, list)
         assert len(analysis.segment_priorities) >= 1  # segments always detectible
+
+    def test_unrelated_sources_force_abstention(self, aapl_evidence):
+        unrelated = [
+            ev
+            for ev in aapl_evidence
+            if ev.logical_type not in {"filing", "earnings_transcript"}
+        ]
+        result = CompanyStrategyAgent().run("AAPL", unrelated)
+        analysis = CompanyStrategyAnalysis.model_validate(result.payload)
+        assert analysis.analysis_status == AnalysisStatus.ABSTAINED
+        assert analysis.management_priorities == []
+        assert analysis.overall_confidence == 0.0

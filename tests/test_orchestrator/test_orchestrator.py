@@ -6,6 +6,7 @@ import pytest
 
 from equity_os.orchestrator.orchestrator import Orchestrator
 from equity_os.orchestrator.models import OrchestratorDecision
+from equity_os.orchestrator.models import SynthesisStatus
 from equity_os.orchestrator.renderer import render_decision
 
 
@@ -196,6 +197,14 @@ class TestSparse:
         combined = " ".join(d.decisions.next_evidence_needed + d.decisions.unresolved_conflicts)
         assert len(combined) > 0
 
+    def test_abstains_instead_of_synthesizing_sparse_thesis(self, sparse, policy):
+        d = _run(sparse, policy)
+        assert d.synthesis_status == SynthesisStatus.ABSTAINED
+        assert d.decisions.rating_stance == "not_rated"
+        assert d.decisions.predictions == []
+        assert d.decisions.falsification_conditions == []
+        assert "Insufficient evidence" in d.inferences.thesis_statement
+
 
 # ===========================================================================
 # Stale evidence scenario
@@ -221,6 +230,10 @@ class TestStale:
     def test_thesis_still_generated_for_stale(self, stale, policy):
         d = _run(stale, policy)
         assert len(d.inferences.thesis_statement) > 20
+
+    def test_stale_state_is_explicit(self, stale, policy):
+        d = _run(stale, policy)
+        assert d.synthesis_status in {SynthesisStatus.LIMITED, SynthesisStatus.ABSTAINED}
 
 
 # ===========================================================================

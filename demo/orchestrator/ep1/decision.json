@@ -1,12 +1,14 @@
 {
-  "decision_id": "b8686326-09dc-4809-8077-77676e0e504b",
+  "decision_id": "ae2f91c4-7a1e-4c1d-beeb-ef0ccc69e831",
   "ticker": "MSFT",
-  "generated_at": "2026-04-25T16:38:21.171842",
+  "generated_at": "2026-08-24T13:44:14.706217",
   "policy_version": "1.0",
+  "synthesis_status": "LIMITED",
+  "abstention_reasons": [],
   "observations": {
     "industry_observation": {
       "agent_id": "industry_v1",
-      "generated_at": "2026-04-25T16:38:21.086331",
+      "generated_at": "2026-08-24T13:44:14.576058",
       "overall_confidence": 0.397,
       "freshness_penalty_applied": 0.0,
       "evidence_id_count": 4,
@@ -14,23 +16,25 @@
         "Competitive Rivalry",
         "Supplier Power",
         "Buyer Power"
-      ]
+      ],
+      "analysis_status": "LIMITED"
     },
     "strategy_observation": {
       "agent_id": "strategy_v1",
-      "generated_at": "2026-04-25T16:38:21.144983",
-      "overall_confidence": 0.637,
+      "generated_at": "2026-08-24T13:44:14.647770",
+      "overall_confidence": 0.636,
       "freshness_penalty_applied": 0.0,
       "evidence_id_count": 4,
       "key_findings": [
         "For Q2 FY2026, we expect total revenue of $72.0 to $73.5 billion.",
         "We expect operating margins to remain around 44% for the full year.",
         "We expect AI infrastructure investments made in FY2025 and FY2026 to begin gener"
-      ]
+      ],
+      "analysis_status": "LIMITED"
     },
     "market_structure": "OLIGOPOLY",
     "cycle_stage": "GROWTH",
-    "industry_label": "Semiconductors",
+    "industry_label": "Cloud / Software",
     "porter_forces_summary": {
       "Competitive Rivalry": "HIGH",
       "Supplier Power": "MEDIUM",
@@ -66,10 +70,10 @@
       "network_effects"
     ],
     "disclosed_risk_categories": [
-      "regulatory",
       "operational",
+      "competitive",
       "technology",
-      "competitive"
+      "regulatory"
     ],
     "narrative_shifts": [
       "Services Growth: emphasis_decrease",
@@ -88,7 +92,7 @@
     "prior_thesis_statement": null
   },
   "inferences": {
-    "thesis_statement": "MSFT operates in a oligopoly Semiconductors market at the growth stage of the industry cycle. The company is positioned as a enterprise player with switching_costs, network_effects as the primary competitive advantage, and the Services segment leading revenue mix. Management's stated focus centres on: For Q2 FY2026, we expect total revenue of $72.0 to $73.5 billion..",
+    "thesis_statement": "MSFT operates in an oligopoly Cloud / Software market at the growth stage of the industry cycle. The company is positioned as an enterprise player with switching_costs, network_effects as the primary competitive advantage, and the Services segment receiving the most management emphasis. Management's stated focus centres on: For Q2 FY2026, we expect total revenue of $72.0 to $73.5 billion.",
     "variant_view": "Bear case: regulatory headwinds from SEC / EDGAR Reporting could constrain addressable market and compress fee economics. Intensifying competitive rivalry may erode pricing power faster than the base case assumes.",
     "key_assumptions": [
       {
@@ -160,8 +164,8 @@
         "key": "top_segment_priority",
         "label": "Top Segment: Services",
         "value": "growth",
-        "base_confidence": 0.637,
-        "adjusted_confidence": 0.637,
+        "base_confidence": 0.636,
+        "adjusted_confidence": 0.636,
         "adjustment_reasons": [
           "synthesized from CompanyStrategyAgent"
         ],
@@ -184,7 +188,7 @@
       },
       {
         "text": "Services is the highest-priority segment with growth growth framing. contact_type: reseller geography: North America product: Azure AI observation: Demand for Azure Open",
-        "confidence": 0.637,
+        "confidence": 0.636,
         "based_on": [
           "segment_priority_order",
           "segment_growth_framing"
@@ -213,7 +217,7 @@
     ],
     "agent_conflicts": [
       {
-        "conflict_id": "379450c1-db3e-481a-93d1-d70a8e1f79ea",
+        "conflict_id": "0da39d89-ebae-4c85-972a-028e114d5049",
         "dimension": "industry_cycle",
         "industry_view": "Industry cycle stage = GROWTH",
         "strategy_view": "Narrative shift detects declining emphasis on growth topics",
@@ -234,7 +238,7 @@
     ]
   },
   "decisions": {
-    "current_thesis": "MSFT operates in a oligopoly Semiconductors market at the growth stage of the industry cycle. The company is positioned as a enterprise player with switching_costs, network_effects as the primary competitive advantage, and the Services segment leading revenue mix. Management's stated focus centres on: For Q2 FY2026, we expect total revenue of $72.0 to $73.5 billion..",
+    "current_thesis": "MSFT operates in an oligopoly Cloud / Software market at the growth stage of the industry cycle. The company is positioned as an enterprise player with switching_costs, network_effects as the primary competitive advantage, and the Services segment receiving the most management emphasis. Management's stated focus centres on: For Q2 FY2026, we expect total revenue of $72.0 to $73.5 billion.",
     "rating_stance": "neutral",
     "predictions": [
       {
@@ -242,8 +246,8 @@
         "metric": "services_revenue_growth_yoy",
         "direction": ">",
         "horizon": "12 months",
-        "probability": 0.573,
-        "confidence": 0.637,
+        "probability": 0.572,
+        "confidence": 0.636,
         "based_on_assumption_keys": [
           "top_segment_priority"
         ]
@@ -307,19 +311,19 @@
     ]
   },
   "confidence_summary": {
-    "overall": 0.449,
+    "overall": 0.448,
     "industry_confidence": 0.397,
-    "strategy_confidence": 0.637,
+    "strategy_confidence": 0.636,
     "freshness_penalty": 0.0,
     "conflict_penalty": 0.08,
     "basis": "Industry agent at 40% (after 0% freshness penalty). Strategy agent at 64% (after 0% freshness penalty). 1 conflict(s) applied 8% total penalty."
   },
-  "industry_run_id": "292e888a-3227-4d7f-8253-40fdbab5e40d",
-  "strategy_run_id": "8a3d3418-4408-4179-8cc4-fa082ea50914",
+  "industry_run_id": "b0169e53-0939-419c-af01-d7f16b44d97e",
+  "strategy_run_id": "aab22aa1-7447-47fa-96d8-279b3ce26685",
   "evidence_ids": [
-    "90862803-b571-4331-a2fa-18f1d0816cb7",
-    "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
-    "4964e36b-2054-450e-aa88-18812c2fa7dc",
-    "6c93f128-57dc-4e95-96f3-bdb5103fd565"
+    "b770f398-dce0-44cf-ab90-13e9c48dadef",
+    "7149ffe5-ac20-489d-82fb-5f7219549f0a",
+    "7d580c2f-e605-4386-bbb3-f9d3bbf467f5",
+    "27f6e531-ea0e-494a-86ba-ed128ded3d5a"
   ]
 }

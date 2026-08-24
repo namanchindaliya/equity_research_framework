@@ -1,5 +1,5 @@
 {
-  "evidence_id": "7d985eea-aeaa-4ee5-b1f8-9ad8add17072",
+  "evidence_id": "7149ffe5-ac20-489d-82fb-5f7219549f0a",
   "ticker": "MSFT",
   "logical_type": "earnings_transcript",
   "source_type": "EARNINGS_CALL",
@@ -28,7 +28,7 @@
   },
   "chunks": [
     {
-      "chunk_id": "MSFT-7d985eea-0000",
+      "chunk_id": "MSFT-7149ffe5-0000",
       "index": 0,
       "text": "Microsoft Corporation Q1 FY2026 Earnings Conference Call\nDate: October 29, 2025\nParticipants: Satya Nadella (CEO), Amy Hood (CFO)",
       "char_start": 0,
@@ -37,7 +37,7 @@
       "content_hash": "2e8768f189ca7c8eecb674abb8bbbe9146bd238488b8102b18eddb25877c87bf"
     },
     {
-      "chunk_id": "MSFT-7d985eea-0001",
+      "chunk_id": "MSFT-7149ffe5-0001",
       "index": 1,
       "text": "CEO Opening Remarks SATYA NADELLA: Thank you and good afternoon. We had a strong Q1 FY2026 with revenue of $71.1 billion, up 16% year over year, and record operating income of $31.0 billion, up 17%.",
       "char_start": 129,
@@ -46,7 +46,7 @@
       "content_hash": "1a7aa36d1bce9dd6376a15574b4b34ce15903a8f71c4fc33fc73f7b271706aab"
     },
     {
-      "chunk_id": "MSFT-7d985eea-0002",
+      "chunk_id": "MSFT-7149ffe5-0002",
       "index": 2,
       "text": "Azure growth reaccelerated to 38% this quarter, up from 35% last quarter, driven by AI workloads. Our AI business is on a $16 billion annualized revenue run rate, up from $14 billion last quarter. The structural shift toward AI-augmented enterprise software is accelerating faster than we anticipated.",
       "char_start": 332,
@@ -55,7 +55,7 @@
       "content_hash": "2151265e5d3b2fe9451ff13cc72289806da130cf2fd4d15133b4729fffb67037"
     },
     {
-      "chunk_id": "MSFT-7d985eea-0003",
+      "chunk_id": "MSFT-7149ffe5-0003",
       "index": 3,
       "text": "GitHub Copilot now has over 2.1 million paid subscribers. We are seeing strong attach rates of Copilot to Microsoft 365 E5, with over 500,000 organizations now running Copilot for Microsoft 365. This gives us strong confidence in our ability to expand average revenue per user across our installed base.",
       "char_start": 635,
@@ -64,7 +64,7 @@
       "content_hash": "02555cd43a698fac3766f9fe2b6ad479e09767f638dc914dcfa5d70d2d828de9"
     },
     {
-      "chunk_id": "MSFT-7d985eea-0004",
+      "chunk_id": "MSFT-7149ffe5-0004",
       "index": 4,
       "text": "Azure continues to take share in the cloud market. Our commercial backlog grew to $329 billion, up 21% year over year. This provides strong forward revenue visibility.",
       "char_start": 940,
@@ -73,7 +73,7 @@
       "content_hash": "e634e93427a51a45b7e8a3b5bd08f38766f15bdda800feed196099320b0fe770"
     },
     {
-      "chunk_id": "MSFT-7d985eea-0005",
+      "chunk_id": "MSFT-7149ffe5-0005",
       "index": 5,
       "text": "Capital expenditures were $19.4 billion in Q1, on track with our full-year guidance of $60-65 billion. We expect capital expenditure intensity to remain elevated as we build out AI inference capacity. We are confident these investments will generate strong returns over a 3 to 5 year horizon.",
       "char_start": 1109,
@@ -82,7 +82,7 @@
       "content_hash": "98e9fdf26171d3d00f9b6b100e16def9089fd2eb584a0400e691f330c4b9872c"
     },
     {
-      "chunk_id": "MSFT-7d985eea-0006",
+      "chunk_id": "MSFT-7149ffe5-0006",
       "index": 6,
       "text": "CFO Remarks AMY HOOD: Thank you, Satya. Q1 gross margin was 70.4%, up 50 basis points year over year. Intelligent Cloud gross margin was 72.8%. Commercial bookings grew 18%.",
       "char_start": 1401,
@@ -91,7 +91,7 @@
       "content_hash": "7a906d4f9fbfa92642194b120d5cca58b3f3da8204135e6837fb97f449858fda"
     },
     {
-      "chunk_id": "MSFT-7d985eea-0007",
+      "chunk_id": "MSFT-7149ffe5-0007",
       "index": 7,
       "text": "For Q2 FY2026, we expect total revenue of $72.0 to $73.5 billion. Intelligent Cloud revenue is expected in the range of $35.0 to $35.5 billion, implying Azure growth of 34 to 35%. We expect operating margins to remain around 44% for the full year.",
       "char_start": 1579,
@@ -100,7 +100,7 @@
       "content_hash": "6166a3b29137430c09a14f2ee2120106178a136942518bb92625b527aa7ffd98"
     },
     {
-      "chunk_id": "MSFT-7d985eea-0008",
+      "chunk_id": "MSFT-7149ffe5-0008",
       "index": 8,
       "text": "Q&A Session Analyst: Satya, the Azure growth reacceleration to 38% is impressive. How much of that is AI-related versus traditional workloads?",
       "char_start": 1826,
@@ -109,7 +109,7 @@
       "content_hash": "88ec0d1182d17183b5691b069b90c3743cd6af22c3847ed6a8f2140fddec4fac"
     },
     {
-      "chunk_id": "MSFT-7d985eea-0009",
+      "chunk_id": "MSFT-7149ffe5-0009",
       "index": 9,
       "text": "SATYA NADELLA: We estimate AI-driven workloads now represent approximately 12% of Azure revenue, up from about 8% a year ago. The underlying cloud migration demand is also healthy. We're seeing these two tailwinds compound.",
       "char_start": 1973,
@@ -118,7 +118,7 @@
       "content_hash": "9c29d191d6e448aba3f7234e4f54ad0bd415d3ab19b8afc89f62c4972b8cb1ec"
     },
     {
-      "chunk_id": "MSFT-7d985eea-0010",
+      "chunk_id": "MSFT-7149ffe5-0010",
       "index": 10,
       "text": "Analyst: Amy, capex intensity at $19 billion per quarter is elevated. When do you expect returns to materialize?",
       "char_start": 2198,
@@ -127,7 +127,7 @@
       "content_hash": "6154ea79ba8dcc7ca5c108b174cbd6342cbfccf7b35bd66828f28096d0d87ac8"
     },
     {
-      "chunk_id": "MSFT-7d985eea-0011",
+      "chunk_id": "MSFT-7149ffe5-0011",
       "index": 11,
       "text": "AMY HOOD: We build capacity 18-24 months ahead of expected demand given datacenter construction lead times. We expect AI infrastructure investments made in FY2025 and FY2026 to begin generating strong returns in FY2027 and beyond. We're confident in the ROI given the demand signals we're seeing from Azure AI customers.",
       "char_start": 2312,
@@ -136,7 +136,7 @@
       "content_hash": "b2609f93629d5c7e387be263886afee99b5cd3a7d8b22787cb479c4bb501fafa"
     },
     {
-      "chunk_id": "MSFT-7d985eea-0012",
+      "chunk_id": "MSFT-7149ffe5-0012",
       "index": 12,
       "text": "Analyst: What is your confidence in sustaining 35%+ Azure growth? SATYA NADELLA: We're confident in double-digit Azure growth for the foreseeable future. The AI wave is still in early innings. We see significant opportunity as enterprises move from experimentation to production AI deployments. Our commercial pipeline has never been stronger.",
       "char_start": 2632,
@@ -146,6 +146,6 @@
     }
   ],
   "content_hash": "9ec44fd391bba19766f1a5eb957a19fb41051676f6d8e8acce98c300d550934c",
-  "file_path": "/Users/namanchindaliya/claude/equity_reserach_framework/demo/inputs/MSFT/earnings_transcript_q1_fy2026.md",
-  "ingested_at": "2026-04-25T16:38:20.927997"
+  "file_path": "/Users/namanchindaliya/Documents/ChatGPT/equity_research_framework/equity_research_framework/demo/inputs/MSFT/earnings_transcript_q1_fy2026.md",
+  "ingested_at": "2026-08-24T13:44:14.423281"
 }

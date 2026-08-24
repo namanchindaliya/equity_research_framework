@@ -123,6 +123,13 @@ _EXCLUDED_STATUSES: set[str] = {
     ResolutionStatus.INCONCLUSIVE.value,
 }
 
+_MATERIALITY_WEIGHTS: dict[str, float] = {
+    "CRITICAL": 4.0,
+    "HIGH": 2.0,
+    "MEDIUM": 1.0,
+    "LOW": 0.5,
+}
+
 
 def outcome_score(resolved_status: str) -> float | None:
     """Return o_i for Brier scoring, or None if excluded."""
@@ -143,7 +150,11 @@ def brier_score(scored: list[ScoredPrediction]) -> float | None:
     scoreable = [s for s in scored if not s.is_excluded and s.brier_contribution is not None]
     if not scoreable:
         return None
-    return round(sum(s.brier_contribution for s in scoreable) / len(scoreable), 6)  # type: ignore[arg-type]
+    weighted_sum = sum(
+        s.brier_contribution * s.score_weight for s in scoreable  # type: ignore[operator]
+    )
+    total_weight = sum(s.score_weight for s in scoreable)
+    return round(weighted_sum / total_weight, 6)
 
 
 # ---------------------------------------------------------------------------
@@ -156,7 +167,11 @@ def hit_rate(scored: list[ScoredPrediction]) -> float | None:
     scoreable = [s for s in scored if not s.is_excluded and s.outcome_score is not None]
     if not scoreable:
         return None
-    return round(sum(s.outcome_score for s in scoreable) / len(scoreable), 4)  # type: ignore[operator]
+    weighted_sum = sum(
+        s.outcome_score * s.score_weight for s in scoreable  # type: ignore[operator]
+    )
+    total_weight = sum(s.score_weight for s in scoreable)
+    return round(weighted_sum / total_weight, 4)
 
 
 # ---------------------------------------------------------------------------
@@ -254,6 +269,8 @@ def build_scored_prediction(
         threshold=prediction.get("threshold"),
         operator=prediction.get("operator", ">="),
         linked_assumption_keys=prediction.get("supporting_assumptions", []),
+        materiality=str(prediction.get("materiality", "MEDIUM")),
+        score_weight=_MATERIALITY_WEIGHTS.get(str(prediction.get("materiality", "MEDIUM")), 1.0),
     )
 
     if resolution is None:
@@ -267,6 +284,18 @@ def build_scored_prediction(
     sp.error_magnitude = resolution.get("error_magnitude")
     sp.resolution_notes = resolution.get("notes", "")
     sp.source_of_truth = (resolution.get("source") or {}).get("reference") if isinstance(resolution.get("source"), dict) else None
+    if sp.operator in {">", ">=", "<", "<=", "=="}:
+        try:
+            float(sp.actual_outcome)
+            float(sp.threshold)
+        except (TypeError, ValueError):
+            pass
+        else:
+            sp.direction_correct = _direction_correct(
+                sp.actual_outcome,
+                sp.threshold,
+                sp.operator,
+            )
 
     if status in _EXCLUDED_STATUSES:
         sp.is_excluded = True
@@ -328,25 +357,69 @@ def score_episode(
 
     excluded = [s for s in scored if s.is_excluded]
     scoreable = [s for s in scored if not s.is_excluded]
+    unresolved_count = sum(1 for s in scored if s.resolved_status is None)
+    resolved_count = sum(1 for s in scored if s.resolved_status is not None)
+    total = len(predictions)
+    resolution_coverage = resolved_count / total if total else 0.0
+    scoreable_coverage = len(scoreable) / total if total else 0.0
+
+    minimum_verdict_coverage = 2 / 3
+    minimum_verdict_sample = 3
+    ineligibility_reasons: list[str] = []
+    if len(scoreable) < minimum_verdict_sample:
+        ineligibility_reasons.append(
+            f"Only {len(scoreable)} scoreable prediction(s); at least {minimum_verdict_sample} are required."
+        )
+    if scoreable_coverage < minimum_verdict_coverage:
+        ineligibility_reasons.append(
+            f"Scoreable coverage is {scoreable_coverage:.0%}; at least {minimum_verdict_coverage:.0%} is required."
+        )
 
     b = brier_score(scored)
     hr = hit_rate(scored)
     cb = calibration_bins(scored)
     mce = mean_calibration_error(cb)
     ea = error_attribution(scored)
+    direction_values = [s.direction_correct for s in scoreable if s.direction_correct is not None]
+    directional_accuracy = (
+        round(sum(bool(value) for value in direction_values) / len(direction_values), 4)
+        if direction_values
+        else None
+    )
+    magnitudes = [
+        abs(s.error_magnitude)
+        for s in scoreable
+        if s.error_magnitude is not None and math.isfinite(s.error_magnitude)
+    ]
+    mean_absolute_magnitude_error = (
+        round(sum(magnitudes) / len(magnitudes), 6) if magnitudes else None
+    )
+    minimum_calibration_sample = 5
 
     return EpisodeScore(
         ticker=ticker,
         episode_slug=episode_slug,
         total_predictions=len(predictions),
-        resolved_count=sum(1 for s in scored if s.resolved_status is not None),
+        resolved_count=resolved_count,
         excluded_count=len(excluded),
         scored_count=len(scoreable),
+        unresolved_count=unresolved_count,
+        resolution_coverage=round(resolution_coverage, 4),
+        scoreable_coverage=round(scoreable_coverage, 4),
+        minimum_verdict_coverage=minimum_verdict_coverage,
+        minimum_verdict_sample=minimum_verdict_sample,
+        verdict_eligible=not ineligibility_reasons,
+        verdict_ineligibility_reasons=ineligibility_reasons,
         brier_score=b,
         brier_vs_baseline=round(b - 0.25, 6) if b is not None else None,
         hit_rate=hr,
+        directional_accuracy=directional_accuracy,
+        mean_absolute_magnitude_error=mean_absolute_magnitude_error,
+        timing_error_count=ea.timing,
         calibration_bins=cb,
         mean_calibration_error=mce,
+        minimum_calibration_sample=minimum_calibration_sample,
+        calibration_is_reliable=len(scoreable) >= minimum_calibration_sample,
         error_attribution=ea,
         scored_predictions=scored,
     )
