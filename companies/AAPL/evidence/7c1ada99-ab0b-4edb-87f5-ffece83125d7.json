@@ -1,0 +1,308 @@
+{
+  "evidence_id": "7c1ada99-ab0b-4edb-87f5-ffece83125d7",
+  "ticker": "AAPL",
+  "logical_type": "filing",
+  "source_type": "FILING",
+  "title": "Apple Inc. 8-K filed 2024-09-10",
+  "source_date": "2024-09-10",
+  "source_name": "SEC EDGAR",
+  "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036124040659/ef20035718_8k.htm",
+  "reliability_score": 1.0,
+  "text": "truetruetruetruetruetruetruetrueNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQfalse000032019300003201932024-09-102024-09-100000320193aapl:One375NotesDue2029Member2024-09-102024-09-100000320193aapl:Zero000NotesDue2025Member2024-09-102024-09-100000320193aapl:Zero500NotesDue2031Member2024-09-102024-09-100000320193aapl:Two000NotesDue2027Member2024-09-102024-09-100000320193us-gaap:CommonStockMember2024-09-102024-09-100000320193aapl:Three050NotesDue2029Member2024-09-102024-09-100000320193aapl:Three600NotesDue2042Member2024-09-102024-09-100000320193aapl:One625NotesDue2026Member2024-09-102024-09-100000320193aapl:Zero875NotesDue2025Member2024-09-102024-09-10\n\n\n\n\n\n\n\n\n\n\n\n\n UNITED STATES\n\n\nSECURITIES AND EXCHANGE COMMISSION\n\n\nWashington, D.C. 20549\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFORM 8-K\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCURRENT REPORT\n\n\n\n\n\nPursuant to Section 13 OR 15(d) of The Securities Exchange Act of 1934\n\n\n\n\n\n\n\n\n\n\nSeptember 10, 2024\n\n\n\n\n\n\n\nDate of Report (Date of earliest event reported)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApple Inc.\n\n\n\n\n(Exact name of Registrant as specified in its charter)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalifornia\n\n\n\n(State or other jurisdiction\n\n\nof incorporation)\n\n\n\n\n\n001-36743\n\n\n\n(Commission\n\n\nFile Number)\n\n\n\n\n\nOne Apple Park Way\n\n\n\nCupertino, California 95014\n\n(Address of principal executive offices) (Zip Code)\n\n\n\n\n\n(408) 996-1010\n\n(Registrant's telephone number, including area code)\n\n\n\n\n\nNot applicable\n\n(Former name or former address, if changed since last report.)\n\n\n\n\n\n94-2404110\n\n\n\n(I.R.S. Employer\n\n\nIdentification No.)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the Registrant under any of the following provisions:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☐\n\n\n\n\n\n\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☐\n\n\n\n\n\n\n\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☐\n\n\n\n\n\n\n\nPre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☐\n\n\n\n\n\n\n\nPre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\n\n\n\n\n\n\n\n\n\n\n\nSecurities registered pursuant to Section 12(b) of the Act:\n\n\n\n\n\n\n\n\n\n\n\n\n\nTitle of each class\n\n\n\n\n\nTrading\n\nsymbol(s)\n\n\n\n\n\nName of each exchange\n\non which registered\n\n\n\n\n\n\n\n\n\nCommon Stock, $0.00001 par value per share\n\n\n\n\n\n\n\nAAPL\n\n\n\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n\n\n\n0.000% Notes due 2025\n\n\n\n\n\n\n\n--\n\n\n\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n\n\n\n0.875% Notes due 2025\n\n\n\n\n\n\n\n--\n\n\n\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n\n\n\n1.625% Notes due 2026\n\n\n\n\n\n\n\n--\n\n\n\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n\n\n\n2.000% Notes due 2027\n\n\n\n\n\n\n\n--\n\n\n\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n\n\n\n1.375% Notes due 2029\n\n\n\n\n\n\n\n--\n\n\n\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n\n\n\n3.050% Notes due 2029\n\n\n\n\n\n\n\n--\n\n\n\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n\n\n\n0.500% Notes due 2031\n\n\n\n\n\n\n\n--\n\n\n\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n\n\n\n3.600% Notes due 2042\n\n\n\n\n\n\n\n--\n\n\n\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n\n\n\n\nIndicate by check mark whether the Registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the\n Securities Exchange Act of 1934 (§240.12b-2 of this chapter).\n\n\n\n\n\n\nEmerging growth company ☐\n\n\n\n\n\n\n\n\nIf an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition\n period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nItem 7.01\n\n\n\n\n\n\n\n\n\n\nRegulation FD Disclosure.\n\n\n\n\n\n\n\n\n\n\n\nOn August 30, 2016, the European Commission (the \"Commission\") announced its decision that Ireland granted state aid to Apple Inc. (the \"Company\") by providing\n tax opinions in 1991 and 2007 concerning the tax allocation of profits of the Irish branches of two subsidiaries of the Company (the \"State Aid Decision\"). The State Aid Decision ordered Ireland to calculate and recover additional taxes from the\n Company for the period June 2003 through December 2014. Irish legislative changes, effective as of January 2015, eliminated the application of the tax opinions from that date forward. The Company and Ireland appealed the State Aid Decision to the\n General Court of the Court of Justice of the European Union (the \"General Court\"). On July 15, 2020, the General Court annulled the State Aid Decision. On September 25, 2020, the Commission appealed the General Court's decision to the European Court\n of Justice (the \"ECJ\") and a hearing was held on May 23, 2023.\n\n\n\n\n\nOn September 10, 2024, the ECJ announced that it had set aside the 2020 judgment of the General Court and confirmed the Commission's 2016 State Aid Decision. As\n a result, the Company expects to record a one-time income tax charge in its fourth fiscal quarter ending September 28, 2024, of up to approximately $10 billion, which will increase the Company's effective tax rate for the quarter.\n\n\n\n\n\nThe information presented in this Current Report is preliminary and actual results may differ when the Company reports its final results for the fourth quarter.\n\n\n\n\n\nThe information contained in this Current Report shall not be deemed \"filed\" for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the\n \"Exchange Act\"), or incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as shall be expressly set forth by specific reference in such a filing.\n\n\n\n\n\nThis Current Report contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995. These forward-looking\n statements include without limitation those about the Company's anticipated effective tax rate and financial results. These statements involve risks and uncertainties, and actual results may differ materially from any future results expressed or\n implied by the forward-looking statements. Risks and uncertainties include without limitation: effects of global and regional economic conditions, including as a result of government policies, war, terrorism, natural disasters, and public health\n issues; risks relating to the design, manufacture, introduction, and transition of products and services in highly competitive and rapidly changing markets, including from reliance on third parties for components, technology, manufacturing,\n applications, and content; risks relating to information technology system failures, network disruptions, and failure to protect, loss of, or unauthorized access to, or release of, data; and effects of unfavorable legal proceedings, government\n investigations, and complex and changing laws and regulations. More information on these risks and other potential factors that could affect the Company's business, reputation, results of operations, financial condition, and stock price is included\n in the Company's filings with the SEC, including in the \"Risk Factors\" and \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" sections of the Company's most recently filed periodic reports on Form 10-K and Form\n 10-Q and subsequent filings. The Company assumes no obligation to update any forward-looking statements, which speak only as of the date they are made.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSIGNATURES\n\n\n\n\n\n\nPursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly\n authorized.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDate: September 10, 2024\n\n\n\n\n\n\nApple Inc.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBy:\n\n\n\n\n\n/s/ Luca Maestri\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuca Maestri\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSenior Vice President, Chief Financial Officer",
+  "extracted_metadata": {
+    "word_count": 992,
+    "char_count": 7824,
+    "line_count": 827,
+    "detected_filing_types": [
+      "8-K",
+      "10-K",
+      "10-Q"
+    ],
+    "cik": "0000320193",
+    "accession_number": "0001140361-24-040659",
+    "form": "8-K",
+    "filing_items": [
+      "7.01"
+    ],
+    "period_of_report": "2024-09-10",
+    "accepted_at": "2024-09-10T13:06:34+00:00",
+    "document_type": "8-K",
+    "is_primary_document": true,
+    "is_amendment": false,
+    "is_xbrl": true,
+    "is_inline_xbrl": true,
+    "evidence_label": "fact_source_reported"
+  },
+  "chunks": [
+    {
+      "chunk_id": "AAPL-7c1ada99-0000",
+      "index": 0,
+      "text": "truetruetruetruetruetruetruetrueNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQfalse000032019300003201932024-09-102024-09-100000320193aapl:One375NotesDue2029Member2024-09-102024-09-100000320193aapl:Zero000NotesDue2025Member2024-09-102024-09-100000320193aapl:Zero500NotesDue2031Member2024-09-102024-09-100000320193aapl:Two000NotesDue2027Member2024-09-102024-09-100000320193us-gaap:CommonStockMember2024-09-102024-09-100000320193aapl:Three050NotesDue2029Member2024-09-102024-09-100000320193aapl:Three600NotesDue2042Member2024-09-102024-09-100000320193aapl:One625NotesDue2026Member2024-09-102024-09-100000320193aapl:Zero875NotesDue2025Member2024-09-102024-09-10",
+      "char_start": 0,
+      "char_end": 665,
+      "word_count": 1,
+      "content_hash": "69a23d463433886f7175ffb50fc67e969d6f3807d2bf127c2c0772dce1a58e90"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0001",
+      "index": 1,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K",
+      "char_start": 665,
+      "char_end": 745,
+      "word_count": 11,
+      "content_hash": "9aadcb50adefe24bf1cdaccf0e8b1297ba9a08e964e32d6cf079996f122c582e"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0002",
+      "index": 2,
+      "text": "CURRENT REPORT Pursuant to Section 13 OR 15(d) of The Securities Exchange Act of 1934",
+      "char_start": 745,
+      "char_end": 830,
+      "word_count": 15,
+      "content_hash": "f77e6f9dca8d7282e858930aec9e228083500f1425e251fe85d1af30c0a3cea7"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0003",
+      "index": 3,
+      "text": "September 10, 2024 Date of Report (Date of earliest event reported) Apple Inc. (Exact name of Registrant as specified in its charter)",
+      "char_start": 830,
+      "char_end": 963,
+      "word_count": 22,
+      "content_hash": "1ff2656570b8739256551d93955eac7b760fb734f413af6134837bbb16f31f3e"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0004",
+      "index": 4,
+      "text": "California (State or other jurisdiction of incorporation) 001-36743 (Commission File Number)",
+      "char_start": 963,
+      "char_end": 1055,
+      "word_count": 11,
+      "content_hash": "3552ca93fedb96983b4ae3deb76840e940db3c8222482c1485aa51bbb461c54d"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0005",
+      "index": 5,
+      "text": "One Apple Park Way Cupertino, California 95014 (Address of principal executive offices) (Zip Code)",
+      "char_start": 1055,
+      "char_end": 1153,
+      "word_count": 14,
+      "content_hash": "1df7d82cb20d01dfbd451641b6d391e7dd16462ae7ff2cfeee5227b1caa2fa94"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0006",
+      "index": 6,
+      "text": "(408) 996-1010 (Registrant's telephone number, including area code) Not applicable",
+      "char_start": 1153,
+      "char_end": 1235,
+      "word_count": 10,
+      "content_hash": "128c88454ae056f90f0cab884e6dcd1f0a443087ea4e15b4fcb8fc8cb27c5a2c"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0007",
+      "index": 7,
+      "text": "(Former name or former address, if changed since last report.) 94-2404110 (I.R.S. Employer",
+      "char_start": 1235,
+      "char_end": 1325,
+      "word_count": 13,
+      "content_hash": "fedf6cf28aaa7b7fbb050c1fc6617072e049d13d02b899975bf18a477bd24e27"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0008",
+      "index": 8,
+      "text": "Identification No.) Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the Registrant under any of the following provisions:",
+      "char_start": 1325,
+      "char_end": 1516,
+      "word_count": 29,
+      "content_hash": "2ebf51b7fc8cf96688440031da943c4b5afe7406e7a3a8f47d8cb20720f2e8a6"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0009",
+      "index": 9,
+      "text": "☐ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)",
+      "char_start": 1516,
+      "char_end": 1603,
+      "word_count": 14,
+      "content_hash": "7f4c0d3ba9f87ab2dc60270d335ed61b974626c73e34e273f2106da979860d09"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0010",
+      "index": 10,
+      "text": "☐ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)",
+      "char_start": 1603,
+      "char_end": 1691,
+      "word_count": 14,
+      "content_hash": "4c1b0b380ec96aa6b6747286a4fcf0e2a75a765983f31e21259988aadbbf84d3"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0011",
+      "index": 11,
+      "text": "☐ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))",
+      "char_start": 1691,
+      "char_end": 1795,
+      "word_count": 14,
+      "content_hash": "a7333cfaba47a274785ebd19e4484fc63551952e257eadad130e41285322f5a5"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0012",
+      "index": 12,
+      "text": "☐ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))",
+      "char_start": 1795,
+      "char_end": 1899,
+      "word_count": 14,
+      "content_hash": "368c3f7b4e4f54229e6ce24281769fffb21c03c3f35e8a72913e77299944786f"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0013",
+      "index": 13,
+      "text": "Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading",
+      "char_start": 1899,
+      "char_end": 1986,
+      "word_count": 14,
+      "content_hash": "7d004774998638e9e09c6fc98c76651f7e77e50ef1ff479117c68c3954344560"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0014",
+      "index": 14,
+      "text": "symbol(s) Name of each exchange on which registered Common Stock, $0.00001 par value per share",
+      "char_start": 1986,
+      "char_end": 2080,
+      "word_count": 15,
+      "content_hash": "f1db9d6bf667cace4da35b04d7b021afb057d530714f32410f4315f1319aa17e"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0015",
+      "index": 15,
+      "text": "AAPL The Nasdaq Stock Market LLC 0.000% Notes due 2025 -- The Nasdaq Stock Market LLC",
+      "char_start": 2080,
+      "char_end": 2165,
+      "word_count": 16,
+      "content_hash": "9ce8ede587a594c785bf622f65635f8fb8dd75ea4523753e93126468f5e32f60"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0016",
+      "index": 16,
+      "text": "0.875% Notes due 2025 -- The Nasdaq Stock Market LLC 1.625% Notes due 2026 -- The Nasdaq Stock Market LLC",
+      "char_start": 2165,
+      "char_end": 2270,
+      "word_count": 20,
+      "content_hash": "88833c1b69bddfd302a1c67c77ddd543c1a2d390a1172a95ece02cc62db70e98"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0017",
+      "index": 17,
+      "text": "2.000% Notes due 2027 -- The Nasdaq Stock Market LLC 1.375% Notes due 2029 -- The Nasdaq Stock Market LLC",
+      "char_start": 2270,
+      "char_end": 2375,
+      "word_count": 20,
+      "content_hash": "61104e2408b1c543cafb2e3b56c5cc541936afe355ace9e2c64248fbd25b5e09"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0018",
+      "index": 18,
+      "text": "3.050% Notes due 2029 -- The Nasdaq Stock Market LLC 0.500% Notes due 2031 -- The Nasdaq Stock Market LLC",
+      "char_start": 2375,
+      "char_end": 2480,
+      "word_count": 20,
+      "content_hash": "2fd7a9f9d4b73f8eb67e31e5263a5a90f50d49cf8fed6538abeb9ceaeec3d01e"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0019",
+      "index": 19,
+      "text": "3.600% Notes due 2042 -- The Nasdaq Stock Market LLC Indicate by check mark whether the Registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the\n Securities Exchange Act of 1934 (§240.12b-2 of this chapter).",
+      "char_start": 2480,
+      "char_end": 2772,
+      "word_count": 51,
+      "content_hash": "066e0647c5610e4fbe3aeb154f6e75ac8b34b32682b126862670a12ff6a187dc"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0020",
+      "index": 20,
+      "text": "Emerging growth company ☐ If an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition\n period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐",
+      "char_start": 2772,
+      "char_end": 3051,
+      "word_count": 45,
+      "content_hash": "f899b493fc4ec918aedf860be3adff4dae2502c442a78209ae6f21562bac9a37"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0021",
+      "index": 21,
+      "text": "Item 7.01 Regulation FD Disclosure. On August 30, 2016, the European Commission (the \"Commission\") announced its decision that Ireland granted state aid to Apple Inc. (the \"Company\") by providing\n tax opinions in 1991 and 2007 concerning the tax allocation of profits of the Irish branches of two subsidiaries of the Company (the \"State Aid Decision\"). The State Aid Decision ordered Ireland to calculate and recover additional taxes from the\n Company for the period June 2003 through December 2014. Irish legislative changes, effective as of January 2015, eliminated the application of the tax opinions from that date forward. The Company and Ireland appealed the State Aid Decision to the\n General Court of the Court of Justice of the European Union (the \"General Court\"). On July 15, 2020, the General Court annulled the State Aid Decision. On September 25, 2020, the Commission appealed the General Court's decision to the European Court\n of Justice (the \"ECJ\") and a hearing was held on May 23, 2023.",
+      "char_start": 3051,
+      "char_end": 4056,
+      "word_count": 162,
+      "content_hash": "9a76eaf5cc8cab2e73750ffdfb56f3de14f283091251ff2ef3071555f741fbbe"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0022",
+      "index": 22,
+      "text": "On September 10, 2024, the ECJ announced that it had set aside the 2020 judgment of the General Court and confirmed the Commission's 2016 State Aid Decision. As\n a result, the Company expects to record a one-time income tax charge in its fourth fiscal quarter ending September 28, 2024, of up to approximately $10 billion, which will increase the Company's effective tax rate for the quarter.",
+      "char_start": 4684,
+      "char_end": 5076,
+      "word_count": 66,
+      "content_hash": "c32891c7af9cde27fd71195fd453478dc355557b009c0ce3c367a137f80b6067"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0023",
+      "index": 23,
+      "text": "The information presented in this Current Report is preliminary and actual results may differ when the Company reports its final results for the fourth quarter.",
+      "char_start": 5082,
+      "char_end": 5242,
+      "word_count": 25,
+      "content_hash": "add7bfd9ef529bb9645d84a4dc64c51405d3dcacf758876274e73f748395c0d2"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0024",
+      "index": 24,
+      "text": "The information contained in this Current Report shall not be deemed \"filed\" for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the\n \"Exchange Act\"), or incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as shall be expressly set forth by specific reference in such a filing.",
+      "char_start": 5248,
+      "char_end": 5614,
+      "word_count": 62,
+      "content_hash": "89ae6fd6d22fa31ce282c69fca85c0c69224c83981536b0910ecc29d749773d6"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0025",
+      "index": 25,
+      "text": "This Current Report contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995. These forward-looking\n statements include without limitation those about the Company's anticipated effective tax rate and financial results. These statements involve risks and uncertainties, and actual results may differ materially from any future results expressed or\n implied by the forward-looking statements. Risks and uncertainties include without limitation: effects of global and regional economic conditions, including as a result of government policies, war, terrorism, natural disasters, and public health\n issues; risks relating to the design, manufacture, introduction, and transition of products and services in highly competitive and rapidly changing markets, including from reliance on third parties for components, technology, manufacturing,\n applications, and content; risks relating to information technology system failures, network disruptions, and failure to protect, loss of, or unauthorized access to, or release of, data; and effects of unfavorable legal proceedings, government\n investigations, and complex and changing laws and regulations.",
+      "char_start": 5620,
+      "char_end": 6819,
+      "word_count": 157,
+      "content_hash": "46cf5691ff6a209065a855812a8619dfbc6eb8e24a6114815d94fb0fe1064c3b"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0026",
+      "index": 26,
+      "text": "More information on these risks and other potential factors that could affect the Company's business, reputation, results of operations, financial condition, and stock price is included\n in the Company's filings with the SEC, including in the \"Risk Factors\" and \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" sections of the Company's most recently filed periodic reports on Form 10-K and Form\n 10-Q and subsequent filings. The Company assumes no obligation to update any forward-looking statements, which speak only as of the date they are made.",
+      "char_start": 6820,
+      "char_end": 7407,
+      "word_count": 88,
+      "content_hash": "f100e88f05d77e80dfd9129698d49c458837e9bb295d3ca5ddef6229f8765f0b"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0027",
+      "index": 27,
+      "text": "SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly\n authorized.",
+      "char_start": 7407,
+      "char_end": 7602,
+      "word_count": 31,
+      "content_hash": "6b9bd47bd59f50e6156ae81c1fe970e3bdd96b0bb161459b34273b1e29a469e2"
+    },
+    {
+      "chunk_id": "AAPL-7c1ada99-0028",
+      "index": 28,
+      "text": "Date: September 10, 2024 Apple Inc. By: /s/ Luca Maestri Luca Maestri Senior Vice President, Chief Financial Officer",
+      "char_start": 7602,
+      "char_end": 7718,
+      "word_count": 18,
+      "content_hash": "d7274b78ef579c6fea7cf0ff8a0324d571e029c904a4b4ca43bd877d4e078880"
+    }
+  ],
+  "content_hash": "ee42671e0c807b2e52bb50f98d1fa1b245e822338534ef182090c4d890d99ece",
+  "file_path": "companies/AAPL/evidence/raw/0001140361-24-040659_ef20035718_8k.htm",
+  "ingested_at": "2026-08-25T19:53:19.873150",
+  "provider": "sec-edgar",
+  "external_id": "0001140361-24-040659",
+  "document_id": "ef20035718_8k.htm",
+  "content_type": "text/html",
+  "raw_content_path": "companies/AAPL/evidence/raw/0001140361-24-040659_ef20035718_8k.htm",
+  "retrieved_at": "2026-08-25T19:53:19.868403Z"
+}

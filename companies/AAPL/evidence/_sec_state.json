@@ -1,0 +1,11 @@
+{
+  "provider": "sec-edgar",
+  "ticker": "AAPL",
+  "cik": "0000320193",
+  "last_synced_at": "2026-08-25T19:53:20.864970+00:00",
+  "last_seen_accession": "0000320193-26-000020",
+  "discovered_filings": 27,
+  "ingested_documents": 35,
+  "skipped_documents": 0,
+  "failure_count": 0
+}

@@ -49,11 +49,39 @@ def lookup(evidence_dir: Path, hash_: str) -> str | None:
     return None
 
 
+def lookup_external(
+    evidence_dir: Path,
+    provider: str,
+    external_id: str,
+    document_id: str,
+) -> str | None:
+    """Return an evidence ID for an already-ingested provider document."""
+    path = _index_path(evidence_dir)
+    if not path.exists():
+        return None
+    for line in path.read_text(encoding="utf-8").splitlines():
+        try:
+            record = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if (
+            record.get("provider") == provider
+            and record.get("external_id") == external_id
+            and record.get("document_id") == document_id
+        ):
+            return record.get("evidence_id")
+    return None
+
+
 def register(
     evidence_dir: Path,
     hash_: str,
     evidence_id: UUID,
     file_path: str,
+    *,
+    provider: str | None = None,
+    external_id: str | None = None,
+    document_id: str | None = None,
 ) -> None:
     """Append a new entry to the dedup index."""
     evidence_dir.mkdir(parents=True, exist_ok=True)
@@ -63,6 +91,9 @@ def register(
             "evidence_id": str(evidence_id),
             "file_path": file_path,
             "ingested_at": datetime.utcnow().isoformat(),
+            "provider": provider,
+            "external_id": external_id,
+            "document_id": document_id,
         }
     )
     with _index_path(evidence_dir).open("a", encoding="utf-8") as fh:

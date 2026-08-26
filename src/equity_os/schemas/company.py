@@ -26,8 +26,8 @@ class CompanyDossier(BaseModel):
       "alert if quarterly revenue YoY drops below 5%"); episode-level triggers
       live inside ThesisEpisode.
     - ``tags`` are free-form labels for screening/grouping (e.g. ["mag7", "ai-infra"]).
-    - ``exchange`` and ``country`` are optional in v0 but included now to avoid
-      a schema migration later.
+    - ``exchange`` and ``country`` are included in the normalized dossier so
+      source and market context travel with the company record.
     """
 
     id: UUID = Field(default_factory=uuid4)

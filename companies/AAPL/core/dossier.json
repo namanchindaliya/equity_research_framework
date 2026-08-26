@@ -1,0 +1,19 @@
+{
+  "id": "f392b170-1ac6-454c-aaf8-3c92056a65fe",
+  "ticker": "AAPL",
+  "name": "Apple Inc.",
+  "sector": null,
+  "industry": null,
+  "exchange": null,
+  "country": "US",
+  "description": null,
+  "current_rating": "NOT_RATED",
+  "current_price_target": null,
+  "currency": "USD",
+  "episodes": [],
+  "monitoring_triggers": [],
+  "tags": [],
+  "version": 1,
+  "created_at": "2026-08-25T19:52:46.880089",
+  "updated_at": "2026-08-25T19:52:46.881790"
+}

@@ -27,6 +27,7 @@ from typing import Any
 # SourceType values (string, avoids importing schemas here)
 _SOURCE_TYPES: dict[str, str] = {
     "filing":                       "FILING",
+    "earnings_release":             "PRESS_RELEASE",
     "earnings_transcript":          "EARNINGS_CALL",
     "investor_presentation_notes":  "RESEARCH_REPORT",
     "industry_note":                "RESEARCH_REPORT",
@@ -37,6 +38,7 @@ _SOURCE_TYPES: dict[str, str] = {
 
 _RELIABILITY: dict[str, float] = {
     "filing":                       1.00,
+    "earnings_release":             1.00,
     "earnings_transcript":          0.95,
     "management_commentary":        0.90,
     "investor_presentation_notes":  0.85,
@@ -51,6 +53,7 @@ KNOWN_LOGICAL_TYPES = frozenset(_SOURCE_TYPES)
 _PREFIX_MAP: list[tuple[str, str]] = sorted(
     [
         ("filing", "filing"),
+        ("earnings_release", "earnings_release"),
         ("earnings_transcript", "earnings_transcript"),
         ("earnings", "earnings_transcript"),
         ("transcript", "earnings_transcript"),
@@ -161,6 +164,7 @@ def _extract_generic_meta(text: str, meta: dict[str, Any]) -> dict[str, Any]:
 
 _EXTRACTORS: dict[str, Any] = {
     "filing":                       _extract_filing_meta,
+    "earnings_release":             _extract_earnings_meta,
     "earnings_transcript":          _extract_earnings_meta,
     "management_commentary":        _extract_earnings_meta,
     "channel_check_note":           _extract_channel_check_meta,

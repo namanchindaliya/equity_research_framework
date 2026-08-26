@@ -8,3 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Local EQOS configuration (may contain contact information)
+config/eqos.toml
+
+# Raw downloaded evidence can be large and is reproducible from provenance
+companies/*/evidence/raw/

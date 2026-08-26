@@ -10,7 +10,7 @@ Storage path: companies/{ticker}/evidence/{evidence_id}.json
 
 from __future__ import annotations
 
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 from typing import Any
 from uuid import UUID, uuid4
 
@@ -46,6 +46,31 @@ class EvidenceManifestEntry(BaseModel):
     chunk_count: int
     ingested_at: datetime
     file_path: str
+    provider: str | None = None
+    external_id: str | None = None
+    document_id: str | None = None
+    url: str | None = None
+
+
+class RawDocument(BaseModel):
+    """Typed connector output consumed by the shared ingestion pipeline."""
+
+    provider: str
+    external_id: str
+    document_id: str
+    ticker: str
+    logical_type: str
+    title: str
+    text: str
+    raw_content: bytes
+    file_name: str
+    content_type: str
+    source_date: date | None = None
+    source_name: str
+    url: str
+    reliability_score: float = Field(ge=0.0, le=1.0, default=0.8)
+    metadata: dict[str, Any] = Field(default_factory=dict)
+    retrieved_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
 
 class IngestedEvidence(BaseModel):
@@ -66,6 +91,12 @@ class IngestedEvidence(BaseModel):
     content_hash: str             # sha256 of full normalized text
     file_path: str                # original input path (relative to repo root)
     ingested_at: datetime = Field(default_factory=datetime.utcnow)
+    provider: str | None = None
+    external_id: str | None = None
+    document_id: str | None = None
+    content_type: str | None = None
+    raw_content_path: str | None = None
+    retrieved_at: datetime | None = None
 
     def manifest_entry(self) -> EvidenceManifestEntry:
         return EvidenceManifestEntry(
@@ -79,4 +110,8 @@ class IngestedEvidence(BaseModel):
             chunk_count=len(self.chunks),
             ingested_at=self.ingested_at,
             file_path=self.file_path,
+            provider=self.provider,
+            external_id=self.external_id,
+            document_id=self.document_id,
+            url=self.url,
         )

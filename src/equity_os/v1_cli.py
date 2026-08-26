@@ -1,4 +1,4 @@
-"""equity-os v1 CLI — evidence research coverage system.
+"""EQOS CLI — evidence-backed public-equity coverage system.
 
 Entry point: eqos
 Data root: ./companies/  (or $EQUITY_OS_COMPANIES or --companies-dir)
@@ -15,6 +15,9 @@ Commands
   resolve-prediction    Attach a ResolutionRecord to a prediction
   render-company-summary Rebuild dossier.md from all episodes
   ingest                Ingest local documents from inputs/{ticker}/
+  config-check          Validate local EQOS/SEC configuration
+  sync-sec              Fetch and ingest new SEC filings for one ticker
+  sync-sec-watchlist    Fetch and ingest SEC filings for configured tickers
   list-evidence         List ingested evidence for a ticker
 """
 
@@ -24,7 +27,7 @@ import sys
 from datetime import date, datetime
 from dateutil.parser import parse as _parse_date
 from pathlib import Path
-from typing import Annotated, Any
+from typing import TYPE_CHECKING, Annotated, Any
 from uuid import UUID
 
 import typer
@@ -57,9 +60,13 @@ from .schemas import (
     ThesisEpisode,
 )
 
+if TYPE_CHECKING:
+    from .config import EqosConfig
+    from .connectors.sec_edgar import SecSyncResult
+
 app = typer.Typer(
     name="eqos",
-    help="equity-os v1 — public-equity company coverage system.",
+    help="Evidence-backed public-equity company coverage system.",
     no_args_is_help=True,
 )
 console = Console()
@@ -87,6 +94,30 @@ def _coerce_value(raw: str) -> float | int | str:
         return int(f) if f == int(f) else f
     except ValueError:
         return raw
+
+
+def _load_sec_config(config_path: Path | None) -> tuple[Path, EqosConfig]:
+    """Load a config and convert validation errors into CLI-safe failures."""
+    from .config import load_config, resolve_config_path
+
+    try:
+        resolved = resolve_config_path(config_path)
+        config = load_config(resolved)
+        config.validate_for_sec_access()
+        return resolved, config
+    except Exception as exc:
+        _abort(str(exc))
+        raise AssertionError("unreachable") from exc
+
+
+def _parse_since(raw: str | None) -> date | None:
+    if raw is None:
+        return None
+    try:
+        return date.fromisoformat(raw)
+    except ValueError as exc:
+        _abort("--since must be a valid date in YYYY-MM-DD format.")
+        raise AssertionError("unreachable") from exc
 
 
 # ===========================================================================
@@ -568,6 +599,132 @@ def render_company_summary(
         console.print(table)
 
     console.print(f"[dim]Markdown written to {layout.dossier_md}[/dim]")
+
+
+# ===========================================================================
+# config-check / SEC synchronization
+# ===========================================================================
+
+
+@app.command("config-check")
+def config_check(
+    config_path: Annotated[
+        Path | None,
+        typer.Option("--config", help="Path to EQOS TOML configuration"),
+    ] = None,
+) -> None:
+    """Validate configuration without making any network requests."""
+    resolved, config = _load_sec_config(config_path)
+    console.print(
+        Panel(
+            f"Config: [dim]{resolved}[/dim]\n"
+            f"SEC operator: [bold]{config.sec.user_agent_name}[/bold]\n"
+            f"Contact email: [green]configured[/green]\n"
+            f"Rate limit: {config.sec.requests_per_second:g} requests/second\n"
+            f"Watchlist: {', '.join(config.watchlist.normalized_tickers()) or 'empty'}",
+            title="[green]Configuration valid[/green]",
+            border_style="green",
+        )
+    )
+
+
+def _render_sec_result(result: SecSyncResult) -> None:
+    status = "complete" if not result.failures else "completed with errors"
+    console.print(
+        Panel(
+            f"Ticker: [bold]{result.ticker}[/bold]  CIK: {result.cik}\n"
+            f"Filings discovered: {result.discovered_filings}\n"
+            f"Documents discovered: {result.discovered_documents}\n"
+            f"Documents ingested: [green]{result.ingested_documents}[/green]\n"
+            f"Documents skipped: [yellow]{result.skipped_documents}[/yellow]",
+            title=f"SEC sync — {status}",
+            border_style="green" if not result.failures else "yellow",
+        )
+    )
+    for failure in result.failures:
+        console.print(f"[red]  Error:[/red] {failure}")
+
+
+@app.command("sync-sec")
+def sync_sec_command(
+    ticker: Annotated[str, typer.Argument(help="Ticker symbol, e.g. AAPL")],
+    since: Annotated[
+        str | None,
+        typer.Option("--since", help="Earliest SEC filing date (YYYY-MM-DD)"),
+    ] = None,
+    config_path: Annotated[
+        Path | None,
+        typer.Option("--config", help="Path to EQOS TOML configuration"),
+    ] = None,
+    companies_dir: Annotated[
+        Path | None,
+        typer.Option("--companies-dir", help="Override configured companies directory"),
+    ] = None,
+) -> None:
+    """Fetch new SEC filings and ingest them into one company evidence store."""
+    from .connectors.sec_edgar import sync_ticker
+
+    _, config = _load_sec_config(config_path)
+    root = companies_dir or config.storage.companies_dir
+    try:
+        result = sync_ticker(config, ticker, root, since=_parse_since(since))
+    except Exception as exc:
+        _abort(str(exc))
+        return
+    _render_sec_result(result)
+    if result.failures and result.ingested_documents == 0:
+        raise typer.Exit(1)
+
+
+@app.command("sync-sec-watchlist")
+def sync_sec_watchlist_command(
+    since: Annotated[
+        str | None,
+        typer.Option("--since", help="Earliest SEC filing date (YYYY-MM-DD)"),
+    ] = None,
+    config_path: Annotated[
+        Path | None,
+        typer.Option("--config", help="Path to EQOS TOML configuration"),
+    ] = None,
+    companies_dir: Annotated[
+        Path | None,
+        typer.Option("--companies-dir", help="Override configured companies directory"),
+    ] = None,
+) -> None:
+    """Fetch and ingest SEC filings for every configured watchlist ticker."""
+    from .connectors.sec_edgar import sync_ticker
+
+    _, config = _load_sec_config(config_path)
+    tickers = config.watchlist.normalized_tickers()
+    if not tickers:
+        _abort("The configured watchlist is empty.")
+    root = companies_dir or config.storage.companies_dir
+    table = Table(title="SEC watchlist sync", show_lines=True)
+    table.add_column("Ticker")
+    table.add_column("Filings")
+    table.add_column("Ingested")
+    table.add_column("Skipped")
+    table.add_column("Failures")
+    total_failures = 0
+    for ticker in tickers:
+        try:
+            result = sync_ticker(config, ticker, root, since=_parse_since(since))
+            failures = len(result.failures)
+            total_failures += failures
+            table.add_row(
+                ticker,
+                str(result.discovered_filings),
+                str(result.ingested_documents),
+                str(result.skipped_documents),
+                str(failures),
+            )
+        except Exception as exc:
+            total_failures += 1
+            table.add_row(ticker, "—", "—", "—", "1")
+            console.print(f"[red]{ticker}:[/red] {exc}")
+    console.print(table)
+    if total_failures:
+        raise typer.Exit(1)
 
 
 # ===========================================================================

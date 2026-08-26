@@ -1,0 +1,279 @@
+{
+  "evidence_id": "7ec01dab-23bd-42af-a3e3-30a51970cec7",
+  "ticker": "AAPL",
+  "logical_type": "filing",
+  "source_type": "FILING",
+  "title": "Apple Inc. 8-K filed 2026-01-02",
+  "source_date": "2026-01-02",
+  "source_name": "SEC EDGAR",
+  "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126000199/ef20060722_8k.htm",
+  "reliability_score": 1.0,
+  "text": "truetruetruetruetruetrueNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQfalse000032019300003201932025-12-302025-12-300000320193aapl:Zero500NotesDue2031Member2025-12-302025-12-300000320193aapl:One375NotesDue2029Member2025-12-302025-12-300000320193us-gaap:CommonStockMember2025-12-302025-12-300000320193aapl:Three600NotesDue2042Member2025-12-302025-12-300000320193aapl:Three050NotesDue2029Member2025-12-302025-12-300000320193aapl:Two000NotesDue2027Member2025-12-302025-12-300000320193aapl:One625NotesDue2026Member2025-12-302025-12-30\n\n\n\n\n\n\n\n\n\n\n\n\nUNITED STATES\n\n\nSECURITIES AND EXCHANGE COMMISSION\n\n\nWashington, D.C. 20549\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFORM 8-K\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCURRENT REPORT\n\n\n\n\n\nPursuant to Section 13 OR 15(d) of The Securities Exchange Act of 1934\n\n\n\n\n\n\n\n\n\n\nDecember 30, 2025\n\n\n\n\n\n\n\nDate of Report (Date of earliest event reported)\n\n\n\n\n\n\n\n\n\n\n\n\n\nApple Inc.\n\n\n\n\n(Exact name of Registrant as specified in its charter)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalifornia\n\n\n\n(State or other jurisdiction\n\n\nof incorporation)\n\n\n\n\n\n001-36743\n\n\n\n(Commission\n\n\nFile Number)\n\n\n\n\n\nOne Apple Park Way\n\n\n\nCupertino, California 95014\n\n(Address of principal executive offices) (Zip Code)\n\n\n\n\n\n(408) 996-1010\n\n(Registrant's telephone number, including area code)\n\n\n\n\n\nNot applicable\n\n(Former name or former address, if changed since last report.)\n\n\n\n\n\n94-2404110\n\n\n\n(I.R.S. Employer\n\n\nIdentification No.)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the Registrant under any of the following provisions:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☐\n\n\n\n\n\n\n\n\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☐\n\n\n\n\n\n\n\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☐\n\n\n\n\n\n\n\nPre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☐\n\n\n\n\n\n\n\nPre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecurities registered pursuant to Section 12(b) of the Act:\n\n\n\n\n\n\n\n\n\n\n\n\n\nTitle of each class\n\n\n\n\n\nTrading symbol(s)\n\n\n\n\n\nName of each exchange on which registered\n\n\n\n\n\n\n\n\n\nCommon Stock, $0.00001 par value per share\n\n\n\n\n\n\n\nAAPL\n\n\n\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n\n1.625% Notes due 2026\n\n\n\n\n--\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n2.000% Notes due 2027\n\n\n\n\n--\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n1.375% Notes due 2029\n\n\n\n\n--\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n3.050% Notes due 2029\n\n\n\n\n--\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n0.500% Notes due 2031\n\n\n\n\n--\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n3.600% Notes due 2042\n\n\n\n\n--\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndicate by check mark whether the Registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule\n 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).\n\n\n\n\n\n\nEmerging growth company ☐\n\n\n\n\n\n\n\n\n\n\nIf an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition period for complying with any new or revised\n financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nItem 5.02\n\n\n\n\n\n\n\nDeparture of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAs part of Apple Inc.'s\n (\"Apple's\") previously announced Principal Accounting Officer transition plan, Apple's Board of Directors appointed Ben Borders, 45, as Apple's Principal Accounting Officer, effective January 1, 2026. Mr. Borders succeeds Chris Kondo in the\n role of Principal Accounting Officer.\n\n\n\n\n\nMr. Borders joined Apple in\n November 2010 and assumed his current position in January 2026. Mr. Borders' previous positions at Apple include Director of Technical Accounting.\n\n\n\n\n\n\n\nThere are no family\n relationships between Mr. Borders and any director or executive officer of Apple that would be required to be disclosed pursuant to Item 401(d) of Regulation S-K, and there are no transactions between Mr. Borders and Apple that would be\n required to be disclosed pursuant to Item 404(a) of Regulation S-K.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSIGNATURES\n\n\n\n\n\n\n\nPursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly\n authorized.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDate:\n\n\n\n\n\nJanuary 2, 2026\n\n\n\n\n\nApple Inc.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBy:\n\n\n\n\n\n\n\n\n/s/ Katherine Adams\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKatherine Adams\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSenior Vice President, General Counsel and Secretary",
+  "extracted_metadata": {
+    "word_count": 555,
+    "char_count": 4778,
+    "line_count": 753,
+    "detected_filing_types": [
+      "8-K"
+    ],
+    "cik": "0000320193",
+    "accession_number": "0001140361-26-000199",
+    "form": "8-K",
+    "filing_items": [
+      "5.02"
+    ],
+    "period_of_report": "2025-12-30",
+    "accepted_at": "2026-01-02T21:30:52+00:00",
+    "document_type": "8-K",
+    "is_primary_document": true,
+    "is_amendment": false,
+    "is_xbrl": true,
+    "is_inline_xbrl": true,
+    "evidence_label": "fact_source_reported"
+  },
+  "chunks": [
+    {
+      "chunk_id": "AAPL-7ec01dab-0000",
+      "index": 0,
+      "text": "truetruetruetruetruetrueNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQfalse000032019300003201932025-12-302025-12-300000320193aapl:Zero500NotesDue2031Member2025-12-302025-12-300000320193aapl:One375NotesDue2029Member2025-12-302025-12-300000320193us-gaap:CommonStockMember2025-12-302025-12-300000320193aapl:Three600NotesDue2042Member2025-12-302025-12-300000320193aapl:Three050NotesDue2029Member2025-12-302025-12-300000320193aapl:Two000NotesDue2027Member2025-12-302025-12-300000320193aapl:One625NotesDue2026Member2025-12-302025-12-30",
+      "char_start": 0,
+      "char_end": 525,
+      "word_count": 1,
+      "content_hash": "6ae10533ad49863ae85a0e7a87f9e70684e22a6c325dde52956ab1f9b7239bcd"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0001",
+      "index": 1,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K",
+      "char_start": 525,
+      "char_end": 605,
+      "word_count": 11,
+      "content_hash": "9aadcb50adefe24bf1cdaccf0e8b1297ba9a08e964e32d6cf079996f122c582e"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0002",
+      "index": 2,
+      "text": "CURRENT REPORT Pursuant to Section 13 OR 15(d) of The Securities Exchange Act of 1934",
+      "char_start": 605,
+      "char_end": 690,
+      "word_count": 15,
+      "content_hash": "f77e6f9dca8d7282e858930aec9e228083500f1425e251fe85d1af30c0a3cea7"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0003",
+      "index": 3,
+      "text": "December 30, 2025 Date of Report (Date of earliest event reported) Apple Inc. (Exact name of Registrant as specified in its charter)",
+      "char_start": 690,
+      "char_end": 822,
+      "word_count": 22,
+      "content_hash": "40c9709ebc096ee80056e8f9e1ea18bed7cde605bd0957fa50265a08f8ec2fc1"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0004",
+      "index": 4,
+      "text": "California (State or other jurisdiction of incorporation) 001-36743 (Commission File Number)",
+      "char_start": 822,
+      "char_end": 914,
+      "word_count": 11,
+      "content_hash": "3552ca93fedb96983b4ae3deb76840e940db3c8222482c1485aa51bbb461c54d"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0005",
+      "index": 5,
+      "text": "One Apple Park Way Cupertino, California 95014 (Address of principal executive offices) (Zip Code)",
+      "char_start": 914,
+      "char_end": 1012,
+      "word_count": 14,
+      "content_hash": "1df7d82cb20d01dfbd451641b6d391e7dd16462ae7ff2cfeee5227b1caa2fa94"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0006",
+      "index": 6,
+      "text": "(408) 996-1010 (Registrant's telephone number, including area code) Not applicable",
+      "char_start": 1012,
+      "char_end": 1094,
+      "word_count": 10,
+      "content_hash": "128c88454ae056f90f0cab884e6dcd1f0a443087ea4e15b4fcb8fc8cb27c5a2c"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0007",
+      "index": 7,
+      "text": "(Former name or former address, if changed since last report.) 94-2404110 (I.R.S. Employer",
+      "char_start": 1094,
+      "char_end": 1184,
+      "word_count": 13,
+      "content_hash": "fedf6cf28aaa7b7fbb050c1fc6617072e049d13d02b899975bf18a477bd24e27"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0008",
+      "index": 8,
+      "text": "Identification No.) Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the Registrant under any of the following provisions:",
+      "char_start": 1184,
+      "char_end": 1375,
+      "word_count": 29,
+      "content_hash": "2ebf51b7fc8cf96688440031da943c4b5afe7406e7a3a8f47d8cb20720f2e8a6"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0009",
+      "index": 9,
+      "text": "☐ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)",
+      "char_start": 1375,
+      "char_end": 1462,
+      "word_count": 14,
+      "content_hash": "7f4c0d3ba9f87ab2dc60270d335ed61b974626c73e34e273f2106da979860d09"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0010",
+      "index": 10,
+      "text": "☐ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)",
+      "char_start": 1462,
+      "char_end": 1550,
+      "word_count": 14,
+      "content_hash": "4c1b0b380ec96aa6b6747286a4fcf0e2a75a765983f31e21259988aadbbf84d3"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0011",
+      "index": 11,
+      "text": "☐ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))",
+      "char_start": 1550,
+      "char_end": 1654,
+      "word_count": 14,
+      "content_hash": "a7333cfaba47a274785ebd19e4484fc63551952e257eadad130e41285322f5a5"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0012",
+      "index": 12,
+      "text": "☐ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))",
+      "char_start": 1654,
+      "char_end": 1758,
+      "word_count": 14,
+      "content_hash": "368c3f7b4e4f54229e6ce24281769fffb21c03c3f35e8a72913e77299944786f"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0013",
+      "index": 13,
+      "text": "Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading symbol(s)",
+      "char_start": 1758,
+      "char_end": 1855,
+      "word_count": 15,
+      "content_hash": "0937372eb0edb146fe24e76d5851188ccf41896a181e45cd019bee0a152b7ef7"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0014",
+      "index": 14,
+      "text": "Name of each exchange on which registered Common Stock, $0.00001 par value per share",
+      "char_start": 1855,
+      "char_end": 1939,
+      "word_count": 14,
+      "content_hash": "f917b3b30c57587ff08953f8f6f3b1d446801667ad49dda1f079c13459742ceb"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0015",
+      "index": 15,
+      "text": "AAPL The Nasdaq Stock Market LLC 1.625% Notes due 2026 -- The Nasdaq Stock Market LLC",
+      "char_start": 1939,
+      "char_end": 2024,
+      "word_count": 16,
+      "content_hash": "562d483b3fedfa895ec9139e33f8333505f7cc3b83fc68987d2a03971f3f498b"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0016",
+      "index": 16,
+      "text": "2.000% Notes due 2027 -- The Nasdaq Stock Market LLC 1.375% Notes due 2029 -- The Nasdaq Stock Market LLC",
+      "char_start": 2024,
+      "char_end": 2129,
+      "word_count": 20,
+      "content_hash": "61104e2408b1c543cafb2e3b56c5cc541936afe355ace9e2c64248fbd25b5e09"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0017",
+      "index": 17,
+      "text": "3.050% Notes due 2029 -- The Nasdaq Stock Market LLC 0.500% Notes due 2031 -- The Nasdaq Stock Market LLC",
+      "char_start": 2129,
+      "char_end": 2234,
+      "word_count": 20,
+      "content_hash": "2fd7a9f9d4b73f8eb67e31e5263a5a90f50d49cf8fed6538abeb9ceaeec3d01e"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0018",
+      "index": 18,
+      "text": "3.600% Notes due 2042 -- The Nasdaq Stock Market LLC Indicate by check mark whether the Registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule\n 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).",
+      "char_start": 2234,
+      "char_end": 2526,
+      "word_count": 51,
+      "content_hash": "b8003788125d9a396ff05c83e7e4a04dd97b96872d820159948a2e8365c2d54c"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0019",
+      "index": 19,
+      "text": "Emerging growth company ☐ If an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition period for complying with any new or revised\n financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐",
+      "char_start": 2526,
+      "char_end": 2805,
+      "word_count": 45,
+      "content_hash": "1b73679a08064fbced295a660344c560f4e38ab277a59c0aca471d86036b3ddc"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0020",
+      "index": 20,
+      "text": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers.",
+      "char_start": 2805,
+      "char_end": 2961,
+      "word_count": 20,
+      "content_hash": "fc77cf2022f293a572bb41401d5968af1b48efc4bd4f5eb6260c4e721516cd64"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0021",
+      "index": 21,
+      "text": "As part of Apple Inc.'s\n (\"Apple's\") previously announced Principal Accounting Officer transition plan, Apple's Board of Directors appointed Ben Borders, 45, as Apple's Principal Accounting Officer, effective January 1, 2026. Mr. Borders succeeds Chris Kondo in the\n role of Principal Accounting Officer.",
+      "char_start": 3498,
+      "char_end": 3802,
+      "word_count": 42,
+      "content_hash": "a1ec2999a28ee24ce8ced3641682100c14569085f894e278735370f3aca89302"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0022",
+      "index": 22,
+      "text": "Mr. Borders joined Apple in\n November 2010 and assumed his current position in January 2026. Mr. Borders' previous positions at Apple include Director of Technical Accounting.",
+      "char_start": 3808,
+      "char_end": 3983,
+      "word_count": 26,
+      "content_hash": "8b141ca41a171a7e659a4bfb9e5a100c2dcf791de3e6758d761228674c01888f"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0023",
+      "index": 23,
+      "text": "There are no family\n relationships between Mr. Borders and any director or executive officer of Apple that would be required to be disclosed pursuant to Item 401(d) of Regulation S-K, and there are no transactions between Mr. Borders and Apple that would be\n required to be disclosed pursuant to Item 404(a) of Regulation S-K.",
+      "char_start": 3991,
+      "char_end": 4317,
+      "word_count": 54,
+      "content_hash": "a8e4f082b202d28be3d074ebd3b387d0387a539b796904b5b99a921d5ee4a501"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0024",
+      "index": 24,
+      "text": "SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly\n authorized.",
+      "char_start": 4317,
+      "char_end": 4512,
+      "word_count": 31,
+      "content_hash": "6b9bd47bd59f50e6156ae81c1fe970e3bdd96b0bb161459b34273b1e29a469e2"
+    },
+    {
+      "chunk_id": "AAPL-7ec01dab-0025",
+      "index": 25,
+      "text": "Date: January 2, 2026 Apple Inc. By: /s/ Katherine Adams Katherine Adams Senior Vice President, General Counsel and Secretary",
+      "char_start": 4512,
+      "char_end": 4637,
+      "word_count": 19,
+      "content_hash": "45637dda81fff646a585cbc807e1be787ed4b207164168276fd8c7020f4fad33"
+    }
+  ],
+  "content_hash": "4961100f5ab417d25cf041c36e6d078c391ebd6fe1a2f0923f45646e8893a48f",
+  "file_path": "companies/AAPL/evidence/raw/0001140361-26-000199_ef20060722_8k.htm",
+  "ingested_at": "2026-08-25T19:53:00.282437",
+  "provider": "sec-edgar",
+  "external_id": "0001140361-26-000199",
+  "document_id": "ef20060722_8k.htm",
+  "content_type": "text/html",
+  "raw_content_path": "companies/AAPL/evidence/raw/0001140361-26-000199_ef20060722_8k.htm",
+  "retrieved_at": "2026-08-25T19:53:00.278056Z"
+}

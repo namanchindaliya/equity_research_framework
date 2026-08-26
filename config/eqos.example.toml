@@ -1,0 +1,38 @@
+[sec]
+enabled = true
+user_agent_name = "Naman Chindaliya"
+contact_email = "namanchindaliya@gmail.com"
+requests_per_second = 3
+timeout_seconds = 30
+max_retries = 4
+max_filings_per_sync = 50
+
+forms = [
+  "10-K",
+  "10-K/A",
+  "10-Q",
+  "10-Q/A",
+  "8-K",
+  "8-K/A",
+  "6-K",
+  "6-K/A",
+  "20-F",
+  "20-F/A",
+  "DEF 14A",
+]
+
+eight_k_items = ["2.02", "4.02", "5.02", "7.01", "8.01"]
+exhibit_type_prefixes = ["EX-99"]
+
+[sync]
+default_since_days = 730
+store_raw_documents = true
+auto_create_episode = false
+evaluate_monitoring_triggers = true
+
+[watchlist]
+tickers = ["AAPL"]
+
+[storage]
+companies_dir = "companies"
+raw_documents_dir = "raw"

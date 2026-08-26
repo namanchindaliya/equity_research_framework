@@ -79,11 +79,8 @@ class ThesisEpisode(BaseModel):
     then act.  Keeping the layers separate makes the reasoning chain
     auditable and reproducible.
 
-    Relationship to v0 Episode
-    --------------------------
-    ThesisEpisode is the richer v1 model.  The v0 Episode (legacy.py) is
-    still used by the v0 CLI and store.  They coexist; migration between
-    them is out of scope for v0.
+    Each episode is self-contained and stored in its own immutable coverage
+    directory, so earlier analytical states remain reproducible.
     """
 
     id: UUID = Field(default_factory=uuid4)

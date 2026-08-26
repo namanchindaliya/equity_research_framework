@@ -1,4 +1,4 @@
-"""Markdown rendering for v1 domain models.
+"""Markdown rendering for EQOS domain models.
 
 Each function takes a domain object and returns a plain markdown string.
 The CLI writes these strings to .md sidecar files alongside every JSON artifact.

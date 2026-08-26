@@ -1,0 +1,217 @@
+{
+  "evidence_id": "483582c6-8bc8-4581-ad76-b36540ded196",
+  "ticker": "AAPL",
+  "logical_type": "filing",
+  "source_type": "FILING",
+  "title": "Apple Inc. 8-K filed 2026-04-30",
+  "source_date": "2026-04-30",
+  "source_name": "SEC EDGAR",
+  "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/aapl-20260430.htm",
+  "reliability_score": 1.0,
+  "text": "false000032019300003201932026-04-302026-04-300000320193us-gaap:CommonStockMember2026-04-302026-04-300000320193aapl:A1.625NotesDue2026Member2026-04-302026-04-300000320193aapl:A2.000NotesDue2027Member2026-04-302026-04-300000320193aapl:A1.375NotesDue2029Member2026-04-302026-04-300000320193aapl:A3.050NotesDue2029Member2026-04-302026-04-300000320193aapl:A0.500Notesdue2031Member2026-04-302026-04-300000320193aapl:A3.600NotesDue2042Member2026-04-302026-04-30\n\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\n\nFORM 8-K\nCURRENT REPORT\nPursuant to Section 13 OR 15(d) of The Securities Exchange Act of 1934\nApril 30, 2026\nDate of Report (Date of earliest event reported)\n\nApple Inc.\n(Exact name of Registrant as specified in its charter)\n\nCalifornia\n\n001-36743\n\n94-2404110\n\n(State or other jurisdiction\nof incorporation)\n\n(Commission\nFile Number)\n\n(I.R.S. Employer\nIdentification No.)\nOne Apple Park Way\nCupertino, California 95014\n(Address of principal executive offices) (Zip Code)\n(408) 996-1010\n(Registrant's telephone number, including area code)\nNot applicable\n(Former name or former address, if changed since last report.)\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the Registrant under any of the following provisions:\n\n☐\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n☐\n\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\n\n☐\n\nPre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\n\n☐\n\nPre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\n\nSecurities registered pursuant to Section 12(b) of the Act:\n\nTitle of each class\nTrading symbol(s)\nName of each exchange on which registered\n\nCommon Stock, $0.00001 par value per share\nAAPL\nThe Nasdaq Stock Market LLC\n\n1.625% Notes due 2026\n--\nThe Nasdaq Stock Market LLC\n\n2.000% Notes due 2027\n--\nThe Nasdaq Stock Market LLC\n\n1.375% Notes due 2029\n--\nThe Nasdaq Stock Market LLC\n\n3.050% Notes due 2029\n--\nThe Nasdaq Stock Market LLC\n\n0.500% Notes due 2031\n--\nThe Nasdaq Stock Market LLC\n\n3.600% Notes due 2042\n--\nThe Nasdaq Stock Market LLC\n\nIndicate by check mark whether the Registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).\nEmerging growth company ☐\nIf an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\n\nItem 2.02 Results of Operations and Financial Condition.\nOn April 30, 2026, Apple Inc. (\"Apple\") issued a press release regarding Apple's financial results for its second fiscal quarter ended March 28, 2026. A copy of Apple's press release is attached hereto as Exhibit 99.1.\nThe information contained in this Current Report shall not be deemed \"filed\" for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"), or incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as shall be expressly set forth by specific reference in such a filing.\n\n\nItem 9.01 Financial Statements and Exhibits.\n(d)Exhibits.\n\nExhibit\nNumber\n\nExhibit Description\n\n99.1\n\nPress release issued by Apple Inc. on April 30, 2026.\n\n104\n\nInline XBRL for the cover page of this Current Report on Form 8-K.\n\nSIGNATURE\nPursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.\n\nDate:\nApril 30, 2026\n\nApple Inc.\n\nBy:\n\n/s/ Kevan Parekh\n\nKevan Parekh\n\nSenior Vice President,\nChief Financial Officer",
+  "extracted_metadata": {
+    "word_count": 554,
+    "char_count": 3963,
+    "line_count": 129,
+    "detected_filing_types": [
+      "8-K"
+    ],
+    "cik": "0000320193",
+    "accession_number": "0000320193-26-000011",
+    "form": "8-K",
+    "filing_items": [
+      "2.02",
+      "9.01"
+    ],
+    "period_of_report": "2026-04-30",
+    "accepted_at": "2026-04-30T20:30:41+00:00",
+    "document_type": "8-K",
+    "is_primary_document": true,
+    "is_amendment": false,
+    "is_xbrl": true,
+    "is_inline_xbrl": true,
+    "evidence_label": "fact_source_reported"
+  },
+  "chunks": [
+    {
+      "chunk_id": "AAPL-483582c6-0000",
+      "index": 0,
+      "text": "false000032019300003201932026-04-302026-04-300000320193us-gaap:CommonStockMember2026-04-302026-04-300000320193aapl:A1.625NotesDue2026Member2026-04-302026-04-300000320193aapl:A2.000NotesDue2027Member2026-04-302026-04-300000320193aapl:A1.375NotesDue2029Member2026-04-302026-04-300000320193aapl:A3.050NotesDue2029Member2026-04-302026-04-300000320193aapl:A0.500Notesdue2031Member2026-04-302026-04-300000320193aapl:A3.600NotesDue2042Member2026-04-302026-04-30",
+      "char_start": 0,
+      "char_end": 454,
+      "word_count": 1,
+      "content_hash": "c2de1f1b090361cabeef937c23ba890cc2659a36db9bce514e2e32118e009b1d"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0001",
+      "index": 1,
+      "text": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549 FORM 8-K\nCURRENT REPORT\nPursuant to Section 13 OR 15(d) of The Securities Exchange Act of 1934\nApril 30, 2026\nDate of Report (Date of earliest event reported)",
+      "char_start": 454,
+      "char_end": 684,
+      "word_count": 37,
+      "content_hash": "eee5aff6e26f2032469632fd9966aab12a328969ba695e9e2f4d6841cce75a71"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0002",
+      "index": 2,
+      "text": "Apple Inc.\n(Exact name of Registrant as specified in its charter) California 001-36743",
+      "char_start": 684,
+      "char_end": 770,
+      "word_count": 13,
+      "content_hash": "eba332bb4b6f424c3aefbe76d1fe332ca43ef16a82b8ec9d8717a6be9db53eb1"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0003",
+      "index": 3,
+      "text": "94-2404110 (State or other jurisdiction\nof incorporation) (Commission\nFile Number)",
+      "char_start": 770,
+      "char_end": 852,
+      "word_count": 10,
+      "content_hash": "0c4bfe8c0a9187a744cd605dc8ff6109ab66d1ed08d0c78e378a540cdb9d8157"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0004",
+      "index": 4,
+      "text": "(I.R.S. Employer\nIdentification No.)\nOne Apple Park Way\nCupertino, California 95014\n(Address of principal executive offices) (Zip Code)\n(408) 996-1010\n(Registrant's telephone number, including area code)\nNot applicable\n(Former name or former address, if changed since last report.)\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the Registrant under any of the following provisions:",
+      "char_start": 865,
+      "char_end": 1318,
+      "word_count": 65,
+      "content_hash": "95ba2bc969544f8b1753137302a903b93100c85ea60e7f8e4ecf1f4e08d1692e"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0005",
+      "index": 5,
+      "text": "☐ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)",
+      "char_start": 1318,
+      "char_end": 1405,
+      "word_count": 14,
+      "content_hash": "7f4c0d3ba9f87ab2dc60270d335ed61b974626c73e34e273f2106da979860d09"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0006",
+      "index": 6,
+      "text": "☐ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)",
+      "char_start": 1405,
+      "char_end": 1493,
+      "word_count": 14,
+      "content_hash": "4c1b0b380ec96aa6b6747286a4fcf0e2a75a765983f31e21259988aadbbf84d3"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0007",
+      "index": 7,
+      "text": "☐ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))",
+      "char_start": 1493,
+      "char_end": 1597,
+      "word_count": 14,
+      "content_hash": "a7333cfaba47a274785ebd19e4484fc63551952e257eadad130e41285322f5a5"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0008",
+      "index": 8,
+      "text": "☐ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))",
+      "char_start": 1597,
+      "char_end": 1701,
+      "word_count": 14,
+      "content_hash": "368c3f7b4e4f54229e6ce24281769fffb21c03c3f35e8a72913e77299944786f"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0009",
+      "index": 9,
+      "text": "Securities registered pursuant to Section 12(b) of the Act: Title of each class\nTrading symbol(s)\nName of each exchange on which registered",
+      "char_start": 1701,
+      "char_end": 1840,
+      "word_count": 22,
+      "content_hash": "9f770292a817a1b84c56dc42dc0837ee371a38e420daa7d1fba4013da9ffd67e"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0010",
+      "index": 10,
+      "text": "Common Stock, $0.00001 par value per share\nAAPL\nThe Nasdaq Stock Market LLC 1.625% Notes due 2026\n--\nThe Nasdaq Stock Market LLC",
+      "char_start": 1840,
+      "char_end": 1968,
+      "word_count": 23,
+      "content_hash": "2f1d1eed756f7224aa75938836c07c216635db8547d2d3c8b9e460ca46de9af6"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0011",
+      "index": 11,
+      "text": "2.000% Notes due 2027\n--\nThe Nasdaq Stock Market LLC 1.375% Notes due 2029\n--\nThe Nasdaq Stock Market LLC",
+      "char_start": 1968,
+      "char_end": 2073,
+      "word_count": 20,
+      "content_hash": "4af8393826b0cf5ff5408d649887e8ceb68a079822357ff18cb541403fd0ab15"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0012",
+      "index": 12,
+      "text": "3.050% Notes due 2029\n--\nThe Nasdaq Stock Market LLC 0.500% Notes due 2031\n--\nThe Nasdaq Stock Market LLC",
+      "char_start": 2073,
+      "char_end": 2178,
+      "word_count": 20,
+      "content_hash": "08c91120866d8334e30e4308044e82927e34ce119908abd2bcf76b8fe9609d7b"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0013",
+      "index": 13,
+      "text": "3.600% Notes due 2042\n--\nThe Nasdaq Stock Market LLC Indicate by check mark whether the Registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).\nEmerging growth company ☐\nIf an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐",
+      "char_start": 2178,
+      "char_end": 2748,
+      "word_count": 96,
+      "content_hash": "51da5b432218d1ef0bb1cdadc6d79c05a1cd3629ce21d0263ad20cbf60b92486"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0014",
+      "index": 14,
+      "text": "Item 2.02 Results of Operations and Financial Condition.\nOn April 30, 2026, Apple Inc. (\"Apple\") issued a press release regarding Apple's financial results for its second fiscal quarter ended March 28, 2026. A copy of Apple's press release is attached hereto as Exhibit 99.1.\nThe information contained in this Current Report shall not be deemed \"filed\" for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"), or incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act, except as shall be expressly set forth by specific reference in such a filing.",
+      "char_start": 2777,
+      "char_end": 3418,
+      "word_count": 106,
+      "content_hash": "1a928473820b637daae9892d1b05ec12e1df6fa4e359c5b5f7e882bf71ca78a6"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0015",
+      "index": 15,
+      "text": "Item 9.01 Financial Statements and Exhibits.\n(d)Exhibits. Exhibit\nNumber Exhibit Description",
+      "char_start": 3418,
+      "char_end": 3510,
+      "word_count": 11,
+      "content_hash": "e086b8c53dc70b41083ca587e99942b0bd653da66c7221f48df5ee7b3dd8fead"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0016",
+      "index": 16,
+      "text": "99.1 Press release issued by Apple Inc. on April 30, 2026. 104 Inline XBRL for the cover page of this Current Report on Form 8-K.",
+      "char_start": 3510,
+      "char_end": 3639,
+      "word_count": 25,
+      "content_hash": "a3b7f5c3714e7371d6d5735a0cf3d728f04b677848c1a79329bc3d2fb463a3a3"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0017",
+      "index": 17,
+      "text": "SIGNATURE\nPursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.",
+      "char_start": 3651,
+      "char_end": 3844,
+      "word_count": 31,
+      "content_hash": "948ab6470341be1ca23f23521d37588258fe67836906c759cc318d4ffb7b4370"
+    },
+    {
+      "chunk_id": "AAPL-483582c6-0018",
+      "index": 18,
+      "text": "Date:\nApril 30, 2026 Apple Inc. By: /s/ Kevan Parekh Kevan Parekh Senior Vice President,\nChief Financial Officer",
+      "char_start": 3844,
+      "char_end": 3956,
+      "word_count": 18,
+      "content_hash": "bc52fa5765ac59b4621008b7794319de3dcd18b9c671b21fae4efcb436c6425e"
+    }
+  ],
+  "content_hash": "b9222eab77fc000e9b79b4d956bb262a29f918537ba0f79b74f87eb4cb19edd7",
+  "file_path": "companies/AAPL/evidence/raw/0000320193-26-000011_aapl-20260430.htm",
+  "ingested_at": "2026-08-25T19:52:53.839749",
+  "provider": "sec-edgar",
+  "external_id": "0000320193-26-000011",
+  "document_id": "aapl-20260430.htm",
+  "content_type": "text/html",
+  "raw_content_path": "companies/AAPL/evidence/raw/0000320193-26-000011_aapl-20260430.htm",
+  "retrieved_at": "2026-08-25T19:52:53.836220Z"
+}

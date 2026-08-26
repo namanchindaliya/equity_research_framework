@@ -1046,7 +1046,7 @@
       "type": "string"
     },
     "ThesisEpisode": {
-      "description": "One full thesis cycle for a company.\n\nThe three-layer structure (observations \u2192 inferences \u2192 decisions) mirrors\nhow good analysts actually work: consume raw data, draw conclusions,\nthen act.  Keeping the layers separate makes the reasoning chain\nauditable and reproducible.\n\nRelationship to v0 Episode\n--------------------------\nThesisEpisode is the richer v1 model.  The v0 Episode (legacy.py) is\nstill used by the v0 CLI and store.  They coexist; migration between\nthem is out of scope for v0.",
+      "description": "One full thesis cycle for a company.\n\nThe three-layer structure (observations \u2192 inferences \u2192 decisions) mirrors\nhow good analysts actually work: consume raw data, draw conclusions,\nthen act.  Keeping the layers separate makes the reasoning chain\nauditable and reproducible.\n\nEach episode is self-contained and stored in its own immutable coverage\ndirectory, so earlier analytical states remain reproducible.",
       "properties": {
         "id": {
           "format": "uuid",
@@ -1221,7 +1221,7 @@
       "type": "string"
     }
   },
-  "description": "Complete coverage record for a single company.\n\nThe dossier is the root of the company's state tree.  Every ThesisEpisode\nand MonitoringTrigger for this company lives here.\n\nDesign notes\n------------\n- ``version`` increments on every persisted write (like an optimistic-lock\n  counter), making concurrent-write collisions detectable.\n- ``monitoring_triggers`` here are *company-level* standing triggers (e.g.\n  \"alert if quarterly revenue YoY drops below 5%\"); episode-level triggers\n  live inside ThesisEpisode.\n- ``tags`` are free-form labels for screening/grouping (e.g. [\"mag7\", \"ai-infra\"]).\n- ``exchange`` and ``country`` are optional in v0 but included now to avoid\n  a schema migration later.",
+  "description": "Complete coverage record for a single company.\n\nThe dossier is the root of the company's state tree.  Every ThesisEpisode\nand MonitoringTrigger for this company lives here.\n\nDesign notes\n------------\n- ``version`` increments on every persisted write (like an optimistic-lock\n  counter), making concurrent-write collisions detectable.\n- ``monitoring_triggers`` here are *company-level* standing triggers (e.g.\n  \"alert if quarterly revenue YoY drops below 5%\"); episode-level triggers\n  live inside ThesisEpisode.\n- ``tags`` are free-form labels for screening/grouping (e.g. [\"mag7\", \"ai-infra\"]).\n- ``exchange`` and ``country`` are included in the normalized dossier so\n  source and market context travel with the company record.",
   "properties": {
     "id": {
       "format": "uuid",

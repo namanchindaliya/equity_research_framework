@@ -651,32 +651,6 @@ class TestPostmortem:
 
 
 # ===========================================================================
-# Legacy backward-compat imports
-# ===========================================================================
-
-
-class TestLegacyBackwardCompat:
-    def test_old_imports_still_work(self):
-        from equity_os.schemas import (
-            Assumption,
-            AssumptionStatus,
-            Company,
-            Episode,
-            EpisodeStatus,
-            Prediction,
-            PredictionOutcome,
-            Rating,
-        )
-        c = Company(ticker="AAPL", name="Apple Inc.")
-        assert c.ticker == "AAPL"
-
-    def test_old_episode_model(self):
-        from equity_os.schemas import Episode, Rating
-        ep = Episode(ticker="AAPL", title="T", thesis="T", rating=Rating.BUY)
-        assert ep.status.value == "OPEN"
-
-
-# ===========================================================================
 # JSON schema generation smoke test
 # ===========================================================================
 

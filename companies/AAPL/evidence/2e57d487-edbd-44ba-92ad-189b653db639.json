@@ -1,0 +1,2193 @@
+{
+  "evidence_id": "2e57d487-edbd-44ba-92ad-189b653db639",
+  "ticker": "AAPL",
+  "logical_type": "filing",
+  "source_type": "FILING",
+  "title": "Apple Inc. 10-Q filed 2026-01-30",
+  "source_date": "2026-01-30",
+  "source_name": "SEC EDGAR",
+  "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+  "reliability_score": 1.0,
+  "text": "false2026Q10000320193--09-26P1YP1YP1YP1Yhttp://fasb.org/us-gaap/2025#LongTermDebtNoncurrenthttp://fasb.org/us-gaap/2025#LongTermDebtNoncurrentP406DP403Dxbrli:sharesiso4217:USDiso4217:USDxbrli:sharesxbrli:pureaapl:Customeraapl:Vendor00003201932025-09-282025-12-270000320193us-gaap:CommonStockMember2025-09-282025-12-270000320193aapl:A1.625NotesDue2026Member2025-09-282025-12-270000320193aapl:A2.000NotesDue2027Member2025-09-282025-12-270000320193aapl:A1.375NotesDue2029Member2025-09-282025-12-270000320193aapl:A3.050NotesDue2029Member2025-09-282025-12-270000320193aapl:A0.500Notesdue2031Member2025-09-282025-12-270000320193aapl:A3.600NotesDue2042Member2025-09-282025-12-2700003201932026-01-160000320193us-gaap:ProductMember2025-09-282025-12-270000320193us-gaap:ProductMember2024-09-292024-12-280000320193us-gaap:ServiceMember2025-09-282025-12-270000320193us-gaap:ServiceMember2024-09-292024-12-2800003201932024-09-292024-12-2800003201932025-12-2700003201932025-09-2700003201932024-09-280000320193us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember2025-09-270000320193us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember2024-09-280000320193us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember2025-09-282025-12-270000320193us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember2024-09-292024-12-280000320193us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember2025-12-270000320193us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember2024-12-280000320193us-gaap:RetainedEarningsMember2025-09-270000320193us-gaap:RetainedEarningsMember2024-09-280000320193us-gaap:RetainedEarningsMember2025-09-282025-12-270000320193us-gaap:RetainedEarningsMember2024-09-292024-12-280000320193us-gaap:RetainedEarningsMember2025-12-270000320193us-gaap:RetainedEarningsMember2024-12-280000320193us-gaap:AccumulatedOtherComprehensiveIncomeMember2025-09-270000320193us-gaap:AccumulatedOtherComprehensiveIncomeMember2024-09-280000320193us-gaap:AccumulatedOtherComprehensiveIncomeMember2025-09-282025-12-270000320193us-gaap:AccumulatedOtherComprehensiveIncomeMember2024-09-292024-12-280000320193us-gaap:AccumulatedOtherComprehensiveIncomeMember2025-12-270000320193us-gaap:AccumulatedOtherComprehensiveIncomeMember2024-12-2800003201932024-12-280000320193aapl:IPhoneMember2025-09-282025-12-270000320193aapl:IPhoneMember2024-09-292024-12-280000320193aapl:MacMember2025-09-282025-12-270000320193aapl:MacMember2024-09-292024-12-280000320193aapl:IPadMember2025-09-282025-12-270000320193aapl:IPadMember2024-09-292024-12-280000320193aapl:WearablesHomeandAccessoriesMember2025-09-282025-12-270000320193aapl:WearablesHomeandAccessoriesMember2024-09-292024-12-2800003201932025-12-282025-12-2700003201932026-12-272025-12-2700003201932028-01-022025-12-2700003201932028-12-312025-12-270000320193us-gaap:CashMember2025-12-270000320193us-gaap:MoneyMarketFundsMemberus-gaap:FairValueInputsLevel1Member2025-12-270000320193us-gaap:MutualFundMemberus-gaap:FairValueInputsLevel1Member2025-12-270000320193us-gaap:FairValueInputsLevel1Member2025-12-270000320193us-gaap:USTreasurySecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:USGovernmentAgenciesDebtSecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:ForeignGovernmentDebtSecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:BankTimeDepositsMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:CommercialPaperMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:CorporateDebtSecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:USStatesAndPoliticalSubdivisionsMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:AssetBackedSecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:CashMember2025-09-270000320193us-gaap:MoneyMarketFundsMemberus-gaap:FairValueInputsLevel1Member2025-09-270000320193us-gaap:MutualFundMemberus-gaap:FairValueInputsLevel1Member2025-09-270000320193us-gaap:FairValueInputsLevel1Member2025-09-270000320193us-gaap:USTreasurySecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:USGovernmentAgenciesDebtSecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:ForeignGovernmentDebtSecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:BankTimeDepositsMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:CommercialPaperMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:CorporateDebtSecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:USStatesAndPoliticalSubdivisionsMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:AssetBackedSecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:FairValueInputsLevel2Member2025-09-270000320193aapl:MarketableDebtSecuritiesOtherThanAssetBackedSecuritiesMember2025-12-270000320193us-gaap:AssetBackedSecuritiesMember2025-12-270000320193us-gaap:ForeignExchangeContractMember2025-09-282025-12-270000320193us-gaap:CrossCurrencyInterestRateContractMember2025-09-282025-12-270000320193us-gaap:ForeignExchangeContractMemberus-gaap:DesignatedAsHedgingInstrumentMember2025-12-270000320193us-gaap:ForeignExchangeContractMemberus-gaap:DesignatedAsHedgingInstrumentMember2025-09-270000320193us-gaap:InterestRateContractMemberus-gaap:DesignatedAsHedgingInstrumentMember2025-12-270000320193us-gaap:InterestRateContractMemberus-gaap:DesignatedAsHedgingInstrumentMember2025-09-270000320193us-gaap:ForeignExchangeContractMemberus-gaap:NondesignatedMember2025-12-270000320193us-gaap:ForeignExchangeContractMemberus-gaap:NondesignatedMember2025-09-270000320193us-gaap:CreditConcentrationRiskMemberus-gaap:TradeAccountsReceivableMember2025-12-270000320193aapl:CustomerOneMemberus-gaap:CreditConcentrationRiskMemberus-gaap:TradeAccountsReceivableMember2025-09-282025-12-270000320193aapl:CustomerTwoMemberus-gaap:CreditConcentrationRiskMemberus-gaap:TradeAccountsReceivableMember2025-09-282025-12-270000320193us-gaap:CreditConcentrationRiskMemberus-gaap:TradeAccountsReceivableMember2025-09-270000320193aapl:CustomerOneMemberus-gaap:CreditConcentrationRiskMemberus-gaap:TradeAccountsReceivableMember2024-09-292025-09-270000320193aapl:CellularNetworkCarriersMemberus-gaap:CreditConcentrationRiskMemberus-gaap:TradeAccountsReceivableMember2025-09-282025-12-270000320193aapl:CellularNetworkCarriersMemberus-gaap:CreditConcentrationRiskMemberus-gaap:TradeAccountsReceivableMember2024-09-292025-09-270000320193us-gaap:CreditConcentrationRiskMemberaapl:NonTradeReceivableMember2025-12-270000320193aapl:VendorOneMemberus-gaap:CreditConcentrationRiskMemberaapl:NonTradeReceivableMember2025-09-282025-12-270000320193aapl:VendorTwoMemberus-gaap:CreditConcentrationRiskMemberaapl:NonTradeReceivableMember2025-09-282025-12-270000320193us-gaap:CreditConcentrationRiskMemberaapl:NonTradeReceivableMember2025-09-270000320193aapl:VendorOneMemberus-gaap:CreditConcentrationRiskMemberaapl:NonTradeReceivableMember2024-09-292025-09-270000320193aapl:VendorTwoMemberus-gaap:CreditConcentrationRiskMemberaapl:NonTradeReceivableMember2024-09-292025-09-270000320193us-gaap:CommercialPaperMember2025-12-270000320193us-gaap:CommercialPaperMember2025-09-270000320193us-gaap:RestrictedStockUnitsRSUMember2025-09-270000320193us-gaap:RestrictedStockUnitsRSUMember2025-09-282025-12-270000320193us-gaap:RestrictedStockUnitsRSUMember2025-12-270000320193us-gaap:RestrictedStockUnitsRSUMember2024-09-292024-12-280000320193us-gaap:OperatingSegmentsMemberaapl:AmericasSegmentMember2025-09-282025-12-270000320193us-gaap:OperatingSegmentsMemberaapl:EuropeSegmentMember2025-09-282025-12-270000320193us-gaap:OperatingSegmentsMemberaapl:GreaterChinaSegmentMember2025-09-282025-12-270000320193us-gaap:OperatingSegmentsMemberaapl:JapanSegmentMember2025-09-282025-12-270000320193us-gaap:OperatingSegmentsMemberaapl:RestOfAsiaPacificSegmentMember2025-09-282025-12-270000320193us-gaap:CorporateNonSegmentMember2025-09-282025-12-270000320193us-gaap:OperatingSegmentsMemberaapl:AmericasSegmentMember2024-09-292024-12-280000320193us-gaap:OperatingSegmentsMemberaapl:EuropeSegmentMember2024-09-292024-12-280000320193us-gaap:OperatingSegmentsMemberaapl:GreaterChinaSegmentMember2024-09-292024-12-280000320193us-gaap:OperatingSegmentsMemberaapl:JapanSegmentMember2024-09-292024-12-280000320193us-gaap:OperatingSegmentsMemberaapl:RestOfAsiaPacificSegmentMember2024-09-292024-12-280000320193us-gaap:CorporateNonSegmentMember2024-09-292024-12-280000320193aapl:KevanParekhMember2025-09-282025-12-270000320193aapl:DeirdreOBrienMember2025-09-282025-12-27\n\nUNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\n\nFORM 10-Q\n\n(Mark One)\n☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the quarterly period ended December 27, 2025\nor\n☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the transition period from to .\nCommission File Number: 001-36743\n\nApple Inc.\n(Exact name of Registrant as specified in its charter)\n\nCalifornia\n\n94-2404110\n\n(State or other jurisdiction\nof incorporation or organization)\n\n(I.R.S. Employer Identification No.)\n\nOne Apple Park Way\n\nCupertino, California\n\n95014\n\n(Address of principal executive offices)\n\n(Zip Code)\n(408) 996-1010\n(Registrant's telephone number, including area code)\n\nSecurities registered pursuant to Section 12(b) of the Act:\n\nTitle of each class\nTrading symbol(s)\nName of each exchange on which registered\n\nCommon Stock, $0.00001 par value per share\nAAPL\nThe Nasdaq Stock Market LLC\n\n1.625% Notes due 2026\n--\nThe Nasdaq Stock Market LLC\n\n2.000% Notes due 2027\n--\nThe Nasdaq Stock Market LLC\n\n1.375% Notes due 2029\n--\nThe Nasdaq Stock Market LLC\n\n3.050% Notes due 2029\n--\nThe Nasdaq Stock Market LLC\n\n0.500% Notes due 2031\n--\nThe Nasdaq Stock Market LLC\n\n3.600% Notes due 2042\n--\nThe Nasdaq Stock Market LLC\n\nIndicate by check mark whether the Registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the Registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.\nYes ☒ No ☐\nIndicate by check mark whether the Registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the Registrant was required to submit such files).\nYes ☒ No ☐\nIndicate by check mark whether the Registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of \"large accelerated filer,\" \"accelerated filer,\" \"smaller reporting company,\" and \"emerging growth company\" in Rule 12b-2 of the Exchange Act.\n\nLarge accelerated filer\n\n☒\n\nAccelerated filer\n\n☐\n\nNon-accelerated filer\n\n☐\n\nSmaller reporting company\n\n☐\n\nEmerging growth company\n\n☐\nIf an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\nIndicate by check mark whether the Registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act).\nYes ☐ No ☒\n14,681,140,000 shares of common stock were issued and outstanding as of January 16, 2026.\n\nApple Inc.\n\nForm 10-Q\nFor the Fiscal Quarter Ended December 27, 2025\nTABLE OF CONTENTS\n\nPage\n\nPart I\n\nItem 1.\n\nFinancial Statements\n\n1\n\nItem 2.\n\nManagement's Discussion and Analysis of Financial Condition and Results of Operations\n\n13\n\nItem 3.\n\nQuantitative and Qualitative Disclosures About Market Risk\n\n18\n\nItem 4.\n\nControls and Procedures\n\n18\n\nPart II\n\nItem 1.\n\nLegal Proceedings\n\n19\n\nItem 1A.\n\nRisk Factors\n\n20\n\nItem 2.\n\nUnregistered Sales of Equity Securities and Use of Proceeds\n\n20\n\nItem 3.\n\nDefaults Upon Senior Securities\n\n20\n\nItem 4.\n\nMine Safety Disclosures\n\n20\n\nItem 5.\n\nOther Information\n\n21\n\nItem 6.\n\nExhibits\n\n21\n\nPART I -- FINANCIAL INFORMATION\n\nItem 1. Financial Statements\n\nApple Inc.\nCONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited)\n(In millions, except number of shares, which are reflected in thousands, and per-share amounts)\n\nThree Months Ended\n\nDecember 27,\n2025\n\nDecember 28,\n2024\n\nNet sales:\n\n Products\n$\n113,743\n\n$\n97,960\n\n Services\n30,013\n\n26,340\n\nTotal net sales\n143,756\n\n124,300\n\nCost of sales:\n\n Products\n67,478\n\n59,447\n\n Services\n7,047\n\n6,578\n\nTotal cost of sales\n74,525\n\n66,025\n\nGross margin\n69,231\n\n58,275\n\nOperating expenses:\n\nResearch and development\n10,887\n\n8,268\n\nSelling, general and administrative\n7,492\n\n7,175\n\nTotal operating expenses\n18,379\n\n15,443\n\nOperating income\n50,852\n\n42,832\n\nOther income/(expense), net\n150\n\n(248)\n\nIncome before provision for income taxes\n51,002\n\n42,584\n\nProvision for income taxes\n8,905\n\n6,254\n\nNet income\n$\n42,097\n\n$\n36,330\n\nEarnings per share:\n\nBasic\n$\n2.85\n\n$\n2.41\n\nDiluted\n$\n2.84\n\n$\n2.40\n\nShares used in computing earnings per share:\n\nBasic\n14,748,158\n\n15,081,724\n\nDiluted\n14,810,356\n\n15,150,865\n\nSee accompanying Notes to Condensed Consolidated Financial Statements.\n\nApple Inc. | Q1 2026 Form 10-Q | 1\n\nApple Inc.\nCONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (Unaudited)\n(In millions)\n\nThree Months Ended\n\nDecember 27,\n2025\n\nDecember 28,\n2024\n\nNet income\n$\n42,097\n\n$\n36,330\n\nOther comprehensive income/(loss):\n\nChange in foreign currency translation, net of tax\n(159)\n\n(625)\n\nChange in unrealized gains/losses on derivative instruments, net of tax:\n\nChange in fair value of derivative instruments\n211\n\n1,651\n\nAdjustment for net (gains)/losses realized and included in net income\n237\n\n784\n\nTotal change in unrealized gains/losses on derivative instruments\n448\n\n2,435\n\nChange in unrealized gains/losses on marketable debt securities, net of tax:\n\nChange in fair value of marketable debt securities\n424\n\n(1,647)\n\nAdjustment for net (gains)/losses realized and included in net income\n4\n\n220\n\nTotal change in unrealized gains/losses on marketable debt securities\n428\n\n(1,427)\n\nTotal other comprehensive income\n717\n\n383\n\nTotal comprehensive income\n$\n42,814\n\n$\n36,713\n\nSee accompanying Notes to Condensed Consolidated Financial Statements.\n\nApple Inc. | Q1 2026 Form 10-Q | 2\n\nApple Inc.\nCONDENSED CONSOLIDATED BALANCE SHEETS (Unaudited)\n(In millions, except number of shares, which are reflected in thousands, and par value)\n\nDecember 27,\n2025\n\nSeptember 27,\n2025\n\nASSETS:\n\nCurrent assets:\n\nCash and cash equivalents\n$\n45,317\n\n$\n35,934\n\nMarketable securities\n21,590\n\n18,763\n\nAccounts receivable, net\n39,921\n\n39,777\n\nVendor non-trade receivables\n30,399\n\n33,180\n\nInventories\n5,875\n\n5,718\n\nOther current assets\n15,002\n\n14,585\n\nTotal current assets\n158,104\n\n147,957\n\nNon-current assets:\n\nMarketable securities\n77,888\n\n77,723\n\nProperty, plant and equipment, net\n50,159\n\n49,834\n\nOther non-current assets\n93,146\n\n83,727\n\nTotal non-current assets\n221,193\n\n211,284\n\nTotal assets\n$\n379,297\n\n$\n359,241\n\nLIABILITIES AND SHAREHOLDERS' EQUITY:\n\nCurrent liabilities:\n\nAccounts payable\n$\n70,587\n\n$\n69,860\n\nOther current liabilities\n68,543\n\n66,387\n\nDeferred revenue\n9,413\n\n9,055\n\nCommercial paper\n1,997\n\n7,979\n\nTerm debt\n11,827\n\n12,350\n\nTotal current liabilities\n162,367\n\n165,631\n\nNon-current liabilities:\n\nTerm debt\n76,685\n\n78,328\n\nOther non-current liabilities\n52,055\n\n41,549\n\nTotal non-current liabilities\n128,740\n\n119,877\n\nTotal liabilities\n291,107\n\n285,508\n\nCommitments and contingencies\n\nShareholders' equity:\n\nCommon stock and additional paid-in capital, $0.00001 par value: 50,400,000 shares authorized; 14,702,703 and 14,773,260 shares issued and outstanding, respectively\n95,221\n\n93,568\n\nAccumulated deficit\n(2,177)\n\n(14,264)\n\nAccumulated other comprehensive loss\n(4,854)\n\n(5,571)\n\nTotal shareholders' equity\n88,190\n\n73,733\n\nTotal liabilities and shareholders' equity\n$\n379,297\n\n$\n359,241\n\nSee accompanying Notes to Condensed Consolidated Financial Statements.\n\nApple Inc. | Q1 2026 Form 10-Q | 3\n\nApple Inc.\nCONDENSED CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY (Unaudited)\n(In millions, except per-share amounts)\n\nThree Months Ended\n\nDecember 27,\n2025\n\nDecember 28,\n2024\n\nTotal shareholders' equity, beginning balances\n$\n73,733\n\n$\n56,950\n\nCommon stock and additional paid-in capital:\n\nBeginning balances\n93,568\n\n83,276\n\nCommon stock withheld related to net share settlement of equity awards\n(2,058)\n\n(1,891)\n\nShare-based compensation\n3,711\n\n3,383\n\nEnding balances\n95,221\n\n84,768\n\nAccumulated deficit:\n\nBeginning balances\n(14,264)\n\n(19,154)\n\nNet income\n42,097\n\n36,330\n\nDividends and dividend equivalents declared\n(3,880)\n\n(3,819)\n\nCommon stock withheld related to net share settlement of equity awards\n(936)\n\n(1,102)\n\nCommon stock repurchased\n(25,194)\n\n(23,476)\n\nEnding balances\n(2,177)\n\n(11,221)\n\nAccumulated other comprehensive loss:\n\nBeginning balances\n(5,571)\n\n(7,172)\n\nOther comprehensive income\n717\n\n383\n\nEnding balances\n(4,854)\n\n(6,789)\n\nTotal shareholders' equity, ending balances\n$\n88,190\n\n$\n66,758\n\nDividends and dividend equivalents declared per share or RSU\n$\n0.26\n\n$\n0.25\n\nSee accompanying Notes to Condensed Consolidated Financial Statements.\n\nApple Inc. | Q1 2026 Form 10-Q | 4\n\nApple Inc.\nCONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited)\n(In millions)\n\nThree Months Ended\n\nDecember 27,\n2025\n\nDecember 28,\n2024\n\nCash, cash equivalents, and restricted cash and cash equivalents, beginning balances\n$\n35,934\n\n$\n29,943\n\nOperating activities:\n\nNet income\n42,097\n\n36,330\n\nAdjustments to reconcile net income to cash generated by operating activities:\n\nDepreciation and amortization\n3,214\n\n3,080\n\nShare-based compensation expense\n3,594\n\n3,286\n\nOther\n(528)\n\n(2,009)\n\nChanges in operating assets and liabilities:\n\nAccounts receivable, net\n(153)\n\n3,597\n\nVendor non-trade receivables\n2,781\n\n3,166\n\nInventories\n(211)\n\n215\n\nOther current and non-current assets\n(10,250)\n\n939\n\nAccounts payable\n848\n\n(6,671)\n\nOther current and non-current liabilities\n12,533\n\n(11,998)\n\nCash generated by operating activities\n53,925\n\n29,935\n\nInvesting activities:\n\nPurchases of marketable securities\n(12,693)\n\n(6,124)\n\nProceeds from maturities of marketable securities\n7,510\n\n15,967\n\nProceeds from sales of marketable securities\n2,824\n\n3,492\n\nPayments for acquisition of property, plant and equipment\n(2,373)\n\n(2,940)\n\nOther\n(154)\n\n(603)\n\nCash generated by/(used in) investing activities\n(4,886)\n\n9,792\n\nFinancing activities:\n\nPayments for taxes related to net share settlement of equity awards\n(2,922)\n\n(2,921)\n\nPayments for dividends and dividend equivalents\n(3,921)\n\n(3,856)\n\nRepurchases of common stock\n(24,701)\n\n(23,606)\n\nRepayments of term debt\n(2,164)\n\n(1,009)\n\nRepayments of commercial paper, net\n(5,910)\n\n(7,944)\n\nOther\n(38)\n\n(35)\n\nCash used in financing activities\n(39,656)\n\n(39,371)\n\nIncrease in cash, cash equivalents, and restricted cash and cash equivalents\n9,383\n\n356\n\nCash, cash equivalents, and restricted cash and cash equivalents, ending balances\n$\n45,317\n\n$\n30,299\n\nSupplemental cash flow disclosure:\n\nCash paid for income taxes, net\n$\n3,434\n\n$\n18,651\n\nSee accompanying Notes to Condensed Consolidated Financial Statements.\n\nApple Inc. | Q1 2026 Form 10-Q | 5\n\nApple Inc.\nNotes to Condensed Consolidated Financial Statements (Unaudited)\n\nNote 1 - Summary of Significant Accounting Policies\nBasis of Presentation and Preparation\nThe condensed consolidated financial statements include the accounts of Apple Inc. and its wholly owned subsidiaries (collectively \"Apple\" or the \"Company\"). In the opinion of the Company's management, the condensed consolidated financial statements reflect all adjustments, which are normal and recurring in nature, necessary for fair financial statement presentation. The preparation of these condensed consolidated financial statements and accompanying notes in conformity with U.S. generally accepted accounting principles (\"GAAP\") requires the use of management estimates. These condensed consolidated financial statements and accompanying notes should be read in conjunction with the Company's annual consolidated financial statements and accompanying notes included in its Annual Report on Form 10-K for the fiscal year ended September 27, 2025 (the \"2025 Form 10-K\").\nThe Company's fiscal year is the 52- or 53-week period that ends on the last Saturday of September. An additional week is included in the first fiscal quarter every five or six years to realign the Company's fiscal quarters with calendar quarters. The Company's fiscal years 2026 and 2025 span 52 weeks each. Unless otherwise stated, references to particular years, quarters, months and periods refer to the Company's fiscal years ended in September and the associated quarters, months and periods of those fiscal years.\n\nNote 2 - Revenue\nThe following table shows disaggregated net sales, as well as the portion of total net sales that was previously deferred, for the three months ended December 27, 2025 and December 28, 2024 (in millions):\n\nThree Months Ended\n\nDecember 27,\n2025\n\nDecember 28,\n2024\n\niPhone®\n$\n85,269\n\n$\n69,138\n\nMac®\n8,386\n\n8,987\n\niPad®\n8,595\n\n8,088\n\nWearables, Home and Accessories\n11,493\n\n11,747\n\nServices\n30,013\n\n26,340\n\nTotal net sales\n$\n143,756\n\n$\n124,300\n\nPortion of total net sales that was included in deferred revenue as of the beginning of the period\n$\n4,050\n\n$\n3,690\n\nThe Company's proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 10, \"Segment Information\" for the three months ended December 27, 2025 and December 28, 2024, except in Greater China, where iPhone revenue represented a moderately higher proportion of net sales.\nAs of December 27, 2025 and September 27, 2025, the Company had total deferred revenue of $14.3 billion and $13.7 billion, respectively. As of December 27, 2025, the Company expects 66% of total deferred revenue to be realized in less than a year, 23% within one-to-two years, 9% within two-to-three years and 2% in greater than three years.\n\nApple Inc. | Q1 2026 Form 10-Q | 6\n\nNote 3 - Earnings Per Share\nThe following table shows the computation of basic and diluted earnings per share for the three months ended December 27, 2025 and December 28, 2024 (net income in millions and shares in thousands):\n\nThree Months Ended\n\nDecember 27,\n2025\n\nDecember 28,\n2024\n\nNumerator:\n\nNet income\n$\n42,097\n\n$\n36,330\n\nDenominator:\n\nWeighted-average basic shares outstanding\n14,748,158\n\n15,081,724\n\nEffect of dilutive share-based awards\n62,198\n\n69,141\n\nWeighted-average diluted shares\n14,810,356\n\n15,150,865\n\nBasic earnings per share\n$\n2.85\n\n$\n2.41\n\nDiluted earnings per share\n$\n2.84\n\n$\n2.40\n\nNote 4 - Financial Instruments\nCash, Cash Equivalents and Marketable Securities\nThe following tables show the Company's cash, cash equivalents and marketable securities by significant investment category as of December 27, 2025 and September 27, 2025 (in millions):\n\nDecember 27, 2025\n\nAdjusted\nCost\n\nUnrealized\nGains\n\nUnrealized\nLosses\n\nFair\nValue\n\nCash and\nCash\nEquivalents\n\nCurrent\nMarketable\nSecurities\n\nNon-Current\nMarketable\nSecurities\n\nCash\n$\n30,826\n\n$\n--\n\n$\n--\n\n$\n30,826\n\n$\n30,826\n\n$\n--\n\n$\n--\n\nLevel 1:\n\nMoney market funds\n5,959\n\n--\n\n--\n\n5,959\n\n5,959\n\n--\n\n--\n\nMutual funds\n792\n\n195\n\n(2)\n\n985\n\n--\n\n985\n\n--\n\nSubtotal\n6,751\n\n195\n\n(2)\n\n6,944\n\n5,959\n\n985\n\n--\n\nLevel 2 (1):\n\nU.S. Treasury securities\n18,715\n\n64\n\n(211)\n\n18,568\n\n2,302\n\n5,341\n\n10,925\n\nU.S. agency securities\n8,692\n\n1\n\n(114)\n\n8,579\n\n4,192\n\n1,998\n\n2,389\n\nNon-U.S. government securities\n6,675\n\n117\n\n(399)\n\n6,393\n\n--\n\n771\n\n5,622\n\nCertificates of deposit and time deposits\n1,737\n\n--\n\n--\n\n1,737\n\n1,723\n\n--\n\n14\n\nCommercial paper\n991\n\n--\n\n--\n\n991\n\n297\n\n694\n\n--\n\nCorporate debt securities\n46,682\n\n280\n\n(695)\n\n46,267\n\n18\n\n11,568\n\n34,681\n\nMunicipal securities\n154\n\n--\n\n(1)\n\n153\n\n--\n\n97\n\n56\n\nMortgage- and asset-backed securities\n25,296\n\n158\n\n(1,117)\n\n24,337\n\n--\n\n136\n\n24,201\n\nSubtotal\n108,942\n\n620\n\n(2,537)\n\n107,025\n\n8,532\n\n20,605\n\n77,888\n\nTotal\n$\n146,519\n\n$\n815\n\n$\n(2,539)\n\n$\n144,795\n\n$\n45,317\n\n$\n21,590\n\n$\n77,888\n\nApple Inc. | Q1 2026 Form 10-Q | 7\n\nSeptember 27, 2025\n\nAdjusted\nCost\n\nUnrealized\nGains\n\nUnrealized\nLosses\n\nFair\nValue\n\nCash and\nCash\nEquivalents\n\nCurrent\nMarketable\nSecurities\n\nNon-Current\nMarketable\nSecurities\n\nCash\n$\n28,267\n\n$\n--\n\n$\n--\n\n$\n28,267\n\n$\n28,267\n\n$\n--\n\n$\n--\n\nLevel 1:\n\nMoney market funds\n5,272\n\n--\n\n--\n\n5,272\n\n5,272\n\n--\n\n--\n\nMutual funds\n679\n\n177\n\n(2)\n\n854\n\n--\n\n854\n\n--\n\nSubtotal\n5,951\n\n177\n\n(2)\n\n6,126\n\n5,272\n\n854\n\n--\n\nLevel 2 (1):\n\nU.S. Treasury securities\n16,074\n\n56\n\n(282)\n\n15,848\n\n1,190\n\n3,712\n\n10,946\n\nU.S. agency securities\n5,269\n\n--\n\n(149)\n\n5,120\n\n251\n\n2,456\n\n2,413\n\nNon-U.S. government securities\n6,586\n\n111\n\n(424)\n\n6,273\n\n--\n\n855\n\n5,418\n\nCertificates of deposit and time deposits\n917\n\n--\n\n--\n\n917\n\n904\n\n--\n\n13\n\nCommercial paper\n100\n\n--\n\n--\n\n100\n\n50\n\n50\n\n--\n\nCorporate debt securities\n47,210\n\n266\n\n(916)\n\n46,560\n\n--\n\n10,623\n\n35,937\n\nMunicipal securities\n207\n\n--\n\n(2)\n\n205\n\n--\n\n119\n\n86\n\nMortgage- and asset-backed securities\n24,130\n\n126\n\n(1,252)\n\n23,004\n\n--\n\n94\n\n22,910\n\nSubtotal\n100,493\n\n559\n\n(3,025)\n\n98,027\n\n2,395\n\n17,909\n\n77,723\n\nTotal\n$\n134,711\n\n$\n736\n\n$\n(3,027)\n\n$\n132,420\n\n$\n35,934\n\n$\n18,763\n\n$\n77,723\n\n(1)The valuation techniques used to measure the fair values of the Company's Level 2 financial instruments, which generally have counterparties with high credit ratings, are based on quoted market prices or model-driven valuations using significant inputs derived from or corroborated by observable market data.\nAs of December 27, 2025, 78% of the Company's non-current marketable debt securities other than mortgage- and asset-backed securities had maturities between 1 and 5 years, 17% between 5 and 10 years, and 5% greater than 10 years. As of December 27, 2025, 12% of the Company's non-current mortgage- and asset-backed securities had maturities between 1 and 5 years, 18% between 5 and 10 years, and 70% greater than 10 years.\nDerivative Instruments and Hedging\nThe Company may use derivative instruments to partially offset its business exposure to foreign exchange and interest rate risk. However, the Company may choose not to hedge certain exposures for a variety of reasons, including accounting considerations or the prohibitive economic cost of hedging particular exposures. There can be no assurance the hedges will offset more than a portion of the financial impact resulting from movements in foreign exchange or interest rates.\nForeign Exchange Rate Risk\nTo protect gross margins from fluctuations in foreign exchange rates, the Company may use forwards, options or other instruments, and may designate these instruments as cash flow hedges. The Company generally hedges portions of its forecasted foreign currency exposure associated with revenue and inventory purchases, typically for up to 12 months.\nTo protect the Company's foreign currency-denominated term debt or marketable securities from fluctuations in foreign exchange rates, the Company may use forwards, cross-currency swaps or other instruments. The Company designates these instruments as either cash flow or fair value hedges. As of December 27, 2025, the maximum length of time over which the Company is hedging its exposure to the variability in future cash flows for term debt-related foreign currency transactions is 17 years.\nThe Company may also use derivative instruments that are not designated as accounting hedges to protect gross margins from certain fluctuations in foreign exchange rates, as well as to offset a portion of the foreign currency gains and losses generated by the remeasurement of certain assets and liabilities denominated in non-functional currencies.\nInterest Rate Risk\nTo protect the Company's term debt or marketable securities from fluctuations in interest rates, the Company may use interest rate swaps, options or other instruments. The Company designates these instruments as either cash flow or fair value hedges.\n\nApple Inc. | Q1 2026 Form 10-Q | 8\n\nThe notional amounts of the Company's outstanding derivative instruments as of December 27, 2025 and September 27, 2025, were as follows (in millions):\n\nDecember 27,\n2025\n\nSeptember 27,\n2025\n\nDerivative instruments designated as accounting hedges:\n\nForeign exchange contracts\n$\n46,619\n\n$\n62,647\n\nInterest rate contracts\n$\n12,875\n\n$\n12,875\n\nDerivative instruments not designated as accounting hedges:\n\nForeign exchange contracts\n$\n120,980\n\n$\n109,079\n\nAs of both December 27, 2025 and September 27, 2025, the carrying amount of the Company's current and non-current term debt subject to fair value hedges was $12.6 billion.\nAccounts Receivable\nTrade Receivables\nAs of December 27, 2025, the Company had two customers that individually represented 10% or more of total trade receivables, which accounted for 15% and 10%. As of September 27, 2025, the Company had one customer that represented 10% or more of total trade receivables, which accounted for 12%. The Company's third-party cellular network carriers accounted for 35% and 34% of total trade receivables as of December 27, 2025 and September 27, 2025, respectively. The Company requires third-party credit support or collateral from certain customers to limit credit risk.\nVendor Non-Trade Receivables\nThe Company has non-trade receivables from certain of its manufacturing vendors resulting from the sale of components to these vendors who manufacture subassemblies or assemble final products for the Company. The Company purchases these components directly from suppliers. The Company does not reflect the sale of these components in products net sales. Rather, the Company recognizes any gain on these sales as a reduction of products cost of sales when the related final products are sold by the Company. As of December 27, 2025, the Company had two vendors that individually represented 10% or more of total vendor non-trade receivables, which accounted for 47% and 26%. As of September 27, 2025, the Company had two vendors that individually represented 10% or more of total vendor non-trade receivables, which accounted for 46% and 23%.\n\nNote 5 - Condensed Consolidated Financial Statement Details\nThe following table shows the Company's condensed consolidated financial statement details as of December 27, 2025 and September 27, 2025 (in millions):\nProperty, Plant and Equipment, Net\n\nDecember 27,\n2025\n\nSeptember 27,\n2025\n\nGross property, plant and equipment\n$\n127,320\n\n$\n125,848\n\nAccumulated depreciation\n(77,161)\n\n(76,014)\n\nTotal property, plant and equipment, net\n$\n50,159\n\n$\n49,834\n\nApple Inc. | Q1 2026 Form 10-Q | 9\n\nNote 6 - Debt\nCommercial Paper\nThe Company issues unsecured short-term promissory notes pursuant to a commercial paper program. The Company uses net proceeds from the commercial paper program for general corporate purposes, including dividends and share repurchases. As of December 27, 2025 and September 27, 2025, the Company had $2.0 billion and $8.0 billion of commercial paper outstanding, respectively. The following table provides a summary of cash flows associated with commercial paper for the three months ended December 27, 2025 and December 28, 2024 (in millions):\n\nThree Months Ended\n\nDecember 27,\n2025\n\nDecember 28,\n2024\n\nMaturities 90 days or less:\n\nRepayments of commercial paper, net\n$\n(2,122)\n\n$\n(7,944)\n\nMaturities greater than 90 days:\n\nRepayments of commercial paper\n(3,788)\n\n--\n\nTotal repayments of commercial paper, net\n$\n(5,910)\n\n$\n(7,944)\n\nTerm Debt\nAs of December 27, 2025 and September 27, 2025, the Company had outstanding fixed-rate notes with varying maturities for an aggregate carrying amount of $88.5 billion and $90.7 billion, respectively (collectively the \"Notes\"). As of December 27, 2025 and September 27, 2025, the fair value of the Company's Notes, based on Level 2 inputs, was $78.1 billion and $80.4 billion, respectively.\n\nNote 7 - Shareholders' Equity\nShare Repurchase Program\nDuring the three months ended December 27, 2025, the Company repurchased 93 million shares of its common stock for $25.0 billion. The Company's share repurchase program does not obligate the Company to acquire a minimum amount of shares. Under the program, shares may be repurchased in privately negotiated or open market transactions, including under plans complying with Rule 10b5-1 under the Securities Exchange Act of 1934, as amended (\"Exchange Act\").\n\nNote 8 - Share-Based Compensation\nRestricted Stock Units\nA summary of the Company's restricted stock unit (\"RSU\") activity and related information for the three months ended December 27, 2025, is as follows:\n\nNumber of\nRSUs\n(in thousands)\n\nWeighted-Average\nGrant-Date Fair\nValue Per RSU\n\nBalance as of September 27, 2025\n151,574\n\n$\n189.75\n\nRSUs granted\n61,897\n\n$\n256.22\n\nRSUs vested\n(33,905)\n\n$\n173.00\n\nRSUs forfeited\n(3,470)\n\n$\n208.14\n\nBalance as of December 27, 2025\n176,096\n\n$\n215.98\n\nThe total vesting-date fair value of RSUs was $8.6 billion and $8.4 billion for the three months ended December 27, 2025 and December 28, 2024, respectively.\n\nApple Inc. | Q1 2026 Form 10-Q | 10\n\nShare-Based Compensation\nThe following table shows share-based compensation expense and the related income tax benefit included in the Condensed Consolidated Statements of Operations for the three months ended December 27, 2025 and December 28, 2024 (in millions):\n\nThree Months Ended\n\nDecember 27,\n2025\n\nDecember 28,\n2024\n\nShare-based compensation expense\n$\n3,594\n\n$\n3,286\n\nIncome tax benefit related to share-based compensation expense\n$\n(1,293)\n\n$\n(1,332)\n\nAs of December 27, 2025, the total unrecognized compensation cost related to outstanding RSUs was $31.5 billion, which the Company expects to recognize over a weighted-average period of 2.9 years.\n\nNote 9 - Commitments and Contingencies\nUnconditional Purchase Obligations\nThe Company has entered into certain off-balance sheet commitments that require the future purchase of goods or services (\"unconditional purchase obligations\"). The Company's unconditional purchase obligations primarily consist of supplier arrangements, licensed intellectual property and content, and distribution rights. Future payments under unconditional purchase obligations with a remaining term in excess of one year as of December 27, 2025, are as follows (in millions):\n\n2026 (remaining nine months)\n$\n4,754\n\n2027\n8,066\n\n2028\n7,005\n\n2029\n6,538\n\n2030\n5,992\n\nThereafter\n827\n\nTotal\n$\n33,182\n\nContingencies\nThe Company is subject to various legal proceedings and claims that have arisen in the ordinary course of business and that have not been fully resolved. The outcome of litigation is inherently uncertain. In the opinion of management, there was not at least a reasonable possibility the Company may have incurred a material loss, or a material loss greater than a recorded accrual, concerning loss contingencies for asserted legal and other claims.\n\nApple Inc. | Q1 2026 Form 10-Q | 11\n\nNote 10 - Segment Information\nThe following table shows information by reportable segment for the three months ended December 27, 2025 and December 28, 2024 (in millions):\n\nThree Months Ended December 27, 2025\n\nAmericas\n\nEurope\n\nGreater\nChina\n\nJapan\n\nRest of\nAsia Pacific\n\nCorporate\n\nTotal\n\nNet sales\n$\n58,529\n\n$\n38,146\n\n$\n25,526\n\n$\n9,413\n\n$\n12,142\n\n$\n--\n\n$\n143,756\n\nCost of sales\n(31,849)\n\n(19,061)\n\n(13,030)\n\n(4,511)\n\n(6,074)\n\n--\n\n(74,525)\n\nResearch and development\n--\n\n--\n\n--\n\n--\n\n--\n\n(10,887)\n\n(10,887)\n\nSelling and marketing\n(2,727)\n\n(1,295)\n\n(704)\n\n(289)\n\n(382)\n\n--\n\n(5,397)\n\nGeneral and administrative\n--\n\n--\n\n--\n\n--\n\n--\n\n(2,095)\n\n(2,095)\n\nOperating income/(loss)\n$\n23,953\n\n$\n17,790\n\n$\n11,792\n\n$\n4,613\n\n$\n5,686\n\n$\n(12,982)\n\n$\n50,852\n\nThree Months Ended December 28, 2024\n\nAmericas\n\nEurope\n\nGreater\nChina\n\nJapan\n\nRest of\nAsia Pacific\n\nCorporate\n\nTotal\n\nNet sales\n$\n52,648\n\n$\n33,861\n\n$\n18,513\n\n$\n8,987\n\n$\n10,291\n\n$\n--\n\n$\n124,300\n\nCost of sales\n(28,495)\n\n(18,043)\n\n(9,759)\n\n(4,393)\n\n(5,335)\n\n--\n\n(66,025)\n\nResearch and development\n--\n\n--\n\n--\n\n--\n\n--\n\n(8,268)\n\n(8,268)\n\nSelling and marketing\n(2,644)\n\n(1,211)\n\n(594)\n\n(280)\n\n(372)\n\n--\n\n(5,101)\n\nGeneral and administrative\n--\n\n--\n\n--\n\n--\n\n--\n\n(2,074)\n\n(2,074)\n\nOperating income/(loss)\n$\n21,509\n\n$\n14,607\n\n$\n8,160\n\n$\n4,314\n\n$\n4,584\n\n$\n(10,342)\n\n$\n42,832\n\nApple Inc. | Q1 2026 Form 10-Q | 12\n\nItem 2. Management's Discussion and Analysis of Financial Condition and Results of Operations\nThis Item and other sections of this Quarterly Report on Form 10-Q (\"Form 10-Q\") contain forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995, that involve risks and uncertainties. Forward-looking statements provide current expectations of future events based on certain assumptions and include any statement that does not directly relate to any historical or current fact. For example, statements in this Form 10-Q regarding the potential future impact of macroeconomic conditions and tariffs and other measures on the Company's business and results of operations are forward-looking statements. Forward-looking statements can also be identified by words such as \"future,\" \"anticipates,\" \"believes,\" \"estimates,\" \"expects,\" \"intends,\" \"plans,\" \"predicts,\" \"will,\" \"would,\" \"could,\" \"can,\" \"may,\" and similar terms. Forward-looking statements are not guarantees of future performance and the Company's actual results may differ significantly from the results discussed in the forward-looking statements. Factors that might cause such differences include, but are not limited to, those discussed in Part I, Item 1A of the 2025 Form 10-K and Part II, Item 1A of this Form 10-Q, in each case under the heading \"Risk Factors.\" The Company assumes no obligation to revise or update any forward-looking statements for any reason, except as required by law.\nUnless otherwise stated, all information presented herein is based on the Company's fiscal calendar, and references to particular years, quarters, months or periods refer to the Company's fiscal years ended in September and the associated quarters, months and periods of those fiscal years.\nThe following discussion should be read in conjunction with the 2025 Form 10-K filed with the U.S. Securities and Exchange Commission (\"SEC\") and the condensed consolidated financial statements and accompanying notes included in Part I, Item 1 of this Form 10-Q.\n\nAvailable Information\nThe Company periodically provides certain information for investors on its corporate website, www.apple.com, and its investor relations website, investor.apple.com. This includes press releases and other information about financial performance, information on corporate governance, and details related to the Company's annual meeting of shareholders. The information contained on the websites referenced in this Form 10-Q is not incorporated by reference into this filing. Further, the Company's references to website URLs are intended to be inactive textual references only.\n\nBusiness Seasonality and Product Introductions\nThe Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand. Additionally, new product and service introductions can significantly impact net sales, cost of sales and operating expenses. The timing of product introductions can also impact the Company's net sales to its indirect distribution channels as these channels are filled with new inventory following a product launch, and channel inventory of an older product often declines as the launch of a newer product approaches. Net sales can also be affected when consumers and distributors anticipate a product introduction.\nDuring the first quarter of 2026, the Company announced the following updated products:\n•14-inch MacBook Pro®\n•iPad Pro®\n•Apple Vision Pro®\n\nMacroeconomic Conditions\nMacroeconomic conditions, including inflation, interest rates, component pricing and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company's results of operations and financial condition.\n\nApple Inc. | Q1 2026 Form 10-Q | 13\n\nTariffs and Other Measures\nBeginning in the second quarter of 2025, new tariffs were announced on imports to the U.S., including additional tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam and the European Union (\"EU\"), among others. In response, several countries have imposed, or threatened to impose, reciprocal tariffs on imports from the U.S. and other retaliatory measures. On January 14, 2026, initial results were published of the previously announced U.S. Department of Commerce investigation under Section 232 of the Trade Expansion Act of 1962, as amended, into imports of semiconductors, semiconductor manufacturing equipment, and their derivative products, including downstream products that contain semiconductors. The announcement of the initial results of the investigation did not impose any additional tariffs affecting the Company's products at this time. Various modifications to U.S. tariffs have been announced and further changes could be made in the future, which may include additional measures under the Section 232 semiconductor sector investigation, additional sector-based tariffs, or other measures. Tariffs and other measures that are applied to the Company's products or their components can have a material adverse impact on the Company's business, results of operations and financial condition, including impacting the Company's supply chain, the availability of rare earths and other raw materials and components, pricing and gross margin. The ultimate impact remains uncertain and will depend on several factors, including whether additional or incremental U.S. tariffs or other measures are announced or imposed, to what extent other countries implement tariffs or other retaliatory measures in response, and the overall magnitude and duration of these measures. Trade and other international disputes can have an adverse impact on the overall macroeconomic environment and result in shifts and reductions in consumer spending and negative consumer sentiment for the Company's products and services, all of which can further adversely affect the Company's business and results of operations.\n\nSegment Operating Performance\nThe following table shows net sales by reportable segment for the three months ended December 27, 2025 and December 28, 2024 (dollars in millions):\n\nThree Months Ended\n\nDecember 27,\n2025\n\nDecember 28,\n2024\n\nChange\n\nAmericas\n$\n58,529\n\n$\n52,648\n\n11\n%\n\nEurope\n38,146\n\n33,861\n\n13\n%\n\nGreater China\n25,526\n\n18,513\n\n38\n%\n\nJapan\n9,413\n\n8,987\n\n5\n%\n\nRest of Asia Pacific\n12,142\n\n10,291\n\n18\n%\n\nTotal net sales\n$\n143,756\n\n$\n124,300\n\n16\n%\n\nAmericas\nAmericas net sales increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to higher net sales of iPhone and Services.\n\nEurope\nEurope net sales increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to higher net sales of iPhone and Services. The strength in foreign currencies relative to the U.S. dollar had a net favorable year-over-year impact on Europe net sales during the first quarter of 2026.\n\nGreater China\nGreater China net sales increased during the first quarter of 2026 compared to the same quarter in 2025 due to higher net sales of iPhone.\n\nJapan\nJapan net sales increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to higher net sales of iPhone and iPad. The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during the first quarter of 2026.\n\nRest of Asia Pacific\nRest of Asia Pacific net sales increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to higher net sales of iPhone and Services.\n\nApple Inc. | Q1 2026 Form 10-Q | 14\n\nProducts and Services Performance\nThe following table shows net sales by category for the three months ended December 27, 2025 and December 28, 2024 (dollars in millions):\n\nThree Months Ended\n\nDecember 27,\n2025\n\nDecember 28,\n2024\n\nChange\n\niPhone\n$\n85,269\n\n$\n69,138\n\n23\n%\n\nMac\n8,386\n\n8,987\n\n(7)\n%\n\niPad\n8,595\n\n8,088\n\n6\n%\n\nWearables, Home and Accessories\n11,493\n\n11,747\n\n(2)\n%\n\nServices\n30,013\n\n26,340\n\n14\n%\n\nTotal net sales\n$\n143,756\n\n$\n124,300\n\n16\n%\n\niPhone\niPhone net sales increased during the first quarter of 2026 compared to the same quarter in 2025 due to higher net sales of Pro models.\n\nMac\nMac net sales decreased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to lower net sales of laptops and desktops.\n\niPad\niPad net sales increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to higher net sales of iPad and iPad Pro, partially offset by lower net sales of iPad mini®.\n\nWearables, Home and Accessories\nWearables, Home and Accessories net sales decreased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to lower net sales of Wearables.\n\nServices\nServices net sales increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to higher net sales from advertising, the App Store® and cloud services.\n\nApple Inc. | Q1 2026 Form 10-Q | 15\n\nGross Margin\nProducts and Services gross margin and gross margin percentage for the three months ended December 27, 2025 and December 28, 2024, were as follows (dollars in millions):\n\nThree Months Ended\n\nDecember 27,\n2025\n\nDecember 28,\n2024\n\nGross margin:\n\nProducts\n$\n46,265\n\n$\n38,513\n\nServices\n22,966\n\n19,762\n\nTotal gross margin\n$\n69,231\n\n$\n58,275\n\nGross margin percentage:\n\nProducts\n40.7\n%\n\n39.3\n%\n\nServices\n76.5\n%\n\n75.0\n%\n\nTotal gross margin percentage\n48.2\n%\n\n46.9\n%\n\nProducts Gross Margin\nProducts gross margin and gross margin percentage increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to a different mix of products, partially offset by tariff costs.\n\nServices Gross Margin\nServices gross margin increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to higher Services net sales and a different mix of services.\nServices gross margin percentage increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to a different mix of services, partially offset by higher costs.\nThe Company's future gross margins can be impacted by a variety of factors, as discussed in Part I, Item 1A of the 2025 Form 10-K and Part II, Item 1A of this Form 10-Q, in each case under the heading \"Risk Factors.\" As a result, the Company believes, in general, gross margins will be subject to volatility and downward pressure.\n\nOperating Expenses\nOperating expenses for the three months ended December 27, 2025 and December 28, 2024, were as follows (dollars in millions):\n\nThree Months Ended\n\nDecember 27,\n2025\n\nDecember 28,\n2024\n\nChange\n\nResearch and development\n$\n10,887\n\n$\n8,268\n\n32\n%\n\nPercentage of total net sales\n8\n%\n\n7\n%\n\nSelling, general and administrative\n$\n7,492\n\n$\n7,175\n\n4\n%\n\nPercentage of total net sales\n5\n%\n\n6\n%\n\nTotal operating expenses\n$\n18,379\n\n$\n15,443\n\n19\n%\n\nPercentage of total net sales\n13\n%\n\n12\n%\n\nResearch and Development\nThe growth in research and development (\"R&D\") expense during the first quarter of 2026 compared to the same quarter in 2025 was primarily driven by increases in infrastructure-related costs, headcount-related expenses and engineering program costs.\n\nSelling, General and Administrative\nThe growth in selling, general and administrative expense during the first quarter of 2026 compared to the same quarter in 2025 was primarily driven by increases in headcount-related expenses and variable selling expenses.\n\nApple Inc. | Q1 2026 Form 10-Q | 16\n\nProvision for Income Taxes\nProvision for income taxes, effective tax rate and statutory federal income tax rate for the three months ended December 27, 2025 and December 28, 2024, were as follows (dollars in millions):\n\nThree Months Ended\n\nDecember 27,\n2025\n\nDecember 28,\n2024\n\nProvision for income taxes\n$\n8,905\n\n$\n6,254\n\nEffective tax rate\n17.5\n%\n\n14.7\n%\n\nStatutory federal income tax rate\n21\n%\n\n21\n%\n\nThe Company's effective tax rate for the first quarter of 2026 was lower than the statutory federal income tax rate primarily due to a lower effective tax rate on foreign earnings, the impact of the U.S. federal R&D credit, and tax benefits from share-based compensation, partially offset by state income taxes.\nThe Company's effective tax rate for the first quarter of 2026 was higher compared to the first quarter of 2025 primarily due to the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations in the first quarter of 2025 related to the State Aid Decision.\n\nLiquidity and Capital Resources\nThe Company believes its balances of cash, cash equivalents and marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond.\nThe Company's contractual cash requirements have not changed materially since the 2025 Form 10-K, except for manufacturing purchase obligations and other purchase obligations.\nManufacturing Purchase Obligations\nThe Company utilizes several outsourcing partners to manufacture subassemblies for the Company's products and to perform final assembly and testing of finished products. The Company also obtains individual components for its products from a wide variety of individual suppliers. As of December 27, 2025, the Company had manufacturing purchase obligations of $44.4 billion, with $43.7 billion payable within 12 months.\nOther Purchase Obligations\nThe Company's other purchase obligations primarily consist of noncancelable obligations related to supplier arrangements, licensed intellectual property and content, distribution rights, and the acquisition of capital assets related to product manufacturing. As of December 27, 2025, the Company had other purchase obligations of $35.1 billion, with $9.3 billion payable within 12 months.\nCapital Return Program\nIn addition to its contractual cash requirements, the Company has an authorized share repurchase program. The program does not obligate the Company to acquire a minimum amount of shares. As of December 27, 2025, the Company's quarterly cash dividend was $0.26 per share. The Company intends to increase its dividend on an annual basis, subject to declaration by the Board of Directors.\nDuring the first quarter of 2026, the Company repurchased $25.0 billion of its common stock and paid dividends and dividend equivalents of $3.9 billion.\n\nApple Inc. | Q1 2026 Form 10-Q | 17\n\nRecent Accounting Pronouncements\nInternal-Use Software\nIn September 2025, the Financial Accounting Standards Board (\"FASB\") issued Accounting Standards Update (\"ASU\") No. 2025-06, Intangibles--Goodwill and Other--Internal-Use Software (Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software (\"ASU 2025-06\"), which modernizes the accounting for internal-use software. ASU 2025-06 removes all references to software development stages and requires capitalization of software costs when management has committed to the software project and it is probable the software will be completed and perform its intended use. ASU 2025-06 will be effective for the Company in its first quarter of 2029, and early adoption is permitted. The Company is currently evaluating the timing and method of its adoption of ASU 2025-06.\nDisaggregation of Income Statement Expenses\nIn November 2024, the FASB issued ASU No. 2024-03, Income Statement--Reporting Comprehensive Income--Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses (\"ASU 2024-03\") and in January 2025, the FASB issued ASU No. 2025-01, Income Statement--Reporting Comprehensive Income--Expense Disaggregation Disclosures (Subtopic 220-40): Clarifying the Effective Date, which clarified the effective date of ASU 2024-03. ASU 2024-03 will require the Company to disclose the amounts of purchases of inventory, employee compensation, depreciation and intangible asset amortization, as applicable, included in certain expense captions in the Consolidated Statements of Operations, as well as qualitatively describe remaining amounts included in those captions. ASU 2024-03 will also require the Company to disclose both the amount and the Company's definition of selling expenses. The Company will adopt ASU 2024-03 in its fourth quarter of 2028 using a prospective transition method.\nIncome Taxes\nIn December 2023, the FASB issued ASU No. 2023-09, Income Taxes (Topic 740): Improvements to Income Tax Disclosures (\"ASU 2023-09\"), which will require the Company to disclose specified additional information in its income tax rate reconciliation and provide additional information for reconciling items that meet a quantitative threshold. ASU 2023-09 will also require the Company to disaggregate its income taxes paid disclosure by federal, state and foreign taxes, with further disaggregation required for significant individual jurisdictions. The Company will adopt ASU 2023-09 in its fourth quarter of 2026 using a prospective transition method.\n\nCritical Accounting Estimates\nThe preparation of financial statements and related disclosures in conformity with GAAP and the Company's discussion and analysis of its financial condition and operating results require the Company's management to make judgments, assumptions and estimates that affect the amounts reported. Note 1, \"Summary of Significant Accounting Policies\" of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Form 10-Q and in the Notes to Consolidated Financial Statements in Part II, Item 8 of the 2025 Form 10-K describe the significant accounting policies and methods used in the preparation of the Company's condensed consolidated financial statements. There have been no material changes to the Company's critical accounting estimates since the 2025 Form 10-K.\n\nItem 3. Quantitative and Qualitative Disclosures About Market Risk\nThere have been no material changes to the Company's market risk during the first three months of 2026. For a discussion of the Company's exposure to market risk, refer to the Company's market risk disclosures set forth in Part II, Item 7A, \"Quantitative and Qualitative Disclosures About Market Risk\" of the 2025 Form 10-K.\n\nItem 4. Controls and Procedures\nEvaluation of Disclosure Controls and Procedures\nBased on an evaluation under the supervision and with the participation of the Company's management, the Company's principal executive officer and principal financial officer have concluded that the Company's disclosure controls and procedures as defined in Rules 13a-15(e) and 15d-15(e) under the Exchange Act were effective as of December 27, 2025 to provide reasonable assurance that information required to be disclosed by the Company in reports that it files or submits under the Exchange Act is (i) recorded, processed, summarized and reported within the time periods specified in the SEC rules and forms and (ii) accumulated and communicated to the Company's management, including its principal executive officer and principal financial officer, as appropriate to allow timely decisions regarding required disclosure.\n\nApple Inc. | Q1 2026 Form 10-Q | 18\n\nChanges in Internal Control over Financial Reporting\nThere were no changes in the Company's internal control over financial reporting during the first quarter of 2026, which were identified in connection with management's evaluation required by paragraph (d) of Rules 13a-15 and 15d-15 under the Exchange Act, that have materially affected, or are reasonably likely to materially affect, the Company's internal control over financial reporting.\n\nPART II -- OTHER INFORMATION\n\nItem 1. Legal Proceedings\nDigital Markets Act Investigations\nOn March 25, 2024, the European Commission (\"Commission\") announced that it had opened a formal noncompliance investigation against the Company under Article 5(4) of the EU Digital Markets Act (\"DMA\") (\"Article 5(4) Investigation\"). The Article 5(4) Investigation relates to how developers may communicate and promote offers to end users for apps distributed through the App Store, as well as how developers may conclude contracts with those end users. On June 24, 2024, the Commission announced that it had opened an additional formal investigation against the Company regarding whether the Company's new contractual requirements for third-party app developers and app marketplaces may violate the DMA (\"Article 6(4) Investigation\"). On April 23, 2025, the Commission fined the Company €500 million in the Article 5(4) Investigation and issued a cease and desist order requiring the Company to remove technical and commercial restrictions that prevent developers from steering users to alternative distribution channels outside the App Store. The Company has appealed the Commission's Article 5(4) decision. Also on April 23, 2025, the Commission issued preliminary findings in the Article 6(4) Investigation. If the Commission makes a final determination in the Article 6(4) Investigation that there has been a violation, it can issue a cease and desist order and may impose fines up to 10% of the Company's annual worldwide net sales. The Commission may also seek to impose additional fines if it deems that the Company has violated a cease and desist order. The Company believes that it complies with the DMA and has continued to make changes to its compliance plan in response to feedback and engagement with the Commission.\nDepartment of Justice Lawsuit\nOn March 21, 2024, the U.S. Department of Justice (\"DOJ\") and a number of state and district attorneys general filed a civil antitrust lawsuit in the U.S. District Court for the District of New Jersey against the Company alleging monopolization or attempted monopolization in the markets for \"performance smartphones\" and \"smartphones\" in violation of U.S. antitrust laws. The DOJ is seeking equitable relief to redress the alleged anticompetitive behavior. In addition, various civil litigation matters have been filed in state and federal courts in the U.S. alleging similar violations of U.S. antitrust laws and seeking monetary damages and other nonmonetary relief. The Company believes it has substantial defenses and intends to vigorously defend itself.\nEpic Games\nEpic Games, Inc. filed a lawsuit in the U.S. District Court for the Northern District of California (\"California District Court\") against the Company alleging violations of federal and state antitrust laws and California's unfair competition law based upon the Company's operation of its App Store. The California District Court found that certain provisions of the Company's App Review Guidelines violate California's unfair competition law and issued an injunction (the \"2021 Injunction\") enjoining the Company from prohibiting developers from including in their apps buttons, external links, or other calls to action that direct customers to purchasing mechanisms other than the Company's in-app purchase system. On April 30, 2025, the California District Court found the Company to be in violation of the 2021 Injunction and enjoined the Company from imposing any commission or any fee on purchases that consumers make outside an app; restricting, conditioning, limiting, or prohibiting how developers guide consumers to purchases outside an app; or otherwise interfering with a consumer's choice to proceed in or out of an app (the \"2025 Injunction\"). The Company appealed the California District Court's April 2025 decision to the U.S. Court of Appeals for the Ninth Circuit (\"Ninth Circuit Court\"). On December 11, 2025, the Ninth Circuit Court issued an order upholding the 2025 Injunction in part and modifying certain aspects to allow the Company to require parity in size, form and placement between the Company's in-app purchase and any links for consumers to make purchases outside an app. The Ninth Circuit Court also held that the Company can charge a commission on link-out purchases, and remanded to the California District Court to further amend or modify the 2025 Injunction, consistent with the Ninth Circuit Court's order. The deadline for the Company to file a petition for rehearing is March 2, 2026.\n\nApple Inc. | Q1 2026 Form 10-Q | 19\n\nOther Legal Proceedings\nThe Company is subject to other legal proceedings and claims that have not been fully resolved and that have arisen in the ordinary course of business. The Company settled certain matters during the first quarter of 2026 that did not individually or in the aggregate have a material impact on the Company's financial condition or operating results. The outcome of litigation is inherently uncertain. If one or more legal matters were resolved against the Company in a reporting period for amounts above management's expectations, the Company's financial condition and operating results for that reporting period could be materially adversely affected.\n\nItem 1A. Risk Factors\nThe Company's business, reputation, results of operations, financial condition and stock price can be materially and adversely affected by a number of factors, whether currently known or unknown, including those described in Part I, Item 1A of the 2025 Form 10-K under the heading \"Risk Factors.\" There have been no material changes to the Company's risk factors since the 2025 Form 10-K.\n\nItem 2. Unregistered Sales of Equity Securities and Use of Proceeds\nPurchases of Equity Securities by the Issuer and Affiliated Purchasers\nShare repurchase activity during the three months ended December 27, 2025, was as follows (in millions, except number of shares, which are reflected in thousands, and per-share amounts):\n\nPeriods\n\nTotal Number\nof Shares Purchased\n\nAverage Price\nPaid Per Share\n\nTotal Number of Shares\nPurchased as Part of Publicly\nAnnounced Plans or Programs\n\nApproximate Dollar Value of\nShares That May Yet Be Purchased\nUnder the Plans or Programs (1)\n\nSeptember 28, 2025 to November 1, 2025:\n\nOpen market and privately negotiated purchases\n\n28,567\n\n$\n256.69\n\n28,567\n\nNovember 2, 2025 to November 29, 2025:\n\nOpen market and privately negotiated purchases\n\n29,018\n\n$\n272.25\n\n29,018\n\nNovember 30, 2025 to December 27, 2025:\n\nOpen market and privately negotiated purchases\n\n35,309\n\n$\n276.61\n\n35,309\n\nTotal\n\n92,894\n\n$\n74,779\n\n(1)On May 1, 2025, the Company announced a program to repurchase up to $100 billion of the Company's common stock. As of December 27, 2025, $25.2 billion of the May 2025 program had been utilized. The program does not obligate the Company to acquire a minimum amount of shares. Under the program, shares may be repurchased in privately negotiated or open market transactions, including under plans complying with Rule 10b5-1 under the Exchange Act.\n\nItem 3. Defaults Upon Senior Securities\nNone.\n\nItem 4. Mine Safety Disclosures\nNot applicable.\n\nApple Inc. | Q1 2026 Form 10-Q | 20\n\nItem 5. Other Information\nInsider Trading Arrangements\nOn November 21, 2025, Kevan Parekh, the Company's Senior Vice President and Chief Financial Officer, entered into a trading plan intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) under the Exchange Act. The plan provides for the sale, subject to certain price limits, of shares vesting between April 15, 2026 and October 15, 2026, pursuant to certain equity awards granted to Mr. Parekh, excluding any shares withheld by the Company to satisfy income tax withholding and remittance obligations. Mr. Parekh's plan will expire on December 31, 2026, subject to early termination in accordance with the terms of the plan.\nOn November 24, 2025, Deirdre O'Brien, the Company's Senior Vice President, Retail + People, terminated a trading plan intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) under the Exchange Act, which was previously adopted on August 27, 2024 (the \"Prior Plan\"). The Prior Plan provided for the sale, subject to certain price limits, of shares vesting between April 1, 2025 and October 1, 2026, pursuant to certain equity awards granted to Ms. O'Brien, excluding any shares withheld by the Company to satisfy income tax withholding and remittance obligations. The Prior Plan would have expired on December 31, 2026, subject to early termination in accordance with the terms of the plan. Following termination of the Prior Plan, on November 24, 2025, Ms. O'Brien entered into a new trading plan intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) under the Exchange Act. The new plan provides for the sale of shares vesting between April 1, 2026 and October 1, 2026, pursuant to certain equity awards granted to Ms. O'Brien, excluding any shares withheld by the Company to satisfy income tax withholding and remittance obligations. Ms. O'Brien's new plan will expire on December 31, 2026, subject to early termination in accordance with the terms of the plan.\n\nItem 6. Exhibits\n\nIncorporated by Reference\n\nExhibit\nNumber\n\nExhibit Description\n\nForm\n\nExhibit\n\nFiling Date/\nPeriod End Date\n\n31.1*\n\nRule 13a-14(a) / 15d-14(a) Certification of Chief Executive Officer.\n\n31.2*\n\nRule 13a-14(a) / 15d-14(a) Certification of Chief Financial Officer.\n\n32.1**\n\nSection 1350 Certifications of Chief Executive Officer and Chief Financial Officer.\n\n101*\n\nInline XBRL Document Set for the condensed consolidated financial statements and accompanying notes in Part I, Item 1, \"Financial Statements\" of this Quarterly Report on Form 10-Q.\n\n104*\n\nInline XBRL for the cover page of this Quarterly Report on Form 10-Q, included in the Exhibit 101 Inline XBRL Document Set.\n\n* Filed herewith.\n** Furnished herewith.\n\nApple Inc. | Q1 2026 Form 10-Q | 21\n\nSIGNATURE\nPursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.\n\nDate: January 30, 2026\nApple Inc.\n\nBy:\n\n/s/ Kevan Parekh\n\nKevan Parekh\n\nSenior Vice President,\nChief Financial Officer\n\nApple Inc. | Q1 2026 Form 10-Q | 22",
+  "extracted_metadata": {
+    "word_count": 8731,
+    "char_count": 66360,
+    "line_count": 2499,
+    "detected_filing_types": [
+      "10-Q",
+      "10-K"
+    ],
+    "periods_mentioned": [
+      "Q1 2026",
+      "Q1 2026",
+      "Q1 2026",
+      "Q1 2026",
+      "Q1 2026"
+    ],
+    "cik": "0000320193",
+    "accession_number": "0000320193-26-000006",
+    "form": "10-Q",
+    "filing_items": [],
+    "period_of_report": "2025-12-27",
+    "accepted_at": "2026-01-30T11:01:32+00:00",
+    "document_type": "10-Q",
+    "is_primary_document": true,
+    "is_amendment": false,
+    "is_xbrl": true,
+    "is_inline_xbrl": true,
+    "evidence_label": "fact_source_reported"
+  },
+  "chunks": [
+    {
+      "chunk_id": "AAPL-2e57d487-0000",
+      "index": 0,
+      "text": "false2026Q10000320193--09-26P1YP1YP1YP1Yhttp://fasb.org/us-gaap/2025#LongTermDebtNoncurrenthttp://fasb.org/us-gaap/2025#LongTermDebtNoncurrentP406DP403Dxbrli:sharesiso4217:USDiso4217:USDxbrli:sharesxbrli:pureaapl:Customeraapl:Vendor00003201932025-09-282025-12-270000320193us-gaap:CommonStockMember2025-09-282025-12-270000320193aapl:A1.625NotesDue2026Member2025-09-282025-12-270000320193aapl:A2.000NotesDue2027Member2025-09-282025-12-270000320193aapl:A1.375NotesDue2029Member2025-09-282025-12-270000320193aapl:A3.050NotesDue2029Member2025-09-282025-12-270000320193aapl:A0.500Notesdue2031Member2025-09-282025-12-270000320193aapl:A3.600NotesDue2042Member2025-09-282025-12-2700003201932026-01-160000320193us-gaap:ProductMember2025-09-282025-12-270000320193us-gaap:ProductMember2024-09-292024-12-280000320193us-gaap:ServiceMember2025-09-282025-12-270000320193us-gaap:ServiceMember2024-09-292024-12-2800003201932024-09-292024-12-2800003201932025-12-2700003201932025-09-2700003201932024-09-280000320193us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember2025-09-270000320193us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember2024-09-280000320193us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember2025-09-282025-12-270000320193us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember2024-09-292024-12-280000320193us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember2025-12-270000320193us-gaap:CommonStockIncludingAdditionalPaidInCapitalMember2024-12-280000320193us-gaap:RetainedEarningsMember2025-09-270000320193us-gaap:RetainedEarningsMember2024-09-280000320193us-gaap:RetainedEarning",
+      "char_start": 0,
+      "char_end": 1600,
+      "word_count": 1,
+      "content_hash": "af102f19f5be135548960382e40c4837b4fb32b0ed970bbe9132a1099b7345f2"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0001",
+      "index": 1,
+      "text": "sMember2025-09-282025-12-270000320193us-gaap:RetainedEarningsMember2024-09-292024-12-280000320193us-gaap:RetainedEarningsMember2025-12-270000320193us-gaap:RetainedEarningsMember2024-12-280000320193us-gaap:AccumulatedOtherComprehensiveIncomeMember2025-09-270000320193us-gaap:AccumulatedOtherComprehensiveIncomeMember2024-09-280000320193us-gaap:AccumulatedOtherComprehensiveIncomeMember2025-09-282025-12-270000320193us-gaap:AccumulatedOtherComprehensiveIncomeMember2024-09-292024-12-280000320193us-gaap:AccumulatedOtherComprehensiveIncomeMember2025-12-270000320193us-gaap:AccumulatedOtherComprehensiveIncomeMember2024-12-2800003201932024-12-280000320193aapl:IPhoneMember2025-09-282025-12-270000320193aapl:IPhoneMember2024-09-292024-12-280000320193aapl:MacMember2025-09-282025-12-270000320193aapl:MacMember2024-09-292024-12-280000320193aapl:IPadMember2025-09-282025-12-270000320193aapl:IPadMember2024-09-292024-12-280000320193aapl:WearablesHomeandAccessoriesMember2025-09-282025-12-270000320193aapl:WearablesHomeandAccessoriesMember2024-09-292024-12-2800003201932025-12-282025-12-2700003201932026-12-272025-12-2700003201932028-01-022025-12-2700003201932028-12-312025-12-270000320193us-gaap:CashMember2025-12-270000320193us-gaap:MoneyMarketFundsMemberus-gaap:FairValueInputsLevel1Member2025-12-270000320193us-gaap:MutualFundMemberus-gaap:FairValueInputsLevel1Member2025-12-270000320193us-gaap:FairValueInputsLevel1Member2025-12-270000320193us-gaap:USTreasurySecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:USGovernmentAgenciesDebtSecuritiesMemberus-gaap:FairValueInputsLeve",
+      "char_start": 1600,
+      "char_end": 3200,
+      "word_count": 1,
+      "content_hash": "0cc9dbfe41142a4bbf78fb9312e792d9eb80e67f87730c069f38ffb5a0ea9ae4"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0002",
+      "index": 2,
+      "text": "l2Member2025-12-270000320193us-gaap:ForeignGovernmentDebtSecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:BankTimeDepositsMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:CommercialPaperMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:CorporateDebtSecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:USStatesAndPoliticalSubdivisionsMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:AssetBackedSecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:FairValueInputsLevel2Member2025-12-270000320193us-gaap:CashMember2025-09-270000320193us-gaap:MoneyMarketFundsMemberus-gaap:FairValueInputsLevel1Member2025-09-270000320193us-gaap:MutualFundMemberus-gaap:FairValueInputsLevel1Member2025-09-270000320193us-gaap:FairValueInputsLevel1Member2025-09-270000320193us-gaap:USTreasurySecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:USGovernmentAgenciesDebtSecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:ForeignGovernmentDebtSecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:BankTimeDepositsMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:CommercialPaperMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:CorporateDebtSecuritiesMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:USStatesAndPoliticalSubdivisionsMemberus-gaap:FairValueInputsLevel2Member2025-09-270000320193us-gaap:AssetBackedSecuritiesMemberus-gaap:FairValueIn",
+      "char_start": 3200,
+      "char_end": 4800,
+      "word_count": 1,
+      "content_hash": "4fed1b4fe57d44759037ac6e09be637a428ccf891e6bc5956bcf494c4565da2a"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0003",
+      "index": 3,
+      "text": "putsLevel2Member2025-09-270000320193us-gaap:FairValueInputsLevel2Member2025-09-270000320193aapl:MarketableDebtSecuritiesOtherThanAssetBackedSecuritiesMember2025-12-270000320193us-gaap:AssetBackedSecuritiesMember2025-12-270000320193us-gaap:ForeignExchangeContractMember2025-09-282025-12-270000320193us-gaap:CrossCurrencyInterestRateContractMember2025-09-282025-12-270000320193us-gaap:ForeignExchangeContractMemberus-gaap:DesignatedAsHedgingInstrumentMember2025-12-270000320193us-gaap:ForeignExchangeContractMemberus-gaap:DesignatedAsHedgingInstrumentMember2025-09-270000320193us-gaap:InterestRateContractMemberus-gaap:DesignatedAsHedgingInstrumentMember2025-12-270000320193us-gaap:InterestRateContractMemberus-gaap:DesignatedAsHedgingInstrumentMember2025-09-270000320193us-gaap:ForeignExchangeContractMemberus-gaap:NondesignatedMember2025-12-270000320193us-gaap:ForeignExchangeContractMemberus-gaap:NondesignatedMember2025-09-270000320193us-gaap:CreditConcentrationRiskMemberus-gaap:TradeAccountsReceivableMember2025-12-270000320193aapl:CustomerOneMemberus-gaap:CreditConcentrationRiskMemberus-gaap:TradeAccountsReceivableMember2025-09-282025-12-270000320193aapl:CustomerTwoMemberus-gaap:CreditConcentrationRiskMemberus-gaap:TradeAccountsReceivableMember2025-09-282025-12-270000320193us-gaap:CreditConcentrationRiskMemberus-gaap:TradeAccountsReceivableMember2025-09-270000320193aapl:CustomerOneMemberus-gaap:CreditConcentrationRiskMemberus-gaap:TradeAccountsReceivableMember2024-09-292025-09-270000320193aapl:CellularNetworkCarriersMemberus-gaap:CreditConcentrationRiskMemberus-gaap:TradeAccountsRecei",
+      "char_start": 4800,
+      "char_end": 6400,
+      "word_count": 1,
+      "content_hash": "8298b500f53926d15e9970e503f026f1a4fa646b5e2a44cdae9ce48f850fe123"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0004",
+      "index": 4,
+      "text": "vableMember2025-09-282025-12-270000320193aapl:CellularNetworkCarriersMemberus-gaap:CreditConcentrationRiskMemberus-gaap:TradeAccountsReceivableMember2024-09-292025-09-270000320193us-gaap:CreditConcentrationRiskMemberaapl:NonTradeReceivableMember2025-12-270000320193aapl:VendorOneMemberus-gaap:CreditConcentrationRiskMemberaapl:NonTradeReceivableMember2025-09-282025-12-270000320193aapl:VendorTwoMemberus-gaap:CreditConcentrationRiskMemberaapl:NonTradeReceivableMember2025-09-282025-12-270000320193us-gaap:CreditConcentrationRiskMemberaapl:NonTradeReceivableMember2025-09-270000320193aapl:VendorOneMemberus-gaap:CreditConcentrationRiskMemberaapl:NonTradeReceivableMember2024-09-292025-09-270000320193aapl:VendorTwoMemberus-gaap:CreditConcentrationRiskMemberaapl:NonTradeReceivableMember2024-09-292025-09-270000320193us-gaap:CommercialPaperMember2025-12-270000320193us-gaap:CommercialPaperMember2025-09-270000320193us-gaap:RestrictedStockUnitsRSUMember2025-09-270000320193us-gaap:RestrictedStockUnitsRSUMember2025-09-282025-12-270000320193us-gaap:RestrictedStockUnitsRSUMember2025-12-270000320193us-gaap:RestrictedStockUnitsRSUMember2024-09-292024-12-280000320193us-gaap:OperatingSegmentsMemberaapl:AmericasSegmentMember2025-09-282025-12-270000320193us-gaap:OperatingSegmentsMemberaapl:EuropeSegmentMember2025-09-282025-12-270000320193us-gaap:OperatingSegmentsMemberaapl:GreaterChinaSegmentMember2025-09-282025-12-270000320193us-gaap:OperatingSegmentsMemberaapl:JapanSegmentMember2025-09-282025-12-270000320193us-gaap:OperatingSegmentsMemberaapl:RestOfAsiaPacificSegmentMember2025-09-282025-12-27000032",
+      "char_start": 6400,
+      "char_end": 8000,
+      "word_count": 1,
+      "content_hash": "a1e690f6f4ae393695bd9d6fb0e3ea30fc0fb21ca28fc9bd802860faf7c414c6"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0005",
+      "index": 5,
+      "text": "0193us-gaap:CorporateNonSegmentMember2025-09-282025-12-270000320193us-gaap:OperatingSegmentsMemberaapl:AmericasSegmentMember2024-09-292024-12-280000320193us-gaap:OperatingSegmentsMemberaapl:EuropeSegmentMember2024-09-292024-12-280000320193us-gaap:OperatingSegmentsMemberaapl:GreaterChinaSegmentMember2024-09-292024-12-280000320193us-gaap:OperatingSegmentsMemberaapl:JapanSegmentMember2024-09-292024-12-280000320193us-gaap:OperatingSegmentsMemberaapl:RestOfAsiaPacificSegmentMember2024-09-292024-12-280000320193us-gaap:CorporateNonSegmentMember2024-09-292024-12-280000320193aapl:KevanParekhMember2025-09-282025-12-270000320193aapl:DeirdreOBrienMember2025-09-282025-12-27",
+      "char_start": 8000,
+      "char_end": 8669,
+      "word_count": 1,
+      "content_hash": "141d9fc36ecb568639e525b094d6e9ceed65a7ce92029c2e3233acd05b746974"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0006",
+      "index": 6,
+      "text": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549 FORM 10-Q",
+      "char_start": 8669,
+      "char_end": 8750,
+      "word_count": 11,
+      "content_hash": "a8b23357db5b0c3ea6f446d360ce2fe7c00ec38c6aa273e5be187f8fbcef983c"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0007",
+      "index": 7,
+      "text": "(Mark One)\n☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the quarterly period ended December 27, 2025\nor\n☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the transition period from to .\nCommission File Number: 001-36743",
+      "char_start": 8755,
+      "char_end": 9068,
+      "word_count": 54,
+      "content_hash": "89f1c4a3967743d25f3353883d23413060db476756ec4dc50a1241ccb9ab0603"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0008",
+      "index": 8,
+      "text": "Apple Inc.\n(Exact name of Registrant as specified in its charter) California 94-2404110",
+      "char_start": 9068,
+      "char_end": 9155,
+      "word_count": 13,
+      "content_hash": "90edbaec70443fd6f5a13037c60b16458fc3aa61e3fedf1c3436abd78f86fc6c"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0009",
+      "index": 9,
+      "text": "(State or other jurisdiction\nof incorporation or organization) (I.R.S. Employer Identification No.)",
+      "char_start": 9155,
+      "char_end": 9254,
+      "word_count": 12,
+      "content_hash": "d4c0ae1960095c5c742f3e5f04e22433a38bc89cb4ef1fa985a6916d8ce1e1a5"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0010",
+      "index": 10,
+      "text": "One Apple Park Way Cupertino, California 95014 (Address of principal executive offices)",
+      "char_start": 9254,
+      "char_end": 9341,
+      "word_count": 12,
+      "content_hash": "0a6d0addb284ea0cacdb33515feb76d3bdb70e68993c50216a00533837b951f2"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0011",
+      "index": 11,
+      "text": "(Zip Code)\n(408) 996-1010\n(Registrant's telephone number, including area code) Securities registered pursuant to Section 12(b) of the Act:",
+      "char_start": 9341,
+      "char_end": 9479,
+      "word_count": 19,
+      "content_hash": "ae5fcae1e02b6d303228f88fb079d12140a80799d290507a007328db00ecc167"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0012",
+      "index": 12,
+      "text": "Title of each class\nTrading symbol(s)\nName of each exchange on which registered Common Stock, $0.00001 par value per share\nAAPL\nThe Nasdaq Stock Market LLC",
+      "char_start": 9479,
+      "char_end": 9634,
+      "word_count": 26,
+      "content_hash": "a6eea9c841b464949661b110335f3993da86868d14933fcdcaa6b92ed4dd8673"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0013",
+      "index": 13,
+      "text": "1.625% Notes due 2026\n--\nThe Nasdaq Stock Market LLC 2.000% Notes due 2027\n--\nThe Nasdaq Stock Market LLC",
+      "char_start": 9634,
+      "char_end": 9739,
+      "word_count": 20,
+      "content_hash": "def9d05c7a8235d318d207eafc453f6378099c4adff9ffbea31db2d11002c321"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0014",
+      "index": 14,
+      "text": "1.375% Notes due 2029\n--\nThe Nasdaq Stock Market LLC 3.050% Notes due 2029\n--\nThe Nasdaq Stock Market LLC",
+      "char_start": 9739,
+      "char_end": 9844,
+      "word_count": 20,
+      "content_hash": "f07a48818dafe8ce6dd3a6ee88b1f182afa3fa0bdb0ba8bb36bffe24eb2e94c0"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0015",
+      "index": 15,
+      "text": "0.500% Notes due 2031\n--\nThe Nasdaq Stock Market LLC 3.600% Notes due 2042\n--\nThe Nasdaq Stock Market LLC",
+      "char_start": 9844,
+      "char_end": 9949,
+      "word_count": 20,
+      "content_hash": "938c814ec7e0f8decf39fcd7fd31984d481d4fe0d10fd6366a65f578f2494314"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0016",
+      "index": 16,
+      "text": "Indicate by check mark whether the Registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the Registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.\nYes ☒ No ☐\nIndicate by check mark whether the Registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the Registrant was required to submit such files).\nYes ☒ No ☐\nIndicate by check mark whether the Registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of \"large accelerated filer,\" \"accelerated filer,\" \"smaller reporting company,\" and \"emerging growth company\" in Rule 12b-2 of the Exchange Act.",
+      "char_start": 9978,
+      "char_end": 11001,
+      "word_count": 167,
+      "content_hash": "0d072cb388fb09c2703dcf92c5a4f406fbe7ccbad1261737f96f40332d2b3b79"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0017",
+      "index": 17,
+      "text": "Large accelerated filer ☒ Accelerated filer ☐ Non-accelerated filer ☐ Smaller reporting company",
+      "char_start": 11001,
+      "char_end": 11096,
+      "word_count": 13,
+      "content_hash": "321dc6c3f8b73a66a33e86fc8b348d0d32681f59a8656c03723044e359e0668a"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0018",
+      "index": 18,
+      "text": "☐ Emerging growth company ☐\nIf an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\nIndicate by check mark whether the Registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act).\nYes ☐ No ☒\n14,681,140,000 shares of common stock were issued and outstanding as of January 16, 2026.",
+      "char_start": 11096,
+      "char_end": 11590,
+      "word_count": 84,
+      "content_hash": "6efcc26514f8481930cf319ab993aa28b01bd672829e91339bb24ba947b591f5"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0019",
+      "index": 19,
+      "text": "Apple Inc. Form 10-Q\nFor the Fiscal Quarter Ended December 27, 2025\nTABLE OF CONTENTS",
+      "char_start": 11590,
+      "char_end": 11675,
+      "word_count": 15,
+      "content_hash": "0238a96cf83e84fd138ebe2c4d2891a356bd190e951359d6dcf194f364e4efbf"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0020",
+      "index": 20,
+      "text": "Page Part I Item 1. Financial Statements 1 Item 2. Management's Discussion and Analysis of Financial Condition and Results of Operations",
+      "char_start": 11675,
+      "char_end": 11811,
+      "word_count": 21,
+      "content_hash": "8f0b05ba4c2e1eb0b9f6e1e3d69d92a2b1c11b80ec978375a4e1018c71220966"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0021",
+      "index": 21,
+      "text": "13 Item 3. Quantitative and Qualitative Disclosures About Market Risk 18 Item 4.",
+      "char_start": 11811,
+      "char_end": 11891,
+      "word_count": 13,
+      "content_hash": "bfec1c74eda80be43e2346a0c57acc30a568d5f9abfb2a31feeedd1ce2fa3b7a"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0022",
+      "index": 22,
+      "text": "Controls and Procedures 18 Part II Item 1. Legal Proceedings 19 Item 1A. Risk Factors",
+      "char_start": 11891,
+      "char_end": 11976,
+      "word_count": 15,
+      "content_hash": "c753bbc45507d046657807e5ac3b11012bf3ad3d60f840d117c36f55a7b75b38"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0023",
+      "index": 23,
+      "text": "20 Item 2. Unregistered Sales of Equity Securities and Use of Proceeds 20 Item 3.",
+      "char_start": 11976,
+      "char_end": 12057,
+      "word_count": 15,
+      "content_hash": "9df3c0060e366ce9f5d786f1913ee246c938ba2ae7009d1a0687faf3b8afc7c9"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0024",
+      "index": 24,
+      "text": "Defaults Upon Senior Securities 20 Item 4. Mine Safety Disclosures 20 Item 5. Other Information",
+      "char_start": 12057,
+      "char_end": 12152,
+      "word_count": 15,
+      "content_hash": "b7fac7cb64c2e6cc566a5629114f9a0df639bffdb9a1c8bb537b264ed090e5c3"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0025",
+      "index": 25,
+      "text": "21 Item 6. Exhibits 21 PART I -- FINANCIAL INFORMATION Item 1. Financial Statements",
+      "char_start": 12152,
+      "char_end": 12235,
+      "word_count": 14,
+      "content_hash": "a953461866aa5709063445bb50194d068bd3436834c36e1a31e64fd5e5b458b2"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0026",
+      "index": 26,
+      "text": "Apple Inc.\nCONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited)\n(In millions, except number of shares, which are reflected in thousands, and per-share amounts)",
+      "char_start": 12296,
+      "char_end": 12462,
+      "word_count": 22,
+      "content_hash": "ecf052bacbd49f5a5466e1fee8c4cf3c0031904834f530e8c5adff6f53814f92"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0027",
+      "index": 27,
+      "text": "Three Months Ended December 27,\n2025 December 28,\n2024 Net sales: Products\n$\n113,743",
+      "char_start": 12462,
+      "char_end": 12546,
+      "word_count": 14,
+      "content_hash": "faacdd9443c4444ece3ee9726de4648a8c1115718be86a618b20dfc7f70465c6"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0028",
+      "index": 28,
+      "text": "$\n97,960 Services\n30,013 26,340 Total net sales\n143,756 124,300 Cost of sales: Products\n67,478",
+      "char_start": 12546,
+      "char_end": 12640,
+      "word_count": 15,
+      "content_hash": "6114e3552714dd2bc8607c15012ea47a8e8fcf457ee63663aca7dbbd0350cabb"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0029",
+      "index": 29,
+      "text": "59,447 Services\n7,047 6,578 Total cost of sales\n74,525 66,025 Gross margin\n69,231",
+      "char_start": 12640,
+      "char_end": 12721,
+      "word_count": 13,
+      "content_hash": "d11af7b2b0a72acaa26c6da78c6bbc008821095f61343d27ef9e8a547fb5080b"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0030",
+      "index": 30,
+      "text": "58,275 Operating expenses: Research and development\n10,887 8,268 Selling, general and administrative\n7,492",
+      "char_start": 12721,
+      "char_end": 12827,
+      "word_count": 13,
+      "content_hash": "1c5d35b93b4d70b087533fc5356221c2714c1b2a9e98d97b92c1b24515471e5d"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0031",
+      "index": 31,
+      "text": "7,175 Total operating expenses\n18,379 15,443 Operating income\n50,852 42,832 Other income/(expense), net\n150",
+      "char_start": 12827,
+      "char_end": 12934,
+      "word_count": 14,
+      "content_hash": "4d5a2cd6629ae6ba87e72bf6437fc16d2f00d71e79b334d45530097fd6ed783e"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0032",
+      "index": 32,
+      "text": "(248) Income before provision for income taxes\n51,002 42,584 Provision for income taxes\n8,905",
+      "char_start": 12934,
+      "char_end": 13027,
+      "word_count": 14,
+      "content_hash": "bf3650d47256ef9e07ff3a99267fbdbb731a42feee2f3506fd3846b07067e7a6"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0033",
+      "index": 33,
+      "text": "6,254 Net income\n$\n42,097 $\n36,330 Earnings per share: Basic\n$\n2.85 $\n2.41 Diluted\n$\n2.84",
+      "char_start": 13027,
+      "char_end": 13116,
+      "word_count": 18,
+      "content_hash": "ccf1cb31b5b15b677050ce4d0f745c2312037ff694729740a6c925dcf55fc3af"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0034",
+      "index": 34,
+      "text": "$\n2.40 Shares used in computing earnings per share: Basic\n14,748,158 15,081,724 Diluted\n14,810,356",
+      "char_start": 13116,
+      "char_end": 13214,
+      "word_count": 14,
+      "content_hash": "c77ab5fceb3663c6ef67695ddd4aa3b536c0987bf0c06808529fe9b2c5d07f2b"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0035",
+      "index": 35,
+      "text": "15,150,865 See accompanying Notes to Condensed Consolidated Financial Statements.",
+      "char_start": 13214,
+      "char_end": 13295,
+      "word_count": 9,
+      "content_hash": "1bea59d6c74e3379b97f6bc3e3f6068060d7374020e5e215c67bca26372c1800"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0036",
+      "index": 36,
+      "text": "Apple Inc. | Q1 2026 Form 10-Q | 1 Apple Inc.\nCONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (Unaudited)\n(In millions)",
+      "char_start": 13295,
+      "char_end": 13424,
+      "word_count": 20,
+      "content_hash": "7791d910041df3c6fa3e2037f81d25307da0b63072d15365fc4bf9ee4d3775ee"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0037",
+      "index": 37,
+      "text": "Three Months Ended December 27,\n2025 December 28,\n2024 Net income\n$\n42,097 $\n36,330",
+      "char_start": 13424,
+      "char_end": 13507,
+      "word_count": 15,
+      "content_hash": "8aa09060a24508db02049b8099fb913f79db0c18742003358a5697a556cc53ed"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0038",
+      "index": 38,
+      "text": "Other comprehensive income/(loss): Change in foreign currency translation, net of tax\n(159)",
+      "char_start": 13507,
+      "char_end": 13598,
+      "word_count": 12,
+      "content_hash": "72589aaaf05e6a50bed6a1f64e574349d435eaa6b44fac25a8444da1a32cdb6c"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0039",
+      "index": 39,
+      "text": "(625) Change in unrealized gains/losses on derivative instruments, net of tax: Change in fair value of derivative instruments\n211",
+      "char_start": 13598,
+      "char_end": 13727,
+      "word_count": 19,
+      "content_hash": "d952882aa1fab262fe8b009fb7c36c18aa281bc5095d5784f781d8f00e64b121"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0040",
+      "index": 40,
+      "text": "1,651 Adjustment for net (gains)/losses realized and included in net income\n237 784",
+      "char_start": 13727,
+      "char_end": 13810,
+      "word_count": 13,
+      "content_hash": "01832bc94629b2fb5e54f7b014c244f831de3289cabcb00e7a68fe0385b9bb05"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0041",
+      "index": 41,
+      "text": "Total change in unrealized gains/losses on derivative instruments\n448 2,435 Change in unrealized gains/losses on marketable debt securities, net of tax:",
+      "char_start": 13810,
+      "char_end": 13962,
+      "word_count": 21,
+      "content_hash": "7ce4a7abbfe0bbb69a1b849b945b59cccafaf2d26842a6597f6a98346baf5584"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0042",
+      "index": 42,
+      "text": "Change in fair value of marketable debt securities\n424 (1,647) Adjustment for net (gains)/losses realized and included in net income\n4",
+      "char_start": 13962,
+      "char_end": 14096,
+      "word_count": 21,
+      "content_hash": "8bddc43a4435a954400779f0a8e51886859cff4f4a84808950f9887471f73a27"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0043",
+      "index": 43,
+      "text": "220 Total change in unrealized gains/losses on marketable debt securities\n428 (1,427)",
+      "char_start": 14096,
+      "char_end": 14181,
+      "word_count": 12,
+      "content_hash": "c4ffe935b2fe5fac17b17351b94d22b6815b5bb9256b72adcca47825114a7d2c"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0044",
+      "index": 44,
+      "text": "Total other comprehensive income\n717 383 Total comprehensive income\n$\n42,814 $\n36,713",
+      "char_start": 14181,
+      "char_end": 14266,
+      "word_count": 13,
+      "content_hash": "bf3fb48831e01e525e33a9d662bcae980e77e84823643623c735d443bd6f16e3"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0045",
+      "index": 45,
+      "text": "See accompanying Notes to Condensed Consolidated Financial Statements. Apple Inc. | Q1 2026 Form 10-Q | 2",
+      "char_start": 14266,
+      "char_end": 14371,
+      "word_count": 17,
+      "content_hash": "84acd3b66c8036539a4eeede8212d2e9769406b562b7271be26184193fae4e7b"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0046",
+      "index": 46,
+      "text": "Apple Inc.\nCONDENSED CONSOLIDATED BALANCE SHEETS (Unaudited)\n(In millions, except number of shares, which are reflected in thousands, and par value)",
+      "char_start": 14473,
+      "char_end": 14621,
+      "word_count": 21,
+      "content_hash": "5406da9f59a0d9adf8c1ace463eb58810bd78d99378ac8bcdf705cf19607f346"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0047",
+      "index": 47,
+      "text": "December 27,\n2025 September 27,\n2025 ASSETS: Current assets: Cash and cash equivalents\n$\n45,317",
+      "char_start": 14621,
+      "char_end": 14716,
+      "word_count": 15,
+      "content_hash": "951b1d61b39b988b388cd4402df95bd4085ecb872c92d76a7a6574efb9dccb28"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0048",
+      "index": 48,
+      "text": "$\n35,934 Marketable securities\n21,590 18,763 Accounts receivable, net\n39,921 39,777",
+      "char_start": 14716,
+      "char_end": 14799,
+      "word_count": 11,
+      "content_hash": "f0dcd0df6d91fa2c63e00b24ede31f30164227de6816d3807a84908794a56e43"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0049",
+      "index": 49,
+      "text": "Vendor non-trade receivables\n30,399 33,180 Inventories\n5,875 5,718 Other current assets\n15,002",
+      "char_start": 14799,
+      "char_end": 14893,
+      "word_count": 12,
+      "content_hash": "912b4e0c0857e76f7c0b313305cb0c8d31350205f3c41f9c2747eae42f757702"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0050",
+      "index": 50,
+      "text": "14,585 Total current assets\n158,104 147,957 Non-current assets: Marketable securities\n77,888",
+      "char_start": 14893,
+      "char_end": 14985,
+      "word_count": 11,
+      "content_hash": "83223472b6fbe7b2a8dbe4c8354e19f2e6914a18163afa0e1691e34e61331b92"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0051",
+      "index": 51,
+      "text": "77,723 Property, plant and equipment, net\n50,159 49,834 Other non-current assets\n93,146",
+      "char_start": 14985,
+      "char_end": 15072,
+      "word_count": 12,
+      "content_hash": "06e77c914f47967ea25557f482db1adff9a3d316eef4a5ffad4c0e657b463cf6"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0052",
+      "index": 52,
+      "text": "83,727 Total non-current assets\n221,193 211,284 Total assets\n$\n379,297 $\n359,241",
+      "char_start": 15072,
+      "char_end": 15152,
+      "word_count": 12,
+      "content_hash": "3682ef139dbe1fc9369e413ce70d154113c9a85d6c85b8cd59711c87b5a2ff62"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0053",
+      "index": 53,
+      "text": "LIABILITIES AND SHAREHOLDERS' EQUITY: Current liabilities: Accounts payable\n$\n70,587",
+      "char_start": 15152,
+      "char_end": 15236,
+      "word_count": 10,
+      "content_hash": "e0a6e04de4df75d143a3a53f262c73eeb24f5f695816290966d7f7b001af6b27"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0054",
+      "index": 54,
+      "text": "$\n69,860 Other current liabilities\n68,543 66,387 Deferred revenue\n9,413 9,055 Commercial paper\n1,997",
+      "char_start": 15236,
+      "char_end": 15336,
+      "word_count": 14,
+      "content_hash": "716e9bc91c987462c12fdd6aef101984a00e5956ad18abacdb8e6db6003219c6"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0055",
+      "index": 55,
+      "text": "7,979 Term debt\n11,827 12,350 Total current liabilities\n162,367 165,631 Non-current liabilities:",
+      "char_start": 15336,
+      "char_end": 15432,
+      "word_count": 12,
+      "content_hash": "f6fa32fb2062c5c829891e75d7f65765b9efd05ead413d4022e9ede03009cda7"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0056",
+      "index": 56,
+      "text": "Term debt\n76,685 78,328 Other non-current liabilities\n52,055 41,549 Total non-current liabilities\n128,740",
+      "char_start": 15432,
+      "char_end": 15537,
+      "word_count": 13,
+      "content_hash": "a1498319161d589f86ec9ea52f7b73b819326679dbd4c5730417f74c2dca20ca"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0057",
+      "index": 57,
+      "text": "119,877 Total liabilities\n291,107 285,508 Commitments and contingencies Shareholders' equity:",
+      "char_start": 15537,
+      "char_end": 15630,
+      "word_count": 10,
+      "content_hash": "d9a604e0a097578360da6198c9bfabd95ea369e57af88c4e5563e74291cac584"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0058",
+      "index": 58,
+      "text": "Common stock and additional paid-in capital, $0.00001 par value: 50,400,000 shares authorized; 14,702,703 and 14,773,260 shares issued and outstanding, respectively\n95,221",
+      "char_start": 15697,
+      "char_end": 15868,
+      "word_count": 21,
+      "content_hash": "e6eb62db80b3a5bf17e693c4adb50ed786753c030e2f9fcab925c1989f9bb0a2"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0059",
+      "index": 59,
+      "text": "93,568 Accumulated deficit\n(2,177) (14,264) Accumulated other comprehensive loss\n(4,854)",
+      "char_start": 15868,
+      "char_end": 15956,
+      "word_count": 10,
+      "content_hash": "290f95f61bb818c6830e0d05ddb1636948d4a516e473e127290830237a4cd443"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0060",
+      "index": 60,
+      "text": "(5,571) Total shareholders' equity\n88,190 73,733 Total liabilities and shareholders' equity\n$\n379,297",
+      "char_start": 15956,
+      "char_end": 16057,
+      "word_count": 13,
+      "content_hash": "82f296c08c9bfe2c895e12f8c2e1c68776780f84eec439561bacfa046e639561"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0061",
+      "index": 61,
+      "text": "$\n359,241 See accompanying Notes to Condensed Consolidated Financial Statements.",
+      "char_start": 16057,
+      "char_end": 16137,
+      "word_count": 10,
+      "content_hash": "a00c753de6365174eac7fe9f4e58b943b8e153987656be8a2d0b4436384d6e41"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0062",
+      "index": 62,
+      "text": "Apple Inc. | Q1 2026 Form 10-Q | 3 Apple Inc.\nCONDENSED CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY (Unaudited)\n(In millions, except per-share amounts)",
+      "char_start": 16137,
+      "char_end": 16292,
+      "word_count": 23,
+      "content_hash": "9ae237a76faf836aaba4bfb6881ca1e5f24201cfbff8340adb30788771f588ca"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0063",
+      "index": 63,
+      "text": "Three Months Ended December 27,\n2025 December 28,\n2024 Total shareholders' equity, beginning balances\n$\n73,733",
+      "char_start": 16292,
+      "char_end": 16402,
+      "word_count": 16,
+      "content_hash": "6093bcf5f78cf1db01ffb815198310be456d6992875320e1d4fe8380a363dede"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0064",
+      "index": 64,
+      "text": "$\n56,950 Common stock and additional paid-in capital: Beginning balances\n93,568 83,276",
+      "char_start": 16402,
+      "char_end": 16488,
+      "word_count": 12,
+      "content_hash": "80afe43bd4888832dc9376a81a58e84b3a6d40f3ecf88fcc48bf221f63cd6349"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0065",
+      "index": 65,
+      "text": "Common stock withheld related to net share settlement of equity awards\n(2,058) (1,891)",
+      "char_start": 16488,
+      "char_end": 16574,
+      "word_count": 13,
+      "content_hash": "fb99f00ba3f1f66532f34328059cd205a0cc7d9a12db463898f9d7475f4208e1"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0066",
+      "index": 66,
+      "text": "Share-based compensation\n3,711 3,383 Ending balances\n95,221 84,768 Accumulated deficit:",
+      "char_start": 16574,
+      "char_end": 16661,
+      "word_count": 10,
+      "content_hash": "83fba4294ad5888a319d70a9017188af183c9099dc19b4cf47a02ff4a71c6630"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0067",
+      "index": 67,
+      "text": "Beginning balances\n(14,264) (19,154) Net income\n42,097 36,330 Dividends and dividend equivalents declared\n(3,880)",
+      "char_start": 16661,
+      "char_end": 16774,
+      "word_count": 14,
+      "content_hash": "90418e99413cf6fcbe70e8d03c42ded927ea316a15d3505c75797532ed9d8e2b"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0068",
+      "index": 68,
+      "text": "(3,819) Common stock withheld related to net share settlement of equity awards\n(936)",
+      "char_start": 16774,
+      "char_end": 16858,
+      "word_count": 13,
+      "content_hash": "a53b445282aa2e1b229e8bd392cd62a5145a1b564ef9c425039767bbb13a90d0"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0069",
+      "index": 69,
+      "text": "(1,102) Common stock repurchased\n(25,194) (23,476) Ending balances\n(2,177) (11,221)",
+      "char_start": 16858,
+      "char_end": 16941,
+      "word_count": 10,
+      "content_hash": "5b5e13343410abcaff15c1d38c6e578d034610632a6b79e2ff4023e6a27f86f0"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0070",
+      "index": 70,
+      "text": "Accumulated other comprehensive loss: Beginning balances\n(5,571) (7,172) Other comprehensive income\n717",
+      "char_start": 16941,
+      "char_end": 17044,
+      "word_count": 12,
+      "content_hash": "6332b1cff71a6fa2af2016125de167bfbdc1e0b30a042db036679a1ff342e731"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0071",
+      "index": 71,
+      "text": "383 Ending balances\n(4,854) (6,789) Total shareholders' equity, ending balances\n$\n88,190",
+      "char_start": 17044,
+      "char_end": 17132,
+      "word_count": 12,
+      "content_hash": "abdb5130b44a6cbf0ee23e111e0533ab863f3b81c6af8f0e97a08cd3fe072ed7"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0072",
+      "index": 72,
+      "text": "$\n66,758 Dividends and dividend equivalents declared per share or RSU\n$\n0.26 $\n0.25",
+      "char_start": 17132,
+      "char_end": 17215,
+      "word_count": 15,
+      "content_hash": "c70bb8088eb1a577405581f9d54fd27f1ec4d6c91bceb6e4ab8bafa9ec61884a"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0073",
+      "index": 73,
+      "text": "See accompanying Notes to Condensed Consolidated Financial Statements. Apple Inc. | Q1 2026 Form 10-Q | 4",
+      "char_start": 17215,
+      "char_end": 17320,
+      "word_count": 17,
+      "content_hash": "1e91dd36aebedad6031d0d5aee8b8a6898d8345b457837218cd95d98b06bd787"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0074",
+      "index": 74,
+      "text": "Apple Inc.\nCONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited)\n(In millions)",
+      "char_start": 17389,
+      "char_end": 17473,
+      "word_count": 11,
+      "content_hash": "75a35a245188317bbd148951547b2396fce0906f30e95cd1f6411c633a239be4"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0075",
+      "index": 75,
+      "text": "Three Months Ended December 27,\n2025 December 28,\n2024 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances\n$\n35,934",
+      "char_start": 17473,
+      "char_end": 17621,
+      "word_count": 22,
+      "content_hash": "b2c177bee35b6db85b0768a44d3b34e23127cf8e0c46aa2d25406ec0aaa8dc86"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0076",
+      "index": 76,
+      "text": "$\n29,943 Operating activities: Net income\n42,097 36,330 Adjustments to reconcile net income to cash generated by operating activities:",
+      "char_start": 17621,
+      "char_end": 17755,
+      "word_count": 19,
+      "content_hash": "a14ba36b42bb1d199c1e72e0ab7cdaa7d27ec9962569ac3af55457712da1eec4"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0077",
+      "index": 77,
+      "text": "Depreciation and amortization\n3,214 3,080 Share-based compensation expense\n3,594",
+      "char_start": 17755,
+      "char_end": 17835,
+      "word_count": 9,
+      "content_hash": "a2a9e64a22226f51a02cd262299f3a4b9c7a03c7feab3a924492b8a9ed509df4"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0078",
+      "index": 78,
+      "text": "3,286 Other\n(528) (2,009) Changes in operating assets and liabilities: Accounts receivable, net\n(153)",
+      "char_start": 17835,
+      "char_end": 17936,
+      "word_count": 14,
+      "content_hash": "0e90fe79a9482b24be1fdb3a870d4684493fbcf86a193bf4b63420c282233d27"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0079",
+      "index": 79,
+      "text": "3,597 Vendor non-trade receivables\n2,781 3,166 Inventories\n(211) 215 Other current and non-current assets\n(10,250)",
+      "char_start": 17936,
+      "char_end": 18050,
+      "word_count": 15,
+      "content_hash": "f97c49f5fa2f89cd4f1a77782cb526ff75a61ce0a9b9cb899e0519bde1ef1169"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0080",
+      "index": 80,
+      "text": "939 Accounts payable\n848 (6,671) Other current and non-current liabilities\n12,533",
+      "char_start": 18050,
+      "char_end": 18131,
+      "word_count": 11,
+      "content_hash": "6acc6a3c637a627cb493e08c17e721e49411490d1e57d410a06cbe7f68b47ceb"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0081",
+      "index": 81,
+      "text": "(11,998) Cash generated by operating activities\n53,925 29,935 Investing activities:",
+      "char_start": 18131,
+      "char_end": 18214,
+      "word_count": 10,
+      "content_hash": "703b026eb776b7a8c97feb8e41e42f128d1632af0f0b06609763bf42d413f953"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0082",
+      "index": 82,
+      "text": "Purchases of marketable securities\n(12,693) (6,124) Proceeds from maturities of marketable securities\n7,510",
+      "char_start": 18214,
+      "char_end": 18321,
+      "word_count": 13,
+      "content_hash": "72a9ceb1706e366d8b1cd0ebf7d106ca6dcf44c0ade05f3d84bb1bbec0740787"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0083",
+      "index": 83,
+      "text": "15,967 Proceeds from sales of marketable securities\n2,824 3,492 Payments for acquisition of property, plant and equipment\n(2,373)",
+      "char_start": 18321,
+      "char_end": 18450,
+      "word_count": 18,
+      "content_hash": "0c4857385198b66db073bf111f2772c86ddd9bfd7a5e32e6d5c6a6b63fb96659"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0084",
+      "index": 84,
+      "text": "(2,940) Other\n(154) (603) Cash generated by/(used in) investing activities\n(4,886)",
+      "char_start": 18450,
+      "char_end": 18532,
+      "word_count": 11,
+      "content_hash": "0f70d415f1b7740308c52a621d4f0473b8250412c54f868437a074a10c18bcbe"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0085",
+      "index": 85,
+      "text": "9,792 Financing activities: Payments for taxes related to net share settlement of equity awards\n(2,922)",
+      "char_start": 18532,
+      "char_end": 18635,
+      "word_count": 15,
+      "content_hash": "c60462c790920e842b6750b7f4e91d65af929656b978181182d477d8b62fbb56"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0086",
+      "index": 86,
+      "text": "(2,921) Payments for dividends and dividend equivalents\n(3,921) (3,856) Repurchases of common stock\n(24,701)",
+      "char_start": 18635,
+      "char_end": 18743,
+      "word_count": 14,
+      "content_hash": "c0deb60ca2783490970bbfea13e7f14ad239766142af2e70b0f33d51294a996d"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0087",
+      "index": 87,
+      "text": "(23,606) Repayments of term debt\n(2,164) (1,009) Repayments of commercial paper, net\n(5,910)",
+      "char_start": 18743,
+      "char_end": 18835,
+      "word_count": 13,
+      "content_hash": "ac4267085c097d5dc22a73a45f34a2b4a81fc3bd2c16a0f52bedd79cdab9e472"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0088",
+      "index": 88,
+      "text": "(7,944) Other\n(38) (35) Cash used in financing activities\n(39,656) (39,371) Increase in cash, cash equivalents, and restricted cash and cash equivalents\n9,383",
+      "char_start": 18835,
+      "char_end": 18993,
+      "word_count": 23,
+      "content_hash": "21d2b90f6e62a214931a7a3bda1a0b3ec1ae6d389950ced8d6f9e3016e29aa1b"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0089",
+      "index": 89,
+      "text": "356 Cash, cash equivalents, and restricted cash and cash equivalents, ending balances\n$\n45,317",
+      "char_start": 18993,
+      "char_end": 19087,
+      "word_count": 14,
+      "content_hash": "0524aa5d8b431ed556240412e606dca0b311db5c8d35273da50a77f6da0a22cd"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0090",
+      "index": 90,
+      "text": "$\n30,299 Supplemental cash flow disclosure: Cash paid for income taxes, net\n$\n3,434",
+      "char_start": 19087,
+      "char_end": 19170,
+      "word_count": 14,
+      "content_hash": "3e49b398663037e6418a590b1187cc60d7dce90ce3bc8c5902a06154c3713591"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0091",
+      "index": 91,
+      "text": "$\n18,651 See accompanying Notes to Condensed Consolidated Financial Statements. Apple Inc. | Q1 2026 Form 10-Q | 5",
+      "char_start": 19170,
+      "char_end": 19284,
+      "word_count": 19,
+      "content_hash": "4d393057b213d1f957648c6ea8f0f4f39a4d0310a7b78418e492fc93a2413250"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0092",
+      "index": 92,
+      "text": "Apple Inc.\nNotes to Condensed Consolidated Financial Statements (Unaudited) Note 1 - Summary of Significant Accounting Policies\nBasis of Presentation and Preparation\nThe condensed consolidated financial statements include the accounts of Apple Inc. and its wholly owned subsidiaries (collectively \"Apple\" or the \"Company\"). In the opinion of the Company's management, the condensed consolidated financial statements reflect all adjustments, which are normal and recurring in nature, necessary for fair financial statement presentation. The preparation of these condensed consolidated financial statements and accompanying notes in conformity with U.S. generally accepted accounting principles (\"GAAP\") requires the use of management estimates. These condensed consolidated financial statements and accompanying notes should be read in conjunction with the Company's annual consolidated financial statements and accompanying notes included in its Annual Report on Form 10-K for the fiscal year ended September 27, 2025 (the \"2025 Form 10-K\").\nThe Company's fiscal year is the 52- or 53-week period that ends on the last Saturday of September. An additional week is included in the first fiscal quarter every five or six years to realign the Company's fiscal quarters with calendar quarters. The Company's fiscal years 2026 and 2025 span 52 weeks each. Unless otherwise stated, references to particular years, quarters, months and periods refer to the Company's fiscal years ended in September and the associated quarters, months and periods of those fiscal years.",
+      "char_start": 19284,
+      "char_end": 20846,
+      "word_count": 224,
+      "content_hash": "59efc0ed04566ff73e4649d7ed4aed24daad170b25ba77eb4df5acee298781ec"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0093",
+      "index": 93,
+      "text": "Note 2 - Revenue\nThe following table shows disaggregated net sales, as well as the portion of total net sales that was previously deferred, for the three months ended December 27, 2025 and December 28, 2024 (in millions):",
+      "char_start": 20935,
+      "char_end": 21156,
+      "word_count": 38,
+      "content_hash": "253f954bea3352fa05f486531e730975386474aa4c1dfce3b4c7a96ccccd42c8"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0094",
+      "index": 94,
+      "text": "Three Months Ended December 27,\n2025 December 28,\n2024 iPhone®\n$\n85,269 $\n69,138",
+      "char_start": 21156,
+      "char_end": 21236,
+      "word_count": 14,
+      "content_hash": "d9a0e1e61369b249751734dc601e5b0c872c244d2962a0e64d8f63cf44131e20"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0095",
+      "index": 95,
+      "text": "Mac®\n8,386 8,987 iPad®\n8,595 8,088 Wearables, Home and Accessories\n11,493 11,747",
+      "char_start": 21236,
+      "char_end": 21316,
+      "word_count": 12,
+      "content_hash": "d6330bf175d6c070921f07c48bb817666d4a71ad2f5ca945137c79b412b88670"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0096",
+      "index": 96,
+      "text": "Services\n30,013 26,340 Total net sales\n$\n143,756 $\n124,300 Portion of total net sales that was included in deferred revenue as of the beginning of the period\n$\n4,050",
+      "char_start": 21316,
+      "char_end": 21481,
+      "word_count": 30,
+      "content_hash": "c14ab03209a460e9eb91ce761c772b6d401f6f6f3c052db0aec1334b84c922c7"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0097",
+      "index": 97,
+      "text": "$\n3,690 The Company's proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 10, \"Segment Information\" for the three months ended December 27, 2025 and December 28, 2024, except in Greater China, where iPhone revenue represented a moderately higher proportion of net sales.\nAs of December 27, 2025 and September 27, 2025, the Company had total deferred revenue of $14.3 billion and $13.7 billion, respectively. As of December 27, 2025, the Company expects 66% of total deferred revenue to be realized in less than a year, 23% within one-to-two years, 9% within two-to-three years and 2% in greater than three years.",
+      "char_start": 21481,
+      "char_end": 22158,
+      "word_count": 109,
+      "content_hash": "05244fb96658331af1ba6da57cfa2ce567c062e45fc167aeca473447977f3298"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0098",
+      "index": 98,
+      "text": "Apple Inc. | Q1 2026 Form 10-Q | 6 Note 3 - Earnings Per Share\nThe following table shows the computation of basic and diluted earnings per share for the three months ended December 27, 2025 and December 28, 2024 (net income in millions and shares in thousands):",
+      "char_start": 22158,
+      "char_end": 22419,
+      "word_count": 48,
+      "content_hash": "7934f325f1fe4bbf60e52105b449d899c9eedde33b05f079cee194284e4c7d1a"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0099",
+      "index": 99,
+      "text": "Three Months Ended December 27,\n2025 December 28,\n2024 Numerator: Net income\n$\n42,097",
+      "char_start": 22419,
+      "char_end": 22504,
+      "word_count": 14,
+      "content_hash": "1ce3602969ee5ed712f248a41025808c5c984ae1da0f0014b99aa237c2916a6b"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0100",
+      "index": 100,
+      "text": "$\n36,330 Denominator: Weighted-average basic shares outstanding\n14,748,158 15,081,724",
+      "char_start": 22504,
+      "char_end": 22589,
+      "word_count": 9,
+      "content_hash": "4691780784c106ea841e02224f7e5065c471fb8b7e4229136819952824d00c6f"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0101",
+      "index": 101,
+      "text": "Effect of dilutive share-based awards\n62,198 69,141 Weighted-average diluted shares\n14,810,356",
+      "char_start": 22589,
+      "char_end": 22683,
+      "word_count": 11,
+      "content_hash": "a42780076cbddd918466bf70569c5c2c440f54694bec2dfe1fcd4362318121b5"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0102",
+      "index": 102,
+      "text": "15,150,865 Basic earnings per share\n$\n2.85 $\n2.41 Diluted earnings per share\n$\n2.84",
+      "char_start": 22683,
+      "char_end": 22766,
+      "word_count": 15,
+      "content_hash": "16bb41e5e54bdd05dd6586d2540196cd09a734ec3f0ea97bdfc2812b985e98ef"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0103",
+      "index": 103,
+      "text": "$\n2.40 Note 4 - Financial Instruments\nCash, Cash Equivalents and Marketable Securities\nThe following tables show the Company's cash, cash equivalents and marketable securities by significant investment category as of December 27, 2025 and September 27, 2025 (in millions):",
+      "char_start": 22766,
+      "char_end": 23038,
+      "word_count": 40,
+      "content_hash": "ee360d20e36184e3d0c3e44f5bed38456989c6a80606883ca8155833076b3166"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0104",
+      "index": 104,
+      "text": "December 27, 2025 Adjusted\nCost Unrealized\nGains Unrealized\nLosses Fair\nValue Cash and\nCash\nEquivalents",
+      "char_start": 23038,
+      "char_end": 23141,
+      "word_count": 15,
+      "content_hash": "47901a49c5740de95eb776a598412e374d1e402295e7f89a93e5ca9c622d2012"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0105",
+      "index": 105,
+      "text": "Current\nMarketable\nSecurities Non-Current\nMarketable\nSecurities Cash\n$\n30,826 $\n--",
+      "char_start": 23141,
+      "char_end": 23223,
+      "word_count": 11,
+      "content_hash": "4da9e2af35c648cdc1eef8487850c58273aa5227449daa8b9b283f9cba9c85fd"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0106",
+      "index": 106,
+      "text": "$\n-- $\n30,826 $\n30,826 $\n-- $\n-- Level 1: Money market funds\n5,959 -- -- 5,959 5,959",
+      "char_start": 23223,
+      "char_end": 23307,
+      "word_count": 20,
+      "content_hash": "d11e6902ebfc13c63160042fea0e45dea5bfa3ecef5db7fbecee6fa42fc561f1"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0107",
+      "index": 107,
+      "text": "-- -- Mutual funds\n792 195 (2) 985 -- 985 -- Subtotal\n6,751 195 (2) 6,944 5,959 985",
+      "char_start": 23307,
+      "char_end": 23390,
+      "word_count": 18,
+      "content_hash": "68e96861ab6f7e4d36b780b62a3dec20435c2c0661019eb82f4ba06d2f383970"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0108",
+      "index": 108,
+      "text": "-- Level 2 (1): U.S. Treasury securities\n18,715 64 (211) 18,568 2,302 5,341 10,925",
+      "char_start": 23390,
+      "char_end": 23472,
+      "word_count": 14,
+      "content_hash": "5777b87c9e3b1965acb4990f3ffb659c2f9caa1b0177b1f65e257bddeccc797d"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0109",
+      "index": 109,
+      "text": "U.S. agency securities\n8,692 1 (114) 8,579 4,192 1,998 2,389 Non-U.S. government securities\n6,675",
+      "char_start": 23472,
+      "char_end": 23569,
+      "word_count": 14,
+      "content_hash": "7cbf86b5b87002811882274ece55d46c9780b6d397e5c9987d8f2a22b182cb7a"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0110",
+      "index": 110,
+      "text": "117 (399) 6,393 -- 771 5,622 Certificates of deposit and time deposits\n1,737 -- --",
+      "char_start": 23569,
+      "char_end": 23651,
+      "word_count": 15,
+      "content_hash": "85c04a7cb35bfc421579dc086e8542a2acd1d19789b82c562d5647e72d33a59c"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0111",
+      "index": 111,
+      "text": "1,737 1,723 -- 14 Commercial paper\n991 -- -- 991 297 694 -- Corporate debt securities\n46,682",
+      "char_start": 23651,
+      "char_end": 23743,
+      "word_count": 17,
+      "content_hash": "8addff3371124aecbf1856c7e2561deb456caa6cc2f65e167131458d95aac142"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0112",
+      "index": 112,
+      "text": "280 (695) 46,267 18 11,568 34,681 Municipal securities\n154 -- (1) 153 -- 97 56 Mortgage- and asset-backed securities\n25,296",
+      "char_start": 23743,
+      "char_end": 23866,
+      "word_count": 20,
+      "content_hash": "8b51e05cc88de8b93ad27f9148991dd8a9d4dd0310bc855820b2a70a0db86f0a"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0113",
+      "index": 113,
+      "text": "158 (1,117) 24,337 -- 136 24,201 Subtotal\n108,942 620 (2,537) 107,025 8,532 20,605",
+      "char_start": 23866,
+      "char_end": 23948,
+      "word_count": 13,
+      "content_hash": "5e99d02d445491dc656b8a957bfd82cea3e98527a357776193aecd3116bcb08a"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0114",
+      "index": 114,
+      "text": "77,888 Total\n$\n146,519 $\n815 $\n(2,539) $\n144,795 $\n45,317 $\n21,590 $\n77,888 Apple Inc. | Q1 2026 Form 10-Q | 7",
+      "char_start": 23948,
+      "char_end": 24058,
+      "word_count": 25,
+      "content_hash": "41799afbdd9bfb6103487e7169eac3c9cb9b6f79459cd0024966328390a2d93a"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0115",
+      "index": 115,
+      "text": "September 27, 2025 Adjusted\nCost Unrealized\nGains Unrealized\nLosses Fair\nValue Cash and\nCash\nEquivalents",
+      "char_start": 24058,
+      "char_end": 24162,
+      "word_count": 15,
+      "content_hash": "9bcd19725eaf8b9bc3659233761f643df489963cf73e197fc3dd210601eac613"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0116",
+      "index": 116,
+      "text": "Current\nMarketable\nSecurities Non-Current\nMarketable\nSecurities Cash\n$\n28,267 $\n--",
+      "char_start": 24162,
+      "char_end": 24244,
+      "word_count": 11,
+      "content_hash": "6d8b77daaf8f4f3d432f556a014c3a15b465177f63e184c853dc921c83ad070e"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0117",
+      "index": 117,
+      "text": "$\n-- $\n28,267 $\n28,267 $\n-- $\n-- Level 1: Money market funds\n5,272 -- -- 5,272 5,272",
+      "char_start": 24244,
+      "char_end": 24328,
+      "word_count": 20,
+      "content_hash": "c031bdf66f84109a2a6f52d70e81bf7e86a707550a0e05c47abceb99fc264c7f"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0118",
+      "index": 118,
+      "text": "-- -- Mutual funds\n679 177 (2) 854 -- 854 -- Subtotal\n5,951 177 (2) 6,126 5,272 854",
+      "char_start": 24328,
+      "char_end": 24411,
+      "word_count": 18,
+      "content_hash": "a881ecacf7458261cca6c375df900a1ff0bb3cd13d7bf10e2cb04b5c3d863e28"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0119",
+      "index": 119,
+      "text": "-- Level 2 (1): U.S. Treasury securities\n16,074 56 (282) 15,848 1,190 3,712 10,946",
+      "char_start": 24411,
+      "char_end": 24493,
+      "word_count": 14,
+      "content_hash": "490a52561279fef2caf1265a3641c56fd61a39a38c71860040d8bc7bb40e934a"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0120",
+      "index": 120,
+      "text": "U.S. agency securities\n5,269 -- (149) 5,120 251 2,456 2,413 Non-U.S. government securities\n6,586",
+      "char_start": 24493,
+      "char_end": 24589,
+      "word_count": 14,
+      "content_hash": "d576ac8ee4ed05ad95e9d0b1da8074129170a446cf65cb37da3779136c6517dc"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0121",
+      "index": 121,
+      "text": "111 (424) 6,273 -- 855 5,418 Certificates of deposit and time deposits\n917 -- --",
+      "char_start": 24589,
+      "char_end": 24669,
+      "word_count": 15,
+      "content_hash": "56667dc4ff2a4908a36a35bbaef5006bc804d6ea0ac4462bf75a2a891db83dff"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0122",
+      "index": 122,
+      "text": "917 904 -- 13 Commercial paper\n100 -- -- 100 50 50 -- Corporate debt securities\n47,210",
+      "char_start": 24669,
+      "char_end": 24755,
+      "word_count": 17,
+      "content_hash": "494ef524483326e0b64e11f24511ff9133ec54440b6d6bd174a0fe5b11d6ce58"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0123",
+      "index": 123,
+      "text": "266 (916) 46,560 -- 10,623 35,937 Municipal securities\n207 -- (2) 205 -- 119 86 Mortgage- and asset-backed securities\n24,130",
+      "char_start": 24755,
+      "char_end": 24879,
+      "word_count": 20,
+      "content_hash": "4d0f1c7da19d9c8050fcdd295a1f2a4ad9998c1dc79d210bad22b716db9f41a2"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0124",
+      "index": 124,
+      "text": "126 (1,252) 23,004 -- 94 22,910 Subtotal\n100,493 559 (3,025) 98,027 2,395 17,909",
+      "char_start": 24879,
+      "char_end": 24959,
+      "word_count": 13,
+      "content_hash": "d6cde8971f36699950af7ac10e8c79ee1ba21ca7c8626e5d11a7b017d2fae102"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0125",
+      "index": 125,
+      "text": "77,723 Total\n$\n134,711 $\n736 $\n(3,027) $\n132,420 $\n35,934 $\n18,763 $\n77,723 (1)The valuation techniques used to measure the fair values of the Company's Level 2 financial instruments, which generally have counterparties with high credit ratings, are based on quoted market prices or model-driven valuations using significant inputs derived from or corroborated by observable market data. As of December 27, 2025, 78% of the Company's non-current marketable debt securities other than mortgage- and asset-backed securities had maturities between 1 and 5 years, 17% between 5 and 10 years, and 5% greater than 10 years. As of December 27, 2025, 12% of the Company's non-current mortgage- and asset-backed securities had maturities between 1 and 5 years, 18% between 5 and 10 years, and 70% greater than 10 years. Derivative Instruments and Hedging\nThe Company may use derivative instruments to partially offset its business exposure to foreign exchange and interest rate risk. However, the Company may choose not to hedge certain exposures for a variety of reasons, including accounting considerations or the prohibitive economic cost of hedging particular exposures. There can be no assurance the hedges will offset more than a portion of the financial impact resulting from movements in foreign exchange or interest rates. Foreign Exchange Rate Risk\nTo protect gross margins from fluctuations in foreign exchange rates, the Company may use forwards, options or other instruments, and may designate these instruments as cash flow hedges.",
+      "char_start": 24959,
+      "char_end": 26495,
+      "word_count": 239,
+      "content_hash": "50553a2cc9736440fcdf0355bd69e40a6b1584a3b24054643329f619f3e5abb3"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0126",
+      "index": 126,
+      "text": "The Company generally hedges portions of its forecasted foreign currency exposure associated with revenue and inventory purchases, typically for up to 12 months. To protect the Company's foreign currency-denominated term debt or marketable securities from fluctuations in foreign exchange rates, the Company may use forwards, cross-currency swaps or other instruments. The Company designates these instruments as either cash flow or fair value hedges. As of December 27, 2025, the maximum length of time over which the Company is hedging its exposure to the variability in future cash flows for term debt-related foreign currency transactions is 17 years. The Company may also use derivative instruments that are not designated as accounting hedges to protect gross margins from certain fluctuations in foreign exchange rates, as well as to offset a portion of the foreign currency gains and losses generated by the remeasurement of certain assets and liabilities denominated in non-functional currencies. Interest Rate Risk\nTo protect the Company's term debt or marketable securities from fluctuations in interest rates, the Company may use interest rate swaps, options or other instruments. The Company designates these instruments as either cash flow or fair value hedges.",
+      "char_start": 26495,
+      "char_end": 27770,
+      "word_count": 190,
+      "content_hash": "558d929e4597dc0f1511519c4e2838d0f8bebd2a9a8feb66b9d8d1ce5170cbb7"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0127",
+      "index": 127,
+      "text": "Apple Inc. | Q1 2026 Form 10-Q | 8 The notional amounts of the Company's outstanding derivative instruments as of December 27, 2025 and September 27, 2025, were as follows (in millions):",
+      "char_start": 27770,
+      "char_end": 27956,
+      "word_count": 32,
+      "content_hash": "53dbfac5981a8aaa2917e64912721456aa938f58263e9b58918294b957267987"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0128",
+      "index": 128,
+      "text": "December 27,\n2025 September 27,\n2025 Derivative instruments designated as accounting hedges:",
+      "char_start": 27956,
+      "char_end": 28048,
+      "word_count": 12,
+      "content_hash": "57f7f0cf00507a55723bc57e2b919507674d95726c65457f6dc0c8f322c13a1d"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0129",
+      "index": 129,
+      "text": "Foreign exchange contracts\n$\n46,619 $\n62,647 Interest rate contracts\n$\n12,875 $\n12,875",
+      "char_start": 28048,
+      "char_end": 28134,
+      "word_count": 14,
+      "content_hash": "cc35f5ef427fc654edf5c8aabc441b7c7ea10c352f3157a690e9cbac2f062b51"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0130",
+      "index": 130,
+      "text": "Derivative instruments not designated as accounting hedges: Foreign exchange contracts\n$\n120,980",
+      "char_start": 28134,
+      "char_end": 28230,
+      "word_count": 12,
+      "content_hash": "58cf8f3e0b621bc919db272d6cfb0cad7ceadd619ab761b4e1266bfe2f4b563c"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0131",
+      "index": 131,
+      "text": "$\n109,079 As of both December 27, 2025 and September 27, 2025, the carrying amount of the Company's current and non-current term debt subject to fair value hedges was $12.6 billion. Accounts Receivable\nTrade Receivables\nAs of December 27, 2025, the Company had two customers that individually represented 10% or more of total trade receivables, which accounted for 15% and 10%. As of September 27, 2025, the Company had one customer that represented 10% or more of total trade receivables, which accounted for 12%. The Company's third-party cellular network carriers accounted for 35% and 34% of total trade receivables as of December 27, 2025 and September 27, 2025, respectively. The Company requires third-party credit support or collateral from certain customers to limit credit risk. Vendor Non-Trade Receivables\nThe Company has non-trade receivables from certain of its manufacturing vendors resulting from the sale of components to these vendors who manufacture subassemblies or assemble final products for the Company. The Company purchases these components directly from suppliers. The Company does not reflect the sale of these components in products net sales. Rather, the Company recognizes any gain on these sales as a reduction of products cost of sales when the related final products are sold by the Company. As of December 27, 2025, the Company had two vendors that individually represented 10% or more of total vendor non-trade receivables, which accounted for 47% and 26%.",
+      "char_start": 28230,
+      "char_end": 29721,
+      "word_count": 233,
+      "content_hash": "9324513999b08f77db14d00c2deaea855108a80eb837598dd7327892f8e3377b"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0132",
+      "index": 132,
+      "text": "As of September 27, 2025, the Company had two vendors that individually represented 10% or more of total vendor non-trade receivables, which accounted for 46% and 23%.",
+      "char_start": 30029,
+      "char_end": 30196,
+      "word_count": 27,
+      "content_hash": "04f865c4b873298523e6068ba4b168821112de6ef99a7ffe788615be11e97fbb"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0133",
+      "index": 133,
+      "text": "Note 5 - Condensed Consolidated Financial Statement Details\nThe following table shows the Company's condensed consolidated financial statement details as of December 27, 2025 and September 27, 2025 (in millions):\nProperty, Plant and Equipment, Net",
+      "char_start": 30198,
+      "char_end": 30445,
+      "word_count": 35,
+      "content_hash": "848c73ea78565b76c7e9ea1e115ea4771ce11993070335f48cc3ca1b337c2311"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0134",
+      "index": 134,
+      "text": "December 27,\n2025 September 27,\n2025 Gross property, plant and equipment\n$\n127,320",
+      "char_start": 30445,
+      "char_end": 30527,
+      "word_count": 13,
+      "content_hash": "e6b0a58fd0d990af5d36b8df1f89958927e6514c5523a449b9d45eb9b3409378"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0135",
+      "index": 135,
+      "text": "$\n125,848 Accumulated depreciation\n(77,161) (76,014) Total property, plant and equipment, net\n$\n50,159",
+      "char_start": 30527,
+      "char_end": 30629,
+      "word_count": 14,
+      "content_hash": "73e16beeffd001605648a601dc7de2a45e7e4ac70830983951e2fced95b4f531"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0136",
+      "index": 136,
+      "text": "$\n49,834 Apple Inc. | Q1 2026 Form 10-Q | 9 Note 6 - Debt\nCommercial Paper\nThe Company issues unsecured short-term promissory notes pursuant to a commercial paper program. The Company uses net proceeds from the commercial paper program for general corporate purposes, including dividends and share repurchases. As of December 27, 2025 and September 27, 2025, the Company had $2.0 billion and $8.0 billion of commercial paper outstanding, respectively. The following table provides a summary of cash flows associated with commercial paper for the three months ended December 27, 2025 and December 28, 2024 (in millions):",
+      "char_start": 30629,
+      "char_end": 31248,
+      "word_count": 98,
+      "content_hash": "69b8e300638a7517c17badffdced57527d2bbe7731a1fac5bd3d087ee36dd1f2"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0137",
+      "index": 137,
+      "text": "Three Months Ended December 27,\n2025 December 28,\n2024 Maturities 90 days or less:",
+      "char_start": 31248,
+      "char_end": 31330,
+      "word_count": 14,
+      "content_hash": "840b5b23025ef5183d7ff71ba8f83ab729db8ed158c0dd209909817f916a2dc1"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0138",
+      "index": 138,
+      "text": "Repayments of commercial paper, net\n$\n(2,122) $\n(7,944) Maturities greater than 90 days:",
+      "char_start": 31330,
+      "char_end": 31418,
+      "word_count": 14,
+      "content_hash": "c08d083f2c6cb301df0fa9a397d8815e0ad0d32d2469f9621cfaa91478f8c918"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0139",
+      "index": 139,
+      "text": "Repayments of commercial paper\n(3,788) -- Total repayments of commercial paper, net\n$\n(5,910)",
+      "char_start": 31418,
+      "char_end": 31511,
+      "word_count": 14,
+      "content_hash": "5c36a93a2fea45641fb6de13f3ffe4db51dcc33dab8eb7f7259e7bf3156a318c"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0140",
+      "index": 140,
+      "text": "$\n(7,944) Term Debt\nAs of December 27, 2025 and September 27, 2025, the Company had outstanding fixed-rate notes with varying maturities for an aggregate carrying amount of $88.5 billion and $90.7 billion, respectively (collectively the \"Notes\"). As of December 27, 2025 and September 27, 2025, the fair value of the Company's Notes, based on Level 2 inputs, was $78.1 billion and $80.4 billion, respectively.",
+      "char_start": 31511,
+      "char_end": 31920,
+      "word_count": 65,
+      "content_hash": "dd40c2fa8305e18a00a64a3b52f56cd78ddf8b80d80e5b38c1e109e7f99e81fd"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0141",
+      "index": 141,
+      "text": "Note 7 - Shareholders' Equity\nShare Repurchase Program\nDuring the three months ended December 27, 2025, the Company repurchased 93 million shares of its common stock for $25.0 billion. The Company's share repurchase program does not obligate the Company to acquire a minimum amount of shares. Under the program, shares may be repurchased in privately negotiated or open market transactions, including under plans complying with Rule 10b5-1 under the Securities Exchange Act of 1934, as amended (\"Exchange Act\").",
+      "char_start": 31951,
+      "char_end": 32462,
+      "word_count": 78,
+      "content_hash": "c857738183c11a44cf2888dfba84745c7f4fa2d5bcb2e4f3c6cc2b5de697a1a4"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0142",
+      "index": 142,
+      "text": "Note 8 - Share-Based Compensation\nRestricted Stock Units\nA summary of the Company's restricted stock unit (\"RSU\") activity and related information for the three months ended December 27, 2025, is as follows:",
+      "char_start": 32464,
+      "char_end": 32671,
+      "word_count": 32,
+      "content_hash": "19a11b0ef64f0e60325f3d9f63108d572c6727b57b65d03523862b206a30628d"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0143",
+      "index": 143,
+      "text": "Number of\nRSUs\n(in thousands) Weighted-Average\nGrant-Date Fair\nValue Per RSU Balance as of September 27, 2025\n151,574",
+      "char_start": 32671,
+      "char_end": 32788,
+      "word_count": 18,
+      "content_hash": "9024014233d953613ccacf97e1bb58b76f085e2d35cdc99f6d58c2b9e7a5b346"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0144",
+      "index": 144,
+      "text": "$\n189.75 RSUs granted\n61,897 $\n256.22 RSUs vested\n(33,905) $\n173.00 RSUs forfeited\n(3,470)",
+      "char_start": 32788,
+      "char_end": 32878,
+      "word_count": 15,
+      "content_hash": "93ef4bb141be82fe1ec6409eeec12adc1e0d8db5e9be534fa2d33ba7d4e86cc3"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0145",
+      "index": 145,
+      "text": "$\n208.14 Balance as of December 27, 2025\n176,096 $\n215.98 The total vesting-date fair value of RSUs was $8.6 billion and $8.4 billion for the three months ended December 27, 2025 and December 28, 2024, respectively.",
+      "char_start": 32878,
+      "char_end": 33093,
+      "word_count": 37,
+      "content_hash": "97212f95b891fc7140ebe8af19fb187a14af40bd512bae26d02eb43af41700dc"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0146",
+      "index": 146,
+      "text": "Apple Inc. | Q1 2026 Form 10-Q | 10 Share-Based Compensation\nThe following table shows share-based compensation expense and the related income tax benefit included in the Condensed Consolidated Statements of Operations for the three months ended December 27, 2025 and December 28, 2024 (in millions):",
+      "char_start": 33093,
+      "char_end": 33393,
+      "word_count": 46,
+      "content_hash": "d18eee47f1b092cdf09b85e0ec1707ca921571ea42f2dccd7c7bd7aea14281bc"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0147",
+      "index": 147,
+      "text": "Three Months Ended December 27,\n2025 December 28,\n2024 Share-based compensation expense\n$\n3,594",
+      "char_start": 33393,
+      "char_end": 33488,
+      "word_count": 14,
+      "content_hash": "b1af97890a361108503f2c582d35007cc928a13f4cfc3bcbe421a6b74745bd1f"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0148",
+      "index": 148,
+      "text": "$\n3,286 Income tax benefit related to share-based compensation expense\n$\n(1,293)",
+      "char_start": 33488,
+      "char_end": 33568,
+      "word_count": 12,
+      "content_hash": "e4b681a7e7aee6ff7e6b7b443b09c80ac7c3e18a74b6af5b17fe3110aaed9fef"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0149",
+      "index": 149,
+      "text": "$\n(1,332) As of December 27, 2025, the total unrecognized compensation cost related to outstanding RSUs was $31.5 billion, which the Company expects to recognize over a weighted-average period of 2.9 years.",
+      "char_start": 33568,
+      "char_end": 33774,
+      "word_count": 32,
+      "content_hash": "5b2d7b846a48fe6cb492b741f664f2125b396879cafae79a8d12aa8ec1515ce9"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0150",
+      "index": 150,
+      "text": "Note 9 - Commitments and Contingencies\nUnconditional Purchase Obligations\nThe Company has entered into certain off-balance sheet commitments that require the future purchase of goods or services (\"unconditional purchase obligations\"). The Company's unconditional purchase obligations primarily consist of supplier arrangements, licensed intellectual property and content, and distribution rights. Future payments under unconditional purchase obligations with a remaining term in excess of one year as of December 27, 2025, are as follows (in millions):",
+      "char_start": 33806,
+      "char_end": 34358,
+      "word_count": 73,
+      "content_hash": "de64dd11123fabcee95f44a081b5f693bb6e538325e9925e24e65bf21cf2e797"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0151",
+      "index": 151,
+      "text": "2026 (remaining nine months)\n$\n4,754 2027\n8,066 2028\n7,005 2029\n6,538 2030\n5,992",
+      "char_start": 34358,
+      "char_end": 34438,
+      "word_count": 14,
+      "content_hash": "f75a0f5e4e68e24ebf7a23116a97bee511092bc903050b004b7e4a3688e56cde"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0152",
+      "index": 152,
+      "text": "Thereafter\n827 Total\n$\n33,182 Contingencies\nThe Company is subject to various legal proceedings and claims that have arisen in the ordinary course of business and that have not been fully resolved. The outcome of litigation is inherently uncertain. In the opinion of management, there was not at least a reasonable possibility the Company may have incurred a material loss, or a material loss greater than a recorded accrual, concerning loss contingencies for asserted legal and other claims.",
+      "char_start": 34438,
+      "char_end": 34930,
+      "word_count": 78,
+      "content_hash": "d8bd6d91a2ddbf917938fc72a7c38491a967df01d396bd38a63e76a4ce870d9b"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0153",
+      "index": 153,
+      "text": "Apple Inc. | Q1 2026 Form 10-Q | 11 Note 10 - Segment Information\nThe following table shows information by reportable segment for the three months ended December 27, 2025 and December 28, 2024 (in millions):",
+      "char_start": 34930,
+      "char_end": 35137,
+      "word_count": 36,
+      "content_hash": "9c7a2199f29996c7b44cbb9d63becb1624e6a4ad9cc8a53fa6fb74e2fe1dad13"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0154",
+      "index": 154,
+      "text": "Three Months Ended December 27, 2025 Americas Europe Greater\nChina Japan Rest of\nAsia Pacific",
+      "char_start": 35137,
+      "char_end": 35230,
+      "word_count": 15,
+      "content_hash": "cbada26e57d7eb098487ee425700d13d6b30f9b175b59354e7b71e5cbe0c987b"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0155",
+      "index": 155,
+      "text": "Corporate Total Net sales\n$\n58,529 $\n38,146 $\n25,526 $\n9,413 $\n12,142 $\n-- $\n143,756",
+      "char_start": 35230,
+      "char_end": 35314,
+      "word_count": 18,
+      "content_hash": "5213fab47b3a0f3c9c7d6921446e1026d7280fdd8d07c5be5d740a9040704a0a"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0156",
+      "index": 156,
+      "text": "Cost of sales\n(31,849) (19,061) (13,030) (4,511) (6,074) -- (74,525) Research and development\n--",
+      "char_start": 35314,
+      "char_end": 35410,
+      "word_count": 14,
+      "content_hash": "cd9853c5430de399cfa8619921489c385db0ce3e12bc8b0e33928d368518470c"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0157",
+      "index": 157,
+      "text": "-- -- -- -- (10,887) (10,887) Selling and marketing\n(2,727) (1,295) (704) (289) (382)",
+      "char_start": 35410,
+      "char_end": 35495,
+      "word_count": 14,
+      "content_hash": "88fae86ba9f0280168d8ed2133d8a514e776ffdc8449de2be7a6c11871349765"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0158",
+      "index": 158,
+      "text": "-- (5,397) General and administrative\n-- -- -- -- -- (2,095) (2,095) Operating income/(loss)\n$\n23,953",
+      "char_start": 35495,
+      "char_end": 35596,
+      "word_count": 16,
+      "content_hash": "d120745578e8cf18a80772cee42bb2f984cfac8aac5b3b0b07b0319e6630434d"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0159",
+      "index": 159,
+      "text": "$\n17,790 $\n11,792 $\n4,613 $\n5,686 $\n(12,982) $\n50,852 Three Months Ended December 28, 2024",
+      "char_start": 35596,
+      "char_end": 35686,
+      "word_count": 18,
+      "content_hash": "d726f14254e121a2ce9e3b8de603b1a74ca63bf3da6cf3f3e1aa60fffdf7b9fa"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0160",
+      "index": 160,
+      "text": "Americas Europe Greater\nChina Japan Rest of\nAsia Pacific Corporate Total Net sales\n$\n52,648",
+      "char_start": 35686,
+      "char_end": 35777,
+      "word_count": 15,
+      "content_hash": "250d6ae7767d7a38051132942f93d45c93ac90c047444ead7f31b6c77949ad66"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0161",
+      "index": 161,
+      "text": "$\n33,861 $\n18,513 $\n8,987 $\n10,291 $\n-- $\n124,300 Cost of sales\n(28,495) (18,043)",
+      "char_start": 35777,
+      "char_end": 35858,
+      "word_count": 17,
+      "content_hash": "73c7c8e7d7d2c278bf69828cc01e97f53e65590b7b49a149efe82ef8e8b8f9d5"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0162",
+      "index": 162,
+      "text": "(9,759) (4,393) (5,335) -- (66,025) Research and development\n-- -- -- -- -- (8,268)",
+      "char_start": 35858,
+      "char_end": 35941,
+      "word_count": 14,
+      "content_hash": "d76259f496c17972e4facc4144f3b7dc377d6ee359bdc80faf3de31d5cf9eda7"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0163",
+      "index": 163,
+      "text": "(8,268) Selling and marketing\n(2,644) (1,211) (594) (280) (372) -- (5,101) General and administrative\n--",
+      "char_start": 35941,
+      "char_end": 36045,
+      "word_count": 15,
+      "content_hash": "bc204f8b9a55b72481bc98f09ef2fd7879f85e9d3caed2b298fa603fd773dd14"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0164",
+      "index": 164,
+      "text": "-- -- -- -- (2,074) (2,074) Operating income/(loss)\n$\n21,509 $\n14,607 $\n8,160 $\n4,314",
+      "char_start": 36045,
+      "char_end": 36130,
+      "word_count": 16,
+      "content_hash": "223ff1850975d84de5625bf01bd7b34bc08837a8e15286cfc488c97047fdd885"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0165",
+      "index": 165,
+      "text": "$\n4,584 $\n(10,342) $\n42,832 Apple Inc. | Q1 2026 Form 10-Q | 12 Item 2. Management's Discussion and Analysis of Financial Condition and Results of Operations\nThis Item and other sections of this Quarterly Report on Form 10-Q (\"Form 10-Q\") contain forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995, that involve risks and uncertainties. Forward-looking statements provide current expectations of future events based on certain assumptions and include any statement that does not directly relate to any historical or current fact. For example, statements in this Form 10-Q regarding the potential future impact of macroeconomic conditions and tariffs and other measures on the Company's business and results of operations are forward-looking statements. Forward-looking statements can also be identified by words such as \"future,\" \"anticipates,\" \"believes,\" \"estimates,\" \"expects,\" \"intends,\" \"plans,\" \"predicts,\" \"will,\" \"would,\" \"could,\" \"can,\" \"may,\" and similar terms. Forward-looking statements are not guarantees of future performance and the Company's actual results may differ significantly from the results discussed in the forward-looking statements. Factors that might cause such differences include, but are not limited to, those discussed in Part I, Item 1A of the 2025 Form 10-K and Part II, Item 1A of this Form 10-Q, in each case under the heading \"Risk Factors.\" The Company assumes no obligation to revise or update any forward-looking statements for any reason, except as required by law.",
+      "char_start": 36130,
+      "char_end": 37688,
+      "word_count": 231,
+      "content_hash": "9e8d5e8ef403d87042361f25440b1c6bf0b3c6bbf32160a91bed73debc1d57c4"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0166",
+      "index": 166,
+      "text": "Unless otherwise stated, all information presented herein is based on the Company's fiscal calendar, and references to particular years, quarters, months or periods refer to the Company's fiscal years ended in September and the associated quarters, months and periods of those fiscal years. The following discussion should be read in conjunction with the 2025 Form 10-K filed with the U.S. Securities and Exchange Commission (\"SEC\") and the condensed consolidated financial statements and accompanying notes included in Part I, Item 1 of this Form 10-Q.",
+      "char_start": 37688,
+      "char_end": 38241,
+      "word_count": 84,
+      "content_hash": "fc6b381eb153c6b86a00e5f0eb356487a209c5916e49f75035a23924515011b9"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0167",
+      "index": 167,
+      "text": "Available Information\nThe Company periodically provides certain information for investors on its corporate website, www.apple.com, and its investor relations website, investor.apple.com. This includes press releases and other information about financial performance, information on corporate governance, and details related to the Company's annual meeting of shareholders. The information contained on the websites referenced in this Form 10-Q is not incorporated by reference into this filing. Further, the Company's references to website URLs are intended to be inactive textual references only.",
+      "char_start": 38371,
+      "char_end": 38968,
+      "word_count": 79,
+      "content_hash": "093532454ad938f4be0d4d6d87685de13b64534bbf01f1b9590266d7410ddc42"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0168",
+      "index": 168,
+      "text": "Business Seasonality and Product Introductions\nThe Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand. Additionally, new product and service introductions can significantly impact net sales, cost of sales and operating expenses. The timing of product introductions can also impact the Company's net sales to its indirect distribution channels as these channels are filled with new inventory following a product launch, and channel inventory of an older product often declines as the launch of a newer product approaches. Net sales can also be affected when consumers and distributors anticipate a product introduction.\nDuring the first quarter of 2026, the Company announced the following updated products:\n•14-inch MacBook Pro®\n•iPad Pro®\n•Apple Vision Pro®",
+      "char_start": 38970,
+      "char_end": 39837,
+      "word_count": 130,
+      "content_hash": "c4ddeea0b54f8d28ce40e433380044e36dbea770f03a1ef47b95c9b19bb52443"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0169",
+      "index": 169,
+      "text": "Macroeconomic Conditions\nMacroeconomic conditions, including inflation, interest rates, component pricing and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company's results of operations and financial condition.",
+      "char_start": 39839,
+      "char_end": 40114,
+      "word_count": 33,
+      "content_hash": "00f5da144756af63419a8c6122a266ff425801ba7e3ebfe8a7c4a12c965b88cb"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0170",
+      "index": 170,
+      "text": "Apple Inc. | Q1 2026 Form 10-Q | 13 Tariffs and Other Measures\nBeginning in the second quarter of 2025, new tariffs were announced on imports to the U.S., including additional tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam and the European Union (\"EU\"), among others. In response, several countries have imposed, or threatened to impose, reciprocal tariffs on imports from the U.S. and other retaliatory measures. On January 14, 2026, initial results were published of the previously announced U.S. Department of Commerce investigation under Section 232 of the Trade Expansion Act of 1962, as amended, into imports of semiconductors, semiconductor manufacturing equipment, and their derivative products, including downstream products that contain semiconductors. The announcement of the initial results of the investigation did not impose any additional tariffs affecting the Company's products at this time. Various modifications to U.S. tariffs have been announced and further changes could be made in the future, which may include additional measures under the Section 232 semiconductor sector investigation, additional sector-based tariffs, or other measures. Tariffs and other measures that are applied to the Company's products or their components can have a material adverse impact on the Company's business, results of operations and financial condition, including impacting the Company's supply chain, the availability of rare earths and other raw materials and components, pricing and gross margin.",
+      "char_start": 40114,
+      "char_end": 41649,
+      "word_count": 224,
+      "content_hash": "35a1c2433e6197de56e08f6f8df9830b5a7a5f2b3863c559de501452e3a42fb0"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0171",
+      "index": 171,
+      "text": "The ultimate impact remains uncertain and will depend on several factors, including whether additional or incremental U.S. tariffs or other measures are announced or imposed, to what extent other countries implement tariffs or other retaliatory measures in response, and the overall magnitude and duration of these measures. Trade and other international disputes can have an adverse impact on the overall macroeconomic environment and result in shifts and reductions in consumer spending and negative consumer sentiment for the Company's products and services, all of which can further adversely affect the Company's business and results of operations.",
+      "char_start": 41653,
+      "char_end": 42306,
+      "word_count": 95,
+      "content_hash": "c022827cc8195c37056ded9871378907c0a335b5b0007ef057d28f7ef3bc8b85"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0172",
+      "index": 172,
+      "text": "Segment Operating Performance\nThe following table shows net sales by reportable segment for the three months ended December 27, 2025 and December 28, 2024 (dollars in millions):",
+      "char_start": 42308,
+      "char_end": 42485,
+      "word_count": 27,
+      "content_hash": "7cbf5b2d4f8e2684ad6e825264877ade072a8e72708a1620d715a613a086186c"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0173",
+      "index": 173,
+      "text": "Three Months Ended December 27,\n2025 December 28,\n2024 Change Americas\n$\n58,529 $\n52,648",
+      "char_start": 42485,
+      "char_end": 42573,
+      "word_count": 15,
+      "content_hash": "043ea33be6c02fca516b0eb4e662ec33d9430449eb63c8fcacab5340a48662a5"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0174",
+      "index": 174,
+      "text": "11\n% Europe\n38,146 33,861 13\n% Greater China\n25,526 18,513 38\n% Japan\n9,413 8,987",
+      "char_start": 42573,
+      "char_end": 42654,
+      "word_count": 16,
+      "content_hash": "cc4c2bb06c8e9cd8e7d30c63755ed482e6ab1a1314c3a43ac5de05c9f807fc06"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0175",
+      "index": 175,
+      "text": "5\n% Rest of Asia Pacific\n12,142 10,291 18\n% Total net sales\n$\n143,756 $\n124,300 16\n%",
+      "char_start": 42654,
+      "char_end": 42738,
+      "word_count": 19,
+      "content_hash": "a05b63569b59c83ee648087259a6e386ec328e7e3e67d84bc5734e1be17b9048"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0176",
+      "index": 176,
+      "text": "Americas\nAmericas net sales increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to higher net sales of iPhone and Services.",
+      "char_start": 42765,
+      "char_end": 42930,
+      "word_count": 28,
+      "content_hash": "e4a9a1c2b1feb1d4508b63f097689ba1fe6c13409fa41b1bdc1f52ba80875292"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0177",
+      "index": 177,
+      "text": "Europe\nEurope net sales increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to higher net sales of iPhone and Services. The strength in foreign currencies relative to the U.S. dollar had a net favorable year-over-year impact on Europe net sales during the first quarter of 2026.",
+      "char_start": 42932,
+      "char_end": 43252,
+      "word_count": 54,
+      "content_hash": "04cb6d96b3893f3e79c5205cdaa543bc3a54c7926ea6bb8b2fccd79e004118f1"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0178",
+      "index": 178,
+      "text": "Greater China\nGreater China net sales increased during the first quarter of 2026 compared to the same quarter in 2025 due to higher net sales of iPhone.",
+      "char_start": 43254,
+      "char_end": 43406,
+      "word_count": 27,
+      "content_hash": "331f522d7fb965cf67ec1d47160c7ebecf973fc033143697823cd385dafab9d4"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0179",
+      "index": 179,
+      "text": "Japan\nJapan net sales increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to higher net sales of iPhone and iPad. The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during the first quarter of 2026.",
+      "char_start": 43408,
+      "char_end": 43709,
+      "word_count": 53,
+      "content_hash": "224a4bfaeb84b79178ca42b69f1076afae9f9d7f05177a73040f40e300f5b0cb"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0180",
+      "index": 180,
+      "text": "Rest of Asia Pacific\nRest of Asia Pacific net sales increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to higher net sales of iPhone and Services.",
+      "char_start": 43711,
+      "char_end": 43900,
+      "word_count": 34,
+      "content_hash": "03fa3c80ee0a5d9806602ffd8b5ddaf14da186c655a721c06b9b01d8e6ecb529"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0181",
+      "index": 181,
+      "text": "Apple Inc. | Q1 2026 Form 10-Q | 14 Products and Services Performance\nThe following table shows net sales by category for the three months ended December 27, 2025 and December 28, 2024 (dollars in millions):",
+      "char_start": 43900,
+      "char_end": 44107,
+      "word_count": 36,
+      "content_hash": "9667dc839fe61cca432cf633c23ddb1dc71aafd19fb3beb950181402f61262bf"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0182",
+      "index": 182,
+      "text": "Three Months Ended December 27,\n2025 December 28,\n2024 Change iPhone\n$\n85,269 $\n69,138",
+      "char_start": 44107,
+      "char_end": 44193,
+      "word_count": 15,
+      "content_hash": "649700d7b479d1642ceea15fb19bb074c40ff366dbed76d5a39b4a100d56abbd"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0183",
+      "index": 183,
+      "text": "23\n% Mac\n8,386 8,987 (7)\n% iPad\n8,595 8,088 6\n% Wearables, Home and Accessories\n11,493",
+      "char_start": 44193,
+      "char_end": 44279,
+      "word_count": 17,
+      "content_hash": "4a414685e6af6913651c0d3238815abc5a1174168a85dd74b893925b18186b58"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0184",
+      "index": 184,
+      "text": "11,747 (2)\n% Services\n30,013 26,340 14\n% Total net sales\n$\n143,756 $\n124,300 16\n%",
+      "char_start": 44279,
+      "char_end": 44360,
+      "word_count": 17,
+      "content_hash": "73c5bc9dc5cd9908579020a5779eafe603b322b8b31ba562645a94e3971808ab"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0185",
+      "index": 185,
+      "text": "iPhone\niPhone net sales increased during the first quarter of 2026 compared to the same quarter in 2025 due to higher net sales of Pro models.",
+      "char_start": 44390,
+      "char_end": 44532,
+      "word_count": 26,
+      "content_hash": "6f97af328d02e5705f0d323a627653e54d94a7bdb263cb71e984231b0fbb5450"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0186",
+      "index": 186,
+      "text": "Mac\nMac net sales decreased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to lower net sales of laptops and desktops.",
+      "char_start": 44534,
+      "char_end": 44689,
+      "word_count": 28,
+      "content_hash": "f5db4ed4450053eac7912370f240dd8171218cc0e899a13b89112ad33f05b650"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0187",
+      "index": 187,
+      "text": "iPad\niPad net sales increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to higher net sales of iPad and iPad Pro, partially offset by lower net sales of iPad mini®.",
+      "char_start": 44691,
+      "char_end": 44897,
+      "word_count": 38,
+      "content_hash": "572c090a6c32b27000d82a634e595f0950777d036b6da2d6900ea0657007a83e"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0188",
+      "index": 188,
+      "text": "Wearables, Home and Accessories\nWearables, Home and Accessories net sales decreased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to lower net sales of Wearables.",
+      "char_start": 44899,
+      "char_end": 45099,
+      "word_count": 32,
+      "content_hash": "8f0ae5c88785886e34446bf75f87071da2cb2ad28679381bdf796590c8e2377f"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0189",
+      "index": 189,
+      "text": "Services\nServices net sales increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to higher net sales from advertising, the App Store® and cloud services.",
+      "char_start": 45101,
+      "char_end": 45295,
+      "word_count": 32,
+      "content_hash": "52102f5571ecc54b602ec3be7ffcbeb3554bda32095318a3ce72f1fa56d6621d"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0190",
+      "index": 190,
+      "text": "Apple Inc. | Q1 2026 Form 10-Q | 15 Gross Margin\nProducts and Services gross margin and gross margin percentage for the three months ended December 27, 2025 and December 28, 2024, were as follows (dollars in millions):",
+      "char_start": 45295,
+      "char_end": 45513,
+      "word_count": 38,
+      "content_hash": "783839685f6c3c0cc07fec499ebae33dff7f77a845a3dd1fba124c84149857fa"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0191",
+      "index": 191,
+      "text": "Three Months Ended December 27,\n2025 December 28,\n2024 Gross margin: Products\n$\n46,265",
+      "char_start": 45513,
+      "char_end": 45599,
+      "word_count": 14,
+      "content_hash": "2f204cc385cc4f5f809143d152644d427c873632771ff15922ebfc9f7594ca1b"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0192",
+      "index": 192,
+      "text": "$\n38,513 Services\n22,966 19,762 Total gross margin\n$\n69,231 $\n58,275 Gross margin percentage:",
+      "char_start": 45599,
+      "char_end": 45692,
+      "word_count": 15,
+      "content_hash": "38b7cfd1f59f40d9cf519fe8e46ad2ac42e2e573c77f1263520fbf643ce7f65d"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0193",
+      "index": 193,
+      "text": "Products\n40.7\n% 39.3\n% Services\n76.5\n% 75.0\n% Total gross margin percentage\n48.2\n%",
+      "char_start": 45692,
+      "char_end": 45774,
+      "word_count": 16,
+      "content_hash": "8cfdcd23abe34b9db882d8090f31c1a634febf38efd7d1fea25dc309530e5218"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0194",
+      "index": 194,
+      "text": "46.9\n% Products Gross Margin\nProducts gross margin and gross margin percentage increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to a different mix of products, partially offset by tariff costs.",
+      "char_start": 45774,
+      "char_end": 46012,
+      "word_count": 39,
+      "content_hash": "ae5e3b49e55300f0c317e45920d72ce24690d9ba660a61d2876228f99de80a34"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0195",
+      "index": 195,
+      "text": "Services Gross Margin\nServices gross margin increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to higher Services net sales and a different mix of services.\nServices gross margin percentage increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to a different mix of services, partially offset by higher costs.\nThe Company's future gross margins can be impacted by a variety of factors, as discussed in Part I, Item 1A of the 2025 Form 10-K and Part II, Item 1A of this Form 10-Q, in each case under the heading \"Risk Factors.\" As a result, the Company believes, in general, gross margins will be subject to volatility and downward pressure.",
+      "char_start": 46039,
+      "char_end": 46762,
+      "word_count": 124,
+      "content_hash": "9d3e9a976cced7d1bfcdb847937d204294adab80337c65cabc667871b843f5ae"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0196",
+      "index": 196,
+      "text": "Operating Expenses\nOperating expenses for the three months ended December 27, 2025 and December 28, 2024, were as follows (dollars in millions):",
+      "char_start": 46764,
+      "char_end": 46908,
+      "word_count": 22,
+      "content_hash": "d31c97624ca9e0cdd61f5d7408fd60e5f58bf0f79a7efc5ed64b02eed4712965"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0197",
+      "index": 197,
+      "text": "Three Months Ended December 27,\n2025 December 28,\n2024 Change Research and development\n$\n10,887",
+      "char_start": 46908,
+      "char_end": 47003,
+      "word_count": 15,
+      "content_hash": "63f428ea0471aab8efabb13a148ae106baf8922da7186e560164ab48ae82dac0"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0198",
+      "index": 198,
+      "text": "$\n8,268 32\n% Percentage of total net sales\n8\n% 7\n% Selling, general and administrative\n$\n7,492",
+      "char_start": 47003,
+      "char_end": 47097,
+      "word_count": 19,
+      "content_hash": "099155b5cd8d18a3aed0f07543747b1e175bc38f58588381885c2e0bae9d8bde"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0199",
+      "index": 199,
+      "text": "$\n7,175 4\n% Percentage of total net sales\n5\n% 6\n% Total operating expenses\n$\n18,379",
+      "char_start": 47097,
+      "char_end": 47180,
+      "word_count": 18,
+      "content_hash": "323ec6140fa4617cd3d9b0db1e6d413f818fefca404f423e2c03afef8042c909"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0200",
+      "index": 200,
+      "text": "$\n15,443 19\n% Percentage of total net sales\n13\n% 12\n% Research and Development\nThe growth in research and development (\"R&D\") expense during the first quarter of 2026 compared to the same quarter in 2025 was primarily driven by increases in infrastructure-related costs, headcount-related expenses and engineering program costs.",
+      "char_start": 47180,
+      "char_end": 47508,
+      "word_count": 51,
+      "content_hash": "c355cfec50a10b336c17b8a75e5455b8b0e520a57d6a9cffd966fd763b67da11"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0201",
+      "index": 201,
+      "text": "Selling, General and Administrative\nThe growth in selling, general and administrative expense during the first quarter of 2026 compared to the same quarter in 2025 was primarily driven by increases in headcount-related expenses and variable selling expenses.",
+      "char_start": 47534,
+      "char_end": 47792,
+      "word_count": 37,
+      "content_hash": "a58bad6136b247a8b70b1278b95373362d20863840396dc886249f6190ed610f"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0202",
+      "index": 202,
+      "text": "Apple Inc. | Q1 2026 Form 10-Q | 16 Provision for Income Taxes\nProvision for income taxes, effective tax rate and statutory federal income tax rate for the three months ended December 27, 2025 and December 28, 2024, were as follows (dollars in millions):",
+      "char_start": 47792,
+      "char_end": 48046,
+      "word_count": 44,
+      "content_hash": "128c24f5927ca15f3bfddd926ab7655dec4447ab511248f831cf657132d6939d"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0203",
+      "index": 203,
+      "text": "Three Months Ended December 27,\n2025 December 28,\n2024 Provision for income taxes\n$\n8,905",
+      "char_start": 48046,
+      "char_end": 48135,
+      "word_count": 15,
+      "content_hash": "2839369c6ceb50aefd78569cfae5bcf9c53fd0ca770473071d48f62a9e358765"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0204",
+      "index": 204,
+      "text": "$\n6,254 Effective tax rate\n17.5\n% 14.7\n% Statutory federal income tax rate\n21\n% 21\n%",
+      "char_start": 48135,
+      "char_end": 48219,
+      "word_count": 18,
+      "content_hash": "82e28358ce9858fa0e8792e2796520b6e047208fe22ac648eb3ac6a668579669"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0205",
+      "index": 205,
+      "text": "The Company's effective tax rate for the first quarter of 2026 was lower than the statutory federal income tax rate primarily due to a lower effective tax rate on foreign earnings, the impact of the U.S. federal R&D credit, and tax benefits from share-based compensation, partially offset by state income taxes.\nThe Company's effective tax rate for the first quarter of 2026 was higher compared to the first quarter of 2025 primarily due to the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations in the first quarter of 2025 related to the State Aid Decision.",
+      "char_start": 48235,
+      "char_end": 48904,
+      "word_count": 112,
+      "content_hash": "af2e074d21c7a3a5d2d493824b0d8ee6ee0b882c2681073fb4b09ac4e6527c36"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0206",
+      "index": 206,
+      "text": "Liquidity and Capital Resources\nThe Company believes its balances of cash, cash equivalents and marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond. The Company's contractual cash requirements have not changed materially since the 2025 Form 10-K, except for manufacturing purchase obligations and other purchase obligations. Manufacturing Purchase Obligations\nThe Company utilizes several outsourcing partners to manufacture subassemblies for the Company's products and to perform final assembly and testing of finished products. The Company also obtains individual components for its products from a wide variety of individual suppliers. As of December 27, 2025, the Company had manufacturing purchase obligations of $44.4 billion, with $43.7 billion payable within 12 months. Other Purchase Obligations\nThe Company's other purchase obligations primarily consist of noncancelable obligations related to supplier arrangements, licensed intellectual property and content, distribution rights, and the acquisition of capital assets related to product manufacturing. As of December 27, 2025, the Company had other purchase obligations of $35.1 billion, with $9.3 billion payable within 12 months. Capital Return Program\nIn addition to its contractual cash requirements, the Company has an authorized share repurchase program. The program does not obligate the Company to acquire a minimum amount of shares.",
+      "char_start": 48904,
+      "char_end": 50478,
+      "word_count": 221,
+      "content_hash": "a00cbd0aae446d4665fc42d69bd211ad268c0cd496304c881cd0de8adc050d21"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0207",
+      "index": 207,
+      "text": "As of December 27, 2025, the Company's quarterly cash dividend was $0.26 per share. The Company intends to increase its dividend on an annual basis, subject to declaration by the Board of Directors. During the first quarter of 2026, the Company repurchased $25.0 billion of its common stock and paid dividends and dividend equivalents of $3.9 billion.",
+      "char_start": 50478,
+      "char_end": 50829,
+      "word_count": 57,
+      "content_hash": "b19afe3cbc543b9211197d948d10b701e6a4eec06d74da2add37b151701a9bf0"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0208",
+      "index": 208,
+      "text": "Apple Inc. | Q1 2026 Form 10-Q | 17 Recent Accounting Pronouncements\nInternal-Use Software\nIn September 2025, the Financial Accounting Standards Board (\"FASB\") issued Accounting Standards Update (\"ASU\") No. 2025-06, Intangibles--Goodwill and Other--Internal-Use Software (Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software (\"ASU 2025-06\"), which modernizes the accounting for internal-use software. ASU 2025-06 removes all references to software development stages and requires capitalization of software costs when management has committed to the software project and it is probable the software will be completed and perform its intended use. ASU 2025-06 will be effective for the Company in its first quarter of 2029, and early adoption is permitted. The Company is currently evaluating the timing and method of its adoption of ASU 2025-06. Disaggregation of Income Statement Expenses\nIn November 2024, the FASB issued ASU No. 2024-03, Income Statement--Reporting Comprehensive Income--Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses (\"ASU 2024-03\") and in January 2025, the FASB issued ASU No. 2025-01, Income Statement--Reporting Comprehensive Income--Expense Disaggregation Disclosures (Subtopic 220-40): Clarifying the Effective Date, which clarified the effective date of ASU 2024-03.",
+      "char_start": 50829,
+      "char_end": 52204,
+      "word_count": 183,
+      "content_hash": "7e436e20a8a31c8c81ed54ac2d8e93db3642a28e19cb08f2e0e006557f756f7f"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0209",
+      "index": 209,
+      "text": "ASU 2024-03 will require the Company to disclose the amounts of purchases of inventory, employee compensation, depreciation and intangible asset amortization, as applicable, included in certain expense captions in the Consolidated Statements of Operations, as well as qualitatively describe remaining amounts included in those captions. ASU 2024-03 will also require the Company to disclose both the amount and the Company's definition of selling expenses. The Company will adopt ASU 2024-03 in its fourth quarter of 2028 using a prospective transition method. Income Taxes\nIn December 2023, the FASB issued ASU No. 2023-09, Income Taxes (Topic 740): Improvements to Income Tax Disclosures (\"ASU 2023-09\"), which will require the Company to disclose specified additional information in its income tax rate reconciliation and provide additional information for reconciling items that meet a quantitative threshold. ASU 2023-09 will also require the Company to disaggregate its income taxes paid disclosure by federal, state and foreign taxes, with further disaggregation required for significant individual jurisdictions. The Company will adopt ASU 2023-09 in its fourth quarter of 2026 using a prospective transition method.",
+      "char_start": 52204,
+      "char_end": 53428,
+      "word_count": 176,
+      "content_hash": "0665f6b347e0da620d4636e79632d83ce18600d2f93aefa754a71059225c07ee"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0210",
+      "index": 210,
+      "text": "Critical Accounting Estimates\nThe preparation of financial statements and related disclosures in conformity with GAAP and the Company's discussion and analysis of its financial condition and operating results require the Company's management to make judgments, assumptions and estimates that affect the amounts reported. Note 1, \"Summary of Significant Accounting Policies\" of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Form 10-Q and in the Notes to Consolidated Financial Statements in Part II, Item 8 of the 2025 Form 10-K describe the significant accounting policies and methods used in the preparation of the Company's condensed consolidated financial statements. There have been no material changes to the Company's critical accounting estimates since the 2025 Form 10-K.",
+      "char_start": 53437,
+      "char_end": 54253,
+      "word_count": 120,
+      "content_hash": "a6bf6175e2a0e7cb1f801bcf759cb6aa65f34e872cb91136901079d24385ef62"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0211",
+      "index": 211,
+      "text": "Item 3. Quantitative and Qualitative Disclosures About Market Risk\nThere have been no material changes to the Company's market risk during the first three months of 2026. For a discussion of the Company's exposure to market risk, refer to the Company's market risk disclosures set forth in Part II, Item 7A, \"Quantitative and Qualitative Disclosures About Market Risk\" of the 2025 Form 10-K.",
+      "char_start": 54255,
+      "char_end": 54646,
+      "word_count": 63,
+      "content_hash": "18cdb866d4c0e34fbfe761bd402bc452b0a61716be319d8e9b0a4c36e51a1210"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0212",
+      "index": 212,
+      "text": "Item 4. Controls and Procedures\nEvaluation of Disclosure Controls and Procedures\nBased on an evaluation under the supervision and with the participation of the Company's management, the Company's principal executive officer and principal financial officer have concluded that the Company's disclosure controls and procedures as defined in Rules 13a-15(e) and 15d-15(e) under the Exchange Act were effective as of December 27, 2025 to provide reasonable assurance that information required to be disclosed by the Company in reports that it files or submits under the Exchange Act is (i) recorded, processed, summarized and reported within the time periods specified in the SEC rules and forms and (ii) accumulated and communicated to the Company's management, including its principal executive officer and principal financial officer, as appropriate to allow timely decisions regarding required disclosure.",
+      "char_start": 54648,
+      "char_end": 55553,
+      "word_count": 131,
+      "content_hash": "74c58b6ff79cd9f660c776ab214ecd2978e47f96cec02f62daba248bf50aff2e"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0213",
+      "index": 213,
+      "text": "Apple Inc. | Q1 2026 Form 10-Q | 18 Changes in Internal Control over Financial Reporting\nThere were no changes in the Company's internal control over financial reporting during the first quarter of 2026, which were identified in connection with management's evaluation required by paragraph (d) of Rules 13a-15 and 15d-15 under the Exchange Act, that have materially affected, or are reasonably likely to materially affect, the Company's internal control over financial reporting.",
+      "char_start": 55553,
+      "char_end": 56033,
+      "word_count": 73,
+      "content_hash": "45cbf8e4bb506db59e18c7e950c66c1313e89e2e32d98c0c3d360c429c7246e9"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0214",
+      "index": 214,
+      "text": "PART II -- OTHER INFORMATION Item 1. Legal Proceedings\nDigital Markets Act Investigations\nOn March 25, 2024, the European Commission (\"Commission\") announced that it had opened a formal noncompliance investigation against the Company under Article 5(4) of the EU Digital Markets Act (\"DMA\") (\"Article 5(4) Investigation\"). The Article 5(4) Investigation relates to how developers may communicate and promote offers to end users for apps distributed through the App Store, as well as how developers may conclude contracts with those end users. On June 24, 2024, the Commission announced that it had opened an additional formal investigation against the Company regarding whether the Company's new contractual requirements for third-party app developers and app marketplaces may violate the DMA (\"Article 6(4) Investigation\"). On April 23, 2025, the Commission fined the Company €500 million in the Article 5(4) Investigation and issued a cease and desist order requiring the Company to remove technical and commercial restrictions that prevent developers from steering users to alternative distribution channels outside the App Store. The Company has appealed the Commission's Article 5(4) decision. Also on April 23, 2025, the Commission issued preliminary findings in the Article 6(4) Investigation. If the Commission makes a final determination in the Article 6(4) Investigation that there has been a violation, it can issue a cease and desist order and may impose fines up to 10% of the Company's annual worldwide net sales.",
+      "char_start": 56033,
+      "char_end": 57560,
+      "word_count": 230,
+      "content_hash": "fe8d3be378936c3536ded8e511d1481ecb1f0bbb71705361342ba5ede45607de"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0215",
+      "index": 215,
+      "text": "The Commission may also seek to impose additional fines if it deems that the Company has violated a cease and desist order. The Company believes that it complies with the DMA and has continued to make changes to its compliance plan in response to feedback and engagement with the Commission. Department of Justice Lawsuit\nOn March 21, 2024, the U.S. Department of Justice (\"DOJ\") and a number of state and district attorneys general filed a civil antitrust lawsuit in the U.S. District Court for the District of New Jersey against the Company alleging monopolization or attempted monopolization in the markets for \"performance smartphones\" and \"smartphones\" in violation of U.S. antitrust laws. The DOJ is seeking equitable relief to redress the alleged anticompetitive behavior. In addition, various civil litigation matters have been filed in state and federal courts in the U.S. alleging similar violations of U.S. antitrust laws and seeking monetary damages and other nonmonetary relief. The Company believes it has substantial defenses and intends to vigorously defend itself. Epic Games\nEpic Games, Inc. filed a lawsuit in the U.S. District Court for the Northern District of California (\"California District Court\") against the Company alleging violations of federal and state antitrust laws and California's unfair competition law based upon the Company's operation of its App Store.",
+      "char_start": 57560,
+      "char_end": 58951,
+      "word_count": 215,
+      "content_hash": "8c3a7383e9a369e5d9d5b4b35eb5ac4fc310312958e68e088ab228a150f10a85"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0216",
+      "index": 216,
+      "text": "The California District Court found that certain provisions of the Company's App Review Guidelines violate California's unfair competition law and issued an injunction (the \"2021 Injunction\") enjoining the Company from prohibiting developers from including in their apps buttons, external links, or other calls to action that direct customers to purchasing mechanisms other than the Company's in-app purchase system. On April 30, 2025, the California District Court found the Company to be in violation of the 2021 Injunction and enjoined the Company from imposing any commission or any fee on purchases that consumers make outside an app; restricting, conditioning, limiting, or prohibiting how developers guide consumers to purchases outside an app; or otherwise interfering with a consumer's choice to proceed in or out of an app (the \"2025 Injunction\"). The Company appealed the California District Court's April 2025 decision to the U.S. Court of Appeals for the Ninth Circuit (\"Ninth Circuit Court\"). On December 11, 2025, the Ninth Circuit Court issued an order upholding the 2025 Injunction in part and modifying certain aspects to allow the Company to require parity in size, form and placement between the Company's in-app purchase and any links for consumers to make purchases outside an app. The Ninth Circuit Court also held that the Company can charge a commission on link-out purchases, and remanded to the California District Court to further amend or modify the 2025 Injunction, consistent with the Ninth Circuit Court's order.",
+      "char_start": 58959,
+      "char_end": 60503,
+      "word_count": 238,
+      "content_hash": "aacee6e6657d82b266aef3155caf8f379e14cb5fac37c9e57b5213b5e908bc37"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0217",
+      "index": 217,
+      "text": "The deadline for the Company to file a petition for rehearing is March 2, 2026. Apple Inc. | Q1 2026 Form 10-Q | 19",
+      "char_start": 60503,
+      "char_end": 60618,
+      "word_count": 24,
+      "content_hash": "47c08a58ca83ae4ec189efebc44aa1d7776c52c7515b43d280e3e8ed3f95b7a5"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0218",
+      "index": 218,
+      "text": "Other Legal Proceedings\nThe Company is subject to other legal proceedings and claims that have not been fully resolved and that have arisen in the ordinary course of business. The Company settled certain matters during the first quarter of 2026 that did not individually or in the aggregate have a material impact on the Company's financial condition or operating results. The outcome of litigation is inherently uncertain. If one or more legal matters were resolved against the Company in a reporting period for amounts above management's expectations, the Company's financial condition and operating results for that reporting period could be materially adversely affected.",
+      "char_start": 60622,
+      "char_end": 61297,
+      "word_count": 103,
+      "content_hash": "35b405aa9b5bd4754d0d4f2e145099a551a3c2993a56fb5dcaad64ed05434591"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0219",
+      "index": 219,
+      "text": "Item 1A. Risk Factors\nThe Company's business, reputation, results of operations, financial condition and stock price can be materially and adversely affected by a number of factors, whether currently known or unknown, including those described in Part I, Item 1A of the 2025 Form 10-K under the heading \"Risk Factors.\" There have been no material changes to the Company's risk factors since the 2025 Form 10-K.",
+      "char_start": 61299,
+      "char_end": 61709,
+      "word_count": 66,
+      "content_hash": "b46fd6bff36a8f52122ab8b125e9b686b5b9040708a37a4926aad9551a4f3b2b"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0220",
+      "index": 220,
+      "text": "Item 2. Unregistered Sales of Equity Securities and Use of Proceeds\nPurchases of Equity Securities by the Issuer and Affiliated Purchasers\nShare repurchase activity during the three months ended December 27, 2025, was as follows (in millions, except number of shares, which are reflected in thousands, and per-share amounts):",
+      "char_start": 61711,
+      "char_end": 62036,
+      "word_count": 49,
+      "content_hash": "42d6c45e7aac76d27afcee7cc3630c2f0885147e7ab9de55a036ca40e1e9d940"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0221",
+      "index": 221,
+      "text": "Periods Total Number\nof Shares Purchased Average Price\nPaid Per Share Total Number of Shares\nPurchased as Part of Publicly\nAnnounced Plans or Programs",
+      "char_start": 62036,
+      "char_end": 62186,
+      "word_count": 24,
+      "content_hash": "056ec6207c6e96f4041e2956551bfd0b28222f7dad2cbd9437c319d90cd6da4d"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0222",
+      "index": 222,
+      "text": "Approximate Dollar Value of\nShares That May Yet Be Purchased\nUnder the Plans or Programs (1)",
+      "char_start": 62193,
+      "char_end": 62285,
+      "word_count": 16,
+      "content_hash": "5dee8f7197b78f86e71324ce4937973d71acc96fad21041027784c541ce7e624"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0223",
+      "index": 223,
+      "text": "September 28, 2025 to November 1, 2025: Open market and privately negotiated purchases",
+      "char_start": 62285,
+      "char_end": 62371,
+      "word_count": 13,
+      "content_hash": "7ddf6dc2ff095b09895acd02d732a55342715e29b05f29e26d73ea00ef8f0069"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0224",
+      "index": 224,
+      "text": "28,567 $\n256.69 28,567 November 2, 2025 to November 29, 2025: Open market and privately negotiated purchases",
+      "char_start": 62371,
+      "char_end": 62479,
+      "word_count": 17,
+      "content_hash": "af4c391300d746f83df3871e6347a6ca06aafa945b04b564eb87cefb7134cb36"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0225",
+      "index": 225,
+      "text": "29,018 $\n272.25 29,018 November 30, 2025 to December 27, 2025: Open market and privately negotiated purchases",
+      "char_start": 62479,
+      "char_end": 62588,
+      "word_count": 17,
+      "content_hash": "bbec801bb59c1906f86c689dbf16349ff824590bd84bff35be3ec0f329c544fb"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0226",
+      "index": 226,
+      "text": "35,309 $\n276.61 35,309 Total 92,894 $\n74,779 (1)On May 1, 2025, the Company announced a program to repurchase up to $100 billion of the Company's common stock. As of December 27, 2025, $25.2 billion of the May 2025 program had been utilized. The program does not obligate the Company to acquire a minimum amount of shares. Under the program, shares may be repurchased in privately negotiated or open market transactions, including under plans complying with Rule 10b5-1 under the Exchange Act.",
+      "char_start": 62588,
+      "char_end": 63081,
+      "word_count": 82,
+      "content_hash": "11cfd516ca8b15575d901ea4b515abd6717360e6afb5f4f869d3b5109cfbd73b"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0227",
+      "index": 227,
+      "text": "Item 3. Defaults Upon Senior Securities\nNone. Item 4. Mine Safety Disclosures\nNot applicable.",
+      "char_start": 63081,
+      "char_end": 63174,
+      "word_count": 14,
+      "content_hash": "402c852ed566b1f5f347003bac07be6044bfc831dac9308ab6eb000521d1296f"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0228",
+      "index": 228,
+      "text": "Apple Inc. | Q1 2026 Form 10-Q | 20 Item 5. Other Information\nInsider Trading Arrangements\nOn November 21, 2025, Kevan Parekh, the Company's Senior Vice President and Chief Financial Officer, entered into a trading plan intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) under the Exchange Act. The plan provides for the sale, subject to certain price limits, of shares vesting between April 15, 2026 and October 15, 2026, pursuant to certain equity awards granted to Mr. Parekh, excluding any shares withheld by the Company to satisfy income tax withholding and remittance obligations. Mr. Parekh's plan will expire on December 31, 2026, subject to early termination in accordance with the terms of the plan. On November 24, 2025, Deirdre O'Brien, the Company's Senior Vice President, Retail + People, terminated a trading plan intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) under the Exchange Act, which was previously adopted on August 27, 2024 (the \"Prior Plan\"). The Prior Plan provided for the sale, subject to certain price limits, of shares vesting between April 1, 2025 and October 1, 2026, pursuant to certain equity awards granted to Ms. O'Brien, excluding any shares withheld by the Company to satisfy income tax withholding and remittance obligations. The Prior Plan would have expired on December 31, 2026, subject to early termination in accordance with the terms of the plan. Following termination of the Prior Plan, on November 24, 2025, Ms.",
+      "char_start": 63174,
+      "char_end": 64680,
+      "word_count": 240,
+      "content_hash": "dcf2bd83046a38845e347d2ba3722b0a68d57ff7c6ae3a046d1fa8767ce4e58d"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0229",
+      "index": 229,
+      "text": "O'Brien entered into a new trading plan intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) under the Exchange Act. The new plan provides for the sale of shares vesting between April 1, 2026 and October 1, 2026, pursuant to certain equity awards granted to Ms. O'Brien, excluding any shares withheld by the Company to satisfy income tax withholding and remittance obligations. Ms. O'Brien's new plan will expire on December 31, 2026, subject to early termination in accordance with the terms of the plan.",
+      "char_start": 64710,
+      "char_end": 65235,
+      "word_count": 85,
+      "content_hash": "4a6f4c5cec1c6a6e51d3fbcb049b407338983d509e84ec0cdc22d24c4403f959"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0230",
+      "index": 230,
+      "text": "Item 6. Exhibits Incorporated by Reference Exhibit\nNumber Exhibit Description Form",
+      "char_start": 65235,
+      "char_end": 65317,
+      "word_count": 11,
+      "content_hash": "704136239c0b42603038d984a1fc82b955829c47f12af07457e1f5bd6ca65b53"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0231",
+      "index": 231,
+      "text": "Exhibit Filing Date/\nPeriod End Date 31.1* Rule 13a-14(a) / 15d-14(a) Certification of Chief Executive Officer.",
+      "char_start": 65317,
+      "char_end": 65428,
+      "word_count": 16,
+      "content_hash": "1f0a3f7ae8ed22f7ad0d7378d8c0a6fc800c0a038231b3991cbbaf09145c90f4"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0232",
+      "index": 232,
+      "text": "31.2* Rule 13a-14(a) / 15d-14(a) Certification of Chief Financial Officer. 32.1**",
+      "char_start": 65428,
+      "char_end": 65509,
+      "word_count": 11,
+      "content_hash": "88deb83adf1610bd1fe2cf80a763a533e5701ccccf3988fba9a66b4f28c7c9f4"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0233",
+      "index": 233,
+      "text": "Section 1350 Certifications of Chief Executive Officer and Chief Financial Officer.",
+      "char_start": 65526,
+      "char_end": 65609,
+      "word_count": 11,
+      "content_hash": "c54c699186a0f33b2642326da2524a07c9c4af1f8d5aa56f464a31f2137b0631"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0234",
+      "index": 234,
+      "text": "101* Inline XBRL Document Set for the condensed consolidated financial statements and accompanying notes in Part I, Item 1, \"Financial Statements\" of this Quarterly Report on Form 10-Q.",
+      "char_start": 65609,
+      "char_end": 65794,
+      "word_count": 28,
+      "content_hash": "56826d73b50be4f86f99e030060cb274175798d4a20f56b043be7ded69c036ee"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0235",
+      "index": 235,
+      "text": "104* Inline XBRL for the cover page of this Quarterly Report on Form 10-Q, included in the Exhibit 101 Inline XBRL Document Set.",
+      "char_start": 65794,
+      "char_end": 65922,
+      "word_count": 23,
+      "content_hash": "916bf3c4d7970b328aa330bb3dc45d5f4b739e82d2c705b1d060ec65e8fca0fd"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0236",
+      "index": 236,
+      "text": "* Filed herewith.\n** Furnished herewith. Apple Inc. | Q1 2026 Form 10-Q | 21 SIGNATURE\nPursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.",
+      "char_start": 65922,
+      "char_end": 66193,
+      "word_count": 46,
+      "content_hash": "01cfe68a18dd77ab03623e16fa88962ab02555da192bb19475315c9d8cb9acff"
+    },
+    {
+      "chunk_id": "AAPL-2e57d487-0237",
+      "index": 237,
+      "text": "Date: January 30, 2026\nApple Inc. By: /s/ Kevan Parekh Kevan Parekh Senior Vice President,\nChief Financial Officer Apple Inc. | Q1 2026 Form 10-Q | 22",
+      "char_start": 66193,
+      "char_end": 66343,
+      "word_count": 27,
+      "content_hash": "9fa3622730455200132d0912b64cff5de4f76f295162a76ad96d19cc92e4848c"
+    }
+  ],
+  "content_hash": "8b8ddae5236fed73a9a0ac71fa6357487bda713d4aeeb756fd33f8c62da00bc7",
+  "file_path": "companies/AAPL/evidence/raw/0000320193-26-000006_aapl-20251227.htm",
+  "ingested_at": "2026-08-25T19:52:56.175335",
+  "provider": "sec-edgar",
+  "external_id": "0000320193-26-000006",
+  "document_id": "aapl-20251227.htm",
+  "content_type": "text/html",
+  "raw_content_path": "companies/AAPL/evidence/raw/0000320193-26-000006_aapl-20251227.htm",
+  "retrieved_at": "2026-08-25T19:52:56.159370Z"
+}

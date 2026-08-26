@@ -14,7 +14,7 @@ A structured, filesystem-backed system for tracking equity research: thesis epis
 8. **Weak evidence produces abstention, not forced conclusions.** Agent and orchestrator status is explicit.
 9. **Verdicts require adequate coverage.** A thesis verdict needs at least three scoreable predictions and two-thirds scoreable coverage.
 
-`eqos` is the canonical CLI and storage model. The older `equity-os` command remains available only for legacy compatibility.
+`eqos` is the project CLI and normalized storage model.
 
 ## Quickstart
 
@@ -51,6 +51,47 @@ uv run eqos resolve-prediction AAPL <episode-slug> services_revenue \
 uv run eqos score-company AAPL --episode <episode-slug>
 uv run eqos postmortem-episode AAPL <episode-slug>
 ```
+
+## Automatic SEC EDGAR Ingestion
+
+Public SEC filing data does not require an EDGAR filer account. EQOS uses the
+SEC's public read-only endpoints and identifies each request as required by the
+SEC's fair-access guidance. It does not use the filer login shown on EDGAR's
+submission website.
+
+Create a local config from the committed template, then replace the placeholder
+email with a real address where the SEC could contact you about automated
+traffic:
+
+```bash
+cp config/eqos.example.toml config/eqos.toml
+# Edit config/eqos.toml and set sec.contact_email to your real email.
+uv run eqos config-check
+```
+
+`config/eqos.toml` is ignored by git. The default request rate is a conservative
+3 requests/second, retries use backoff, and the client refuses non-SEC hosts.
+It also fails closed if the contact identity is missing or still a placeholder.
+
+Fetch one initialized company or every company in the configured watchlist:
+
+```bash
+uv run eqos sync-sec AAPL
+uv run eqos sync-sec AAPL --since 2025-01-01
+uv run eqos sync-sec-watchlist
+```
+
+The connector fetches configured SEC forms, filters 8-K filings by configured
+item numbers, and captures configured exhibits such as `EX-99.1` earnings
+releases. Documents are normalized through the existing evidence pipeline.
+Original SEC responses and their URLs, accession numbers, document IDs,
+retrieval times, and content hashes are preserved for auditability. Re-running
+a sync skips the same accession/document pair before downloading its content;
+an amended or newly filed document remains a distinct evidence record.
+
+The sync commands automate retrieval and ingestion when invoked. To make them
+run unattended, schedule `uv run eqos sync-sec-watchlist` with your operating
+system's scheduler or CI after configuring the contact identity securely.
 
 ## Data Layout
 
@@ -157,6 +198,9 @@ Commands:
   resolve-prediction     Record an individual outcome
   resolve-episode        Resolve predictions individually or from JSON
   ingest                 Ingest local evidence files
+  config-check           Validate local EQOS/SEC configuration
+  sync-sec               Fetch and ingest SEC filings for one ticker
+  sync-sec-watchlist     Fetch and ingest SEC filings for configured tickers
   list-evidence          Show the evidence catalog
   render-company-summary Rebuild the dossier markdown
   score-company          Score prediction outcomes

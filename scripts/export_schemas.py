@@ -1,4 +1,4 @@
-"""Export JSON Schema (draft 2020-12) for all v1 domain models to generated/."""
+"""Export JSON Schema (draft 2020-12) for all EQOS domain models to generated/."""
 
 from __future__ import annotations
 

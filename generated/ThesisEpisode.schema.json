@@ -1067,7 +1067,7 @@
       "type": "string"
     }
   },
-  "description": "One full thesis cycle for a company.\n\nThe three-layer structure (observations \u2192 inferences \u2192 decisions) mirrors\nhow good analysts actually work: consume raw data, draw conclusions,\nthen act.  Keeping the layers separate makes the reasoning chain\nauditable and reproducible.\n\nRelationship to v0 Episode\n--------------------------\nThesisEpisode is the richer v1 model.  The v0 Episode (legacy.py) is\nstill used by the v0 CLI and store.  They coexist; migration between\nthem is out of scope for v0.",
+  "description": "One full thesis cycle for a company.\n\nThe three-layer structure (observations \u2192 inferences \u2192 decisions) mirrors\nhow good analysts actually work: consume raw data, draw conclusions,\nthen act.  Keeping the layers separate makes the reasoning chain\nauditable and reproducible.\n\nEach episode is self-contained and stored in its own immutable coverage\ndirectory, so earlier analytical states remain reproducible.",
   "properties": {
     "id": {
       "format": "uuid",

@@ -1,99 +1,69 @@
-# CLAUDE.md — equity_reserach_framework
+# CLAUDE.md — EQOS
 
-Operating rules for all future Claude Code sessions in this repo.
+Operating rules for work in this repository.
 
 ## Core rules
 
-1. **Never overwrite prior company state.** `CompanyStore.save()` always snapshots before writing. Never bypass it — no direct `path.write_text()` on `company.json` outside the store.
+1. **Use `eqos` for every workflow.** The normalized company-folder architecture under `companies/<TICKER>/` is the only supported storage model.
 
-2. **Prefer explicit schemas over loose dicts.** All data must pass through a Pydantic model. Do not use raw `dict` or untyped `Any` at module boundaries.
+2. **Never overwrite prior analytical state.** Episodes, assumption versions, predictions, resolutions, scores, and postmortems are append-only or versioned. Use the path and I/O helpers in `src/equity_os/fs/`.
 
-3. **Every major command must have tests.** Each CLI command in `cli.py` needs at least one `test_cli.py` test. Each business-logic function in `episode.py` needs a `test_episode.py` test.
+3. **Prefer explicit schemas over loose dictionaries.** Data crossing module boundaries must use Pydantic models. Keep functions and module responsibilities small and typed.
 
-4. **Every episode must be reproducible from stored inputs.** Episodes are self-contained in the JSON state. Do not rely on external APIs, mutable globals, or runtime-only state.
+4. **Keep the reasoning chain auditable.** Preserve the separation between evidence, observations, inferences, decisions, predictions, outcomes, scoring, and postmortems.
 
-5. **Output both structured JSON and readable markdown where useful.** Commands that produce analysis should support `--output` to write a markdown report alongside the raw JSON state.
+5. **Do not force conclusions from weak evidence.** Preserve `AnalysisStatus`, source-coverage requirements, claim-level citations, freshness diagnostics, and orchestrator abstention gates.
 
-6. **Keep modules small and typed.** Each module has one clear responsibility. All function signatures must have type annotations. No untyped `**kwargs` at internal boundaries.
+6. **Do not issue small-sample thesis verdicts.** Preserve minimum scoreable sample and coverage gates, and distinguish `PENDING` from `INSUFFICIENT_EVIDENCE`.
 
-7. **Avoid external APIs in v0.** No HTTP calls, no market data feeds, no LLM calls. All data is user-supplied.
+7. **Preserve source provenance.** Evidence must retain its source identity, retrieval metadata, content hash, and raw-document location when applicable. Do not silently impute or invent missing source fields.
 
-8. **Do not force conclusions from weak evidence.** Preserve `AnalysisStatus`, claim-level citation checks, cross-source requirements for high confidence, and the orchestrator synthesis gate.
+8. **Treat external access as an explicit connector concern.** Connectors must use typed `RawDocument` boundaries, declared identities, host allowlists, conservative rate limits, retries, and deduplication before entering the shared ingestion pipeline.
 
-9. **Do not issue small-sample thesis verdicts.** Preserve the minimum scoreable coverage/sample gates and distinguish `PENDING` from `INSUFFICIENT_EVIDENCE`.
+9. **Generate readable sidecars from structured state.** JSON is authoritative; markdown is a generated view and should remain reproducible from stored inputs.
 
-10. **Use `eqos` for new development.** The `equity-os` command and monolithic store are legacy compatibility surfaces.
+10. **Test every material change.** Add focused tests for new behavior, run the relevant targeted suite, then run the full suite before handoff.
 
-## Layout
+## Architecture
 
-```
+```text
 src/equity_os/
-  __init__.py    package root
-  schemas.py     Pydantic v2 models (Company, Episode, Assumption, Prediction)
-  store.py       filesystem read/write — single source of truth
-  episode.py     business logic (open/close episodes, assumptions, predictions)
-  render.py      rich terminal display + markdown generation
-  cli.py         typer CLI entry point
-
-tests/
-  conftest.py    shared fixtures (tmp store, apple company)
-  test_schemas.py
-  test_store.py
-  test_episode.py
-  test_cli.py
+  schemas/       Pydantic domain models and enums
+  fs/            normalized paths, atomic I/O, and readers
+  ingest/        normalization, chunking, deduplication, and evidence storage
+  connectors/    external document discovery and retrieval
+  agents/        evidence-backed specialist analysis
+  orchestrator/  policy, conflicts, synthesis, and decisions
+  diff/          analytical change detection and assumption proposals
+  learning/      prediction scoring and postmortems
+  md_render.py   markdown sidecar generation
+  v1_cli.py      `eqos` Typer entry point
 ```
 
-## State layout on disk
+## State layout
 
-```
-~/.equity_os/data/
-  AAPL/
-    company.json          ← current state
-    snapshots/
-      20260101T120000Z.json
-      20260115T093012Z.json
+```text
+companies/<TICKER>/
+  core/dossier.json
+  episodes/<episode-slug>/episode.json
+  assumptions/<episode-slug>/<key>_vNNN.json
+  predictions/<episode-slug>/<metric>_<id8>.json
+  resolutions/<episode-slug>/<metric>_<id8>_resolution.json
+  evidence/<evidence-id>.json
+  scores/<episode-slug>.json
+  postmortems/<episode-slug>.json
 ```
 
 ## Common commands
 
 ```bash
-# Setup
 uv sync
-
-# Run tests
+uv run eqos --help
+uv run eqos init-company AAPL --name "Apple Inc." --sector Technology
+uv run eqos ingest AAPL
+uv run eqos config-check
+uv run eqos sync-sec AAPL
 uv run pytest -v
-
-# Init a company
-uv run equity-os init AAPL --name "Apple Inc." --sector Technology
-
-# Open a thesis episode
-uv run equity-os episode new AAPL \
-  --title "FY2026 Initiation" \
-  --thesis "Services flywheel drives durable margin expansion." \
-  --rating BUY --pt 230.0
-
-# Add an assumption (use episode ID prefix)
-uv run equity-os assumption add AAPL <ep-id> \
-  --key services_rev_growth --value 0.18 --unit "%" \
-  --rationale "Management guide + recent quarter trend"
-
-# Add a prediction
-uv run equity-os prediction add AAPL <ep-id> \
-  --description "Services revenue exceeds $120B in FY2026" \
-  --metric services_revenue --target 120 --horizon FY2026 --unit "B USD"
-
-# Generate markdown report
-uv run equity-os report AAPL --output AAPL_report.md
-
-# Show company
-uv run equity-os show AAPL
 ```
 
-## Adding features — checklist
-
-- [ ] Add/extend Pydantic schema in `schemas.py`
-- [ ] Add business logic in `episode.py` (or new module)
-- [ ] Expose via CLI in `cli.py`
-- [ ] Write tests before marking done
-- [ ] Never delete old assumptions — use `AssumptionStatus.REVISED` / `RETIRED`
-- [ ] Never delete old episodes — `EpisodeStatus.CLOSED` is the terminal state
+Local `config/eqos.toml` may contain contact information and must remain ignored. Downloaded raw evidence under `companies/*/evidence/raw/` is also ignored; do not delete local company data during cleanup or testing.

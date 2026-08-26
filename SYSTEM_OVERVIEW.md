@@ -1,4 +1,4 @@
-# equity-os — System Overview
+# EQOS — System Overview
 
 Complete reference for functions, capabilities, inputs, and outputs.
 Use this as the entry point when understanding or extending the codebase.
@@ -32,8 +32,16 @@ chunk.py       →  chunk_text(text, ticker, id_prefix) → list[TextChunk]
 dedup.py       →  is_duplicate(ev_dir, text) → (bool, sha256_hash)
 adapters.py    →  source_type_for(logical_type), reliability_for(logical_type)
 pipeline.py    →  ingest_file(path, ticker, companies_root) → IngestedEvidence | None
-models.py      →  IngestedEvidence schema (the output of pipeline.py)
+models.py      →  RawDocument + IngestedEvidence schemas (the pipeline boundary)
 ```
+
+**Automated source layer: `src/equity_os/connectors/`**
+
+`sec_edgar.py` resolves ticker-to-CIK mappings, discovers configured filings
+and exhibits, enforces SEC host/rate/identity controls, then passes typed
+`RawDocument` objects to `ingest_document()`. The connector preserves the raw
+response and provider identity while reusing the same normalization, chunking,
+catalog, and evidence storage path as local files.
 
 **Input:** any `.txt`, `.md`, `.html`, or `.csv` file under `inputs/{ticker}/`  
 **Output:** `companies/{ticker}/evidence/{uuid}.json` — a fully chunked, deduplicated `IngestedEvidence` record  
@@ -44,6 +52,7 @@ models.py      →  IngestedEvidence schema (the output of pipeline.py)
 | Logical type | `SourceType` | Default reliability |
 |---|---|---|
 | `filing` | `FILING` | 1.00 |
+| `earnings_release` | `PRESS_RELEASE` | 1.00 |
 | `earnings_transcript` | `EARNINGS_CALL` | 0.95 |
 | `management_commentary` | `EARNINGS_CALL` | 0.90 |
 | `investor_presentation_notes` | `RESEARCH_REPORT` | 0.85 |
@@ -328,6 +337,9 @@ Every command follows the same pattern:
 | `resolve-prediction TICKER EPISODE METRIC` | Calls `PredictionRecord.resolve()` | `resolutions/{slug}/…_resolution.json` |
 | `render-company-summary TICKER` | Rebuilds `dossier.md` from all episodes | `core/dossier.md` |
 | `ingest TICKER [--file FILE]` | Calls `ingest_file()` or `ingest_dir()` | `evidence/{uuid}.json` |
+| `config-check` | Validates TOML and SEC contact identity without network access | terminal only |
+| `sync-sec TICKER` | Fetches and ingests configured SEC filings and exhibits | `evidence/{uuid}.json` + raw source |
+| `sync-sec-watchlist` | Runs SEC sync for every configured ticker | evidence records + sync summary |
 | `list-evidence TICKER` | Reads `_catalog.json` | terminal only |
 | `score-company TICKER [--episode SLUG]` | Calls `score_episode()` | `scores/{slug}.json` + `.md` |
 | `resolve-episode TICKER EPISODE` | Bulk-resolves from `--resolution-file` or single flags | updates `episode.json` |
@@ -378,7 +390,7 @@ A local document enters via **`ingest/pipeline.py`** → gets chunked into `Text
 
 | Invariant | Enforced by |
 |---|---|
-| Prior company state is never overwritten | `CompanyStore._snapshot()` (v0) / immutable episode dirs (v1) |
+| Prior company state is never overwritten | Immutable episode directories and versioned assumption/prediction records |
 | Assumptions have complete version history | `AssumptionRecord.revise()` returns new record; `_changes.jsonl` is append-only |
 | Every claim is grounded in evidence | `Finding.evidence_refs: list[EvidenceRef]` — required on all outputs |
 | Agents are deterministic | No I/O or randomness inside `run()`; same evidence → same structure |
@@ -405,6 +417,9 @@ ingest/           ← schemas/ (for SourceType enum only)
   dedup.py        ← stdlib only
   adapters.py     ← stdlib only
   pipeline.py     ← normalize, chunk, dedup, adapters, models
+
+connectors/       ← config, fs/layout, ingest/
+  sec_edgar.py    ← stdlib HTTP/HTML, typed RawDocument ingestion
 
 agents/           ← ingest/models, schemas/
   extraction.py   ← ingest/models, agents/models

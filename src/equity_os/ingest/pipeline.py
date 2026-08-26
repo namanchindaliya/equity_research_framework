@@ -23,16 +23,22 @@ Returns
 from __future__ import annotations
 
 import json
+import re
 from datetime import date
 from pathlib import Path
 from typing import Any
 
 from . import adapters, dedup
 from .chunk import chunk_text
-from .models import EvidenceManifestEntry, IngestedEvidence
+from .models import EvidenceManifestEntry, IngestedEvidence, RawDocument
 from .normalize import extract
 
 _CATALOG_FILE = "_catalog.json"
+
+
+def _safe_file_component(value: str) -> str:
+    cleaned = re.sub(r"[^A-Za-z0-9._-]+", "_", Path(value).name)
+    return cleaned[:180] or "document"
 
 
 def _evidence_dir(companies_root: Path, ticker: str) -> Path:
@@ -161,6 +167,101 @@ def ingest_file(
     catalog.append(json.loads(entry.model_dump_json()))
     _save_catalog(ev_dir, catalog)
 
+    return evidence
+
+
+def ingest_document(
+    document: RawDocument,
+    companies_root: Path,
+    *,
+    store_raw: bool = True,
+    raw_dir_name: str = "raw",
+    force: bool = False,
+) -> IngestedEvidence | None:
+    """Ingest a typed connector document through the canonical evidence path."""
+    ticker = document.ticker.upper()
+    ev_dir = _evidence_dir(companies_root, ticker)
+    if document.logical_type not in adapters.KNOWN_LOGICAL_TYPES:
+        raise ValueError(
+            f"Unknown logical_type {document.logical_type!r}. "
+            f"Valid: {sorted(adapters.KNOWN_LOGICAL_TYPES)}"
+        )
+    if not document.text.strip():
+        raise ValueError(f"{document.url}: no extractable text content.")
+
+    existing = dedup.lookup_external(
+        ev_dir,
+        document.provider,
+        document.external_id,
+        document.document_id,
+    )
+    if existing and not force:
+        return None
+
+    doc_hash = dedup.content_hash(document.text)
+    from uuid import uuid4
+
+    evidence_id = uuid4()
+    chunks = chunk_text(document.text, ticker, str(evidence_id)[:8])
+    metadata = adapters.extract_metadata(document.logical_type, document.text, {})
+    metadata.update(document.metadata)
+
+    raw_content_path: str | None = None
+    source_locator = document.url
+    if store_raw:
+        raw_dir = ev_dir / _safe_file_component(raw_dir_name)
+        raw_dir.mkdir(parents=True, exist_ok=True)
+        raw_name = _safe_file_component(
+            f"{document.external_id}_{document.document_id}"
+        )
+        raw_path = raw_dir / raw_name
+        temporary = raw_path.with_suffix(raw_path.suffix + ".tmp")
+        temporary.write_bytes(document.raw_content)
+        temporary.replace(raw_path)
+        raw_content_path = str(raw_path)
+        source_locator = str(raw_path)
+
+    evidence = IngestedEvidence(
+        evidence_id=evidence_id,
+        ticker=ticker,
+        logical_type=document.logical_type,
+        source_type=adapters.source_type_for(document.logical_type),
+        title=document.title,
+        source_date=document.source_date,
+        source_name=document.source_name,
+        url=document.url,
+        reliability_score=document.reliability_score,
+        text=document.text,
+        extracted_metadata=metadata,
+        chunks=chunks,
+        content_hash=doc_hash,
+        file_path=source_locator,
+        provider=document.provider,
+        external_id=document.external_id,
+        document_id=document.document_id,
+        content_type=document.content_type,
+        raw_content_path=raw_content_path,
+        retrieved_at=document.retrieved_at,
+    )
+
+    ev_dir.mkdir(parents=True, exist_ok=True)
+    out_path = ev_dir / f"{evidence_id}.json"
+    temporary = out_path.with_suffix(".tmp")
+    temporary.write_text(evidence.model_dump_json(indent=2), encoding="utf-8")
+    temporary.replace(out_path)
+
+    dedup.register(
+        ev_dir,
+        doc_hash,
+        evidence_id,
+        source_locator,
+        provider=document.provider,
+        external_id=document.external_id,
+        document_id=document.document_id,
+    )
+    catalog = _load_catalog(ev_dir)
+    catalog.append(json.loads(evidence.manifest_entry().model_dump_json()))
+    _save_catalog(ev_dir, catalog)
     return evidence
 
 

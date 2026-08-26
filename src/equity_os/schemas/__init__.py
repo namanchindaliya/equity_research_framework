@@ -1,8 +1,8 @@
-"""equity_os.schemas — all domain models.
+"""Public domain models for EQOS.
 
 Public surface
 --------------
-New (v1) models:
+Core models:
     SourceMetadata, EvidenceItem
     AssumptionRecord, AssumptionChange
     PredictionRecord, ResolutionRecord
@@ -12,11 +12,8 @@ New (v1) models:
     CompanyDossier
     Postmortem, AssumptionError
 
-Legacy (v0) models — re-exported for backward compat:
-    Company, Episode, Assumption, Prediction
-
 All enums:
-    Rating, EpisodeStatus, AssumptionStatus, PredictionOutcome
+    Rating, EpisodeStatus, AssumptionStatus
     SourceType, EvidenceType, EvidenceDirection
     MaterialityLevel, ComparisonOperator, ResolutionStatus
     AgentType, TriggerFrequency, TriggerAction, PostmortemVerdict
@@ -42,7 +39,6 @@ from .enums import (
     EvidenceType,
     MaterialityLevel,
     PostmortemVerdict,
-    PredictionOutcome,
     Rating,
     ResolutionStatus,
     SourceType,
@@ -55,7 +51,6 @@ from .episode import (
     ObservationRecord,
     ThesisEpisode,
 )
-from .legacy import Assumption, Company, Episode, Prediction
 from .postmortem import AssumptionError, Postmortem
 from .prediction import PredictionRecord, ResolutionRecord
 
@@ -87,16 +82,10 @@ __all__ = [
     # postmortem
     "Postmortem",
     "AssumptionError",
-    # legacy
-    "Company",
-    "Episode",
-    "Assumption",
-    "Prediction",
     # enums
     "Rating",
     "EpisodeStatus",
     "AssumptionStatus",
-    "PredictionOutcome",
     "SourceType",
     "EvidenceType",
     "EvidenceDirection",

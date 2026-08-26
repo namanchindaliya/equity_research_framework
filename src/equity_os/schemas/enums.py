@@ -6,7 +6,7 @@ from enum import Enum
 
 
 # ---------------------------------------------------------------------------
-# Legacy enums (v0 — kept for backward compat)
+# Coverage lifecycle
 # ---------------------------------------------------------------------------
 
 
@@ -28,16 +28,7 @@ class AssumptionStatus(str, Enum):
     RETIRED = "RETIRED"
 
 
-class PredictionOutcome(str, Enum):
-    PENDING = "PENDING"
-    CORRECT = "CORRECT"
-    INCORRECT = "INCORRECT"
-    INCONCLUSIVE = "INCONCLUSIVE"
-
-
-# ---------------------------------------------------------------------------
 # Source / evidence
-# ---------------------------------------------------------------------------
 
 
 class SourceType(str, Enum):

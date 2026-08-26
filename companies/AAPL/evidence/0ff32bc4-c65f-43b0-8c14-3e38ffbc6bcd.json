@@ -1,0 +1,279 @@
+{
+  "evidence_id": "0ff32bc4-c65f-43b0-8c14-3e38ffbc6bcd",
+  "ticker": "AAPL",
+  "logical_type": "filing",
+  "source_type": "FILING",
+  "title": "Apple Inc. 8-K filed 2026-04-20",
+  "source_date": "2026-04-20",
+  "source_name": "SEC EDGAR",
+  "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm",
+  "reliability_score": 1.0,
+  "text": "truetruetruetruetruetrueNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQfalse000032019300003201932026-04-172026-04-170000320193aapl:Zero500NotesDue2031Member2026-04-172026-04-170000320193aapl:One375NotesDue2029Member2026-04-172026-04-170000320193us-gaap:CommonStockMember2026-04-172026-04-170000320193aapl:Three600NotesDue2042Member2026-04-172026-04-170000320193aapl:Three050NotesDue2029Member2026-04-172026-04-170000320193aapl:Two000NotesDue2027Member2026-04-172026-04-170000320193aapl:One625NotesDue2026Member2026-04-172026-04-17\n\n\n\n\n\n\n\n\n\n\n\n\nUNITED STATES\n\n\nSECURITIES AND EXCHANGE COMMISSION\n\n\nWashington, D.C. 20549\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFORM 8-K\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCURRENT REPORT\n\n\n\n\n\nPursuant to Section 13 OR 15(d)\n\n\nof The Securities Exchange Act of 1934\n\n April 17, 2026\n\n\n\n\n\nDate of Report (Date of earliest event reported)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nApple Inc.\n\n\n\n\n(Exact name of Registrant as specified in its charter)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalifornia\n\n\n\n(State or other jurisdiction\n\n\nof incorporation)\n\n\n\n\n\n001-36743\n\n\n\n(Commission\n\n\nFile Number)\n\n\n\n\n\n94-2404110\n\n\n\n(I.R.S. Employer\n\n\nIdentification No.)\n\n\n\n\n\n\n\nOne Apple Park Way\n\n\n\n\n\n\nCupertino, California\n 95014\n\n\n\n\n(Address of principal executive offices) (Zip Code)\n\n\n\n\n\n\n(408) 996-1010\n\n\n(Registrant's telephone number, including area code)\n\n\nNot applicable\n\n\n(Former name or former address, if changed since last report.)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCheck the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the Registrant under any of the following provisions:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☐\n\n\n\n\n\n\n\n\n\nWritten communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☐\n\n\n\n\n\n\n\nSoliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☐\n\n\n\n\n\n\n\nPre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n☐\n\n\n\n\n\n\n\nPre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))\n\n\n\n\n\n\n\n\n\n\n\nSecurities registered pursuant to Section 12(b) of the Act:\n\n\n\n\n\n\n\n\n\n\n\n\n\nTitle of each class\n\n\n\n\n\nTrading symbol(s)\n\n\n\n\n\nName of each exchange on which registered\n\n\n\n\n\n\n\n\n\nCommon Stock, $0.00001 par value per share\n\n\n\n\n\n\n\nAAPL\n\n\n\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n\n1.625% Notes due 2026\n\n\n\n\n--\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n2.000% Notes due 2027\n\n\n\n\n--\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n1.375% Notes due 2029\n\n\n\n\n--\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n3.050% Notes due 2029\n\n\n\n\n--\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n0.500% Notes due 2031\n\n\n\n\n--\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n3.600% Notes due 2042\n\n\n\n\n--\n\n\n\n\nThe Nasdaq Stock Market LLC\n\n\n\n\n\n\n\n\n\n\nIndicate by check mark whether the Registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule\n 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).\n\n\n\n\n\n\nEmerging growth company ☐\n\n\n\n\n\n\n\n\n\n\nIf an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition period for complying with any new or revised\n financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nItem 5.02\n\n\n\n\n\n\nDeparture of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain\n Officers.\n\n\n\n\n\n\n\n\n\n\n\n\n\nOn April 20, 2026, Apple Inc. (\"Apple\") announced that Tim Cook will transition from his role as Chief Executive Officer to Executive Chair of Apple's Board of Directors\n (the \"Board\"), effective September 1, 2026 (the \"Transition Date\"). On April 17, 2026, the Board appointed John Ternus, Apple's Senior Vice President of Hardware Engineering, as Chief Executive Officer and a member of the Board, in each case\n effective on the Transition Date. Art Levinson, current Chair of the Board, will become Lead Independent Director on the Transition Date.\n\n\n\n\n\n\nMr. Ternus, 50, joined Apple in 2001 and assumed his current position in 2021. Mr. Ternus's previous positions at Apple include Vice President, Hardware Engineering.\n Apple believes Mr. Ternus will bring to the Board extensive executive leadership experience in the technology industry, including engineering, product design and innovation.\n\n\n\n\n\n\nThere are no family relationships between Mr. Ternus and any director or executive officer of Apple that would be required to be disclosed pursuant to Item 401(d) of\n Regulation S-K, and there are no transactions between Mr. Ternus and Apple that would be required to be disclosed pursuant to Item 404(a) of Regulation S-K.\n\n\n\n\n\n\nIn connection with his appointment, Apple and Mr. Ternus will enter into Apple's standard indemnification agreement for directors and executive officers. Apple intends to file an amendment to this filing containing the information called for by Item 5.02(c)(3) of Form 8-K within four business days after the information is determined or becomes available.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSIGNATURES\n\n\n\n\n\n\nPursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly\n authorized.\n\n\n\n\n\n\n\n\n\n\n\n\nDate: April 20, 2026\n\n\n\n\n\nApple Inc.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBy:\n\n\n\n\n\n/s/ Jennifer Newstead\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJennifer Newstead\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSenior Vice President,\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeneral Counsel and Secretary",
+  "extracted_metadata": {
+    "word_count": 675,
+    "char_count": 5512,
+    "line_count": 721,
+    "detected_filing_types": [
+      "8-K"
+    ],
+    "cik": "0000320193",
+    "accession_number": "0001140361-26-015711",
+    "form": "8-K",
+    "filing_items": [
+      "5.02"
+    ],
+    "period_of_report": "2026-04-17",
+    "accepted_at": "2026-04-20T21:29:51+00:00",
+    "document_type": "8-K",
+    "is_primary_document": true,
+    "is_amendment": false,
+    "is_xbrl": true,
+    "is_inline_xbrl": true,
+    "evidence_label": "fact_source_reported"
+  },
+  "chunks": [
+    {
+      "chunk_id": "AAPL-0ff32bc4-0000",
+      "index": 0,
+      "text": "truetruetruetruetruetrueNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQNASDAQfalse000032019300003201932026-04-172026-04-170000320193aapl:Zero500NotesDue2031Member2026-04-172026-04-170000320193aapl:One375NotesDue2029Member2026-04-172026-04-170000320193us-gaap:CommonStockMember2026-04-172026-04-170000320193aapl:Three600NotesDue2042Member2026-04-172026-04-170000320193aapl:Three050NotesDue2029Member2026-04-172026-04-170000320193aapl:Two000NotesDue2027Member2026-04-172026-04-170000320193aapl:One625NotesDue2026Member2026-04-172026-04-17",
+      "char_start": 0,
+      "char_end": 525,
+      "word_count": 1,
+      "content_hash": "d1698e8577094e3a8da58c20ad80e700d2f11f29a50b8893ac94c09d6ce4fdb4"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0001",
+      "index": 1,
+      "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 8-K",
+      "char_start": 525,
+      "char_end": 605,
+      "word_count": 11,
+      "content_hash": "9aadcb50adefe24bf1cdaccf0e8b1297ba9a08e964e32d6cf079996f122c582e"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0002",
+      "index": 2,
+      "text": "CURRENT REPORT Pursuant to Section 13 OR 15(d) of The Securities Exchange Act of 1934",
+      "char_start": 605,
+      "char_end": 690,
+      "word_count": 15,
+      "content_hash": "f77e6f9dca8d7282e858930aec9e228083500f1425e251fe85d1af30c0a3cea7"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0003",
+      "index": 3,
+      "text": "April 17, 2026 Date of Report (Date of earliest event reported) Apple Inc. (Exact name of Registrant as specified in its charter)",
+      "char_start": 690,
+      "char_end": 819,
+      "word_count": 22,
+      "content_hash": "ec8ff60e12c62241b771c63a18919fedb719b46123b18ad62230ee4be98ce633"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0004",
+      "index": 4,
+      "text": "California (State or other jurisdiction of incorporation) 001-36743 (Commission File Number)",
+      "char_start": 819,
+      "char_end": 911,
+      "word_count": 11,
+      "content_hash": "3552ca93fedb96983b4ae3deb76840e940db3c8222482c1485aa51bbb461c54d"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0005",
+      "index": 5,
+      "text": "94-2404110 (I.R.S. Employer Identification No.) One Apple Park Way Cupertino, California\n 95014",
+      "char_start": 911,
+      "char_end": 1006,
+      "word_count": 12,
+      "content_hash": "071f96d96a5b6870dd3ce2ee010ce3ea9fe607c090a9897e4c45792cbb8cd3dd"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0006",
+      "index": 6,
+      "text": "(Address of principal executive offices) (Zip Code) (408) 996-1010 (Registrant's telephone number, including area code)",
+      "char_start": 1006,
+      "char_end": 1125,
+      "word_count": 15,
+      "content_hash": "9a662a1a7a3ce7baf987201dc625e60e197d250723f8581bf7131efcb1b24d6f"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0007",
+      "index": 7,
+      "text": "Not applicable (Former name or former address, if changed since last report.) Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the Registrant under any of the following provisions:",
+      "char_start": 1125,
+      "char_end": 1374,
+      "word_count": 39,
+      "content_hash": "ebbf89c2bda2dcb0291b25234a041693b56252ffd3f74004213c0bc6a664ca7a"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0008",
+      "index": 8,
+      "text": "☐ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)",
+      "char_start": 1374,
+      "char_end": 1461,
+      "word_count": 14,
+      "content_hash": "7f4c0d3ba9f87ab2dc60270d335ed61b974626c73e34e273f2106da979860d09"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0009",
+      "index": 9,
+      "text": "☐ Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)",
+      "char_start": 1461,
+      "char_end": 1549,
+      "word_count": 14,
+      "content_hash": "4c1b0b380ec96aa6b6747286a4fcf0e2a75a765983f31e21259988aadbbf84d3"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0010",
+      "index": 10,
+      "text": "☐ Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))",
+      "char_start": 1549,
+      "char_end": 1653,
+      "word_count": 14,
+      "content_hash": "a7333cfaba47a274785ebd19e4484fc63551952e257eadad130e41285322f5a5"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0011",
+      "index": 11,
+      "text": "☐ Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))",
+      "char_start": 1653,
+      "char_end": 1757,
+      "word_count": 14,
+      "content_hash": "368c3f7b4e4f54229e6ce24281769fffb21c03c3f35e8a72913e77299944786f"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0012",
+      "index": 12,
+      "text": "Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading symbol(s)",
+      "char_start": 1757,
+      "char_end": 1854,
+      "word_count": 15,
+      "content_hash": "0937372eb0edb146fe24e76d5851188ccf41896a181e45cd019bee0a152b7ef7"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0013",
+      "index": 13,
+      "text": "Name of each exchange on which registered Common Stock, $0.00001 par value per share",
+      "char_start": 1854,
+      "char_end": 1938,
+      "word_count": 14,
+      "content_hash": "f917b3b30c57587ff08953f8f6f3b1d446801667ad49dda1f079c13459742ceb"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0014",
+      "index": 14,
+      "text": "AAPL The Nasdaq Stock Market LLC 1.625% Notes due 2026 -- The Nasdaq Stock Market LLC",
+      "char_start": 1938,
+      "char_end": 2023,
+      "word_count": 16,
+      "content_hash": "562d483b3fedfa895ec9139e33f8333505f7cc3b83fc68987d2a03971f3f498b"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0015",
+      "index": 15,
+      "text": "2.000% Notes due 2027 -- The Nasdaq Stock Market LLC 1.375% Notes due 2029 -- The Nasdaq Stock Market LLC",
+      "char_start": 2023,
+      "char_end": 2128,
+      "word_count": 20,
+      "content_hash": "61104e2408b1c543cafb2e3b56c5cc541936afe355ace9e2c64248fbd25b5e09"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0016",
+      "index": 16,
+      "text": "3.050% Notes due 2029 -- The Nasdaq Stock Market LLC 0.500% Notes due 2031 -- The Nasdaq Stock Market LLC",
+      "char_start": 2128,
+      "char_end": 2233,
+      "word_count": 20,
+      "content_hash": "2fd7a9f9d4b73f8eb67e31e5263a5a90f50d49cf8fed6538abeb9ceaeec3d01e"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0017",
+      "index": 17,
+      "text": "3.600% Notes due 2042 -- The Nasdaq Stock Market LLC Indicate by check mark whether the Registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule\n 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).",
+      "char_start": 2233,
+      "char_end": 2525,
+      "word_count": 51,
+      "content_hash": "b8003788125d9a396ff05c83e7e4a04dd97b96872d820159948a2e8365c2d54c"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0018",
+      "index": 18,
+      "text": "Emerging growth company ☐ If an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition period for complying with any new or revised\n financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐",
+      "char_start": 2525,
+      "char_end": 2804,
+      "word_count": 45,
+      "content_hash": "1b73679a08064fbced295a660344c560f4e38ab277a59c0aca471d86036b3ddc"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0019",
+      "index": 19,
+      "text": "Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain\n Officers.",
+      "char_start": 2804,
+      "char_end": 2961,
+      "word_count": 20,
+      "content_hash": "16bdc2761467e2115181b9dca0026ab6f0f7c2b78eca02b004a6813dd4ddbb38"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0020",
+      "index": 20,
+      "text": "On April 20, 2026, Apple Inc. (\"Apple\") announced that Tim Cook will transition from his role as Chief Executive Officer to Executive Chair of Apple's Board of Directors\n (the \"Board\"), effective September 1, 2026 (the \"Transition Date\"). On April 17, 2026, the Board appointed John Ternus, Apple's Senior Vice President of Hardware Engineering, as Chief Executive Officer and a member of the Board, in each case\n effective on the Transition Date. Art Levinson, current Chair of the Board, will become Lead Independent Director on the Transition Date.",
+      "char_start": 3480,
+      "char_end": 4031,
+      "word_count": 87,
+      "content_hash": "da10d360b203e003d42664e56dc42958f29bde842b74146d006f4e8d2035a9dd"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0021",
+      "index": 21,
+      "text": "Mr. Ternus, 50, joined Apple in 2001 and assumed his current position in 2021. Mr. Ternus's previous positions at Apple include Vice President, Hardware Engineering.\n Apple believes Mr. Ternus will bring to the Board extensive executive leadership experience in the technology industry, including engineering, product design and innovation.",
+      "char_start": 4038,
+      "char_end": 4378,
+      "word_count": 48,
+      "content_hash": "2d7623c0a74a7eeb1b5fe4b983cc77e3d4c0477cb3753b446d2ea60bdf8f1c68"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0022",
+      "index": 22,
+      "text": "There are no family relationships between Mr. Ternus and any director or executive officer of Apple that would be required to be disclosed pursuant to Item 401(d) of\n Regulation S-K, and there are no transactions between Mr. Ternus and Apple that would be required to be disclosed pursuant to Item 404(a) of Regulation S-K.",
+      "char_start": 4385,
+      "char_end": 4708,
+      "word_count": 54,
+      "content_hash": "55e9adb242675f590a619a39044fc5cf03a201826783eee26c0a3f69614c97cd"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0023",
+      "index": 23,
+      "text": "In connection with his appointment, Apple and Mr. Ternus will enter into Apple's standard indemnification agreement for directors and executive officers. Apple intends to file an amendment to this filing containing the information called for by Item 5.02(c)(3) of Form 8-K within four business days after the information is determined or becomes available.",
+      "char_start": 4715,
+      "char_end": 5071,
+      "word_count": 53,
+      "content_hash": "b2c5546451fbb1b583530f8d30800e0e34abb3c9b6ca413d6639c377903876ba"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0024",
+      "index": 24,
+      "text": "SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly\n authorized.",
+      "char_start": 5071,
+      "char_end": 5266,
+      "word_count": 31,
+      "content_hash": "6b9bd47bd59f50e6156ae81c1fe970e3bdd96b0bb161459b34273b1e29a469e2"
+    },
+    {
+      "chunk_id": "AAPL-0ff32bc4-0025",
+      "index": 25,
+      "text": "Date: April 20, 2026 Apple Inc. By: /s/ Jennifer Newstead Jennifer Newstead Senior Vice President, General Counsel and Secretary",
+      "char_start": 5266,
+      "char_end": 5394,
+      "word_count": 19,
+      "content_hash": "e705e93579686eb37ad0fab12513ffe93927cd76de72f9bc829de8a4e11989b0"
+    }
+  ],
+  "content_hash": "56ef337950e093c2ff127bae4a55bc28d2421c9859ee53df0a8bb16b50693c8f",
+  "file_path": "companies/AAPL/evidence/raw/0001140361-26-015711_ef20071035_8k.htm",
+  "ingested_at": "2026-08-25T19:52:55.538235",
+  "provider": "sec-edgar",
+  "external_id": "0001140361-26-015711",
+  "document_id": "ef20071035_8k.htm",
+  "content_type": "text/html",
+  "raw_content_path": "companies/AAPL/evidence/raw/0001140361-26-015711_ef20071035_8k.htm",
+  "retrieved_at": "2026-08-25T19:52:55.533375Z"
+}

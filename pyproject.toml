@@ -19,7 +19,6 @@ dev = [
 ]
 
 [project.scripts]
-equity-os = "equity_os.cli:app"
 eqos = "equity_os.v1_cli:app"
 
 [build-system]

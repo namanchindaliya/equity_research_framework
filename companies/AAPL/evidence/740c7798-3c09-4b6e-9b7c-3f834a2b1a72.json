@@ -1,0 +1,651 @@
+{
+  "evidence_id": "740c7798-3c09-4b6e-9b7c-3f834a2b1a72",
+  "ticker": "AAPL",
+  "logical_type": "earnings_release",
+  "source_type": "PRESS_RELEASE",
+  "title": "Apple Inc. EX-99.1 — 8-K 2026-07-30",
+  "source_date": "2026-07-30",
+  "source_name": "SEC EDGAR",
+  "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/a8-kex991q3202606272026.htm",
+  "reliability_score": 1.0,
+  "text": "EX-99.1\n2\na8-kex991q3202606272026.htm\nEX-99.1\n\nExhibit 99.1\n\nApple reports third quarter results\n\nJune quarter records for total company revenue and EPS\n\niPhone, Mac and Services revenue set new June quarter records\n\nCUPERTINO, CALIFORNIA -- Apple® today announced financial results for its fiscal 2026 third quarter ended June 27, 2026. The Company posted quarterly revenue of $109.4 billion, up 16 percent year over year. Company gross margin was 50.1 percent, including a favorable impact of approximately 2 percentage points from tariff refunds. Diluted earnings per share was $2.02, up 29 percent year over year, and included a favorable impact of $0.11 from tariff refunds.\n\n\"Today, Apple is proud to report our strongest June quarter ever, with double-digit revenue growth across iPhone, Mac and Services, and in every geographic segment,\" said Tim Cook, Apple's CEO. \"At WWDC26, we were thrilled to introduce the all-new Siri AI, alongside all of Apple's latest software innovations and important new child safety features.\"\n\n\"We are very pleased with our record business performance during the quarter, which set new June quarter records for both EPS and operating cash flow,\" said Kevan Parekh, Apple's CFO. \"Our installed base of active devices also reached a new all-time high across all major product categories and geographic segments.\"\n\nApple's board of directors has declared a cash dividend of $0.27 per share of the Company's common stock. The dividend is payable on August 13, 2026, to shareholders of record as of the close of business on August 10, 2026.\n\nApple will provide live streaming of its Q3 2026 financial results conference call beginning at 2:00 p.m. PT on July 30, 2026, at apple.com/investor/earnings-call. The webcast will be available for replay for approximately two weeks thereafter.\n\nApple periodically provides information for investors on its corporate website, apple.com, and its investor relations website, investor.apple.com. This includes press releases and other information about financial performance, reports filed or furnished with the SEC, information on corporate governance, and details related to its annual meeting of shareholders.\n\nThis press release contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995. These forward-looking statements include without limitation those about payment of the Company's quarterly dividend and future business plans. These statements involve risks and uncertainties, and actual results may differ materially from any future results expressed or implied by the forward-looking statements. Risks and uncertainties include without limitation: effects of global and regional economic conditions, including as a result of government policies, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, and public health issues; risks relating to the design, manufacture, introduction, and transition of products and services in highly competitive and rapidly changing markets, including from reliance on third parties for components, technology, manufacturing, applications, services, support, and content; risks relating to information technology system failures, network disruptions, and failure to protect, loss of, or unauthorized access to, or release of, data; and effects of unfavorable legal proceedings, government investigations, and complex and changing laws and regulations. More information on these risks and other potential factors that could affect the Company's business, reputation, results of operations, financial condition, and stock price is included in the Company's filings with the SEC, including in the \"Risk Factors\" and \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" sections of the Company's most recently filed periodic reports on Form 10-K and Form 10-Q and subsequent filings. The Company assumes no obligation to update any forward-looking statements, which speak only as of the date they are made.\n\nApple revolutionized personal technology with the introduction of the Macintosh in 1984. Today, Apple leads the world in innovation with iPhone, iPad, Mac, AirPods, Apple Watch, and Apple Vision Pro. Apple's six software platforms -- iOS, iPadOS, macOS, watchOS, visionOS, and tvOS -- provide seamless experiences across all Apple devices and empower people with breakthrough services including the App Store, Apple Music, Apple Pay, iCloud, and Apple TV. Apple's more than 150,000 employees are dedicated to making the best products on earth and to leaving the world better than we found it.\n\nPress Contact:\nJosh Rosenstock\nApple\njrosenstock@apple.com\n(408) 862-1142\n\nInvestor Relations Contact:\nSuhasini Chandramouli\nApple\nsuhasini@apple.com\n(408) 974-3123\n\nNOTE TO EDITORS: For additional information visit Apple Newsroom (www.apple.com/newsroom), or email Apple's Media Helpline at media.help@apple.com.\n\n© 2026 Apple Inc. All rights reserved. Apple and the Apple logo are trademarks of Apple. Other company and product names may be trademarks of their respective owners.\n\nApple Inc.\nCONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited)\n(In millions, except number of shares, which are reflected in thousands, and per-share amounts)\n\nThree Months Ended\n\nNine Months Ended\n\nJune 27,\n2026\n\nJune 28,\n2025\n\nJune 27,\n2026\n\nJune 28,\n2025\n\nNet sales:\n\n Products\n$\n78,678\n\n$\n66,613\n\n$\n272,629\n\n$\n233,287\n\n Services\n30,739\n\n27,423\n\n91,728\n\n80,408\n\nTotal net sales (1)\n109,417\n\n94,036\n\n364,357\n\n313,695\n\nCost of sales:\n\n Products\n47,153\n\n43,620\n\n163,810\n\n147,097\n\n Services\n7,494\n\n6,698\n\n21,765\n\n19,738\n\nTotal cost of sales\n54,647\n\n50,318\n\n185,575\n\n166,835\n\nGross margin\n54,770\n\n43,718\n\n178,782\n\n146,860\n\nOperating expenses:\n\nResearch and development\n11,729\n\n8,866\n\n34,035\n\n25,684\n\nSelling, general and administrative\n7,346\n\n6,650\n\n22,315\n\n20,553\n\nTotal operating expenses\n19,075\n\n15,516\n\n56,350\n\n46,237\n\nOperating income\n35,695\n\n28,202\n\n122,432\n\n100,623\n\nOther income/(expense), net\n572\n\n(171)\n\n670\n\n(698)\n\nIncome before provision for income taxes\n36,267\n\n28,031\n\n123,102\n\n99,925\n\nProvision for income taxes\n6,478\n\n4,597\n\n21,638\n\n15,381\n\nNet income\n$\n29,789\n\n$\n23,434\n\n$\n101,464\n\n$\n84,544\n\nEarnings per share:\n\nBasic\n$\n2.03\n\n$\n1.57\n\n$\n6.91\n\n$\n5.64\n\nDiluted\n$\n2.02\n\n$\n1.57\n\n$\n6.88\n\n$\n5.62\n\nShares used in computing earnings per share:\n\nBasic\n14,656,110\n\n14,902,886\n\n14,692,515\n\n14,992,898\n\nDiluted\n14,714,676\n\n14,948,179\n\n14,750,302\n\n15,051,726\n\n(1) Net sales by reportable segment:\n\nAmericas\n$\n45,781\n\n$\n41,198\n\n$\n149,403\n\n$\n134,161\n\nEurope\n29,395\n\n24,014\n\n95,596\n\n82,329\n\nGreater China\n18,816\n\n15,369\n\n64,839\n\n49,884\n\nJapan\n6,554\n\n5,782\n\n24,368\n\n22,067\n\nRest of Asia Pacific\n8,871\n\n7,673\n\n30,151\n\n25,254\n\nTotal net sales\n$\n109,417\n\n$\n94,036\n\n$\n364,357\n\n$\n313,695\n\n(1) Net sales by category:\n\niPhone\n$\n54,252\n\n$\n44,582\n\n$\n196,515\n\n$\n160,561\n\nMac\n10,352\n\n8,046\n\n27,137\n\n24,982\n\niPad\n6,191\n\n6,581\n\n21,700\n\n21,071\n\nWearables, Home and Accessories\n7,883\n\n7,404\n\n27,277\n\n26,673\n\nServices\n30,739\n\n27,423\n\n91,728\n\n80,408\n\nTotal net sales\n$\n109,417\n\n$\n94,036\n\n$\n364,357\n\n$\n313,695\n\nApple Inc.\nCONDENSED CONSOLIDATED BALANCE SHEETS (Unaudited)\n(In millions, except number of shares, which are reflected in thousands, and par value)\n\nJune 27,\n2026\n\nSeptember 27,\n2025\n\nASSETS:\n\nCurrent assets:\n\nCash and cash equivalents\n$\n39,544\n\n$\n35,934\n\nMarketable securities\n22,855\n\n18,763\n\nAccounts receivable, net\n31,398\n\n39,777\n\nVendor non-trade receivables\n27,509\n\n33,180\n\nInventories\n11,092\n\n5,718\n\nOther current assets\n17,420\n\n14,585\n\nTotal current assets\n149,818\n\n147,957\n\nNon-current assets:\n\nMarketable securities\n84,118\n\n77,723\n\nProperty, plant and equipment, net\n51,431\n\n49,834\n\nIntangible assets, net\n20,342\n\n11,093\n\nOther non-current assets\n77,557\n\n72,634\n\nTotal non-current assets\n233,448\n\n211,284\n\nTotal assets\n$\n383,266\n\n$\n359,241\n\nLIABILITIES AND SHAREHOLDERS' EQUITY:\n\nCurrent liabilities:\n\nAccounts payable\n$\n64,525\n\n$\n69,860\n\nOther current liabilities\n62,259\n\n66,387\n\nDeferred revenue\n9,538\n\n9,055\n\nCommercial paper\n1,997\n\n7,979\n\nTerm debt\n11,007\n\n12,350\n\nTotal current liabilities\n149,326\n\n165,631\n\nNon-current liabilities:\n\nTerm debt\n71,340\n\n78,328\n\nOther non-current liabilities\n55,080\n\n41,549\n\nTotal non-current liabilities\n126,420\n\n119,877\n\nTotal liabilities\n275,746\n\n285,508\n\nCommitments and contingencies\n\nShareholders' equity:\n\nCommon stock and additional paid-in capital, $0.00001 par value: 50,400,000 shares authorized; 14,608,963 and 14,773,260 shares issued and outstanding, respectively\n100,702\n\n93,568\n\nRetained earnings/(Accumulated deficit)\n11,326\n\n(14,264)\n\nAccumulated other comprehensive loss\n(4,508)\n\n(5,571)\n\nTotal shareholders' equity\n107,520\n\n73,733\n\nTotal liabilities and shareholders' equity\n$\n383,266\n\n$\n359,241\n\nApple Inc.\nCONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited)\n(In millions)\n\nNine Months Ended\n\nJune 27,\n2026\n\nJune 28,\n2025\n\nCash, cash equivalents, and restricted cash and cash equivalents, beginning balances\n$\n35,934\n\n$\n29,943\n\nOperating activities:\n\nNet income\n101,464\n\n84,544\n\nAdjustments to reconcile net income to cash generated by operating activities:\n\nDepreciation and amortization\n9,973\n\n8,571\n\nShare-based compensation expense\n10,523\n\n9,680\n\nOther\n(2,037)\n\n(1,748)\n\nChanges in operating assets and liabilities:\n\nAccounts receivable, net\n8,316\n\n5,685\n\nVendor non-trade receivables\n5,671\n\n13,555\n\nInventories\n(5,461)\n\n1,223\n\nOther current and non-current assets\n(16,266)\n\n(6,116)\n\nAccounts payable\n(5,203)\n\n(18,479)\n\nOther current and non-current liabilities\n10,016\n\n(15,161)\n\nCash generated by operating activities\n116,996\n\n81,754\n\nInvesting activities:\n\nPurchases of marketable securities\n(48,752)\n\n(17,591)\n\nProceeds from maturities of marketable securities\n26,504\n\n35,036\n\nProceeds from sales of marketable securities\n12,016\n\n10,785\n\nPayments for acquisition of property, plant and equipment\n(6,799)\n\n(9,473)\n\nOther\n(1,780)\n\n(975)\n\nCash generated by/(used in) investing activities\n(18,811)\n\n17,782\n\nFinancing activities:\n\nPayments for taxes related to net share settlement of equity awards\n(6,462)\n\n(5,719)\n\nPayments for dividends and dividend equivalents\n(11,778)\n\n(11,559)\n\nRepurchases of common stock\n(62,094)\n\n(70,579)\n\nProceeds from issuance of term debt, net\n--\n\n4,481\n\nRepayments of term debt\n(8,146)\n\n(9,682)\n\nRepayments of commercial paper, net\n(5,911)\n\n(65)\n\nOther\n(184)\n\n(87)\n\nCash used in financing activities\n(94,575)\n\n(93,210)\n\nIncrease in cash, cash equivalents, and restricted cash and cash equivalents\n3,610\n\n6,326\n\nCash, cash equivalents, and restricted cash and cash equivalents, ending balances\n$\n39,544\n\n$\n36,269\n\nSupplemental cash flow disclosure:\n\nCash paid for income taxes, net\n$\n26,555\n\n$\n37,332",
+  "extracted_metadata": {
+    "word_count": 1492,
+    "char_count": 10743,
+    "line_count": 738,
+    "quarter": "Q3",
+    "fiscal_year": 2026,
+    "detected_speakers": [
+      "Press Contact",
+      "Investor Relations Contact",
+      "NOTE TO EDITORS",
+      "Net sales",
+      "Cost of sales",
+      "Operating expenses",
+      "Earnings per share",
+      "ASSETS",
+      "Current assets",
+      "Current liabilities"
+    ],
+    "cik": "0000320193",
+    "accession_number": "0000320193-26-000018",
+    "form": "8-K",
+    "filing_items": [
+      "2.02",
+      "9.01"
+    ],
+    "period_of_report": "2026-07-30",
+    "accepted_at": "2026-07-30T20:30:28+00:00",
+    "document_type": "EX-99.1",
+    "is_primary_document": false,
+    "is_amendment": false,
+    "is_xbrl": true,
+    "is_inline_xbrl": true,
+    "evidence_label": "issuer_management_claim"
+  },
+  "chunks": [
+    {
+      "chunk_id": "AAPL-740c7798-0000",
+      "index": 0,
+      "text": "EX-99.1\n2\na8-kex991q3202606272026.htm\nEX-99.1 Exhibit 99.1 Apple reports third quarter results",
+      "char_start": 0,
+      "char_end": 94,
+      "word_count": 11,
+      "content_hash": "1e2758082836e53206ecb9312213eb4c35837c6601bdb4f59a73c0e836a94918"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0001",
+      "index": 1,
+      "text": "June quarter records for total company revenue and EPS iPhone, Mac and Services revenue set new June quarter records",
+      "char_start": 94,
+      "char_end": 210,
+      "word_count": 19,
+      "content_hash": "de87d44ecbb5e86346b8e68754f80df32ee4316a70b95226d03edefb261d668d"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0002",
+      "index": 2,
+      "text": "CUPERTINO, CALIFORNIA -- Apple® today announced financial results for its fiscal 2026 third quarter ended June 27, 2026. The Company posted quarterly revenue of $109.4 billion, up 16 percent year over year. Company gross margin was 50.1 percent, including a favorable impact of approximately 2 percentage points from tariff refunds. Diluted earnings per share was $2.02, up 29 percent year over year, and included a favorable impact of $0.11 from tariff refunds.",
+      "char_start": 217,
+      "char_end": 679,
+      "word_count": 72,
+      "content_hash": "e83f26ec7831db51058ac97b01edd867d0daaf942eb8261185bafbdd97b94b72"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0003",
+      "index": 3,
+      "text": "\"Today, Apple is proud to report our strongest June quarter ever, with double-digit revenue growth across iPhone, Mac and Services, and in every geographic segment,\" said Tim Cook, Apple's CEO. \"At WWDC26, we were thrilled to introduce the all-new Siri AI, alongside all of Apple's latest software innovations and important new child safety features.\"",
+      "char_start": 681,
+      "char_end": 1032,
+      "word_count": 54,
+      "content_hash": "55015b1ee081e8c62fe6238efa8761fc05aac94ad05651b34df1a4c66e71788f"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0004",
+      "index": 4,
+      "text": "\"We are very pleased with our record business performance during the quarter, which set new June quarter records for both EPS and operating cash flow,\" said Kevan Parekh, Apple's CFO. \"Our installed base of active devices also reached a new all-time high across all major product categories and geographic segments.\"",
+      "char_start": 1034,
+      "char_end": 1350,
+      "word_count": 50,
+      "content_hash": "042c2a8cea9997aebc66a326b5cf73bf0d76a28cb39f3983f9ed09595c2a14a0"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0005",
+      "index": 5,
+      "text": "Apple's board of directors has declared a cash dividend of $0.27 per share of the Company's common stock. The dividend is payable on August 13, 2026, to shareholders of record as of the close of business on August 10, 2026.",
+      "char_start": 1352,
+      "char_end": 1575,
+      "word_count": 40,
+      "content_hash": "4f3805adcca91e4c9b4a4a3e97a7635dec1d78af2df130df2110a8c9e2e44340"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0006",
+      "index": 6,
+      "text": "Apple will provide live streaming of its Q3 2026 financial results conference call beginning at 2:00 p.m. PT on July 30, 2026, at apple.com/investor/earnings-call. The webcast will be available for replay for approximately two weeks thereafter.",
+      "char_start": 1577,
+      "char_end": 1821,
+      "word_count": 36,
+      "content_hash": "0d0625ab36648ea211312c1fb45f8f5de9953588df3f79011acdf7c61593f890"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0007",
+      "index": 7,
+      "text": "Apple periodically provides information for investors on its corporate website, apple.com, and its investor relations website, investor.apple.com. This includes press releases and other information about financial performance, reports filed or furnished with the SEC, information on corporate governance, and details related to its annual meeting of shareholders.",
+      "char_start": 1823,
+      "char_end": 2186,
+      "word_count": 47,
+      "content_hash": "5502e1241ea6f8bbcb6290f644e40e89478ae964a381929e141c879ef6192cd1"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0008",
+      "index": 8,
+      "text": "This press release contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995. These forward-looking statements include without limitation those about payment of the Company's quarterly dividend and future business plans. These statements involve risks and uncertainties, and actual results may differ materially from any future results expressed or implied by the forward-looking statements. Risks and uncertainties include without limitation: effects of global and regional economic conditions, including as a result of government policies, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, and public health issues; risks relating to the design, manufacture, introduction, and transition of products and services in highly competitive and rapidly changing markets, including from reliance on third parties for components, technology, manufacturing, applications, services, support, and content; risks relating to information technology system failures, network disruptions, and failure to protect, loss of, or unauthorized access to, or release of, data; and effects of unfavorable legal proceedings, government investigations, and complex and changing laws and regulations.",
+      "char_start": 2188,
+      "char_end": 3471,
+      "word_count": 167,
+      "content_hash": "25c982a7af5f529d786c9d4ea9c038377f76e3cfea2a5c552a910d0952eab534"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0009",
+      "index": 9,
+      "text": "More information on these risks and other potential factors that could affect the Company's business, reputation, results of operations, financial condition, and stock price is included in the Company's filings with the SEC, including in the \"Risk Factors\" and \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" sections of the Company's most recently filed periodic reports on Form 10-K and Form 10-Q and subsequent filings. The Company assumes no obligation to update any forward-looking statements, which speak only as of the date they are made.",
+      "char_start": 3472,
+      "char_end": 4057,
+      "word_count": 88,
+      "content_hash": "88b9f025413d0f03241721843523904a023d10772962283d2c0fbe4c1a1c3ed4"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0010",
+      "index": 10,
+      "text": "Apple revolutionized personal technology with the introduction of the Macintosh in 1984. Today, Apple leads the world in innovation with iPhone, iPad, Mac, AirPods, Apple Watch, and Apple Vision Pro. Apple's six software platforms -- iOS, iPadOS, macOS, watchOS, visionOS, and tvOS -- provide seamless experiences across all Apple devices and empower people with breakthrough services including the App Store, Apple Music, Apple Pay, iCloud, and Apple TV. Apple's more than 150,000 employees are dedicated to making the best products on earth and to leaving the world better than we found it.",
+      "char_start": 4059,
+      "char_end": 4651,
+      "word_count": 92,
+      "content_hash": "d4ae403c3f1b98d6428f76b8aeaf4fb568b23d1850bebee96e19fb70ca540dc6"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0011",
+      "index": 11,
+      "text": "Press Contact:\nJosh Rosenstock\nApple\njrosenstock@apple.com\n(408) 862-1142 Investor Relations Contact:\nSuhasini Chandramouli\nApple\nsuhasini@apple.com\n(408) 974-3123",
+      "char_start": 4651,
+      "char_end": 4814,
+      "word_count": 17,
+      "content_hash": "e577ccd3dc8dba1a1ae0b2d75af6b59f079fe9459a283ace58cdaaba006949a6"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0012",
+      "index": 12,
+      "text": "NOTE TO EDITORS: For additional information visit Apple Newsroom (www.apple.com/newsroom), or email Apple's Media Helpline at media.help@apple.com.",
+      "char_start": 4819,
+      "char_end": 4966,
+      "word_count": 17,
+      "content_hash": "8fd9ccf5e9d88a1d4cb621f8fb3da52cb612dd093bc390cc0f06b6874c2869e8"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0013",
+      "index": 13,
+      "text": "© 2026 Apple Inc. All rights reserved. Apple and the Apple logo are trademarks of Apple. Other company and product names may be trademarks of their respective owners.",
+      "char_start": 4968,
+      "char_end": 5134,
+      "word_count": 28,
+      "content_hash": "ea95e64df81c58c854a1d84485cd94ce8cceace674a2cdd92a6714e1b60daebe"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0014",
+      "index": 14,
+      "text": "Apple Inc.\nCONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited)\n(In millions, except number of shares, which are reflected in thousands, and per-share amounts)",
+      "char_start": 5136,
+      "char_end": 5302,
+      "word_count": 22,
+      "content_hash": "ecf052bacbd49f5a5466e1fee8c4cf3c0031904834f530e8c5adff6f53814f92"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0015",
+      "index": 15,
+      "text": "Three Months Ended Nine Months Ended June 27,\n2026 June 28,\n2025 June 27,\n2026 June 28,\n2025",
+      "char_start": 5302,
+      "char_end": 5394,
+      "word_count": 18,
+      "content_hash": "85fbabf008cd9e581680d953a3aeddd5aa8d90b12ca1d5503101f9e4fe25012c"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0016",
+      "index": 16,
+      "text": "Net sales: Products\n$\n78,678 $\n66,613 $\n272,629 $\n233,287 Services\n30,739 27,423",
+      "char_start": 5394,
+      "char_end": 5474,
+      "word_count": 14,
+      "content_hash": "784ca692aa8c1875594d7ee5b23d323af95326f05684ec9fc275b0e6a89c8303"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0017",
+      "index": 17,
+      "text": "91,728 80,408 Total net sales (1)\n109,417 94,036 364,357 313,695 Cost of sales: Products\n47,153",
+      "char_start": 5474,
+      "char_end": 5569,
+      "word_count": 15,
+      "content_hash": "66c99f5970113cfc063404b3533bce590bd742872aa513905e142edfa99cc191"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0018",
+      "index": 18,
+      "text": "43,620 163,810 147,097 Services\n7,494 6,698 21,765 19,738 Total cost of sales\n54,647",
+      "char_start": 5569,
+      "char_end": 5653,
+      "word_count": 13,
+      "content_hash": "f439a46ed91add8030b9a753e23b8e2b34a6ef6b00d03a529076613b068d9fdd"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0019",
+      "index": 19,
+      "text": "50,318 185,575 166,835 Gross margin\n54,770 43,718 178,782 146,860 Operating expenses:",
+      "char_start": 5653,
+      "char_end": 5738,
+      "word_count": 11,
+      "content_hash": "9431a7aeb430c95b2433ca6c9edda206b96a6528b024af3a51a37c0078af5a03"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0020",
+      "index": 20,
+      "text": "Research and development\n11,729 8,866 34,035 25,684 Selling, general and administrative\n7,346",
+      "char_start": 5738,
+      "char_end": 5831,
+      "word_count": 12,
+      "content_hash": "129abc1b0786ef09b3004dc5e7da64e0de72a902b31c368eff94d48861cdc98e"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0021",
+      "index": 21,
+      "text": "6,650 22,315 20,553 Total operating expenses\n19,075 15,516 56,350 46,237 Operating income\n35,695",
+      "char_start": 5831,
+      "char_end": 5927,
+      "word_count": 13,
+      "content_hash": "6145b0aff10ce80604e614bd0f75e87f738e05379465bea2281427f9a39a92ed"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0022",
+      "index": 22,
+      "text": "28,202 122,432 100,623 Other income/(expense), net\n572 (171) 670 (698) Income before provision for income taxes\n36,267",
+      "char_start": 5927,
+      "char_end": 6045,
+      "word_count": 17,
+      "content_hash": "368d7a96b450a5961213e40b6d448fe11e2900f336f82dc7e708005c950ca28c"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0023",
+      "index": 23,
+      "text": "28,031 123,102 99,925 Provision for income taxes\n6,478 4,597 21,638 15,381 Net income\n$\n29,789",
+      "char_start": 6045,
+      "char_end": 6139,
+      "word_count": 15,
+      "content_hash": "8ef93ec0d8566e03ddbe988e1a1f441c892fa8387b753e7deb426cfe56bbe65f"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0024",
+      "index": 24,
+      "text": "$\n23,434 $\n101,464 $\n84,544 Earnings per share: Basic\n$\n2.03 $\n1.57 $\n6.91 $\n5.64",
+      "char_start": 6139,
+      "char_end": 6220,
+      "word_count": 18,
+      "content_hash": "e6101ade7fe1b48c18ae793104df4efb8fefa1a833548a6087b7600b859eef8a"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0025",
+      "index": 25,
+      "text": "Diluted\n$\n2.02 $\n1.57 $\n6.88 $\n5.62 Shares used in computing earnings per share:",
+      "char_start": 6220,
+      "char_end": 6300,
+      "word_count": 16,
+      "content_hash": "10721b10ecc21e92c229c9c4c6392b8f8ca12bac15dfd27e99c04385a4fd1fce"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0026",
+      "index": 26,
+      "text": "Basic\n14,656,110 14,902,886 14,692,515 14,992,898 Diluted\n14,714,676 14,948,179 14,750,302",
+      "char_start": 6300,
+      "char_end": 6390,
+      "word_count": 9,
+      "content_hash": "f742e9ab387e031e5f784f575e930a82f5aeca1b6c370a4551c7f219e44a427f"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0027",
+      "index": 27,
+      "text": "15,051,726 (1) Net sales by reportable segment: Americas\n$\n45,781 $\n41,198 $\n149,403",
+      "char_start": 6390,
+      "char_end": 6474,
+      "word_count": 14,
+      "content_hash": "c211c631a05da325c7d5098fe0f3752b94a0dacafce616070f469075e132a7f3"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0028",
+      "index": 28,
+      "text": "$\n134,161 Europe\n29,395 24,014 95,596 82,329 Greater China\n18,816 15,369 64,839 49,884",
+      "char_start": 6474,
+      "char_end": 6560,
+      "word_count": 13,
+      "content_hash": "3e78e1594a3dfe8bcc4a0c4fdc0337349ad4e9c651e79d50c1c890c184a50d44"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0029",
+      "index": 29,
+      "text": "Japan\n6,554 5,782 24,368 22,067 Rest of Asia Pacific\n8,871 7,673 30,151 25,254 Total net sales\n$\n109,417",
+      "char_start": 6560,
+      "char_end": 6664,
+      "word_count": 18,
+      "content_hash": "f14898887398f20f9f7fce94adb4c2b328663bc95a8907e568691c8a64509e4a"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0030",
+      "index": 30,
+      "text": "$\n94,036 $\n364,357 $\n313,695 (1) Net sales by category: iPhone\n$\n54,252 $\n44,582",
+      "char_start": 6664,
+      "char_end": 6744,
+      "word_count": 16,
+      "content_hash": "1c39bd1b84a17800de1f597ccb3811a32b85a6f1d12f283702b7e30e030f713a"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0031",
+      "index": 31,
+      "text": "$\n196,515 $\n160,561 Mac\n10,352 8,046 27,137 24,982 iPad\n6,191 6,581 21,700 21,071",
+      "char_start": 6744,
+      "char_end": 6825,
+      "word_count": 14,
+      "content_hash": "f35e78c1661ac915ccfbcf0987d6099751d115edeca75f39ab04bfd23cf9e296"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0032",
+      "index": 32,
+      "text": "Wearables, Home and Accessories\n7,883 7,404 27,277 26,673 Services\n30,739 27,423",
+      "char_start": 6825,
+      "char_end": 6905,
+      "word_count": 11,
+      "content_hash": "34233b00b693a7672e0542b51baf868b50a42b91445f2ae707b49486f7a601fd"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0033",
+      "index": 33,
+      "text": "91,728 80,408 Total net sales\n$\n109,417 $\n94,036 $\n364,357 $\n313,695 Apple Inc.\nCONDENSED CONSOLIDATED BALANCE SHEETS (Unaudited)\n(In millions, except number of shares, which are reflected in thousands, and par value)",
+      "char_start": 6905,
+      "char_end": 7122,
+      "word_count": 34,
+      "content_hash": "ee81feca15efff7eb55ee9515cae199b1ed9614ff3ce9749d8dda4ba1ae91404"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0034",
+      "index": 34,
+      "text": "June 27,\n2026 September 27,\n2025 ASSETS: Current assets: Cash and cash equivalents\n$\n39,544",
+      "char_start": 7122,
+      "char_end": 7213,
+      "word_count": 15,
+      "content_hash": "ac2e3048385b412cfe20c4da60d4cd70af5297a46e6bb18540799754e7c1c4fb"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0035",
+      "index": 35,
+      "text": "$\n35,934 Marketable securities\n22,855 18,763 Accounts receivable, net\n31,398 39,777",
+      "char_start": 7213,
+      "char_end": 7296,
+      "word_count": 11,
+      "content_hash": "1416bc04c96231c615cffc763747a47e5fe3f969f323647a8f312a4b9aa2d2fd"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0036",
+      "index": 36,
+      "text": "Vendor non-trade receivables\n27,509 33,180 Inventories\n11,092 5,718 Other current assets\n17,420",
+      "char_start": 7296,
+      "char_end": 7391,
+      "word_count": 12,
+      "content_hash": "cc47bf56895bee13dde41ddab644f8d310a948d6cc0ab48d2ba48d7558018a73"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0037",
+      "index": 37,
+      "text": "14,585 Total current assets\n149,818 147,957 Non-current assets: Marketable securities\n84,118",
+      "char_start": 7391,
+      "char_end": 7483,
+      "word_count": 11,
+      "content_hash": "fe4e809d78d81b0bff535a23c238bd40d3a148e0fea882a88de9c7524c0beed6"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0038",
+      "index": 38,
+      "text": "77,723 Property, plant and equipment, net\n51,431 49,834 Intangible assets, net\n20,342",
+      "char_start": 7483,
+      "char_end": 7568,
+      "word_count": 12,
+      "content_hash": "8114146dd416e79c7aa19c42d6d57fef074bbe359f4f64551ca3bd54da76c42a"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0039",
+      "index": 39,
+      "text": "11,093 Other non-current assets\n77,557 72,634 Total non-current assets\n233,448 211,284",
+      "char_start": 7568,
+      "char_end": 7654,
+      "word_count": 11,
+      "content_hash": "17d1b3caed64da7a9ecd165f092e125c8523d3ceb2409c90a1bcbfd5e22bcf6a"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0040",
+      "index": 40,
+      "text": "Total assets\n$\n383,266 $\n359,241 LIABILITIES AND SHAREHOLDERS' EQUITY: Current liabilities:",
+      "char_start": 7654,
+      "char_end": 7745,
+      "word_count": 12,
+      "content_hash": "385705a3e7e1d95e7d63a77267be6dbb25ffa069e8eb0ac87c9fab3c111a5f98"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0041",
+      "index": 41,
+      "text": "Accounts payable\n$\n64,525 $\n69,860 Other current liabilities\n62,259 66,387 Deferred revenue\n9,538",
+      "char_start": 7745,
+      "char_end": 7842,
+      "word_count": 14,
+      "content_hash": "f0f03da3b85db492c78934a359fedf71c5f812911739ddd64b893fbfd3504af1"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0042",
+      "index": 42,
+      "text": "9,055 Commercial paper\n1,997 7,979 Term debt\n11,007 12,350 Total current liabilities\n149,326",
+      "char_start": 7842,
+      "char_end": 7934,
+      "word_count": 13,
+      "content_hash": "656becf5c6c244c6c832c3150baa27c25452bab6fa0748394adfc6ae19fcd184"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0043",
+      "index": 43,
+      "text": "165,631 Non-current liabilities: Term debt\n71,340 78,328 Other non-current liabilities\n55,080",
+      "char_start": 7934,
+      "char_end": 8027,
+      "word_count": 11,
+      "content_hash": "9c52e5a54e0a63c0317c4f95a7dbfb87a4626d26029d556a6e43f1e45227b3d1"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0044",
+      "index": 44,
+      "text": "41,549 Total non-current liabilities\n126,420 119,877 Total liabilities\n275,746 285,508",
+      "char_start": 8027,
+      "char_end": 8113,
+      "word_count": 10,
+      "content_hash": "e0dc5a97d10bce756772643032cf144f6fbbc9c479f91a51799d8d05b378f5e9"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0045",
+      "index": 45,
+      "text": "Commitments and contingencies Shareholders' equity: Common stock and additional paid-in capital, $0.00001 par value: 50,400,000 shares authorized; 14,608,963 and 14,773,260 shares issued and outstanding, respectively\n100,702",
+      "char_start": 8113,
+      "char_end": 8337,
+      "word_count": 26,
+      "content_hash": "51dd9ca95e3dcf8351b6750d36754bfb1e41227b79d0d54a6e7b7b0c022776cf"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0046",
+      "index": 46,
+      "text": "93,568 Retained earnings/(Accumulated deficit)\n11,326 (14,264) Accumulated other comprehensive loss\n(4,508)",
+      "char_start": 8337,
+      "char_end": 8444,
+      "word_count": 11,
+      "content_hash": "90ae380397c36c89a5866cd347218de18d0c7fa104bbf30fbe1b4eb8440c5322"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0047",
+      "index": 47,
+      "text": "(5,571) Total shareholders' equity\n107,520 73,733 Total liabilities and shareholders' equity\n$\n383,266",
+      "char_start": 8444,
+      "char_end": 8546,
+      "word_count": 13,
+      "content_hash": "91157eba6baa1a5b2d3ff53d058ef023feefb2cc5280db0492f8d00b06d989a8"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0048",
+      "index": 48,
+      "text": "$\n359,241 Apple Inc.\nCONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited)\n(In millions)",
+      "char_start": 8546,
+      "char_end": 8640,
+      "word_count": 13,
+      "content_hash": "cd924a91df0d40ed029a71cfdd1300c9cc32fe770bac7360015a47a8d2431d1e"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0049",
+      "index": 49,
+      "text": "Nine Months Ended June 27,\n2026 June 28,\n2025 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances\n$\n35,934",
+      "char_start": 8640,
+      "char_end": 8779,
+      "word_count": 22,
+      "content_hash": "66feaf19b23bd4975a649598fefeceee017f7c39a15c0be640f1fd6d64fae1e9"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0050",
+      "index": 50,
+      "text": "$\n29,943 Operating activities: Net income\n101,464 84,544 Adjustments to reconcile net income to cash generated by operating activities:",
+      "char_start": 8779,
+      "char_end": 8914,
+      "word_count": 19,
+      "content_hash": "89542c2dc01824064069c2b00d83a7c5673b2c6b4fb64459e6aaa46870f92a9c"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0051",
+      "index": 51,
+      "text": "Depreciation and amortization\n9,973 8,571 Share-based compensation expense\n10,523",
+      "char_start": 8914,
+      "char_end": 8995,
+      "word_count": 9,
+      "content_hash": "269baa9787a7a3016875110c6f1e08b86de510a49553a5239a03867e85693cd7"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0052",
+      "index": 52,
+      "text": "9,680 Other\n(2,037) (1,748) Changes in operating assets and liabilities: Accounts receivable, net\n8,316",
+      "char_start": 8995,
+      "char_end": 9098,
+      "word_count": 14,
+      "content_hash": "53847a42d01a57bb260565958aa347643d8369aac2764935efbc722365d4f804"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0053",
+      "index": 53,
+      "text": "5,685 Vendor non-trade receivables\n5,671 13,555 Inventories\n(5,461) 1,223 Other current and non-current assets\n(16,266)",
+      "char_start": 9098,
+      "char_end": 9217,
+      "word_count": 15,
+      "content_hash": "84e012fab8ffe19d5e76bff146ee013b1f49fb8bc0910f2956dd5d4841c6f0cf"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0054",
+      "index": 54,
+      "text": "(6,116) Accounts payable\n(5,203) (18,479) Other current and non-current liabilities\n10,016",
+      "char_start": 9217,
+      "char_end": 9307,
+      "word_count": 11,
+      "content_hash": "e08280467bc84f751f111884b7df78c1a19e9364229e7db3b9d87008635cd3b4"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0055",
+      "index": 55,
+      "text": "(15,161) Cash generated by operating activities\n116,996 81,754 Investing activities:",
+      "char_start": 9307,
+      "char_end": 9391,
+      "word_count": 10,
+      "content_hash": "f5c1386ec5bc42e610c92350dda097d475fc30367987d659ed8347a2cb454420"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0056",
+      "index": 56,
+      "text": "Purchases of marketable securities\n(48,752) (17,591) Proceeds from maturities of marketable securities\n26,504",
+      "char_start": 9391,
+      "char_end": 9500,
+      "word_count": 13,
+      "content_hash": "d388747ad499bb76e09b0d9cadcb7a3db40ccaab4c026bc74c09dfd836cdf49c"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0057",
+      "index": 57,
+      "text": "35,036 Proceeds from sales of marketable securities\n12,016 10,785 Payments for acquisition of property, plant and equipment\n(6,799)",
+      "char_start": 9500,
+      "char_end": 9631,
+      "word_count": 18,
+      "content_hash": "a5483c8c07f46803e2090eaca1133c1dc9ced41738b946e6b072051521265318"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0058",
+      "index": 58,
+      "text": "(9,473) Other\n(1,780) (975) Cash generated by/(used in) investing activities\n(18,811)",
+      "char_start": 9631,
+      "char_end": 9716,
+      "word_count": 11,
+      "content_hash": "a723ec7d7572f8e5093a24a13cef38a8bc1db0e206aca874d15dde3a725288cd"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0059",
+      "index": 59,
+      "text": "17,782 Financing activities: Payments for taxes related to net share settlement of equity awards\n(6,462)",
+      "char_start": 9716,
+      "char_end": 9820,
+      "word_count": 15,
+      "content_hash": "ab60333862eacaf834f904a06191e65826efc4f01c963b750c10f018d2dfffda"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0060",
+      "index": 60,
+      "text": "(5,719) Payments for dividends and dividend equivalents\n(11,778) (11,559) Repurchases of common stock\n(62,094)",
+      "char_start": 9820,
+      "char_end": 9930,
+      "word_count": 14,
+      "content_hash": "1903a62126f8fb1ada5442c477adaae468302cdb8dc77d76e5a594d804e1e122"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0061",
+      "index": 61,
+      "text": "(70,579) Proceeds from issuance of term debt, net\n-- 4,481 Repayments of term debt\n(8,146)",
+      "char_start": 9930,
+      "char_end": 10020,
+      "word_count": 15,
+      "content_hash": "de9a1a783585ad7118e5b4a37799e9563537951b406554b6945f00ba6914fe9f"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0062",
+      "index": 62,
+      "text": "(9,682) Repayments of commercial paper, net\n(5,911) (65) Other\n(184) (87) Cash used in financing activities\n(94,575)",
+      "char_start": 10020,
+      "char_end": 10136,
+      "word_count": 17,
+      "content_hash": "939ddefd9f618f2e7f28ae02a9b52f80f8605312663174a603c134e8dd20c87f"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0063",
+      "index": 63,
+      "text": "(93,210) Increase in cash, cash equivalents, and restricted cash and cash equivalents\n3,610",
+      "char_start": 10136,
+      "char_end": 10227,
+      "word_count": 13,
+      "content_hash": "e8d937edb0e6cd58c1dd2313833d8f6dbb41ecdc3257ade5df35546d05664804"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0064",
+      "index": 64,
+      "text": "6,326 Cash, cash equivalents, and restricted cash and cash equivalents, ending balances\n$\n39,544",
+      "char_start": 10227,
+      "char_end": 10323,
+      "word_count": 14,
+      "content_hash": "5962445528df94d320ad987116c78f618eb63928d36966c7c01257abad1ae3a7"
+    },
+    {
+      "chunk_id": "AAPL-740c7798-0065",
+      "index": 65,
+      "text": "$\n36,269 Supplemental cash flow disclosure: Cash paid for income taxes, net\n$\n26,555 $\n37,332",
+      "char_start": 10323,
+      "char_end": 10416,
+      "word_count": 16,
+      "content_hash": "737414f37701eb5ed4857f403045a991e26f445114b4509f41e9a2a4e2686a86"
+    }
+  ],
+  "content_hash": "adb12007c6b66ffd1cc5adb72007b8b3fbf6255ef38aaace02ad9c11985bb4f7",
+  "file_path": "companies/AAPL/evidence/raw/0000320193-26-000018_a8-kex991q3202606272026.htm",
+  "ingested_at": "2026-08-25T19:52:50.307547",
+  "provider": "sec-edgar",
+  "external_id": "0000320193-26-000018",
+  "document_id": "a8-kex991q3202606272026.htm",
+  "content_type": "text/html",
+  "raw_content_path": "companies/AAPL/evidence/raw/0000320193-26-000018_a8-kex991q3202606272026.htm",
+  "retrieved_at": "2026-08-25T19:52:50.301713Z"
+}
